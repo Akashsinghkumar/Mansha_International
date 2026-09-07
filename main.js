@@ -627,15 +627,17 @@ function initMansha() {
         "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Circular-Knitting-machine.jpeg",
         "our-promise.jpg"
       ],
-      description: "Single Jersey textiles dominate global knitting demand. The YFSG High Speed 4 Track Single Jersey Circular Knitting Machine produces plain, pique, tuck, and miss designs with high multi-feeder capacity and exceptional fabric tension control.",
+      description: "Single Jersey textiles always dominate the major trend in knitting industry. In order to meet these tremendous needs, the YFSG High Speed 4 Track Single Jersey Circular Knitting Machine is engineered to knit plain and pique design fabrics easily by arranging the 4-track cylinder cams—knit, tuck, and miss—for many different kinds of patterns with exceptional fabric tension control and high productivity.",
       functions: [
-        "Oil-Bathed Structure: The oil-based frame structure prevents Gear Ring from rusting and further smoothens rotational performance.",
-        "Concatenated Sinker Cam: Double sinker-track guidances prolong sinker lifespan and eliminate fabric defective lines.",
-        "Yarn Carrier: Precision-made vertical yarn guides prevent needle collision and protect Lycra / Spandex elastane filaments.",
-        "Cloth Rolling System: Smooth take-up roll eliminates center creasing lines and ensures uniform roll density.",
-        "Central Stitch Adjustment: Precise digital graduations allow rapid adjustment of fabric GSM weight and stitch density.",
+        "Oil-Bathed Structure: The oil-based frame structure prevents Gear Ring from rusting and further smoothes rotational performance.",
+        "Concatenated Sinker Cam: New design of the doubled sinker-track guidances prolongs the service life of sinker. It reduces friction between the sinker and the sinker cam, eliminating defective lines on the fabric.",
+        "Yarn Carrier: Tailor-made vertical yarn guide wheels prevent needle collision and damage while applying Lycra / Spandex and reduce lint accumulation.",
+        "Cloth Rolling System: Smooth take-up roll eliminates center creasing lines and ensures uniform roll density with automatic safety stop device.",
+        "Central Stitch Adjustment: Precise digital graduations allow rapid and precise adjustment of fabric density and gram weight (GSM).",
         "Lycra Feeding Unit: Integrated positive Lycra storage feeders deliver uniform elasticity for stretch knits."
-      ]
+      ],
+      fabricsApplicationTitle: "Fabrics Application:",
+      fabricsApplication: "The needles and cams can be arranged to produce a variety of patterns and thickness of fabrics. The knitted fabrics include single jersey plain fabrics, single jersey with Lycra, pique fabrics, two-thread and three-thread fleece, terry fabrics, mesh eyelet cloth, and striped fashion fabrics for sportswear and casual apparel."
     },
     "double-jersey": {
       title: "Double Jersey Interlock & Rib Machine",
@@ -695,30 +697,37 @@ function initMansha() {
     },
     "glove-machine": {
       title: "Computerized Glove Knitting Machine",
-      model: "MSG-7G / 10G / 13G Full Auto",
-      keyword: "Computerized Glove Knitting Machine",
-      classification: "Seamless Glove Series",
-      video: "https://www.youtube.com/watch?v=GKJG2PKn-EM",
+      model: "MSG-7G / 10G / 13G / 15G Fully Computerized Series",
+      keyword: "Computerized Glove Knitting Machine, Seamless 5-Finger Glove Machine, Industrial Safety Glove Knitting Machine",
+      classification: "Computerized Seamless Glove Machinery Series",
+      video: "",
       section: "Cap & Gloves Machinery",
-      machineType: "Computerized Seamless 5-Finger Glove Knitting Machine",
-      gauge: "7G, 10G, 13G, 15G (Interchangeable Heads)",
-      diameter: "Seamless Tubular 5-Finger Needle Bed",
-      productionCapacity: "180 - 240 Pairs / 24 Hours (Continuous Automated Knitting)",
-      application: "Work Safety Gloves, Industrial Dotting Gloves, Winter Warm Gloves, Magic Stretch Gloves",
-      automationLevel: "100% Automatic Microprocessor Control with Auto-Crotch Stitching & Drop System",
-      image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/2nd-352x199.webp",
+      machineType: "Fully Computerized Seamless 5-Finger Glove Knitting Machine (Precision Sinker System)",
+      gauge: "7G (Heavy Work Gloves), 10G (Standard Industrial Gloves), 13G (Precision Touch Gloves), 15G (Ultra-Fine Dexterity Gloves)",
+      diameter: "Seamless Tubular 5-Finger Ergonomic Knitting Bed",
+      productionCapacity: "180 - 240 Pairs / 24 Hours (Continuous 24/7 Automated Unattended Production)",
+      application: "Industrial Safety Work Gloves, PU / Nitrile / Latex Dipping Base Liners, Cut-Resistant Kevlar & HPPE Gloves, Cotton Grip Gloves, Thermal Winter Gloves, Touchscreen Conductive Smart Gloves",
+      automationLevel: "100% Fully Automatic Microprocessor Control with Electronic Stepper Density, Auto-Crotch Stitching & Automatic Drop Mechanism",
+      image: "images/glove-machine-main.jpg",
       gallery: [
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/2nd-352x199.webp",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Cap-and-gloves-knitting-machines.jpeg",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg"
+        "images/glove-machine-main.jpg",
+        "images/glove-machine-needles.jpg",
+        "images/glove-machine-carriage.jpg",
+        "images/glove-machine-control.jpg",
+        "images/glove-machine-sample.jpg"
       ],
-      description: "The MSG Computerized Glove Knitting Machine produces seamless five-finger gloves in one uninterrupted automated process. Featuring sinker movement and digital finger dimension memory, it delivers consistent glove sizes with clean elastic cuffs.",
+      description: "Mansha International's Fully Computerized Glove Knitting Machine is an advanced, high-efficiency textile manufacturing solution engineered for continuous 24-hour seamless five-finger glove production. Built on proven industrial sinker knitting technology, this machine completely eliminates manual post-stitching by knitting entire seamless gloves—from fingertips and crotches to palm and elasticized wrist cuff—in one fully automated sequence.\n\nEquipped with precision stepper motors, digital LCD interface, and multi-yarn feeder attachments, the machine accommodates high-strength synthetic yarns (HPPE, Kevlar, glass fiber), conductive touchscreen threads, cotton-polyester blends, and elastic spandex. Whether producing heavy-duty cut-resistant work gloves for metal stamping, oil and gas, and construction, or lightweight breathable liners for polyurethane (PU), nitrile, and latex dipping lines, the MSG series ensures optimal loop density, consistent glove dimensions, and minimal fabric defect rates.",
       functions: [
-        "Precision Sinker Mechanism: Guarantees elastic, comfortable finger crotches without manual sewing.",
-        "Digital Controller: Touch keyboard with LCD display stores multiple glove sizes and yarn settings.",
-        "Auto-Stop Motion: Instantly detects needle breakage, yarn exhaustion, or fabric wrap-around.",
-        "Centralized Lubrication: Automated oil supply to all needle slots and sinker tracks."
-      ]
+        "Precision Sinker Knitting System: Advanced sinker mechanism controls loop formation independently at each needle stroke, guaranteeing elastic, comfortable finger crotches without yarn pilling, hole formation, or loose stitches.",
+        "Independent Stepper Motor Stitch Adjustment: High-precision stepper motor accurately varies stitch length and density across different sections of the glove (fingers, thumb crotch, palm, and cuff) for an anatomical, ergonomic hand fit.",
+        "Automatic Elastic Infeed & Self-Locking Cuff: Precision rubber and Lycra elastic yarn feed device knits reinforced rib wrists with automatic lock-stitch hemming that prevents unraveling during heavy industrial usage.",
+        "Precision Sinker Carriage & Cam Box: CNC-milled hardened alloy cam tracks ensure smooth carriage reciprocation, low operating vibration, and minimal wear under high-speed continuous production.",
+        "Comprehensive Auto-Stop Safety Motion: High-sensitivity electronic sensors immediately halt machine operation within milliseconds upon detecting yarn breakage, yarn runout, needle breakage, latch malfunction, or drop obstruction, protecting needle beds from damage.",
+        "Centralized Micro-Dose Lubrication: Automatic programmable oil pump delivers continuous, regulated oil lubrication to needle tricks and sinker tracks, dramatically reducing mechanical friction and heat buildup.",
+        "Digital Intelligent LCD Control System: User-friendly digital console stores customizable size programs (S, M, L, XL, XXL), displays real-time RPM speed and production count, and allows instant on-screen parameter adjustments."
+      ],
+      fabricsApplicationTitle: "Fabrics & Products Application:",
+      fabricsApplication: "The needles and sinker mechanisms can be programmed to produce a wide spectrum of safety, industrial, and consumer knitwear products:\n■ Industrial Protective Handwear: Cut-resistant Kevlar and HPPE safety gloves, heat-resistant aramid gloves, heavy-duty cotton canvas work gloves, glass-handling gloves, and oil-resistant grip gloves.\n■ Dipping & Coating Liners: High-gauge seamless nylon and polyester liners engineered specifically for automated Nitrile, Polyurethane (PU), PVC dotting, and Latex dipping production lines.\n■ Consumer & Thermal Knitwear: High-elasticity magic stretch gloves, winter wool warm mittens, sports outdoor cycling gloves, and capacitive touchscreen-compatible gloves for smartphones and industrial tablets."
     },
     "cap-machine": {
       title: "Automatic Beanie & Cap Knitting Machine",
@@ -736,7 +745,7 @@ function initMansha() {
       image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Cap-and-gloves-knitting-machines.jpeg",
       gallery: [
         "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Cap-and-gloves-knitting-machines.jpeg",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/2nd-352x199.webp",
+        "images/glove-machine-main.jpg",
         "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg"
       ],
       description: "Specialized circular knitting technology for stylish, warm winter beanies, ski caps, and scarves. Features electronic needle selection for intricate jacquard logos, multicolor stripes, and auto-turned rib cuffs.",
@@ -760,11 +769,13 @@ function initMansha() {
       productionCapacity: "160 - 200 Pairs / 24 Hours",
       application: "Cut-Resistant Kevlar Gloves, High-Grip Dotting Gloves, Chemical-Resistant Base Liners",
       automationLevel: "Fully Automatic Heavy-Yarn Infeed with Steel-Wire & HPPE Compatibility",
-      image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/2nd-352x199.webp",
+      image: "images/glove-machine-main.jpg",
       gallery: [
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/2nd-352x199.webp",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Cap-and-gloves-knitting-machines.jpeg",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg"
+        "images/glove-machine-main.jpg",
+        "images/glove-machine-carriage.jpg",
+        "images/glove-machine-needles.jpg",
+        "images/glove-machine-control.jpg",
+        "images/glove-machine-sample.jpg"
       ],
       description: "Engineered specifically for processing abrasive, high-strength industrial yarns such as HPPE, glass fiber, Kevlar, and steel-composite thread. Equipped with reinforced cam alloys and heavy-duty sinkers.",
       functions: [
@@ -995,11 +1006,13 @@ function initMansha() {
       productionCapacity: "180 - 220 Pairs / 24 Hours",
       application: "Industrial Safety Work Gloves, Winter Mittens & Touchscreen Knitted Gloves",
       automationLevel: "Fully Tested Computerized Microcontroller & Serviced Needle Beds",
-      image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/2nd-352x199.webp",
+      image: "images/glove-machine-main.jpg",
       gallery: [
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/2nd-352x199.webp",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Cap-and-gloves-knitting-machines.jpeg",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg"
+        "images/glove-machine-main.jpg",
+        "images/glove-machine-control.jpg",
+        "images/glove-machine-needles.jpg",
+        "images/glove-machine-carriage.jpg",
+        "images/glove-machine-sample.jpg"
       ],
       description: "Proven glove knitting workhorses tested for 24-hour continuous automated production. Includes full service of yarn fingers, cutter blades, and needle cams.",
       functions: [
@@ -1025,12 +1038,16 @@ function initMansha() {
           <div class="product-modal-top">
             <!-- Left: Interactive Gallery -->
             <div class="product-gallery-wrap">
-              <div class="product-gallery-main">
+              <div class="product-gallery-main" id="pdmGalleryMain">
                 <img id="pdmMainImg" src="" alt="Machine Preview">
-                <div class="product-gallery-zoom-badge"><i class="ri-zoom-in-line"></i></div>
+                <div class="product-magnifier-lens" id="pdmMagnifierLens"></div>
+                <div class="product-gallery-zoom-badge" title="Hover over machine parts to magnify (3x)"><i class="ri-zoom-in-line"></i></div>
               </div>
               <div class="product-gallery-thumbs" id="pdmThumbsWrap"></div>
             </div>
+
+            <!-- Side Zoom Inspection Window -->
+            <div class="product-zoom-window" id="pdmZoomWindow"></div>
 
             <!-- Right: Meta Data & Fast Actions -->
             <div class="product-meta-wrap">
@@ -1050,11 +1067,11 @@ function initMansha() {
                   <span class="meta-label">Classification:</span>
                   <span class="meta-value" id="pdmClassification"></span>
                 </div>
-                <div class="product-meta-item">
+                <div class="product-meta-item" id="pdmVideoItem">
                   <span class="meta-label">Videos:</span>
                   <span class="meta-value">
                     <a href="#" target="_blank" rel="noopener noreferrer" class="product-video-link" id="pdmVideoLink">
-                      <i class="ri-youtube-fill"></i> <span>https://www.youtube.com/watch?v=GKJG2PKn-EM</span>
+                      <i class="ri-youtube-fill"></i> <span></span>
                     </a>
                   </span>
                 </div>
@@ -1072,10 +1089,16 @@ function initMansha() {
           <!-- Middle Section: Product Description & Features -->
           <div class="product-modal-body-section">
             <h3 class="product-modal-heading"><i class="ri-file-text-line"></i> Product Description</h3>
-            <p class="product-desc-text" id="pdmDescription"></p>
+            <div class="product-desc-text" id="pdmDescription"></div>
             
-            <div class="product-functions-title">Machine Function:</div>
+            <div class="product-functions-title" id="pdmFunctionsTitle">Machine Function:</div>
             <ul class="product-functions-list" id="pdmFunctionsList"></ul>
+
+            <!-- Fabrics & Product Application (matching reference layout) -->
+            <div class="product-app-desc-wrap" id="pdmAppDescWrap" style="margin-top: 1.5rem;">
+              <div class="product-functions-title" id="pdmAppDescTitle">Fabrics Application:</div>
+              <div class="product-desc-text" id="pdmAppDescText" style="margin-bottom: 0; white-space: pre-line;"></div>
+            </div>
           </div>
 
           <!-- Bottom Section: Detailed Specifications Table -->
@@ -1164,11 +1187,17 @@ function initMansha() {
     const classEl = modal.querySelector('#pdmClassification');
     if (classEl) classEl.textContent = product.classification;
 
+    const videoItem = modal.querySelector('#pdmVideoItem');
     const videoLink = modal.querySelector('#pdmVideoLink');
-    if (videoLink) {
-      videoLink.href = product.video;
-      const span = videoLink.querySelector('span');
-      if (span) span.textContent = product.video;
+    if (videoItem && videoLink) {
+      if (product.video && product.video.trim() !== '') {
+        videoItem.style.display = 'grid';
+        videoLink.href = product.video;
+        const span = videoLink.querySelector('span');
+        if (span) span.textContent = product.video;
+      } else {
+        videoItem.style.display = 'none';
+      }
     }
 
     // WhatsApp Action
@@ -1221,14 +1250,89 @@ function initMansha() {
       };
     }
 
-    // Gallery & Thumbnails
+    // Gallery & Thumbnails with Interactive Magnifier (Side Zoom)
+    const galleryMain = modal.querySelector('#pdmGalleryMain');
     const mainImg = modal.querySelector('#pdmMainImg');
+    const lens = modal.querySelector('#pdmMagnifierLens');
+    const zoomWindow = modal.querySelector('#pdmZoomWindow');
+    const thumbsWrap = modal.querySelector('#pdmThumbsWrap');
+
+    const updateZoomSource = (src) => {
+      if (zoomWindow) {
+        zoomWindow.style.backgroundImage = `url("${src}")`;
+      }
+    };
+
     if (mainImg) {
       mainImg.src = product.image;
       mainImg.alt = product.title;
+      updateZoomSource(product.image);
     }
 
-    const thumbsWrap = modal.querySelector('#pdmThumbsWrap');
+    // Set up Magnifier on cursor hover
+    if (galleryMain && zoomWindow && lens && mainImg) {
+      const handleZoomMove = (e) => {
+        const rect = galleryMain.getBoundingClientRect();
+        const clientX = e.touches && e.touches.length ? e.touches[0].clientX : e.clientX;
+        const clientY = e.touches && e.touches.length ? e.touches[0].clientY : e.clientY;
+
+        let x = clientX - rect.left;
+        let y = clientY - rect.top;
+
+        x = Math.max(0, Math.min(x, rect.width));
+        y = Math.max(0, Math.min(y, rect.height));
+
+        const pctX = (x / rect.width) * 100;
+        const pctY = (y / rect.height) * 100;
+
+        if (window.innerWidth <= 860) {
+          // Mobile inner zoom
+          galleryMain.style.setProperty('--zoom-x', `${pctX}%`);
+          galleryMain.style.setProperty('--zoom-y', `${pctY}%`);
+        } else {
+          // Desktop side zoom with tracking lens
+          const lensW = lens.offsetWidth || 90;
+          const lensH = lens.offsetHeight || 90;
+          let lensLeft = x - lensW / 2;
+          let lensTop = y - lensH / 2;
+
+          lensLeft = Math.max(0, Math.min(lensLeft, rect.width - lensW));
+          lensTop = Math.max(0, Math.min(lensTop, rect.height - lensH));
+
+          lens.style.left = `${lensLeft}px`;
+          lens.style.top = `${lensTop}px`;
+
+          zoomWindow.style.backgroundPosition = `${pctX}% ${pctY}%`;
+          zoomWindow.style.backgroundSize = `${rect.width * 2.8}px ${rect.height * 2.8}px`;
+        }
+      };
+
+      const handleZoomEnter = (e) => {
+        if (window.innerWidth <= 860) {
+          galleryMain.classList.add('mobile-zoomed');
+        } else {
+          zoomWindow.classList.add('active');
+          lens.classList.add('active');
+        }
+        handleZoomMove(e);
+      };
+
+      const handleZoomLeave = () => {
+        zoomWindow.classList.remove('active');
+        lens.classList.remove('active');
+        galleryMain.classList.remove('mobile-zoomed');
+      };
+
+      galleryMain.onmouseenter = handleZoomEnter;
+      galleryMain.onmousemove = handleZoomMove;
+      galleryMain.onmouseleave = handleZoomLeave;
+
+      galleryMain.ontouchstart = (e) => { handleZoomEnter(e); };
+      galleryMain.ontouchmove = (e) => { handleZoomMove(e); };
+      galleryMain.ontouchend = handleZoomLeave;
+      galleryMain.ontouchcancel = handleZoomLeave;
+    }
+
     if (thumbsWrap) {
       thumbsWrap.innerHTML = '';
       const gallery = product.gallery && product.gallery.length > 0 ? product.gallery : [product.image];
@@ -1241,11 +1345,12 @@ function initMansha() {
           thumbsWrap.querySelectorAll('.product-thumb-btn').forEach(b => b.classList.remove('active'));
           thumbBtn.classList.add('active');
           if (mainImg) {
-            mainImg.style.opacity = '0.4';
+            mainImg.style.opacity = '0.35';
             setTimeout(() => {
               mainImg.src = imgUrl;
+              updateZoomSource(imgUrl);
               mainImg.style.opacity = '1';
-            }, 150);
+            }, 120);
           }
         });
         thumbsWrap.appendChild(thumbBtn);
@@ -1254,7 +1359,13 @@ function initMansha() {
 
     // Description & Functions
     const descEl = modal.querySelector('#pdmDescription');
-    if (descEl) descEl.textContent = product.description;
+    if (descEl) {
+      if (product.description && product.description.includes('\n\n')) {
+        descEl.innerHTML = product.description.split('\n\n').map(p => `<p style="margin-bottom: 0.9rem;">${p}</p>`).join('');
+      } else {
+        descEl.textContent = product.description || '';
+      }
+    }
 
     const funcsList = modal.querySelector('#pdmFunctionsList');
     if (funcsList) {
@@ -1265,6 +1376,20 @@ function initMansha() {
           li.textContent = fnText;
           funcsList.appendChild(li);
         });
+      }
+    }
+
+    // Fabrics & Product Application Section
+    const appWrap = modal.querySelector('#pdmAppDescWrap');
+    const appTitle = modal.querySelector('#pdmAppDescTitle');
+    const appText = modal.querySelector('#pdmAppDescText');
+    if (appWrap && appText) {
+      if (product.fabricsApplication && product.fabricsApplication.trim() !== '') {
+        appWrap.style.display = 'block';
+        if (appTitle) appTitle.textContent = product.fabricsApplicationTitle || 'Fabrics Application:';
+        appText.textContent = product.fabricsApplication;
+      } else {
+        appWrap.style.display = 'none';
       }
     }
 
