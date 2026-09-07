@@ -3,7 +3,7 @@
    Handles: Mobile Drawer, Submenu Toggles, Modal Popup, Form Handling & Counters
    ========================================================================== */
 
-document.addEventListener('DOMContentLoaded', () => {
+function initMansha() {
   // Mobile Drawer Elements
   const mobileToggle = document.getElementById('mobileToggle');
   const mobileDrawer = document.getElementById('mobileDrawer');
@@ -11,23 +11,61 @@ document.addEventListener('DOMContentLoaded', () => {
   const drawerBackdrop = document.getElementById('drawerBackdrop');
 
   // Open Mobile Drawer
-  if (mobileToggle) {
-    mobileToggle.addEventListener('click', () => {
-      mobileDrawer.classList.add('open');
-      drawerBackdrop.classList.add('active');
-      document.body.style.overflow = 'hidden';
-    });
-  }
+  const openDrawer = (e) => {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    if (mobileDrawer) mobileDrawer.classList.add('open');
+    if (drawerBackdrop) drawerBackdrop.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  };
 
   // Close Mobile Drawer
-  const closeDrawer = () => {
+  const closeDrawer = (e) => {
+    if (e && e.stopPropagation) {
+      e.stopPropagation();
+    }
     if (mobileDrawer) mobileDrawer.classList.remove('open');
     if (drawerBackdrop) drawerBackdrop.classList.remove('active');
     document.body.style.overflow = '';
   };
 
-  if (drawerClose) drawerClose.addEventListener('click', closeDrawer);
-  if (drawerBackdrop) drawerBackdrop.addEventListener('click', closeDrawer);
+  if (mobileToggle) {
+    mobileToggle.addEventListener('click', openDrawer);
+    mobileToggle.addEventListener('touchend', (e) => {
+      openDrawer(e);
+    }, { passive: false });
+  }
+
+  if (drawerClose) {
+    drawerClose.addEventListener('click', closeDrawer);
+    drawerClose.addEventListener('touchend', (e) => {
+      e.preventDefault();
+      closeDrawer(e);
+    }, { passive: false });
+  }
+
+  if (drawerBackdrop) {
+    drawerBackdrop.addEventListener('click', closeDrawer);
+    drawerBackdrop.addEventListener('touchend', (e) => {
+      e.preventDefault();
+      closeDrawer(e);
+    }, { passive: false });
+  }
+
+  // Auto-close drawer when clicking normal navigation links inside drawer
+  const mobileNavLinks = document.querySelectorAll('.mobile-nav-link:not(.mobile-sub-toggle), .mobile-sub-item');
+  mobileNavLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      closeDrawer();
+    });
+  });
+
+  // Handle browser back/forward (bfcache) navigation
+  window.addEventListener('pageshow', () => {
+    closeDrawer();
+  });
 
   // Mobile Submenu Accordions
   const mobileSubToggles = document.querySelectorAll('.mobile-sub-toggle');
@@ -484,4 +522,12 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
-});
+}
+
+// Guarantee execution whether DOM is loading or already ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initMansha);
+} else {
+  initMansha();
+}
+
