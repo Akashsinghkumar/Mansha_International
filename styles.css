@@ -228,6 +228,12 @@ img {
   border-bottom: 1px solid rgba(112, 104, 175, 0.28);
 }
 
+@media (max-width: 768px) {
+  .top-bar {
+    display: none !important;
+  }
+}
+
 .top-bar-inner {
   display: flex;
   justify-content: space-between;
