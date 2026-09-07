@@ -2204,7 +2204,39 @@ textarea.form-control {
   font-size: 1.2rem;
 }
 
-/* Responsive Media Queries */
+/* ==========================================================================
+   Comprehensive Responsive System - Compatible on Every Screen (320px to 4K)
+   ========================================================================== */
+
+/* Form rows layout utility */
+.form-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.contact-form-box {
+  background: var(--bg-white);
+  padding: 2.5rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-md);
+}
+
+@media (max-width: 576px) {
+  .contact-form-box {
+    padding: 1.8rem 1.2rem;
+    border-radius: var(--radius-md);
+  }
+}
+
+/* Base Mobile Input Zoom Prevention (iOS Safari) */
+@media (max-width: 768px) {
+  .form-control {
+    font-size: 16px !important; /* Prevents unwanted auto-zoom on iOS */
+  }
+}
+
 @media (max-width: 1024px) {
   .hero {
     min-height: auto;
@@ -2232,10 +2264,67 @@ textarea.form-control {
   .counter-card:nth-child(2)::after { display: none; }
   .footer-grid { grid-template-columns: repeat(2, 1fr); }
   .nav-menu { display: none; }
-  .mobile-toggle { display: block; }
+  .mobile-toggle { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+  }
+  .page-banner {
+    padding: 4.5rem 0 3.8rem;
+  }
+  .page-banner h1 {
+    font-size: 2.4rem;
+  }
 }
 
 @media (max-width: 768px) {
+  .top-bar {
+    display: none !important;
+  }
+  .header-inner {
+    height: 70px;
+  }
+  .logo img {
+    height: 42px;
+  }
+  .logo-title {
+    font-size: 1.18rem;
+  }
+  .header-inner .btn-primary.trigger-enquiry {
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+  }
+  .page-banner {
+    padding: 3.5rem 0 2.8rem;
+  }
+  .page-banner h1 {
+    font-size: 2rem;
+  }
+  .section-padding {
+    padding: 3.6rem 0;
+  }
+  .section-header {
+    margin-bottom: 2.2rem;
+  }
+  .section-title {
+    font-size: 1.85rem;
+  }
+  .section-desc {
+    font-size: 0.98rem;
+  }
+  .cta-banner {
+    padding: 2.8rem 2rem;
+  }
+  .cta-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+  .cta-grid .btn {
+    width: 100%;
+  }
   .hero {
     min-height: auto;
     padding: 3.5rem 0 4.5rem;
@@ -2278,13 +2367,157 @@ textarea.form-control {
   .hero-buttons .btn {
     width: 100%;
   }
+  .floating-contact {
+    right: 18px;
+    bottom: 20px;
+    gap: 10px;
+  }
+  .float-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+  }
+  .scroll-top {
+    left: 18px;
+    bottom: 20px;
+    width: 44px;
+    height: 44px;
+    font-size: 1.15rem;
+  }
 }
 
 @media (max-width: 640px) {
   .cards-grid, .features-grid, .blog-grid, .counter-grid, .footer-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
   .counter-card::after { display: none !important; }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 1.1rem;
+  }
+  .header-inner {
+    height: 64px;
+    gap: 0.6rem;
+  }
+  .logo img {
+    height: 38px;
+  }
+  .logo-title {
+    font-size: 1.05rem;
+  }
+  .header-inner .btn-primary.trigger-enquiry {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+    gap: 0.35rem;
+  }
+  .page-banner {
+    padding: 2.8rem 0 2.2rem;
+  }
+  .page-banner h1 {
+    font-size: 1.7rem;
+    line-height: 1.25;
+  }
+  .breadcrumb {
+    font-size: 0.84rem;
+    flex-wrap: wrap;
+    row-gap: 0.3rem;
+  }
+  .section-padding {
+    padding: 2.8rem 0;
+  }
+  .section-header {
+    margin-bottom: 1.8rem;
+  }
+  .section-title {
+    font-size: 1.55rem;
+    line-height: 1.28;
+  }
+  .sub-title-badge {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.85rem;
+  }
+  .form-row-2 {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .cta-banner {
+    padding: 2.2rem 1.25rem;
+    border-radius: var(--radius-md);
+  }
+  .cta-banner h2 {
+    font-size: 1.55rem !important;
+  }
+  .cta-banner p {
+    font-size: 0.92rem;
+  }
+  .modal-card {
+    width: 95%;
+    max-width: 95%;
+    padding: 1.8rem 1.2rem;
+    max-height: 88vh;
+    overflow-y: auto;
+  }
+  .modal-header h3 {
+    font-size: 1.35rem;
+  }
+  .floating-contact {
+    right: 14px;
+    bottom: 16px;
+    gap: 8px;
+  }
+  .float-btn {
+    width: 46px;
+    height: 46px;
+    font-size: 1.2rem;
+  }
+  .scroll-top {
+    left: 14px;
+    bottom: 16px;
+    width: 40px;
+    height: 40px;
+    font-size: 1.1rem;
+  }
+  .mobile-drawer {
+    width: 285px;
+    max-width: 85vw;
+    padding: 1.5rem 1.2rem;
+  }
+  .toast-notification {
+    width: 92%;
+    padding: 0.85rem 1.2rem;
+    font-size: 0.86rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .container {
+    padding: 0 0.85rem;
+  }
+  .header-inner {
+    height: 60px;
+  }
+  .logo img {
+    height: 34px;
+  }
+  .logo-title {
+    font-size: 0.95rem;
+  }
+  .header-inner .btn-primary.trigger-enquiry {
+    padding: 0.42rem 0.65rem;
+    font-size: 0.74rem;
+  }
+  .page-banner h1 {
+    font-size: 1.45rem;
+  }
+  .section-title {
+    font-size: 1.4rem;
+  }
+  .card-body {
+    padding: 1.25rem 1rem;
+  }
 }
 
 /* ==========================================================================
@@ -3257,5 +3490,14 @@ textarea.form-control {
   .reltex-app-box-thumb {
     height: 140px;
     margin: 6px 6px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .reltex-app-cards-grid-4 {
+    grid-template-columns: 1fr;
+  }
+  .reltex-app-box-thumb {
+    height: 170px;
   }
 }
