@@ -295,33 +295,114 @@ function initMansha() {
   }
 
   // ==========================================================================
-  // Rel-Tex Style Hero Edge Arrow Clicks (Slide Transition Feedback)
+  // Hero Carousel Slider Controller (Two Slides: Slide 1 & Slide 2 with IMG_4771.JPG)
   // ==========================================================================
-  const heroLeftBtn = document.querySelector('.hero-side-arrow.arrow-left');
-  const heroRightBtn = document.querySelector('.hero-side-arrow.arrow-right');
-  const heroBgImg = document.querySelector('.hero-reference-bg img');
+  const heroSection = document.getElementById('heroSection');
+  const heroSlides = document.querySelectorAll('.hero-slide');
+  const heroDots = document.querySelectorAll('.hero-dot');
+  const heroPrevBtn = document.getElementById('heroPrev');
+  const heroNextBtn = document.getElementById('heroNext');
 
-  if ((heroLeftBtn || heroRightBtn) && heroBgImg) {
-    let isTransitioning = false;
-    const triggerSlideEffect = (dir) => {
-      if (isTransitioning) return;
-      isTransitioning = true;
-      heroBgImg.style.transition = 'transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.45s ease';
-      heroBgImg.style.opacity = '0.55';
-      heroBgImg.style.transform = dir === 'left' ? 'scale(0.96) translateX(15px)' : 'scale(0.96) translateX(-15px)';
+  if (heroSlides.length > 0) {
+    let currentSlide = 0;
+    let slideInterval = null;
+    const totalSlides = heroSlides.length;
 
-      setTimeout(() => {
-        heroBgImg.style.opacity = '1';
-        heroBgImg.style.transform = '';
-        setTimeout(() => {
-          heroBgImg.style.transition = '';
-          isTransitioning = false;
-        }, 450);
-      }, 300);
+    const goToSlide = (index) => {
+      heroSlides.forEach((slide, i) => {
+        if (i === index) {
+          slide.classList.add('active');
+        } else {
+          slide.classList.remove('active');
+        }
+      });
+      heroDots.forEach((dot, i) => {
+        if (i === index) {
+          dot.classList.add('active');
+        } else {
+          dot.classList.remove('active');
+        }
+      });
+      currentSlide = index;
     };
 
-    if (heroLeftBtn) heroLeftBtn.addEventListener('click', () => triggerSlideEffect('left'));
-    if (heroRightBtn) heroRightBtn.addEventListener('click', () => triggerSlideEffect('right'));
+    const nextSlide = () => {
+      const next = (currentSlide + 1) % totalSlides;
+      goToSlide(next);
+    };
+
+    const prevSlide = () => {
+      const prev = (currentSlide - 1 + totalSlides) % totalSlides;
+      goToSlide(prev);
+    };
+
+    if (heroNextBtn) {
+      heroNextBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        nextSlide();
+        resetInterval();
+      });
+    }
+
+    if (heroPrevBtn) {
+      heroPrevBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        prevSlide();
+        resetInterval();
+      });
+    }
+
+    heroDots.forEach((dot) => {
+      dot.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetIndex = parseInt(e.currentTarget.getAttribute('data-index'), 10);
+        if (!isNaN(targetIndex)) {
+          goToSlide(targetIndex);
+          resetInterval();
+        }
+      });
+    });
+
+    const startInterval = () => {
+      clearInterval(slideInterval);
+      slideInterval = setInterval(nextSlide, 6500);
+    };
+
+    const resetInterval = () => {
+      clearInterval(slideInterval);
+      startInterval();
+    };
+
+    startInterval();
+
+    if (heroSection) {
+      heroSection.addEventListener('mouseenter', () => clearInterval(slideInterval));
+      heroSection.addEventListener('mouseleave', startInterval);
+
+      // Touch swipe support on mobile devices
+      let touchStartX = 0;
+      let touchEndX = 0;
+      heroSection.addEventListener('touchstart', (e) => {
+        if (e.touches && e.touches.length > 0) {
+          touchStartX = e.touches[0].clientX;
+        }
+      }, { passive: true });
+
+      heroSection.addEventListener('touchend', (e) => {
+        if (e.changedTouches && e.changedTouches.length > 0) {
+          touchEndX = e.changedTouches[0].clientX;
+          const diff = touchStartX - touchEndX;
+          if (Math.abs(diff) > 40) {
+            if (diff > 0) {
+              nextSlide();
+            } else {
+              prevSlide();
+            }
+            resetInterval();
+          }
+        }
+      }, { passive: true });
+    }
   }
 
   // ==========================================================================

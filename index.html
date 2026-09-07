@@ -26,7 +26,37 @@
       display: flex;
       align-items: center;
       overflow: hidden;
+      padding: 0;
+    }
+
+    .hero-slides-track {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      width: 100%;
+      min-height: 86vh;
+    }
+
+    .hero-slide {
+      grid-area: 1 / 1 / 2 / 2;
+      position: relative;
+      width: 100%;
+      min-height: 86vh;
+      display: flex;
+      align-items: center;
       padding: 5.5rem 0 4.5rem;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.75s ease;
+      z-index: 1;
+    }
+
+    .hero-slide.active {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      z-index: 2;
     }
 
     /* Right Machinery Background Image with Smooth Gradient Vignette */
@@ -47,17 +77,7 @@
       object-position: center right;
       display: block;
       filter: contrast(1.05) brightness(0.92);
-      animation: reltexHeroFloat 10s ease-in-out infinite;
-      transform-origin: 75% 50%;
-    }
-
-    @keyframes reltexHeroFloat {
-      0%, 100% {
-        transform: scale(1) translateY(0);
-      }
-      50% {
-        transform: scale(1.035) translateY(-8px);
-      }
+      transform: none;
     }
 
     /* Seamless deep logo-violet fade into the machine photo */
@@ -380,6 +400,40 @@
       transform: translateX(3px);
     }
 
+    /* Hero Carousel Indicators */
+    .hero-dots {
+      position: absolute;
+      bottom: 1.6rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 12;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .hero-dot {
+      width: 30px;
+      height: 6px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.3);
+      border: none;
+      cursor: pointer;
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      padding: 0;
+      outline: none;
+    }
+
+    .hero-dot:hover {
+      background: rgba(255, 255, 255, 0.65);
+    }
+
+    .hero-dot.active {
+      width: 48px;
+      background: linear-gradient(90deg, var(--logo-cyan), var(--logo-orange));
+      box-shadow: 0 0 14px rgba(34, 176, 254, 0.7);
+    }
+
     /* Responsive */
     @media (max-width: 1100px) {
       .hero-reference-grid {
@@ -405,7 +459,14 @@
 
     @media (max-width: 650px) {
       .hero-reference {
-        padding: 4rem 0 3rem;
+        padding: 0;
+      }
+      .hero-slides-track {
+        min-height: auto;
+      }
+      .hero-slide {
+        padding: 4rem 0 3.5rem;
+        min-height: auto;
       }
       .hero-display-headline {
         font-size: 2.2rem;
@@ -420,6 +481,9 @@
       .hero-side-arrow {
         display: none;
       }
+      .hero-dots {
+        bottom: 1rem;
+      }
       .hero-floating-precision-card {
         padding: 14px 18px;
         gap: 16px;
@@ -428,7 +492,10 @@
 
     @media (max-width: 480px) {
       .hero-reference {
-        padding: 3.2rem 0 2.4rem;
+        padding: 0;
+      }
+      .hero-slide {
+        padding: 3.2rem 0 3rem;
       }
       .hero-display-headline {
         font-size: 1.85rem;
@@ -595,86 +662,171 @@
   <div class="drawer-backdrop" id="drawerBackdrop"></div>
 
   <!-- Hero Section (Exact Replica of Reference Design: home page.jpeg) -->
-  <section class="hero-reference">
+  <section class="hero-reference" id="heroSection">
     <!-- Slider Navigation Edge Arrows -->
-    <button class="hero-side-arrow arrow-left" aria-label="Previous Slide"><i class="ri-arrow-left-s-line"></i></button>
-    <button class="hero-side-arrow arrow-right" aria-label="Next Slide"><i class="ri-arrow-right-s-line"></i></button>
+    <button class="hero-side-arrow arrow-left" id="heroPrev" aria-label="Previous Slide"><i class="ri-arrow-left-s-line"></i></button>
+    <button class="hero-side-arrow arrow-right" id="heroNext" aria-label="Next Slide"><i class="ri-arrow-right-s-line"></i></button>
 
-    <!-- Right Machinery Background Stage with Seamless Dark Navy Gradient Blend -->
-    <div class="hero-reference-bg">
-      <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp" 
-           alt="Mansha Advanced Circular Knitting Machinery"
-           onerror="this.src='our-promise.jpg';">
-    </div>
-    <div class="hero-reference-overlay"></div>
-
-    <div class="container hero-reference-container">
-      <div class="hero-reference-grid">
-        <!-- Left Side Content & Metrics -->
-        <div class="hero-reference-content">
-          <div class="hero-kicker-orange">KNITTING A STRONGER TOMORROW</div>
-          <h1 class="hero-display-headline">
-            Advanced Textile<br>
-            Machinery for a<br>
-            <span class="highlight-orange">Better World</span>
-          </h1>
-          <p class="hero-display-desc">
-            Mansha International provides high-quality textile machinery, spare parts and complete solutions for the knitting industry across the globe.
-          </p>
-          <div class="hero-button-group">
-            <a href="products.html" class="hero-btn-pill-orange">
-              <span>Explore Our Products</span>
-              <i class="ri-arrow-right-line"></i>
-            </a>
-            <a href="about-us.html" class="hero-btn-pill-outline">
-              About Us
-            </a>
-          </div>
-
-          <!-- Bottom-Left Key Trust Metrics -->
-          <div class="hero-stats-metrics">
-            <div class="hero-metric-item">
-              <div class="hero-metric-val">10+</div>
-              <div class="hero-metric-lbl">Years of Experience</div>
-            </div>
-            <div class="hero-metric-item">
-              <div class="hero-metric-val">50+</div>
-              <div class="hero-metric-lbl">Global Clients</div>
-            </div>
-            <div class="hero-metric-item">
-              <div class="hero-metric-val">100%</div>
-              <div class="hero-metric-lbl">Commitment to Quality</div>
-            </div>
-          </div>
+    <div class="hero-slides-track">
+      <!-- Slide 1: Circular Knitting Machine Factory Background -->
+      <div class="hero-slide active" data-slide="0">
+        <div class="hero-reference-bg">
+          <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp" 
+               alt="Mansha Advanced Circular Knitting Machinery"
+               onerror="this.src='our-promise.jpg';">
         </div>
+        <div class="hero-reference-overlay"></div>
 
-        <!-- Right Side Stage with Floating Precision Card & Curved Orange Arc -->
-        <div class="hero-visual-stage">
-          <!-- Sweeping Logo-Themed Decorative Arc Line -->
-          <svg class="hero-arc-svg" viewBox="0 0 450 250" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="heroLogoArcGrad" x1="0%" y1="100%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#22b0fe"/>
-                <stop offset="50%" stop-color="#7068b0"/>
-                <stop offset="100%" stop-color="#ff8206"/>
-              </linearGradient>
-            </defs>
-            <path d="M 20 240 C 130 225, 230 185, 275 125 C 315 70, 365 75, 430 115" stroke="url(#heroLogoArcGrad)" stroke-width="4.5" stroke-linecap="round"/>
-          </svg>
+        <div class="container hero-reference-container">
+          <div class="hero-reference-grid">
+            <!-- Left Side Content & Metrics -->
+            <div class="hero-reference-content">
+              <div class="hero-kicker-orange">TEXTILE WITH technology</div>
+              <h1 class="hero-display-headline">
+                Advanced Textile<br>
+                Machinery for a<br>
+                <span class="highlight-orange">Better World</span>
+              </h1>
+              <p class="hero-display-desc">
+                Mansha International provides high-quality textile machinery, spare parts and complete solutions for the knitting industry across the globe.
+              </p>
+              <div class="hero-button-group">
+                <a href="products.html" class="hero-btn-pill-orange">
+                  <span>Explore Our Products</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+                <a href="about-us.html" class="hero-btn-pill-outline">
+                  About Us
+                </a>
+              </div>
 
-          <!-- Floating White Precision Card -->
-          <div class="hero-floating-precision-card">
-            <div class="hero-floating-precision-text">
-              <span>Precision</span>
-              <span>Performance</span>
-              <span>Productivity</span>
+              <!-- Bottom-Left Key Trust Metrics -->
+              <div class="hero-stats-metrics">
+                <div class="hero-metric-item">
+                  <div class="hero-metric-val">8+</div>
+                  <div class="hero-metric-lbl">Years of Experience</div>
+                </div>
+                <div class="hero-metric-item">
+                  <div class="hero-metric-val">50+</div>
+                  <div class="hero-metric-lbl">Global Clients</div>
+                </div>
+                <div class="hero-metric-item">
+                  <div class="hero-metric-val">100%</div>
+                  <div class="hero-metric-lbl">Commitment to Quality</div>
+                </div>
+              </div>
             </div>
-            <a href="services.html" class="hero-floating-precision-btn" aria-label="Discover Precision Services">
-              <i class="ri-arrow-right-s-line"></i>
-            </a>
+
+            <!-- Right Side Stage with Floating Precision Card & Curved Orange Arc -->
+            <div class="hero-visual-stage">
+              <svg class="hero-arc-svg" viewBox="0 0 450 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="heroLogoArcGrad1" x1="0%" y1="100%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#22b0fe"/>
+                    <stop offset="50%" stop-color="#7068b0"/>
+                    <stop offset="100%" stop-color="#ff8206"/>
+                  </linearGradient>
+                </defs>
+                <path d="M 20 240 C 130 225, 230 185, 275 125 C 315 70, 365 75, 430 115" stroke="url(#heroLogoArcGrad1)" stroke-width="4.5" stroke-linecap="round"/>
+              </svg>
+
+              <div class="hero-floating-precision-card">
+                <div class="hero-floating-precision-text">
+                  <span>Precision</span>
+                  <span>Performance</span>
+                  <span>Productivity</span>
+                </div>
+                <a href="services.html" class="hero-floating-precision-btn" aria-label="Discover Precision Services">
+                  <i class="ri-arrow-right-s-line"></i>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+      <!-- Slide 2: Precision Machinery & Components Background (IMG_4771.JPG) -->
+      <div class="hero-slide" data-slide="1">
+        <div class="hero-reference-bg">
+          <img src="IMG_4771.JPG" 
+               alt="Mansha Advanced Textile Machinery and Precision Cylinders"
+               onerror="this.src='https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp';">
+        </div>
+        <div class="hero-reference-overlay"></div>
+
+        <div class="container hero-reference-container">
+          <div class="hero-reference-grid">
+            <!-- Left Side Content & Metrics -->
+            <div class="hero-reference-content">
+              <div class="hero-kicker-orange">TEXTILE WITH technology</div>
+              <h1 class="hero-display-headline">
+                Advanced Textile<br>
+                Machinery for a<br>
+                <span class="highlight-orange">Better World</span>
+              </h1>
+              <p class="hero-display-desc">
+                Mansha International provides high-quality textile machinery, spare parts and complete solutions for the knitting industry across the globe.
+              </p>
+              <div class="hero-button-group">
+                <a href="products.html" class="hero-btn-pill-orange">
+                  <span>Explore Our Products</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+                <a href="about-us.html" class="hero-btn-pill-outline">
+                  About Us
+                </a>
+              </div>
+
+              <!-- Bottom-Left Key Trust Metrics -->
+              <div class="hero-stats-metrics">
+                <div class="hero-metric-item">
+                  <div class="hero-metric-val">8+</div>
+                  <div class="hero-metric-lbl">Years of Experience</div>
+                </div>
+                <div class="hero-metric-item">
+                  <div class="hero-metric-val">50+</div>
+                  <div class="hero-metric-lbl">Global Clients</div>
+                </div>
+                <div class="hero-metric-item">
+                  <div class="hero-metric-val">100%</div>
+                  <div class="hero-metric-lbl">Commitment to Quality</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Side Stage with Floating Precision Card & Curved Orange Arc -->
+            <div class="hero-visual-stage">
+              <svg class="hero-arc-svg" viewBox="0 0 450 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="heroLogoArcGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#22b0fe"/>
+                    <stop offset="50%" stop-color="#7068b0"/>
+                    <stop offset="100%" stop-color="#ff8206"/>
+                  </linearGradient>
+                </defs>
+                <path d="M 20 240 C 130 225, 230 185, 275 125 C 315 70, 365 75, 430 115" stroke="url(#heroLogoArcGrad2)" stroke-width="4.5" stroke-linecap="round"/>
+              </svg>
+
+              <div class="hero-floating-precision-card">
+                <div class="hero-floating-precision-text">
+                  <span>Precision</span>
+                  <span>Performance</span>
+                  <span>Productivity</span>
+                </div>
+                <a href="services.html" class="hero-floating-precision-btn" aria-label="Discover Precision Services">
+                  <i class="ri-arrow-right-s-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Navigation Dots -->
+    <div class="hero-dots" id="heroDots">
+      <button class="hero-dot active" aria-label="Slide 1" data-index="0"></button>
+      <button class="hero-dot" aria-label="Slide 2" data-index="1"></button>
     </div>
   </section>
 
@@ -756,13 +908,13 @@
           </div>
         </div>
 
-        <!-- Item 3: Originate in 1996 -->
+        <!-- Item 3: Originate in 2018 -->
         <div class="company-pillar-card">
           <div class="company-pillar-icon">
             <i class="fa-regular fa-clock"></i>
           </div>
           <div class="company-pillar-content">
-            <h3 class="company-pillar-title">Originate in 1996</h3>
+            <h3 class="company-pillar-title">Originate in 2018</h3>
             <p class="company-pillar-desc">Years of development have allowed us to mature our design and production techniques.</p>
           </div>
         </div>
@@ -1244,10 +1396,12 @@
     </div>
   </footer>
 
-  <!-- Floating Direct Action Buttons -->
+  <!-- Floating WhatsApp Action Button -->
   <div class="floating-actions">
-    <a href="https://wa.me/+918800335090" class="float-btn float-whatsapp" target="_blank" title="Chat on WhatsApp"><i class="ri-whatsapp-line"></i></a>
-    <a href="tel:+918800335090" class="float-btn float-phone" title="Call Now"><i class="ri-phone-fill"></i></a>
+    <a href="https://wa.me/+918800335090" class="float-btn float-whatsapp" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp" aria-label="Chat on WhatsApp">
+      <i class="ri-whatsapp-line"></i>
+      <span class="whatsapp-popup-label">Chat with Us</span>
+    </a>
   </div>
 
   <button class="scroll-top" id="scrollTop" title="Scroll to top"><i class="ri-arrow-up-line"></i></button>
