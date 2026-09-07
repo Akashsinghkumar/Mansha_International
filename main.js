@@ -612,7 +612,7 @@ function initMansha() {
       model: "YFSG-4T Series",
       keyword: "Single Jersey Circular Knitting Machine",
       classification: "Single Jersey High-Speed Series",
-      video: "https://www.youtube.com/watch?v=GKJG2PKn-EM",
+      video: "",
       section: "Circular Knitting Machinery",
       machineType: "High-Speed 4-Track Single Jersey Circular Knitting Machine",
       gauge: "6G - 40G (Customizable for Fine & Coarse Knits)",
@@ -620,9 +620,9 @@ function initMansha() {
       productionCapacity: "3F - 6F / Inch (Up to 280 - 450 kg / 24 Hours)",
       application: "T-Shirt Jersey, Lycra Jersey, 3-Thread Fleece, Pique, Terry & Mesh Fabrics",
       automationLevel: "Fully Computerized with Inverter Drive, Auto-Stop Detectors & Central Stitch Control",
-      image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp",
+      image: "images/single-jersey-main.jpg",
       gallery: [
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp",
+        "images/single-jersey-main.jpg",
         "IMG_4771.JPG",
         "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Circular-Knitting-machine.jpeg",
         "our-promise.jpg"
