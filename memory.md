@@ -1,5 +1,5 @@
 # Mansha International — Project Memory
-**Last Updated**: 2026-09-07 (latest: testimonial card layout)
+**Last Updated**: 2026-09-07 (latest: cleanup unused files & initial GitHub push)
 This is the single source of truth for the entire project. Read this before making any changes.
 
 ---
@@ -21,6 +21,7 @@ After every task, add/update the relevant section in this file. No exceptions.
 | Products | Circular Knitting, Flat Knitting, Cap and Gloves Knitting Machines, Second-Hand Machines, Needles, Sinkers, Spare Parts |
 | Phone | +91 8800335090 |
 | Email | info@manshainternational.in |
+| Repository | https://github.com/Akashsinghkumar/Mansha_International |
 
 ---
 
@@ -53,12 +54,13 @@ After every task, add/update the relevant section in this file. No exceptions.
 | IMG_5425.jpg | Image | Founders section (about-us.html) |
 | knitting-partner.jpg | Image | Knitting Partner section (about-us.html) |
 | our-promise.jpg | Image | Our Promise section (about-us.html) |
+| README.md | Markdown | Official GitHub repository README |
+| .gitignore | Config | Excludes .agent/, .vscode/, and OS metadata |
 
 ### images/ Folder
 | File | Purpose | Source |
 |------|---------|--------|
 | images/as-kumar.png | Mr. A S Kumar testimonial avatar | User provided: C:\Users\akash\Downloads\Forth.png |
-| images/sarthak-sachdeva.png | Mr. Sarthak Sachdeva avatar | Cropped from user screenshot |
 
 ---
 
@@ -406,3 +408,12 @@ Fix:
   * `contact.html` (`.banner-contact`)
   * All product/service category pages (`.banner-cap-gloves`, `.banner-circular`, `.banner-needles`, `.banner-flat`, `.banner-second-hand`)
 - Enhanced text shadow on `.page-banner h1` and `.breadcrumb` to maintain crisp readability over the now bright and visible machinery backgrounds.
+
+## 20. Git Repository Setup, Cleanup & GitHub Push (2026-09-07)
+
+- Removed unused avatar file `images/sarthak-sachdeva.png` (testimony uses live WordPress `Fifth.png`).
+- Created `.gitignore` excluding `.agent/`, `.vscode/`, and OS temporary/metadata files.
+- Created comprehensive `README.md` documenting company profile, website pages catalog, tech stack, and setup instructions.
+- Initialized local git repository in `c:\Users\akash\Desktop\mansha`.
+- Linked remote `origin` to `https://github.com/Akashsinghkumar/Mansha_International.git`.
+- Committed clean codebase and pushed to `main` branch.
