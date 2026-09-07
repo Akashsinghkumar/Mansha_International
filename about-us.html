@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Mansha International - Textile with Technology</title>
+  <meta name="description" content="Learn about Mansha International (formerly Mansha Knit), founded by industry veterans Mr. Manish Singh and Mr. Deepak Kumar. Delivering reliable textile machinery solutions across India, China, & Korea.">
+  <link rel="icon" href="https://vedanturanchi.com/manshainternational/wp-content/uploads/2024/03/cropped-cropped-logo1-1-32x32.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Specific Layout Adjustments matching the reference screenshot */
+    .about-banner {
+      position: relative;
+      background: linear-gradient(rgba(24, 21, 51, 0.75), rgba(24, 21, 51, 0.85)), url('https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp') center/cover no-repeat;
+      padding: 7rem 0 6rem;
+      text-align: center;
+      color: #fff;
+    }
+    
+    .about-banner h1 {
+      font-size: 3.5rem;
+      color: #ffffff;
+      font-weight: 800;
+      margin-bottom: 0.8rem;
+    }
+    
+    .about-breadcrumb {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.95rem;
+      color: #cbd5e1;
+      font-weight: 500;
+    }
+    
+    .about-breadcrumb a {
+      color: var(--logo-cyan);
+      font-weight: 600;
+    }
+    
+    .about-section-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+    
+    .about-text-content h3.badge-text {
+      color: var(--logo-orange);
+      text-transform: uppercase;
+      font-size: 0.95rem;
+      font-weight: 800;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+    }
+    
+    .about-text-content h2.section-heading {
+      font-size: 2.2rem;
+      color: var(--primary-navy);
+      margin-bottom: 1.25rem;
+      line-height: 1.3;
+    }
+    
+    .about-text-content p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      line-height: 1.8;
+      margin-bottom: 1.25rem;
+    }
+    
+    .about-text-content p em {
+      font-style: italic;
+      color: var(--text-main);
+    }
+    
+    .about-text-content p strong {
+      color: var(--primary-navy);
+      font-weight: 700;
+    }
+    
+    .about-img-box {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(15, 23, 42, 0.12);
+      border: 1px solid var(--border-color);
+      background: #f1f5f9;
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease;
+    }
+
+    .about-img-box:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 24px 48px rgba(15, 23, 42, 0.16);
+    }
+    
+    .about-img-box img {
+      width: 100%;
+      height: 100%;
+      min-height: 380px;
+      max-height: 440px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+
+    .about-img-box:hover img {
+      transform: scale(1.03);
+    }
+
+    .about-floating-badge {
+      position: absolute;
+      bottom: 1.5rem;
+      left: 1.5rem;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 0.85rem 1.25rem;
+      border-radius: var(--radius-md);
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.15);
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      border: 1px solid rgba(255, 255, 255, 0.85);
+      z-index: 2;
+    }
+
+    .about-floating-badge i {
+      font-size: 2rem;
+      color: var(--logo-orange);
+      flex-shrink: 0;
+    }
+    
+    .about-floating-badge strong {
+      display: block;
+      color: var(--primary-navy);
+      font-size: 0.95rem;
+      line-height: 1.25;
+      font-weight: 700;
+    }
+    
+    .about-floating-badge span {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .quote-box {
+      background: #f8fafc;
+      border-left: 4px solid var(--logo-orange);
+      border-radius: var(--radius-md);
+      padding: 1.75rem 2rem;
+      margin-top: 1.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .quote-box::after {
+      content: '“';
+      position: absolute;
+      right: 1.5rem;
+      bottom: -1rem;
+      font-size: 8rem;
+      font-family: Georgia, serif;
+      color: rgba(0, 0, 0, 0.05);
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .quote-box p {
+      color: #475569;
+      font-size: 1.05rem;
+      line-height: 1.75;
+      margin-bottom: 1rem;
+    }
+
+    .quote-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    .partner-heading {
+      color: #0f172a;
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.35;
+      margin-bottom: 1.25rem;
+    }
+
+    .services-bullet-list {
+      list-style: none;
+      padding: 0;
+      margin: 0.75rem 0 0 0;
+    }
+
+    .services-bullet-list li {
+      position: relative;
+      padding-left: 1.35rem;
+      margin-bottom: 0.45rem;
+      color: #475569;
+      font-size: 0.92rem;
+      line-height: 1.5;
+    }
+
+    .services-bullet-list li::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      top: -0.15rem;
+      color: var(--logo-orange);
+      font-size: 1.35rem;
+      line-height: 1;
+    }
+
+    .services-bullet-list li strong {
+      color: var(--primary-navy);
+      font-weight: 700;
+    }
+
+    /* End-to-End Services Cards Grid - Exact Video (bvc.mp4) Layout & Hover Animation */
+    .services-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .service-feature-card {
+      background: var(--white);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 22px 24px;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.35s cubic-bezier(0.25, 1, 0.5, 1),
+                  border-color 0.35s cubic-bezier(0.25, 1, 0.5, 1),
+                  transform 0.35s cubic-bezier(0.25, 1, 0.5, 1),
+                  box-shadow 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+      overflow: hidden;
+    }
+
+    /* Video Hover Effect: Smooth switch to dark card with elevation */
+    .service-feature-card:hover {
+      background: #222731;
+      border-color: #222731;
+      transform: translateY(-4px);
+      box-shadow: 0 16px 32px rgba(15, 23, 42, 0.18);
+    }
+
+    .service-feature-content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .service-feature-title {
+      display: block;
+      font-size: 1.05rem;
+      line-height: 1.35;
+      font-weight: 700;
+      color: var(--primary-navy);
+      margin-bottom: 6px;
+      transition: color 0.35s ease;
+    }
+
+    .service-feature-card:hover .service-feature-title {
+      color: #ffffff !important;
+    }
+
+    .service-feature-desc {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      line-height: 1.5;
+      margin: 0;
+      transition: color 0.35s ease;
+    }
+
+    .service-feature-card:hover .service-feature-desc {
+      color: #cbd5e1 !important;
+    }
+
+    .service-feature-icon-box,
+    .service-feature-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #0f172a;
+      flex-shrink: 0;
+      transition: background-color 0.35s ease, border-color 0.35s ease, color 0.35s ease, transform 0.35s ease;
+    }
+
+    .service-feature-icon-box svg,
+    .service-feature-icon svg {
+      width: 26px;
+      height: 26px;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.35s ease;
+    }
+
+    .service-feature-card:hover .service-feature-icon-box,
+    .service-feature-card:hover .service-feature-icon {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: rgba(255, 255, 255, 0.35);
+      color: #ffffff;
+      transform: scale(1.08);
+    }
+
+    .service-feature-card:hover .service-feature-icon-box svg,
+    .service-feature-card:hover .service-feature-icon svg {
+      stroke: #ffffff;
+    }
+
+    @media (max-width: 1100px) {
+      .services-cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+      }
+    }
+
+    @media (max-width: 650px) {
+      .services-cards-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+      .service-feature-card {
+        padding: 18px 20px;
+      }
+    }
+
+    /* Our Promise Section Styling */
+    .promise-box {
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      border-left: 4px solid var(--brand-primary);
+      border-radius: var(--radius-md);
+      padding: 1.75rem 2rem;
+      margin-top: 1.5rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    }
+    
+    .promise-box-header {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      margin-bottom: 0.85rem;
+    }
+    
+    .promise-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      background: var(--logo-violet-light);
+      color: var(--brand-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.35rem;
+      flex-shrink: 0;
+    }
+    
+    .promise-title {
+      font-size: 1.25rem;
+      color: var(--primary-navy);
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .promise-box p {
+      color: #475569;
+      font-size: 1.02rem;
+      line-height: 1.75;
+      margin-bottom: 0;
+    }
+    
+    .promise-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-top: 1.25rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e2e8f0;
+    }
+    
+    .promise-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.35rem 0.75rem;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: var(--radius-full);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--primary-navy);
+    }
+    
+    .promise-tag i {
+      color: var(--logo-orange);
+      font-size: 0.95rem;
+    }
+    
+    .promise-img-wrapper {
+      position: relative;
+    }
+    
+    .promise-floating-badge {
+      position: absolute;
+      bottom: 1.5rem;
+      left: 1.5rem;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(8px);
+      padding: 0.85rem 1.25rem;
+      border-radius: var(--radius-md);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      z-index: 2;
+    }
+    
+    .promise-floating-badge i {
+      font-size: 2rem;
+      color: var(--logo-orange);
+    }
+    
+    .promise-floating-badge strong {
+      display: block;
+      color: var(--primary-navy);
+      font-size: 0.95rem;
+      line-height: 1.2;
+    }
+    
+    .promise-floating-badge span {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* Commitment Section Styling */
+    .commitment-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .commitment-card {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 26px 22px;
+      text-align: center;
+      transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+    }
+
+    .commitment-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--logo-orange);
+      box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08);
+    }
+
+    .commitment-card-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: rgba(255, 118, 37, 0.1);
+      color: var(--logo-orange);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      margin: 0 auto 16px auto;
+      transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    }
+
+    .commitment-card:hover .commitment-card-icon {
+      background: var(--logo-orange);
+      color: #ffffff;
+      transform: scale(1.08);
+    }
+
+    .commitment-card h4 {
+      font-size: 1.08rem;
+      color: var(--primary-navy);
+      margin-bottom: 8px;
+      font-weight: 700;
+    }
+
+    .commitment-card p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+      margin: 0;
+    }
+
+    @media (max-width: 992px) {
+      .commitment-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .about-section-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+      .about-banner h1 {
+        font-size: 2.6rem;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .about-floating-badge,
+      .promise-floating-badge {
+        bottom: 1rem;
+        left: 1rem;
+        right: 1rem;
+        padding: 0.65rem 1rem;
+      }
+      .promise-box {
+        padding: 1.25rem 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-info">
+        <span><i class="ri-map-pin-line"></i> Ludhiana, Punjab, India</span>
+        <a href="tel:+918800335090"><i class="ri-phone-line"></i> +91 8800335090</a>
+        <a href="mailto:info@manshainternational.in"><i class="ri-mail-send-line"></i> info@manshainternational.in</a>
+      </div>
+      <div class="top-info">
+        <span><i class="ri-global-line"></i> India • China • Korea Network</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="logo.png" alt="Mansha International Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="logo-fallback" style="display: none;">
+          <div class="logo-title"><span class="title-violet">MANSHA</span> <span class="title-cyan">international</span></div>
+          <div class="logo-tagline">Textile with technology...</div>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+        <div class="nav-item active"><a href="about-us.html" class="nav-link">About Us</a></div>
+        
+        <div class="nav-item">
+          <a href="services.html" class="nav-link">Services <i class="ri-arrow-down-s-line"></i></a>
+          <div class="dropdown-menu">
+            <a href="service-cap-gloves.html" class="dropdown-item"><i class="ri-checkbox-blank-circle-fill"></i> Cap & Gloves Knitting Machines</a>
+            <a href="service-circular-knitting.html" class="dropdown-item"><i class="ri-checkbox-blank-circle-fill"></i> Circular Knitting Machines</a>
+            <a href="service-needles-spares.html" class="dropdown-item"><i class="ri-checkbox-blank-circle-fill"></i> Needles & Spare Parts</a>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="products.html" class="nav-link">Product Category <i class="ri-arrow-down-s-line"></i></a>
+          <div class="dropdown-menu">
+            <a href="category-cap-gloves.html" class="dropdown-item"><i class="ri-arrow-right-s-line"></i> Cap &amp; Gloves Knitting Machines</a>
+            <a href="category-circular-knitting.html" class="dropdown-item"><i class="ri-arrow-right-s-line"></i> Circular Knitting Machines</a>
+            <a href="service-needles-spares.html" class="dropdown-item"><i class="ri-arrow-right-s-line"></i> Needles &amp; Spare Parts</a>
+          </div>
+        </div>
+
+        <div class="nav-item"><a href="applications.html" class="nav-link">Applications</a></div>
+        <div class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></div>
+        <div class="nav-item"><a href="blog.html" class="nav-link">Blog</a></div>
+        <div class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></div>
+      </nav>
+
+      <button class="btn btn-primary trigger-enquiry"><i class="ri-chat-3-line"></i> Enquiry Now</button>
+      <button class="mobile-toggle" id="mobileToggle"><i class="ri-menu-3-line"></i></button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <div class="logo-title" style="color: #fff; font-size: 1.2rem;"><span class="title-violet">MANSHA</span> <span class="title-cyan">international</span></div>
+      <button class="drawer-close" id="drawerClose"><i class="ri-close-line"></i></button>
+    </div>
+    <div class="mobile-nav-list">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about-us.html" class="mobile-nav-link">About Us</a>
+      <div class="mobile-nav-item">
+        <a href="services.html" class="mobile-nav-link mobile-sub-toggle">Services <i class="ri-arrow-down-s-line"></i></a>
+        <div class="mobile-sub-menu">
+          <a href="service-cap-gloves.html" class="mobile-sub-item">Cap &amp; Gloves Knitting Machines</a>
+          <a href="service-circular-knitting.html" class="mobile-sub-item">Circular Knitting Machines</a>
+          <a href="service-needles-spares.html" class="mobile-sub-item">Needles &amp; Spare Parts</a>
+        </div>
+      </div>
+      <div class="mobile-nav-item">
+        <a href="products.html" class="mobile-nav-link mobile-sub-toggle">Product Category <i class="ri-arrow-down-s-line"></i></a>
+        <div class="mobile-sub-menu">
+          <a href="category-cap-gloves.html" class="mobile-sub-item">Cap &amp; Gloves Knitting Machines</a>
+          <a href="category-circular-knitting.html" class="mobile-sub-item">Circular Knitting Machines</a>
+          <a href="service-needles-spares.html" class="mobile-sub-item">Needles &amp; Spare Parts</a>
+        </div>
+      </div>
+      <a href="applications.html" class="mobile-nav-link">Applications</a>
+      <a href="faq.html" class="mobile-nav-link">FAQ</a>
+      <a href="blog.html" class="mobile-nav-link">Blog</a>
+      <a href="contact.html" class="mobile-nav-link">Contact Us</a>
+    </div>
+  </div>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+  <!-- Page Banner -->
+  <section class="page-banner banner-about">
+    <div class="container">
+      <h1>About Us</h1>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> <i class="ri-arrow-right-s-line"></i> <span>About Us</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: ABOUT US (Left: Content, Right: Image) -->
+  <section class="section-padding bg-white" id="about-overview">
+    <div class="container">
+      <div class="about-section-grid">
+        <div class="about-text-content">
+          <h3 class="badge-text">ABOUT US</h3>
+          <h2 class="section-heading">Textile with Technology...</h2>
+          <p>
+            At <em>Mansha International</em>, we believe a knitting machine is more than an investment — it's a promise to your customers, your production line, and your growth. Founded on decades of hands-on expertise and a genuine passion for innovation, we exist for one purpose: <strong>to help you turn ambition into finished fabric, reliably and profitably.</strong>
+          </p>
+          <p>
+            Established in 2018 and headquartered in Ludhiana, Punjab, we specialize in high-efficiency <strong>Circular Knitting Machines, Flat Knitting Machines, Cap & Gloves Knitting Machines, Second-Hand Equipment, Needles, Sinkers, and Genuine Spare Parts</strong>.
+          </p>
+        </div>
+
+        <div class="about-img-box">
+          <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp" alt="Circular Knitting Machine Factory Floor" onerror="this.src='https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80';">
+          <div class="about-floating-badge">
+            <i class="ri-building-2-fill"></i>
+            <div>
+              <strong>Established 2018</strong>
+              <span>Ludhiana • Head Office & Network</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: WHY WE STARTED (Left: Image, Right: Content) -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="about-section-grid">
+        <div class="about-img-box">
+          <img src="IMG_2014.JPG" alt="Why We Started - Mansha International" onerror="this.src='https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80';">
+          <div class="about-floating-badge">
+            <i class="ri-lightbulb-flash-fill"></i>
+            <div>
+              <strong>Real Innovation</strong>
+              <span>Built on Genuine Accountability</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text-content">
+          <h3 class="badge-text">WHY WE STARTED</h3>
+          <p>
+            After years of serving the industry from within, Manish and Deepak noticed something the market needed but wasn't getting: <strong>real innovation, delivered with real accountability.</strong> Demand was growing. Customers were ready to embrace new technology. But genuine expertise, honest guidance, and dependable support were hard to find.
+          </p>
+          
+          <div class="quote-box">
+            <p>
+              So, they built the company they knew the industry deserved — one where deep technical mastery meets a customer-first mindset.
+            </p>
+            <p>
+              That's how <strong>Mansha International</strong> was born: not just as a machine supplier, but as a partner committed to your success.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: FOUNDERS (Left: Content, Right: Image) -->
+  <section class="section-padding bg-white">
+    <div class="container">
+      <div class="about-section-grid">
+        <div class="about-text-content">
+          <h3 class="badge-text">FOUNDERS</h3>
+          <h2 class="section-heading">Founded by Industry Veterans, Built for You</h2>
+          <p>
+            Mansha International (formerly Mansha Knit) is the vision of two industry veterans, <em>Mr. Manish Singh</em> and <em>Mr. Deepak Kumar</em>, whose combined decades of expertise now work directly for you.
+          </p>
+          <p>
+            <em>Mr. Deepak Kumar</em> brings nearly <em>20 years</em> of deep, hands-on mastery in the knitting industry — built from the ground up, from the production floor to advanced machine commissioning. His tenure with <em>Mayer & Cie (Batliboi India)</em> gave him technical insight into world-class German circular knitting technology.
+          </p>
+          <p>
+            Together, our leadership team ensures that every machine supplied by Mansha International meets rigorous mechanical calibration, tension stability, and long-term operating durability.
+          </p>
+        </div>
+
+        <div class="about-img-box">
+          <img src="IMG_5425.jpg" alt="Mansha International Founders">
+          <div class="about-floating-badge">
+            <i class="ri-award-fill"></i>
+            <div>
+              <strong>20+ Years Mastery</strong>
+              <span>Deep German Technical Heritage</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: YOUR COMPLETE KNITTING PARTNER (Left: Image, Right: Content) -->
+  <section class="section-padding bg-white">
+    <div class="container">
+      <div class="about-section-grid">
+        <div class="about-img-box">
+          <img src="knitting-partner.jpg" alt="Your Complete Knitting Partner - Mansha International" onerror="this.src='https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Cap-and-gloves-knitting-machines.jpeg';">
+          <div class="about-floating-badge">
+            <i class="ri-customer-service-2-fill"></i>
+            <div>
+              <strong>360° Knitting Solutions</strong>
+              <span>From Setup to Lifetime Service</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text-content">
+          <h3 class="badge-text">KNITTING PARTNER</h3>
+          <h3 class="partner-heading">Your Complete Knitting Partner — Not Just a Machine Supplier</h3>
+          <p>
+            We don't just sell machines. <strong>We deliver complete knitting solutions</strong>, standing by you from your very first idea to your final product on the line. Whatever you're trying to build, we're here to help you build it right.
+          </p>
+          <p>
+            From machinery selection, factory layout planning, and machine calibration to lifetime technical consultation and instant spare parts fulfillment — Mansha International ensures seamless factory operations with zero compromise on quality.
+          </p>
+          <div style="margin-top: 1.5rem;">
+            <a href="#end-to-end-services" class="btn btn-outline-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+              <span>View All Services</span> <i class="ri-arrow-down-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4B: OUR END-TO-END SERVICES INCLUDE (Dedicated Grid Section) -->
+  <section class="section-padding" id="end-to-end-services" style="background: #f8fafc; border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); padding: 3.5rem 0;">
+    <div class="container">
+      <div class="section-header text-center" style="margin-bottom: 2rem;">
+        <div class="sub-title-badge"><i class="ri-tools-line"></i> WHAT WE PROVIDE</div>
+        <h3 class="section-title" style="font-size: 1.75rem; color: #0f172a;">Our End-to-End Services Include</h3>
+        <p class="section-desc" style="max-width: 650px; margin: 0 auto; font-size: 0.95rem;">From machine selection and installation to maintenance and technical support, our complete services help ensure reliable performance and efficient textile production.</p>
+      </div>
+
+      <div class="services-cards-grid">
+        <!-- 01 -->
+        <div class="service-feature-card">
+          <div class="service-feature-content">
+            <a href="services.html" class="service-feature-title">Expert Consulting & Counselling</a>
+            <p class="service-feature-desc">Tailored guidance for your unique production goals.</p>
+          </div>
+          <div class="service-feature-icon-box">
+            <svg viewBox="0 0 64 64">
+              <circle cx="30" cy="30" r="19"/>
+              <path d="M30 11v7M30 42v7M11 30h7M42 30h7"/>
+              <circle cx="30" cy="30" r="7"/>
+              <path d="M43 43l8 8"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- 02 -->
+        <div class="service-feature-card">
+          <div class="service-feature-content">
+            <a href="services.html" class="service-feature-title">Project Handling</a>
+            <p class="service-feature-desc">From planning to execution, managed with precision.</p>
+          </div>
+          <div class="service-feature-icon-box">
+            <svg viewBox="0 0 64 64">
+              <rect x="12" y="13" width="40" height="38"/>
+              <path d="M20 25h24M20 33h18M20 41h14"/>
+              <circle cx="46" cy="41" r="3"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- 03 -->
+        <div class="service-feature-card">
+          <div class="service-feature-content">
+            <a href="services.html" class="service-feature-title">Designer Support</a>
+            <p class="service-feature-desc">Bringing creative ideas to technical life.</p>
+          </div>
+          <div class="service-feature-icon-box">
+            <svg viewBox="0 0 64 64">
+              <path d="M12 16h40v32H12z"/>
+              <path d="M20 40l8-8 6 5 10-12"/>
+              <circle cx="25" cy="25" r="3"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- 04 -->
+        <div class="service-feature-card">
+          <div class="service-feature-content">
+            <a href="services.html" class="service-feature-title">Knitting Technical Support</a>
+            <p class="service-feature-desc">Expert technical help whenever needed.</p>
+          </div>
+          <div class="service-feature-icon-box">
+            <svg viewBox="0 0 64 64">
+              <circle cx="32" cy="32" r="22"/>
+              <path d="M32 18v14l9 6"/>
+              <path d="M21 48h22"/>
+              <path d="M26 48v5h12v-5"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- 05 -->
+        <div class="service-feature-card">
+          <div class="service-feature-content">
+            <a href="services.html" class="service-feature-title">Machine Installation, Commissioning & Setup</a>
+            <p class="service-feature-desc">Professional setup done right the first time.</p>
+          </div>
+          <div class="service-feature-icon-box">
+            <svg viewBox="0 0 64 64">
+              <rect x="11" y="22" width="42" height="25"/>
+              <path d="M18 22v-8h28v8"/>
+              <circle cx="22" cy="34" r="3"/>
+              <path d="M30 34h15"/>
+              <path d="M32 47v7M25 54h14"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- 06 -->
+        <div class="service-feature-card">
+          <div class="service-feature-content">
+            <a href="services.html" class="service-feature-title">Preventive Maintenance</a>
+            <p class="service-feature-desc">Minimise downtime and protect your valuable machines.</p>
+          </div>
+          <div class="service-feature-icon-box">
+            <svg viewBox="0 0 64 64">
+              <circle cx="32" cy="32" r="22"/>
+              <path d="M32 18v14l9 8"/>
+              <path d="M18 45h28"/>
+              <path d="M23 50h18"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- 07 -->
+        <div class="service-feature-card">
+          <div class="service-feature-content">
+            <a href="services.html" class="service-feature-title">Performance Optimization</a>
+            <p class="service-feature-desc">Improve machine output, quality and efficiency.</p>
+          </div>
+          <div class="service-feature-icon-box">
+            <svg viewBox="0 0 64 64">
+              <path d="M14 44l13-14 9 8 14-18"/>
+              <path d="M42 20h8v8"/>
+              <path d="M14 50h38"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- 08 -->
+        <div class="service-feature-card">
+          <div class="service-feature-content">
+            <a href="services.html" class="service-feature-title">Ongoing Technical Support</a>
+            <p class="service-feature-desc">Reliable support throughout your production journey.</p>
+          </div>
+          <div class="service-feature-icon-box">
+            <svg viewBox="0 0 64 64">
+              <circle cx="32" cy="32" r="21"/>
+              <path d="M20 39c3 5 7 7 12 7s9-2 12-7"/>
+              <path d="M20 25c3-5 7-7 12-7s9 2 12 7"/>
+              <circle cx="25" cy="32" r="3"/>
+              <circle cx="39" cy="32" r="3"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- 09 -->
+        <div class="service-feature-card">
+          <div class="service-feature-content">
+            <a href="services.html" class="service-feature-title">Spare Parts Supply</a>
+            <p class="service-feature-desc">Fast and reliable spare parts availability.</p>
+          </div>
+          <div class="service-feature-icon-box">
+            <svg viewBox="0 0 64 64">
+              <rect x="12" y="14" width="40" height="36"/>
+              <path d="M20 23h24M20 32h24M20 41h15"/>
+              <path d="M44 41h4"/>
+              <circle cx="44" cy="23" r="3"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: OUR PROMISE TO YOU (Left: Content, Right: Image) -->
+  <section class="section-padding bg-white">
+    <div class="container">
+      <div class="about-section-grid">
+        <div class="about-text-content">
+          <h3 class="badge-text">OUR PROMISE TO YOU</h3>
+          <h3 class="partner-heading" style="font-size: 1.75rem; color: #0f172a; margin-bottom: 1.25rem; font-weight: 700; line-height: 1.35;">We believe reliability isn’t just a feature — it’s everything.</h3>
+          <p>
+            Every machine we deliver and every solution we design is proof that knitting has endless possibilities when it’s backed by genuine expertise and real commitment. We approach every challenge with the same curiosity and drive that built this company, because your success is what motivates us to keep pushing forward.
+          </p>
+          <p>
+            From machine selection and factory floor commissioning to technical problem-solving, our dedicated team ensures your knitting operations run at peak performance with zero compromises on quality.
+          </p>
+        </div>
+
+        <div class="about-img-box">
+          <img src="our-promise.jpg" alt="Mansha International Complete Knitting Machinery Installation and Commitment">
+          <div class="about-floating-badge">
+            <i class="ri-shield-check-fill"></i>
+            <div>
+              <strong>Trusted Partner</strong>
+              <span>Invested in Your Growth</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6: COMMITTED TO YOU (Dedicated Section) -->
+  <section class="section-padding" style="background: #f8fafc; border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+    <div class="container">
+      <div class="section-header text-center" style="max-width: 820px; margin: 0 auto 2.5rem auto;">
+        <div class="sub-title-badge"><i class="ri-shield-star-line"></i> OUR COMMITMENT</div>
+        <h3 class="section-title" style="font-size: 1.75rem; color: #0f172a; margin-top: 0.5rem; margin-bottom: 1rem;">Committed to You, Every Step of the Way</h3>
+        <p class="section-desc" style="font-size: 1rem; color: var(--text-muted); line-height: 1.6;">
+          Whether it’s machine sales, expert counselling, after-sales service, or spare parts fulfilment, <strong>Mansha International</strong> is committed to delivering excellence you can count on. We don’t just sell you a machine and walk away — we stay with you, as a trusted partner invested in your growth.
+        </p>
+      </div>
+
+      <div class="commitment-grid">
+        <div class="commitment-card">
+          <div class="commitment-card-icon"><i class="ri-shopping-cart-2-line"></i></div>
+          <h4>Machine Sales</h4>
+          <p>High-efficiency circular, flat, and cap knitting machines curated from world-leading manufacturers.</p>
+        </div>
+
+        <div class="commitment-card">
+          <div class="commitment-card-icon"><i class="ri-customer-service-2-line"></i></div>
+          <h4>Expert Counselling</h4>
+          <p>Tailored technical guidance to match machine capabilities with your exact production requirements.</p>
+        </div>
+
+        <div class="commitment-card">
+          <div class="commitment-card-icon"><i class="ri-tools-line"></i></div>
+          <h4>After-Sales Service</h4>
+          <p>End-to-end installation, commissioning, maintenance, and prompt on-site support whenever needed.</p>
+        </div>
+
+        <div class="commitment-card">
+          <div class="commitment-card-icon"><i class="ri-settings-4-line"></i></div>
+          <h4>Spare Parts Fulfilment</h4>
+          <p>Fast and reliable supply of genuine spare parts, needles, and sinkers to ensure zero downtime.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Network & Values -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="sub-title-badge"><i class="ri-global-line"></i> International Sourcing</div>
+        <h2 class="section-title">Bridging Global Technology with Local Industry</h2>
+        <p class="section-desc">With strong sourcing partnerships across India, China, and Korea, we bring advanced textile technology and genuine components straight to your factory floor.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card-icon"><i class="ri-earth-line"></i></div>
+          <h3>Global Sourcing Network</h3>
+          <p>Direct supply partnerships with premier knitting machine manufacturers in China and Korea for authentic equipment imports.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card-icon"><i class="ri-tools-line"></i></div>
+          <h3>Complete Technical Backing</h3>
+          <p>Our team provides machine installation, cylinder gauge conversions, pattern setup, and lifetime technical consultation.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card-icon"><i class="ri-shield-check-line"></i></div>
+          <h3>Quality Guarantee</h3>
+          <p>Every single needle, sinker, and machine undergoes strict quality evaluation before dispatch to ensure zero production downtime.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="logo-title"><span class="title-violet">MANSHA</span> <span class="title-cyan">international</span></div>
+          <p>Established in 2018, Mansha International is a trusted supplier of high-quality textile knitting machines across India, China, and Korea.</p>
+        </div>
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="ri-arrow-right-s-line"></i> Home</a></li>
+            <li><a href="about-us.html"><i class="ri-arrow-right-s-line"></i> About Us</a></li>
+            <li><a href="services.html"><i class="ri-arrow-right-s-line"></i> Services</a></li>
+            <li><a href="products.html"><i class="ri-arrow-right-s-line"></i> Products</a></li>
+            <li><a href="applications.html"><i class="ri-arrow-right-s-line"></i> Applications</a></li>
+            <li><a href="contact.html"><i class="ri-arrow-right-s-line"></i> Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Product Categories</h4>
+          <ul class="footer-links">
+            <li><a href="category-cap-gloves.html"><i class="ri-arrow-right-s-line"></i> Cap &amp; Gloves Knitting Machines</a></li>
+            <li><a href="category-circular-knitting.html"><i class="ri-arrow-right-s-line"></i> Circular Knitting Machines</a></li>
+            <li><a href="service-needles-spares.html"><i class="ri-arrow-right-s-line"></i> Needles &amp; Spare Parts</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Office Address</h4>
+          <div class="footer-contact-item"><i class="ri-map-pin-2-fill"></i><div>B 24-2540 Jagdambe Complex Sunder Nagar, Ludhiana. 141007. Punjab. India</div></div>
+          <div class="footer-contact-item"><i class="ri-phone-fill"></i><div><a href="tel:+918800335090">+91 8800335090</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container">© 2026 Mansha International. All Rights Reserved.</div></div>
+  </footer>
+
+  <!-- Floating Direct Action Buttons -->
+  <div class="floating-actions">
+    <a href="https://wa.me/+918800335090" class="float-btn float-whatsapp" target="_blank" title="Chat on WhatsApp"><i class="ri-whatsapp-line"></i></a>
+    <a href="tel:+918800335090" class="float-btn float-phone" title="Call Now"><i class="ri-phone-fill"></i></a>
+  </div>
+
+  <button class="scroll-top" id="scrollTop" title="Scroll to top"><i class="ri-arrow-up-line"></i></button>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="enquiryModal">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose"><i class="ri-close-line"></i></button>
+      <div class="modal-header">
+        <h3>Request Machinery Quote</h3>
+        <p>Fill out the details below and our Ludhiana team will respond shortly.</p>
+      </div>
+      <form class="ajax-form">
+        <div class="form-group"><input type="text" class="form-control" placeholder="Full Name" required></div>
+        <div class="form-group"><input type="email" class="form-control" placeholder="Email Address" required></div>
+        <div class="form-group"><input type="tel" class="form-control" placeholder="Phone Number" required></div>
+        <div class="form-group"><textarea class="form-control" placeholder="Requirement details..." required></textarea></div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Request</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

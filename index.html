@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mansha International | Advanced Textile Machinery & Solutions</title>
+  <meta name="description" content="Established in 2018, Mansha International provides reliable circular knitting machines, cap & gloves machines, needles, sinkers, second-hand equipment & spare parts across India, China, & Korea.">
+  <link rel="icon" href="https://vedanturanchi.com/manshainternational/wp-content/uploads/2024/03/cropped-cropped-logo1-1-32x32.png">
+  
+  <!-- Remix Icons & FontAwesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* ==========================================================================
+       HOME PAGE HERO SECTION - EXACT REPLICA OF REFERENCE DESIGN (home page.jpeg)
+       ========================================================================== */
+    .hero-reference {
+      position: relative;
+      background-color: #100d24;
+      color: #ffffff;
+      min-height: 86vh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      padding: 5.5rem 0 4.5rem;
+    }
+
+    /* Right Machinery Background Image with Smooth Gradient Vignette */
+    .hero-reference-bg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 62%;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .hero-reference-bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center right;
+      display: block;
+      filter: contrast(1.05) brightness(0.92);
+      animation: reltexHeroFloat 10s ease-in-out infinite;
+      transform-origin: 75% 50%;
+    }
+
+    @keyframes reltexHeroFloat {
+      0%, 100% {
+        transform: scale(1) translateY(0);
+      }
+      50% {
+        transform: scale(1.035) translateY(-8px);
+      }
+    }
+
+    /* Seamless deep logo-violet fade into the machine photo */
+    .hero-reference-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      pointer-events: none;
+      background: linear-gradient(90deg, 
+        #100d24 0%, 
+        #100d24 34%, 
+        rgba(16, 13, 36, 0.95) 50%, 
+        rgba(16, 13, 36, 0.5) 70%, 
+        rgba(16, 13, 36, 0.12) 85%, 
+        transparent 100%),
+        linear-gradient(180deg, 
+        rgba(16, 13, 36, 0.7) 0%, 
+        transparent 15%, 
+        transparent 80%, 
+        rgba(16, 13, 36, 0.85) 100%);
+    }
+
+    .hero-reference-container {
+      position: relative;
+      z-index: 5;
+      width: 100%;
+    }
+
+    .hero-reference-grid {
+      display: grid;
+      grid-template-columns: 1.18fr 0.82fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    /* Left Side Content & Sequential Entrance Animations */
+    @keyframes reltexHeroEntrance {
+      from {
+        opacity: 0;
+        transform: translateY(28px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .hero-kicker-orange {
+      color: var(--logo-cyan);
+      background: rgba(34, 176, 254, 0.12);
+      border: 1px solid rgba(34, 176, 254, 0.32);
+      padding: 6px 18px;
+      border-radius: 9999px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 1.25rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      animation: reltexHeroEntrance 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
+    }
+
+    .hero-kicker-orange::before {
+      content: '';
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--logo-orange);
+      box-shadow: 0 0 8px var(--logo-orange);
+    }
+
+    .hero-display-headline {
+      font-size: 3.5rem;
+      line-height: 1.14;
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: -0.025em;
+      margin-bottom: 1.4rem;
+      animation: reltexHeroEntrance 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.22s both;
+    }
+
+    .hero-display-headline .highlight-orange {
+      color: #ffffff;
+      display: inline;
+    }
+
+    .hero-display-desc {
+      color: #cbd5e1;
+      font-size: 1.05rem;
+      line-height: 1.65;
+      max-width: 530px;
+      margin-bottom: 2.2rem;
+      animation: reltexHeroEntrance 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.36s both;
+    }
+
+    .hero-button-group {
+      display: flex;
+      align-items: center;
+      gap: 1.1rem;
+      flex-wrap: wrap;
+      margin-bottom: 3.5rem;
+      animation: reltexHeroEntrance 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.48s both;
+    }
+
+    .hero-btn-pill-orange {
+      background: linear-gradient(135deg, #22b0fe 0%, #0ea5e9 100%);
+      color: #ffffff;
+      padding: 14px 30px;
+      border-radius: 9999px;
+      font-weight: 600;
+      font-size: 0.98rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 8px 24px rgba(34, 176, 254, 0.35);
+      border: 1.5px solid transparent;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-btn-pill-orange i {
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .hero-btn-pill-orange:hover {
+      background: linear-gradient(135deg, #ff8206 0%, #ea580c 100%);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(255, 130, 6, 0.45);
+      color: #ffffff;
+    }
+
+    .hero-btn-pill-orange:hover i {
+      transform: translateX(5px);
+    }
+
+    .hero-btn-pill-outline {
+      background: rgba(112, 104, 175, 0.12);
+      border: 1.5px solid rgba(112, 104, 175, 0.35);
+      color: #ffffff;
+      padding: 14px 30px;
+      border-radius: 9999px;
+      font-weight: 600;
+      font-size: 0.98rem;
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .hero-btn-pill-outline:hover {
+      background: var(--logo-violet);
+      border-color: var(--logo-violet);
+      color: #ffffff;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(112, 104, 175, 0.35);
+    }
+
+    /* Key Trust Stats Bar */
+    .hero-stats-metrics {
+      display: flex;
+      gap: 3.5rem;
+      align-items: flex-start;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(112, 104, 175, 0.25);
+      max-width: 580px;
+      animation: reltexHeroEntrance 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.6s both;
+    }
+
+    .hero-metric-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .hero-metric-val {
+      font-size: 2.15rem;
+      font-weight: 800;
+      color: var(--logo-cyan);
+      line-height: 1;
+      margin-bottom: 0.45rem;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-metric-lbl {
+      font-size: 0.85rem;
+      color: #cbd5e1;
+      font-weight: 500;
+      line-height: 1.35;
+    }
+
+    /* Right Stage & Floating Pill Card */
+    .hero-visual-stage {
+      position: relative;
+      height: 100%;
+      min-height: 380px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      padding-bottom: 2rem;
+      animation: reltexHeroEntrance 0.95s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both;
+    }
+
+    /* Sweeping Logo-Themed Arc */
+    .hero-arc-svg {
+      position: absolute;
+      bottom: -20px;
+      left: -60px;
+      width: 440px;
+      height: 240px;
+      pointer-events: none;
+      z-index: 3;
+    }
+
+    .hero-floating-precision-card {
+      position: relative;
+      z-index: 6;
+      background: #ffffff;
+      border: 1px solid rgba(112, 104, 175, 0.2);
+      border-radius: 18px;
+      padding: 20px 26px;
+      display: inline-flex;
+      align-items: center;
+      gap: 22px;
+      box-shadow: 0 24px 48px -12px rgba(16, 13, 36, 0.5);
+      animation: floatCardBounce 4s ease-in-out infinite alternate;
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease;
+    }
+
+    .hero-floating-precision-card:hover {
+      box-shadow: 0 28px 56px -10px rgba(16, 13, 36, 0.65);
+    }
+
+    @keyframes floatCardBounce {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-8px); }
+    }
+
+    .hero-floating-precision-text {
+      display: flex;
+      flex-direction: column;
+      font-size: 1.05rem;
+      font-weight: 800;
+      line-height: 1.35;
+      color: #191535;
+      letter-spacing: -0.01em;
+    }
+
+    .hero-floating-precision-btn {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: #191535;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      transition: background 0.3s ease, transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      text-decoration: none;
+      flex-shrink: 0;
+    }
+
+    .hero-floating-precision-card:hover .hero-floating-precision-btn {
+      background: var(--logo-cyan);
+      transform: scale(1.12);
+      color: #ffffff;
+    }
+
+    /* Edge Slider Arrows (< and >) with Rel-Tex hover effects */
+    .hero-side-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 10;
+      background: rgba(112, 104, 175, 0.15);
+      border: 1px solid rgba(112, 104, 175, 0.3);
+      color: rgba(255, 255, 255, 0.75);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      cursor: pointer;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .hero-side-arrow i {
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .hero-side-arrow:hover {
+      background: var(--logo-cyan);
+      color: #ffffff;
+      border-color: var(--logo-cyan);
+      transform: translateY(-50%) scale(1.12);
+      box-shadow: 0 0 20px rgba(34, 176, 254, 0.5);
+    }
+
+    .hero-side-arrow.arrow-left {
+      left: 1.5rem;
+    }
+
+    .hero-side-arrow.arrow-left:hover i {
+      transform: translateX(-3px);
+    }
+
+    .hero-side-arrow.arrow-right {
+      right: 1.5rem;
+    }
+
+    .hero-side-arrow.arrow-right:hover i {
+      transform: translateX(3px);
+    }
+
+    /* Responsive */
+    @media (max-width: 1100px) {
+      .hero-reference-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+      .hero-reference-bg {
+        width: 100%;
+        opacity: 0.35;
+      }
+      .hero-reference-overlay {
+        background: rgba(16, 13, 36, 0.92);
+      }
+      .hero-display-headline {
+        font-size: 2.8rem;
+      }
+      .hero-visual-stage {
+        justify-content: flex-start;
+        min-height: auto;
+        padding-bottom: 0;
+      }
+    }
+
+    @media (max-width: 650px) {
+      .hero-reference {
+        padding: 4rem 0 3rem;
+      }
+      .hero-display-headline {
+        font-size: 2.2rem;
+      }
+      .hero-stats-metrics {
+        gap: 1.8rem;
+        flex-wrap: wrap;
+      }
+      .hero-metric-val {
+        font-size: 1.8rem;
+      }
+      .hero-side-arrow {
+        display: none;
+      }
+      .hero-floating-precision-card {
+        padding: 14px 18px;
+        gap: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Contact Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-info">
+        <span><i class="ri-map-pin-line"></i> Ludhiana, Punjab, India</span>
+        <a href="tel:+918800335090"><i class="ri-phone-line"></i> +91 8800335090</a>
+        <a href="mailto:info@manshainternational.in"><i class="ri-mail-send-line"></i> info@manshainternational.in</a>
+      </div>
+      <div class="top-info">
+        <span class="network-pill"><i class="ri-global-line"></i> India • China • Korea Network</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="logo.png" alt="Mansha International Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="logo-fallback" style="display: none;">
+          <div class="logo-title"><span class="title-violet">MANSHA</span> <span class="title-cyan">international</span></div>
+          <div class="logo-tagline">Textile with technology...</div>
+        </div>
+      </a>
+
+      <!-- Navigation Menu -->
+      <nav class="nav-menu">
+        <div class="nav-item active">
+          <a href="index.html" class="nav-link">Home</a>
+        </div>
+        <div class="nav-item">
+          <a href="about-us.html" class="nav-link">About Us</a>
+        </div>
+        
+        <!-- Services Dropdown Menu -->
+        <div class="nav-item">
+          <a href="services.html" class="nav-link">Services <i class="ri-arrow-down-s-line"></i></a>
+          <div class="dropdown-menu">
+            <a href="service-cap-gloves.html" class="dropdown-item"><i class="ri-checkbox-blank-circle-fill"></i> Cap & Gloves Knitting Machines</a>
+            <a href="service-circular-knitting.html" class="dropdown-item"><i class="ri-checkbox-blank-circle-fill"></i> Circular Knitting Machines</a>
+            <a href="service-needles-spares.html" class="dropdown-item"><i class="ri-checkbox-blank-circle-fill"></i> Needles & Spare Parts</a>
+          </div>
+        </div>
+
+        <!-- Product Category Dropdown Menu -->
+        <div class="nav-item">
+          <a href="products.html" class="nav-link">Product Category <i class="ri-arrow-down-s-line"></i></a>
+          <div class="dropdown-menu">
+            <a href="category-cap-gloves.html" class="dropdown-item"><i class="ri-arrow-right-s-line"></i> Cap & Gloves Knitting Machines</a>
+            <a href="category-circular-knitting.html" class="dropdown-item"><i class="ri-arrow-right-s-line"></i> Circular Knitting Machines</a>
+            <a href="service-needles-spares.html" class="dropdown-item"><i class="ri-arrow-right-s-line"></i> Needles & Spare Parts</a>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="applications.html" class="nav-link">Applications</a>
+        </div>
+
+        <div class="nav-item">
+          <a href="faq.html" class="nav-link">FAQ</a>
+        </div>
+        <div class="nav-item">
+          <a href="blog.html" class="nav-link">Blog</a>
+        </div>
+        <div class="nav-item">
+          <a href="contact.html" class="nav-link">Contact Us</a>
+        </div>
+      </nav>
+
+      <button class="btn btn-primary trigger-enquiry"><i class="ri-chat-3-line"></i> Enquiry Now</button>
+      <button class="mobile-toggle" id="mobileToggle"><i class="ri-menu-3-line"></i></button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <div class="logo-title" style="color: #fff; font-size: 1.2rem;"><span class="title-violet">MANSHA</span> <span class="title-cyan">international</span></div>
+      <button class="drawer-close" id="drawerClose"><i class="ri-close-line"></i></button>
+    </div>
+    <div class="mobile-nav-list">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about-us.html" class="mobile-nav-link">About Us</a>
+      
+      <div class="mobile-nav-item">
+        <a href="services.html" class="mobile-nav-link mobile-sub-toggle">Services <i class="ri-arrow-down-s-line"></i></a>
+        <div class="mobile-sub-menu">
+          <a href="service-cap-gloves.html" class="mobile-sub-item">Cap & Gloves Knitting Machines</a>
+          <a href="service-circular-knitting.html" class="mobile-sub-item">Circular Knitting Machines</a>
+          <a href="service-needles-spares.html" class="mobile-sub-item">Needles & Spare Parts</a>
+        </div>
+      </div>
+
+      <div class="mobile-nav-item">
+        <a href="products.html" class="mobile-nav-link mobile-sub-toggle">Product Category <i class="ri-arrow-down-s-line"></i></a>
+        <div class="mobile-sub-menu">
+          <a href="category-cap-gloves.html" class="mobile-sub-item">Cap & Gloves Knitting Machines</a>
+          <a href="category-circular-knitting.html" class="mobile-sub-item">Circular Knitting Machines</a>
+          <a href="service-needles-spares.html" class="mobile-sub-item">Needles & Spare Parts</a>
+        </div>
+      </div>
+
+      <a href="applications.html" class="mobile-nav-link">Applications</a>
+      <a href="faq.html" class="mobile-nav-link">FAQ</a>
+      <a href="blog.html" class="mobile-nav-link">Blog</a>
+      <a href="contact.html" class="mobile-nav-link">Contact Us</a>
+    </div>
+  </div>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+  <!-- Hero Section (Exact Replica of Reference Design: home page.jpeg) -->
+  <section class="hero-reference">
+    <!-- Slider Navigation Edge Arrows -->
+    <button class="hero-side-arrow arrow-left" aria-label="Previous Slide"><i class="ri-arrow-left-s-line"></i></button>
+    <button class="hero-side-arrow arrow-right" aria-label="Next Slide"><i class="ri-arrow-right-s-line"></i></button>
+
+    <!-- Right Machinery Background Stage with Seamless Dark Navy Gradient Blend -->
+    <div class="hero-reference-bg">
+      <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp" 
+           alt="Mansha Advanced Circular Knitting Machinery"
+           onerror="this.src='our-promise.jpg';">
+    </div>
+    <div class="hero-reference-overlay"></div>
+
+    <div class="container hero-reference-container">
+      <div class="hero-reference-grid">
+        <!-- Left Side Content & Metrics -->
+        <div class="hero-reference-content">
+          <div class="hero-kicker-orange">KNITTING A STRONGER TOMORROW</div>
+          <h1 class="hero-display-headline">
+            Advanced Textile<br>
+            Machinery for a<br>
+            <span class="highlight-orange">Better World</span>
+          </h1>
+          <p class="hero-display-desc">
+            Mansha International provides high-quality textile machinery, spare parts and complete solutions for the knitting industry across the globe.
+          </p>
+          <div class="hero-button-group">
+            <a href="products.html" class="hero-btn-pill-orange">
+              <span>Explore Our Products</span>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+            <a href="about-us.html" class="hero-btn-pill-outline">
+              About Us
+            </a>
+          </div>
+
+          <!-- Bottom-Left Key Trust Metrics -->
+          <div class="hero-stats-metrics">
+            <div class="hero-metric-item">
+              <div class="hero-metric-val">10+</div>
+              <div class="hero-metric-lbl">Years of Experience</div>
+            </div>
+            <div class="hero-metric-item">
+              <div class="hero-metric-val">50+</div>
+              <div class="hero-metric-lbl">Global Clients</div>
+            </div>
+            <div class="hero-metric-item">
+              <div class="hero-metric-val">100%</div>
+              <div class="hero-metric-lbl">Commitment to Quality</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side Stage with Floating Precision Card & Curved Orange Arc -->
+        <div class="hero-visual-stage">
+          <!-- Sweeping Logo-Themed Decorative Arc Line -->
+          <svg class="hero-arc-svg" viewBox="0 0 450 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="heroLogoArcGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#22b0fe"/>
+                <stop offset="50%" stop-color="#7068b0"/>
+                <stop offset="100%" stop-color="#ff8206"/>
+              </linearGradient>
+            </defs>
+            <path d="M 20 240 C 130 225, 230 185, 275 125 C 315 70, 365 75, 430 115" stroke="url(#heroLogoArcGrad)" stroke-width="4.5" stroke-linecap="round"/>
+          </svg>
+
+          <!-- Floating White Precision Card -->
+          <div class="hero-floating-precision-card">
+            <div class="hero-floating-precision-text">
+              <span>Precision</span>
+              <span>Performance</span>
+              <span>Productivity</span>
+            </div>
+            <a href="services.html" class="hero-floating-precision-btn" aria-label="Discover Precision Services">
+              <i class="ri-arrow-right-s-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Complete Knitting Machine Solutions -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="sub-title-badge"><i class="ri-shirt-line"></i> Our Products</div>
+        <h2 class="section-title">Complete Knitting Machinery Solutions</h2>
+        <p class="section-desc">From brand-new knitting machines to refurbished equipment and genuine spare parts, Mansha International delivers reliable machinery for every stage of textile manufacturing.</p>
+      </div>
+
+      <div class="cards-grid">
+        <!-- Circular Knitting -->
+        <div class="card">
+          <div class="card-img-wrap">
+            <span class="card-tag">High Performance</span>
+            <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp" alt="Circular Knitting Machines" onerror="this.src='https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80';">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Circular Knitting Machines</h3>
+            <p class="card-text">Advanced circular knitting machines engineered for high-speed fabric production, delivering exceptional precision, consistent quality, & reliable performance.</p>
+            <a href="category-circular-knitting.html" class="card-link">View Category <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+
+        <!-- Cap & Gloves Knitting -->
+        <div class="card">
+          <div class="card-img-wrap">
+            <span class="card-tag">Specialized</span>
+            <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/2nd-352x199.webp" alt="Cap & Gloves Knitting Machines" onerror="this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80';">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Cap & Gloves Knitting Machines</h3>
+            <p class="card-text">High-performance knitting machines specially designed for manufacturing premium-quality caps, gloves, & seamless knitted accessories with superior efficiency.</p>
+            <a href="category-cap-gloves.html" class="card-link">View Category <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+
+        <!-- Needles & Spare Parts -->
+        <div class="card">
+          <div class="card-img-wrap">
+            <span class="card-tag">Genuine Spares</span>
+            <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/niddle-352x199.webp" alt="Needles & Spare Parts" onerror="this.src='https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=600&q=80';">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Needles & Spare Parts</h3>
+            <p class="card-text">We provide high-quality knitting needles and essential spare parts designed to maintain the smooth and efficient operation of knitting machines.</p>
+            <a href="service-needles-spares.html" class="card-link">View Category <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Pillars & Heritage (Vision, Output, Origin) -->
+  <section class="company-pillars-strip">
+    <div class="container">
+      <div class="company-pillars-grid">
+        <!-- Item 1: Our Vision -->
+        <div class="company-pillar-card">
+          <div class="company-pillar-icon">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <div class="company-pillar-content">
+            <h3 class="company-pillar-title">Our vision</h3>
+            <p class="company-pillar-desc">Professional technology, precision manufacturing and satisfaction service.</p>
+          </div>
+        </div>
+
+        <!-- Item 2: Annual Output of 2000 -->
+        <div class="company-pillar-card">
+          <div class="company-pillar-icon">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+          </div>
+          <div class="company-pillar-content">
+            <h3 class="company-pillar-title">Annual output of 2000</h3>
+            <p class="company-pillar-desc">We are now able to assemble up to 2000 machines each year.</p>
+          </div>
+        </div>
+
+        <!-- Item 3: Originate in 1996 -->
+        <div class="company-pillar-card">
+          <div class="company-pillar-icon">
+            <i class="fa-regular fa-clock"></i>
+          </div>
+          <div class="company-pillar-content">
+            <h3 class="company-pillar-title">Originate in 1996</h3>
+            <p class="company-pillar-desc">Years of development have allowed us to mature our design and production techniques.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Area of Application (Exact Rel-Tex Home Page Feature Strip) -->
+  <section class="reltex-app-section" id="area-of-application">
+    <div class="reltex-app-bg"></div>
+    <div class="reltex-app-layer-glow"></div>
+    <div class="container reltex-app-container">
+      <div class="section-header text-center">
+        <div class="sub-title-badge" style="background: rgba(34, 176, 254, 0.15); color: var(--logo-cyan); border: 1px solid rgba(34, 176, 254, 0.3);"><i class="ri-apps-2-line"></i> Versatile Manufacturing</div>
+        <h2 class="section-title" style="color: #ffffff;">Area of Application</h2>
+        <p class="section-desc" style="color: #cbd5e1;">Mansha International's knitting machinery powers high-speed manufacturing of diverse fabrics, technical textiles, and garments across global industries.</p>
+      </div>
+
+      <!-- 8 Horizontal Glowing Circular Outline Cards (Exact Rel-Tex Design) -->
+      <div class="reltex-app-grid">
+        <!-- 1. Sport & Leisurewear -->
+        <a href="applications.html?cat=sport" class="reltex-app-item">
+          <div class="reltex-app-circle">
+            <i class="fa-solid fa-shirt"></i>
+          </div>
+          <div class="reltex-app-title">Sport &amp;<br>leisurewear</div>
+          <div class="reltex-app-machine">Circular Knitting</div>
+        </a>
+
+        <!-- 2. Caps & Gloves -->
+        <a href="applications.html?cat=caps-gloves" class="reltex-app-item">
+          <div class="reltex-app-circle">
+            <i class="fa-solid fa-mitten"></i>
+          </div>
+          <div class="reltex-app-title">Winter Caps &amp;<br>Gloves</div>
+          <div class="reltex-app-machine">Cap &amp; Gloves M/C</div>
+        </a>
+
+        <!-- 3. Underwear -->
+        <a href="applications.html?cat=underwear" class="reltex-app-item">
+          <div class="reltex-app-circle">
+            <i class="fa-solid fa-vest"></i>
+          </div>
+          <div class="reltex-app-title">Underwear &amp;<br>Innerwear</div>
+          <div class="reltex-app-machine">Fine Jersey Circular</div>
+        </a>
+
+        <!-- 4. Leggings -->
+        <a href="applications.html?cat=leggings" class="reltex-app-item">
+          <div class="reltex-app-circle">
+            <i class="fa-solid fa-person-running"></i>
+          </div>
+          <div class="reltex-app-title">Leggings &amp;<br>Active Tights</div>
+          <div class="reltex-app-machine">Rib &amp; Interlock</div>
+        </a>
+
+        <!-- 5. Automotive Fabrics -->
+        <a href="applications.html?cat=automotive" class="reltex-app-item">
+          <div class="reltex-app-circle">
+            <i class="fa-solid fa-car"></i>
+          </div>
+          <div class="reltex-app-title">Automotive<br>Fabrics</div>
+          <div class="reltex-app-machine">Double Jersey</div>
+        </a>
+
+        <!-- 6. Medical & Healthcare -->
+        <a href="applications.html?cat=medical" class="reltex-app-item">
+          <div class="reltex-app-circle">
+            <i class="fa-solid fa-hand-holding-medical"></i>
+          </div>
+          <div class="reltex-app-title">Medical &amp;<br>Healthcare</div>
+          <div class="reltex-app-machine">Elastic Tubular</div>
+        </a>
+
+        <!-- 7. Industrial -->
+        <a href="applications.html?cat=industrial" class="reltex-app-item">
+          <div class="reltex-app-circle">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <div class="reltex-app-title">Industrial &amp;<br>Workwear</div>
+          <div class="reltex-app-machine">Protective Gloves</div>
+        </a>
+
+        <!-- 8. Footwear -->
+        <a href="applications.html?cat=footwear" class="reltex-app-item">
+          <div class="reltex-app-circle">
+            <i class="fa-solid fa-shoe-prints"></i>
+          </div>
+          <div class="reltex-app-title">Footwear &amp;<br>Shoe Uppers</div>
+          <div class="reltex-app-machine">Flat &amp; 3D Knits</div>
+        </a>
+      </div>
+
+      <div class="reltex-app-cta-wrap">
+        <a href="applications.html" class="hero-btn-pill-orange">
+          <span>Explore All Applications &amp; Specifications</span>
+          <i class="ri-arrow-right-line"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Textile Businesses Trust Us -->
+  <section class="section-padding bg-slate">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="sub-title-badge"><i class="ri-thumb-up-line"></i> Why Choose Us</div>
+        <h2 class="section-title">Why Textile Businesses Trust Mansha International</h2>
+        <p class="section-desc">Providing end-to-end guidance, authentic machinery imports, and technical installation support to help garment manufacturers scale seamlessly.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card-icon"><i class="ri-medal-fill"></i></div>
+          <h3>Premium Quality Machinery</h3>
+          <p>High-performance textile machines sourced directly from trusted manufacturers with proven reliability across India, China, and Korea.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card-icon"><i class="ri-tools-fill"></i></div>
+          <h3>Genuine Spare Parts</h3>
+          <p>Original needles, sinkers, cams, and machine spare parts for maximum productivity, minimizing downtime and maintenance costs.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card-icon"><i class="ri-price-tag-3-fill"></i></div>
+          <h3>Affordable Pricing</h3>
+          <p>Highly competitive market prices for brand-new and second-hand machinery without compromising on build quality or performance.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card-icon"><i class="ri-shield-check-fill"></i></div>
+          <h3>Proven Reliability</h3>
+          <p>Every machine is carefully selected and thoroughly inspected to ensure consistent performance, durability, and long service life.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card-icon"><i class="ri-user-settings-fill"></i></div>
+          <h3>Technical Expertise</h3>
+          <p>Professional technical guidance for machine selection, setup, expert installation, and ongoing preventive maintenance support.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card-icon"><i class="ri-customer-service-2-fill"></i></div>
+          <h3>Dedicated Customer Support</h3>
+          <p>Our experienced support team in Ludhiana is always available to provide prompt assistance and troubleshooting guidance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Quote Form Banner -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="cta-banner">
+        <div class="cta-banner-parallax-bg" aria-hidden="true"></div>
+        <div class="cta-banner-overlay" aria-hidden="true"></div>
+        <div class="cta-grid cta-grid-btn">
+          <div class="cta-content">
+            <div class="sub-title-badge" style="background: rgba(234, 88, 12, 0.2); color: var(--accent-amber);"><i class="ri-mail-send-line"></i> Get In Touch</div>
+            <h2>Looking for Reliable Textile Machinery? Contact Us Today</h2>
+            <p>Whether you need new circular knitting machines, second-hand equipment, genuine spare parts, or technical assistance, Mansha International is ready to help your business grow.</p>
+          </div>
+          <div class="cta-btn-wrap">
+            <a href="contact.html" class="cta-contact-btn">
+              Contact Us <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Customer Testimonials -->
+  <section class="section-padding bg-white">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="sub-title-badge"><i class="ri-chat-quote-line"></i> Testimonials</div>
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-desc">Read reviews from textile factory owners and garment manufacturers who rely on Mansha International for their machinery and spare parts.</p>
+      </div>
+
+      <!-- Testimonials Slider -->
+      <div class="testi-slider-wrap">
+        <!-- Prev Button -->
+        <button class="testi-arrow testi-prev" id="testiPrev" aria-label="Previous testimonial">
+          <i class="ri-arrow-left-s-line"></i>
+        </button>
+
+        <!-- Slider Track Viewport -->
+        <div class="testi-viewport" id="testiViewport">
+          <div class="testi-track" id="testiTrack">
+
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card testi-slide">
+              <div class="client-info">
+                <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/First.png" class="client-avatar" alt="Shri Gopal Mishra" onerror="this.src='https://ui-avatars.com/api/?name=Gopal+Mishra&background=0D8ABC&color=fff';">
+                <div class="client-details">
+                  <h4>Shri Gopal Mishra</h4>
+                  <p>Owner, Makkar Knit fab Ludhiana, Punjab</p>
+                </div>
+              </div>
+              <div class="testi-body">
+                <div class="stars"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+                <p class="testimonial-text">"We have had a very good experience working with Mansha International. Their product quality, professionalism, and commitment to timely service have been impressive. The team is responsive and understands customer requirements well."</p>
+                <div class="quote-icon"><i class="ri-double-quotes-r"></i></div>
+              </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card testi-slide">
+              <div class="client-info">
+                <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Second.png" class="client-avatar" alt="Mr. Sachin Gupta" onerror="this.src='https://ui-avatars.com/api/?name=Sachin+Gupta&background=EA580C&color=fff';">
+                <div class="client-details">
+                  <h4>Mr. Sachin Gupta</h4>
+                  <p>Owner, Murad Nagar, Ghaziabad</p>
+                </div>
+              </div>
+              <div class="testi-body">
+                <div class="stars"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+                <p class="testimonial-text">"Our experience with Mansha International has been excellent. Their product quality, professional approach, and commitment to customer satisfaction truly stand out. They provide reliable service with great support."</p>
+                <div class="quote-icon"><i class="ri-double-quotes-r"></i></div>
+              </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card testi-slide">
+              <div class="client-info">
+                <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Third.png" class="client-avatar" alt="Mr Jatinder Makkar" onerror="this.src='https://ui-avatars.com/api/?name=Jatinder+Makkar&background=0F172A&color=fff';">
+                <div class="client-details">
+                  <h4>Mr. Jatinder Makkar</h4>
+                  <p>Owner, Makkar Knit fab Pvt Ltd Ludhiana</p>
+                </div>
+              </div>
+              <div class="testi-body">
+                <div class="stars"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+                <p class="testimonial-text">"We are very satisfied with our experience with Mansha International. Their product quality, professionalism, and customer support have been consistently excellent. We truly value our association with them."</p>
+                <div class="quote-icon"><i class="ri-double-quotes-r"></i></div>
+              </div>
+            </div>
+
+            <!-- Testimonial 4 -->
+            <div class="testimonial-card testi-slide">
+              <div class="client-info">
+                <img src="images/as-kumar.png" class="client-avatar" alt="Mr. A S Kumar">
+                <div class="client-details">
+                  <h4>Mr. A S Kumar</h4>
+                  <p>Owner, Tirupur, Tamil Nadu</p>
+                </div>
+              </div>
+              <div class="testi-body">
+                <div class="stars"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-fill"></i></div>
+                <p class="testimonial-text">"Mansha International has been a reliable partner for our manufacturing unit. Their product quality, timely delivery, and customer support have been very satisfactory. The team is committed to understanding our requirements and delivering reliable solutions. We appreciate their professionalism and look forward to continuing our association with Mansha International."</p>
+                <div class="quote-icon"><i class="ri-double-quotes-r"></i></div>
+              </div>
+            </div>
+
+            <!-- Testimonial 5 -->
+            <div class="testimonial-card testi-slide">
+              <div class="client-info">
+                <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Fifth.png" class="client-avatar" alt="Mr. Sarthak Sachdeva" onerror="this.src='https://ui-avatars.com/api/?name=Sarthak+Sachdeva&background=0891B2&color=fff';">
+                <div class="client-details">
+                  <h4>Mr. Sarthak Sachdeva</h4>
+                  <p>Owner, Meerut - UP</p>
+                </div>
+              </div>
+              <div class="testi-body">
+                <div class="stars"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-fill"></i></div>
+                <p class="testimonial-text">"Our experience with Mansha International has been very positive. Their machine quality, professional approach, and customer service have been excellent. The team is reliable, responsive, and committed to meeting customer requirements. We appreciate their support and look forward to a long-term business relationship."</p>
+                <div class="quote-icon"><i class="ri-double-quotes-r"></i></div>
+              </div>
+            </div>
+
+
+          </div><!-- end testi-track -->
+        </div><!-- end testi-viewport -->
+
+        <!-- Next Button -->
+        <button class="testi-arrow testi-next" id="testiNext" aria-label="Next testimonial">
+          <i class="ri-arrow-right-s-line"></i>
+        </button>
+      </div><!-- end testi-slider-wrap -->
+
+      <!-- Dot Indicators -->
+      <div class="testi-dots" id="testiDots"></div>
+
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-split-section">
+    <!-- Left Column: FAQ Content -->
+    <div class="faq-split-left">
+      <div class="sub-title-badge"><i class="ri-questionnaire-line"></i> Frequently Asked Questions</div>
+      <h2 class="faq-split-title">Have Questions About Textile Machinery?</h2>
+      <p class="faq-split-desc">Find answers to the most common questions about our textile machinery, spare parts, installation, delivery, and technical support. If you need further assistance, our team is always ready to help.</p>
+
+      <div class="accordion-wrapper">
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <span>Which textile machines do you supply?</span>
+            <i class="ri-add-line"></i>
+          </div>
+          <div class="accordion-content">
+            <p>We supply Circular Knitting Machines, Flat Knitting Machines, Cap &amp; Gloves Knitting Machines, Second-Hand Textile Machines, Needles, Spare Parts, and other essential textile manufacturing equipment.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <span>Do you provide installation and technical support?</span>
+            <i class="ri-add-line"></i>
+          </div>
+          <div class="accordion-content">
+            <p>Yes. Our experienced technical team provides installation guidance, machine setup assistance, routine maintenance support, and troubleshooting services for all machinery supplied by Mansha International.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <span>How can I request a quotation for machinery or spare parts?</span>
+            <i class="ri-add-line"></i>
+          </div>
+          <div class="accordion-content">
+            <p>Simply fill out the enquiry form on our website, call us directly at +91 8800335090, or send us an email at info@manshainternational.in with your required specifications. Our team will respond with the best quotation as soon as possible.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <span>Do you supply second-hand and refurbished knitting machines?</span>
+            <i class="ri-add-line"></i>
+          </div>
+          <div class="accordion-content">
+            <p>Yes, we offer thoroughly inspected and refurbished second-hand knitting machines from top global brands, ensuring excellent operational condition at a cost-effective price point.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column: Quote Form over Machinery Image -->
+    <div class="faq-split-right">
+      <div class="faq-bg-overlay"></div>
+      <div class="faq-quote-card">
+        <h3 class="faq-quote-title">Request a Free Quote</h3>
+        <p class="faq-quote-sub">Tell us your textile machinery requirements, and our experts will contact you with the best solution.</p>
+        <form class="faq-quote-form ajax-form" novalidate>
+          <input type="text" class="faq-input" placeholder="Full Name" required>
+          <input type="email" class="faq-input" placeholder="Email Address" required>
+          <input type="tel" class="faq-input" placeholder="Phone Number">
+          <textarea class="faq-input faq-textarea" placeholder="Your Enquiry" rows="3" required></textarea>
+          <button type="submit" class="faq-submit-btn">Send Message <i class="ri-arrow-right-line"></i></button>
+        </form>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Latest Blog Posts -->
+  <section class="section-padding bg-white">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="sub-title-badge"><i class="ri-article-line"></i> Industry Insights</div>
+        <h2 class="section-title">Latest From Our Blog</h2>
+        <p class="section-desc">Stay updated with maintenance guides, machinery comparisons, and insights into modern textile manufacturing efficiency.</p>
+      </div>
+
+      <div class="blog-grid">
+        <div class="blog-card">
+          <div class="blog-img-wrap">
+            <span class="blog-category-badge"><i class="ri-settings-4-line"></i> Maintenance</span>
+            <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Circular-Knitting-machine.jpeg" alt="Knitting Machine Maintenance" onerror="this.src='https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80';">
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span><i class="ri-calendar-line"></i> August 4, 2026</span>
+              <span><i class="ri-time-line"></i> 31 min read</span>
+            </div>
+            <h3 class="blog-title"><a href="blog.html">Essential Maintenance Tips to Increase the Life of Knitting Machines</a></h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">Learn proven preventive maintenance strategies to avoid costly downtime and extend machine longevity...</p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-img-wrap">
+            <span class="blog-category-badge"><i class="ri-hand-coin-line"></i> Cap &amp; Gloves</span>
+            <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Cap-and-gloves-knitting-machines.jpeg" alt="Cap &amp; Gloves Efficiency" onerror="this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80';">
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span><i class="ri-calendar-line"></i> August 4, 2026</span>
+              <span><i class="ri-time-line"></i> 32 min read</span>
+            </div>
+            <h3 class="blog-title"><a href="blog.html">Cap &amp; Gloves Knitting Machines: Improving Production Efficiency</a></h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">Explore how modern automated cap and glove knitting machines increase output while maintaining high stitch quality...</p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-img-wrap">
+            <span class="blog-category-badge"><i class="ri-tools-line"></i> Consultation</span>
+            <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Installation-and-consultation.jpeg" alt="Installation &amp; Consultation" onerror="this.src='https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=600&q=80';">
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span><i class="ri-calendar-line"></i> August 4, 2026</span>
+              <span><i class="ri-time-line"></i> 24 min read</span>
+            </div>
+            <h3 class="blog-title"><a href="blog.html">Benefits of Professional Knitting Machine Installation &amp; Consultation</a></h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">Why proper calibration and professional setup are critical for optimal fabric yield and stitch consistency...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="logo-title">MANSHA <span>INTERNATIONAL</span></div>
+          <p>Established in 2018, Mansha International is a trusted supplier of high-quality textile knitting machines, second-hand machinery, needles, and genuine spare parts across India, China, and Korea.</p>
+          <div style="display: flex; gap: 1rem;">
+            <a href="#" style="color: var(--logo-cyan); font-size: 1.3rem;"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="#" style="color: var(--logo-cyan); font-size: 1.3rem;"><i class="ri-twitter-x-fill"></i></a>
+            <a href="#" style="color: var(--logo-cyan); font-size: 1.3rem;"><i class="ri-linkedin-box-fill"></i></a>
+            <a href="#" style="color: var(--logo-cyan); font-size: 1.3rem;"><i class="ri-youtube-fill"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="ri-arrow-right-s-line"></i> Home</a></li>
+            <li><a href="about-us.html"><i class="ri-arrow-right-s-line"></i> About Us</a></li>
+            <li><a href="services.html"><i class="ri-arrow-right-s-line"></i> Services</a></li>
+            <li><a href="products.html"><i class="ri-arrow-right-s-line"></i> Products</a></li>
+            <li><a href="applications.html"><i class="ri-arrow-right-s-line"></i> Applications</a></li>
+            <li><a href="faq.html"><i class="ri-arrow-right-s-line"></i> FAQ</a></li>
+            <li><a href="blog.html"><i class="ri-arrow-right-s-line"></i> Blog</a></li>
+            <li><a href="contact.html"><i class="ri-arrow-right-s-line"></i> Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Product Categories</h4>
+          <ul class="footer-links">
+            <li><a href="category-cap-gloves.html"><i class="ri-arrow-right-s-line"></i> Cap &amp; Gloves Knitting Machines</a></li>
+            <li><a href="category-circular-knitting.html"><i class="ri-arrow-right-s-line"></i> Circular Knitting Machines</a></li>
+            <li><a href="service-needles-spares.html"><i class="ri-arrow-right-s-line"></i> Needles &amp; Spare Parts</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Office Address</h4>
+          <div class="footer-contact-item">
+            <i class="ri-map-pin-2-fill"></i>
+            <div>B 24-2540 Jagdambe Complex Sunder Nagar, Ludhiana. 141007. Punjab. India</div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ri-phone-fill"></i>
+            <div><a href="tel:+918800335090">+91 8800335090</a></div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ri-mail-fill"></i>
+            <div><a href="mailto:info@manshainternational.in">info@manshainternational.in</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        © 2026 Mansha International. Designed with Precision for Textile Excellence. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Direct Action Buttons -->
+  <div class="floating-actions">
+    <a href="https://wa.me/+918800335090" class="float-btn float-whatsapp" target="_blank" title="Chat on WhatsApp"><i class="ri-whatsapp-line"></i></a>
+    <a href="tel:+918800335090" class="float-btn float-phone" title="Call Now"><i class="ri-phone-fill"></i></a>
+  </div>
+
+  <button class="scroll-top" id="scrollTop" title="Scroll to top"><i class="ri-arrow-up-line"></i></button>
+
+  <!-- Modal Popup Form -->
+  <div class="modal-overlay" id="enquiryModal">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose"><i class="ri-close-line"></i></button>
+      <div class="modal-header">
+        <h3>Request Machinery Quote</h3>
+        <p>Fill out the details below and our Ludhiana team will respond with competitive pricing.</p>
+      </div>
+      <form class="ajax-form">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Your Full Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Email Address" required>
+        </div>
+        <div class="form-group">
+          <input type="tel" class="form-control" placeholder="Phone Number" required>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" placeholder="State your machine requirements or spare parts model..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;"><i class="ri-send-plane-fill"></i> Submit Quote Request</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toastNotification">
+    <i class="ri-checkbox-circle-fill"></i>
+    <span>Thank you! Your enquiry has been received. Our team will contact you shortly.</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>

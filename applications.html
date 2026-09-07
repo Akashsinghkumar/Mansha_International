@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Applications | Mansha International Textile Machinery</title>
+  <meta name="description" content="Explore textile machinery applications at Mansha International: Sportswear, Home Furnishings, Underwear, Leggings, Automotive Fabrics, Medical, Industrial, Footwear, Caps & Gloves.">
+  <link rel="icon" href="https://vedanturanchi.com/manshainternational/wp-content/uploads/2024/03/cropped-cropped-logo1-1-32x32.png">
+  
+  <!-- Remix Icons & FontAwesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Contact Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-info">
+        <span><i class="ri-map-pin-line"></i> Ludhiana, Punjab, India</span>
+        <a href="tel:+918800335090"><i class="ri-phone-line"></i> +91 8800335090</a>
+        <a href="mailto:info@manshainternational.in"><i class="ri-mail-send-line"></i> info@manshainternational.in</a>
+      </div>
+      <div class="top-info">
+        <span class="network-pill"><i class="ri-global-line"></i> India • China • Korea Network</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="logo.png" alt="Mansha International Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="logo-fallback" style="display: none;">
+          <div class="logo-title"><span class="title-violet">MANSHA</span> <span class="title-cyan">international</span></div>
+          <div class="logo-tagline">Textile with technology...</div>
+        </div>
+      </a>
+
+      <!-- Navigation Menu -->
+      <nav class="nav-menu">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </div>
+        <div class="nav-item">
+          <a href="about-us.html" class="nav-link">About Us</a>
+        </div>
+        
+        <!-- Services Dropdown Menu -->
+        <div class="nav-item">
+          <a href="services.html" class="nav-link">Services <i class="ri-arrow-down-s-line"></i></a>
+          <div class="dropdown-menu">
+            <a href="service-cap-gloves.html" class="dropdown-item"><i class="ri-checkbox-blank-circle-fill"></i> Cap & Gloves Knitting Machines</a>
+            <a href="service-circular-knitting.html" class="dropdown-item"><i class="ri-checkbox-blank-circle-fill"></i> Circular Knitting Machines</a>
+            <a href="service-needles-spares.html" class="dropdown-item"><i class="ri-checkbox-blank-circle-fill"></i> Needles & Spare Parts</a>
+          </div>
+        </div>
+
+        <!-- Product Category Dropdown Menu -->
+        <div class="nav-item">
+          <a href="products.html" class="nav-link">Product Category <i class="ri-arrow-down-s-line"></i></a>
+          <div class="dropdown-menu">
+            <a href="category-cap-gloves.html" class="dropdown-item"><i class="ri-arrow-right-s-line"></i> Cap &amp; Gloves Knitting Machines</a>
+            <a href="category-circular-knitting.html" class="dropdown-item"><i class="ri-arrow-right-s-line"></i> Circular Knitting Machines</a>
+            <a href="service-needles-spares.html" class="dropdown-item"><i class="ri-arrow-right-s-line"></i> Needles &amp; Spare Parts</a>
+          </div>
+        </div>
+
+        <!-- Dedicated Application Page (Active) -->
+        <div class="nav-item active">
+          <a href="applications.html" class="nav-link">Application</a>
+        </div>
+
+        <div class="nav-item">
+          <a href="faq.html" class="nav-link">FAQ</a>
+        </div>
+        <div class="nav-item">
+          <a href="blog.html" class="nav-link">Blog</a>
+        </div>
+        <div class="nav-item">
+          <a href="contact.html" class="nav-link">Contact Us</a>
+        </div>
+      </nav>
+
+      <button class="btn btn-primary trigger-enquiry"><i class="ri-chat-3-line"></i> Enquiry Now</button>
+      <button class="mobile-toggle" id="mobileToggle"><i class="ri-menu-3-line"></i></button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <div class="logo-title" style="color: #fff; font-size: 1.2rem;"><span class="title-violet">MANSHA</span> <span class="title-cyan">international</span></div>
+      <button class="drawer-close" id="drawerClose"><i class="ri-close-line"></i></button>
+    </div>
+    <div class="mobile-nav-list">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about-us.html" class="mobile-nav-link">About Us</a>
+      
+      <div class="mobile-nav-item">
+        <a href="services.html" class="mobile-nav-link mobile-sub-toggle">Services <i class="ri-arrow-down-s-line"></i></a>
+        <div class="mobile-sub-menu">
+          <a href="service-cap-gloves.html" class="mobile-sub-item">Cap &amp; Gloves Knitting Machines</a>
+          <a href="service-circular-knitting.html" class="mobile-sub-item">Circular Knitting Machines</a>
+          <a href="service-needles-spares.html" class="mobile-sub-item">Needles &amp; Spare Parts</a>
+        </div>
+      </div>
+
+      <div class="mobile-nav-item">
+        <a href="products.html" class="mobile-nav-link mobile-sub-toggle">Product Category <i class="ri-arrow-down-s-line"></i></a>
+        <div class="mobile-sub-menu">
+          <a href="category-cap-gloves.html" class="mobile-sub-item">Cap &amp; Gloves Knitting Machines</a>
+          <a href="category-circular-knitting.html" class="mobile-sub-item">Circular Knitting Machines</a>
+          <a href="service-needles-spares.html" class="mobile-sub-item">Needles &amp; Spare Parts</a>
+        </div>
+      </div>
+
+      <a href="applications.html" class="mobile-nav-link" style="color: var(--logo-cyan); font-weight: 700;">Application</a>
+      <a href="faq.html" class="mobile-nav-link">FAQ</a>
+      <a href="blog.html" class="mobile-nav-link">Blog</a>
+      <a href="contact.html" class="mobile-nav-link">Contact Us</a>
+    </div>
+  </div>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+  <!-- Hero Banner (Exact Rel-Tex Applications 6.html Design) -->
+  <section class="page-banner banner-applications">
+    <div class="container" style="text-align: center;">
+      <h1 style="font-size: 2.8rem; font-weight: 800; color: #ffffff; margin-bottom: 0.6rem; letter-spacing: -0.02em;">Applications</h1>
+      <p style="font-size: 1.05rem; color: #cbd5e1; max-width: 650px; margin: 0 auto;">Professional technology, precision manufacturing and satisfaction service.</p>
+    </div>
+  </section>
+
+  <!-- Full-Width Breadcrumb Strip (Exact Rel-Tex 6.html Design) -->
+  <div class="reltex-breadcrumb-strip">
+    <div class="container reltex-breadcrumb-inner">
+      <i class="ri-list-check"></i>
+      <a href="index.html">Home</a>
+      <i class="ri-arrow-right-s-line"></i>
+      <span class="active">Applications</span>
+    </div>
+  </div>
+
+  <!-- Main Content 2-Column Layout (Left Sidebar + Right 4-Column Grid) -->
+  <main class="reltex-app-page-wrapper">
+    <div class="container">
+      <div class="reltex-app-layout-grid">
+
+        <!-- ================= LEFT SIDEBAR ================= -->
+        <aside class="reltex-app-sidebar">
+
+          <!-- Applications Category Box (Exact Rel-Tex Red/Cyan Header + Menu) -->
+          <div class="reltex-sidebar-box">
+            <div class="reltex-sidebar-header">
+              <span>Applications</span>
+              <i class="ri-apps-2-line"></i>
+            </div>
+            <ul class="reltex-sidebar-menu" id="sidebarAppList">
+              <li class="reltex-sidebar-item active" data-filter="all">
+                <a href="#all">All Applications <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+              <li class="reltex-sidebar-item" data-filter="sport">
+                <a href="#sport">Sport &amp; leisurewear <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+              <li class="reltex-sidebar-item" data-filter="furnishings">
+                <a href="#furnishings">Home furnishings <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+              <li class="reltex-sidebar-item" data-filter="underwear">
+                <a href="#underwear">Underwear <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+              <li class="reltex-sidebar-item" data-filter="leggings">
+                <a href="#leggings">Leggings <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+              <li class="reltex-sidebar-item" data-filter="automotive">
+                <a href="#automotive">Automotive Fabrics <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+              <li class="reltex-sidebar-item" data-filter="medical">
+                <a href="#medical">Medical &amp; healthcare <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+              <li class="reltex-sidebar-item" data-filter="industrial">
+                <a href="#industrial">Industrial <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+              <li class="reltex-sidebar-item" data-filter="footwear">
+                <a href="#footwear">Footwear <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+              <li class="reltex-sidebar-item" data-filter="caps-gloves">
+                <a href="#caps-gloves">Winter Caps &amp; Gloves <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Products Series Box (Exact Rel-Tex Sidebar Box 2) -->
+          <div class="reltex-sidebar-box">
+            <div class="reltex-sidebar-header accent-navy">
+              <span>Products</span>
+              <i class="ri-settings-4-line"></i>
+            </div>
+            <ul class="reltex-sidebar-menu">
+              <li class="reltex-sidebar-item">
+                <a href="category-cap-gloves.html">Cap &amp; Gloves Knitting Machines <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+              <li class="reltex-sidebar-item">
+                <a href="category-circular-knitting.html">Circular Knitting Machines <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+              <li class="reltex-sidebar-item">
+                <a href="service-needles-spares.html">Needles &amp; Spare Parts <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Fast Consultation Card -->
+          <div class="reltex-sidebar-box" style="background: linear-gradient(135deg, #100d24 0%, #191535 100%); color: #fff; padding: 1.5rem; text-align: center;">
+            <div style="width: 50px; height: 50px; border-radius: 50%; background: var(--logo-cyan); color: #fff; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.4rem;">
+              <i class="ri-customer-service-2-fill"></i>
+            </div>
+            <h4 style="color: #fff; font-size: 1.05rem; margin-bottom: 0.4rem;">Need Machine Guidance?</h4>
+            <p style="color: #cbd5e1; font-size: 0.84rem; line-height: 1.5; margin-bottom: 1.2rem;">Our Ludhiana technical team helps you select the perfect gauge and cylinder setup for your fabric.</p>
+            <a href="tel:+918800335090" class="btn btn-primary" style="width: 100%; font-size: 0.88rem; padding: 0.65rem 1rem;"><i class="ri-phone-line"></i> +91 8800335090</a>
+          </div>
+
+        </aside>
+
+        <!-- ================= RIGHT 4-COLUMN CARDS GRID ================= -->
+        <section class="reltex-app-main-content">
+          <div class="reltex-app-cards-grid-4" id="reltexCardsContainer">
+
+            <!-- Card 1: Food packaging -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="industrial">
+              <div class="reltex-app-box-thumb">
+                <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp" alt="Food packaging mesh" onerror="this.src='knitting-partner.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">Food packaging</h3>
+                <div class="reltex-app-box-sub">Circular Mesh Knits</div>
+              </div>
+            </div>
+
+            <!-- Card 2: Steering wheel cover -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="automotive">
+              <div class="reltex-app-box-thumb">
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=500&q=80" alt="Steering wheel cover" onerror="this.src='our-promise.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">Steering wheel cover</h3>
+                <div class="reltex-app-box-sub">Automotive Fabrics</div>
+              </div>
+            </div>
+
+            <!-- Card 3: Towels -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="furnishings">
+              <div class="reltex-app-box-thumb">
+                <img src="https://images.unsplash.com/photo-1616627547584-bf28cee262db?auto=format&fit=crop&w=500&q=80" alt="Towels" onerror="this.src='knitting-partner.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">Towels</h3>
+                <div class="reltex-app-box-sub">Terry Loop Circular</div>
+              </div>
+            </div>
+
+            <!-- Card 4: Mattresses -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="furnishings">
+              <div class="reltex-app-box-thumb">
+                <img src="https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=500&q=80" alt="Mattresses" onerror="this.src='our-promise.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">Mattresses</h3>
+                <div class="reltex-app-box-sub">Quilted Jacquard Knits</div>
+              </div>
+            </div>
+
+            <!-- Card 5: Curtains -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="furnishings">
+              <div class="reltex-app-box-thumb">
+                <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=500&q=80" alt="Curtains" onerror="this.src='our-promise.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">Curtains</h3>
+                <div class="reltex-app-box-sub">Home Furnishings</div>
+              </div>
+            </div>
+
+            <!-- Card 6: Blankets -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="furnishings">
+              <div class="reltex-app-box-thumb">
+                <img src="https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=500&q=80" alt="Blankets" onerror="this.src='knitting-partner.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">Blankets</h3>
+                <div class="reltex-app-box-sub">Plush Fleece Knits</div>
+              </div>
+            </div>
+
+            <!-- Card 7: Footwear -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="footwear">
+              <div class="reltex-app-box-thumb">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80" alt="Footwear" onerror="this.src='knitting-partner.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">Footwear</h3>
+                <div class="reltex-app-box-sub">3D Knitted Shoe Uppers</div>
+              </div>
+            </div>
+
+            <!-- Card 8: Fire-retardant fabrics -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="industrial">
+              <div class="reltex-app-box-thumb">
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=500&q=80" alt="Fire-retardant fabrics" onerror="this.src='our-promise.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">Fire-retardant...</h3>
+                <div class="reltex-app-box-sub">Industrial Protective</div>
+              </div>
+            </div>
+
+            <!-- Card 9: Surgical Gowns -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="medical">
+              <div class="reltex-app-box-thumb">
+                <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=500&q=80" alt="Surgical Gowns" onerror="this.src='our-promise.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">Surgical Gowns</h3>
+                <div class="reltex-app-box-sub">Medical Healthcare</div>
+              </div>
+            </div>
+
+            <!-- Card 10: Seat Cushion -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="automotive">
+              <div class="reltex-app-box-thumb">
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=500&q=80" alt="Seat Cushion" onerror="this.src='knitting-partner.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">Seat Cushion</h3>
+                <div class="reltex-app-box-sub">3D Spacer Mesh</div>
+              </div>
+            </div>
+
+            <!-- Card 11: Leggings -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="leggings">
+              <div class="reltex-app-box-thumb">
+                <img src="https://images.unsplash.com/photo-1506152983158-b4a74a01c721?auto=format&fit=crop&w=500&q=80" alt="Leggings" onerror="this.src='our-promise.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">Leggings</h3>
+                <div class="reltex-app-box-sub">Interlock &amp; Rib</div>
+              </div>
+            </div>
+
+            <!-- Card 12: Underwear -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="underwear">
+              <div class="reltex-app-box-thumb">
+                <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=500&q=80" alt="Underwear" onerror="this.src='knitting-partner.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">Underwear</h3>
+                <div class="reltex-app-box-sub">Seamless Fine Jersey</div>
+              </div>
+            </div>
+
+            <!-- Card 13: Sport T-Shirts -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="sport">
+              <div class="reltex-app-box-thumb">
+                <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=500&q=80" alt="Sport T-Shirts" onerror="this.src='our-promise.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">T-shirts &amp; Polos</h3>
+                <div class="reltex-app-box-sub">Sport &amp; Leisurewear</div>
+              </div>
+            </div>
+
+            <!-- Card 14: Winter Caps & Beanies -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="caps-gloves">
+              <div class="reltex-app-box-thumb">
+                <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Cap-and-gloves-knitting-machines.jpeg" alt="Winter Caps &amp; Beanies" onerror="this.src='our-promise.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">Winter Caps</h3>
+                <div class="reltex-app-box-sub">Cap &amp; Gloves Machines</div>
+              </div>
+            </div>
+
+            <!-- Card 15: Seamless Thermal Gloves -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="caps-gloves">
+              <div class="reltex-app-box-thumb">
+                <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/2nd-352x199.webp" alt="Seamless Thermal Gloves" onerror="this.src='knitting-partner.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">Seamless Gloves</h3>
+                <div class="reltex-app-box-sub">5-Finger Automated Knits</div>
+              </div>
+            </div>
+
+            <!-- Card 16: Cut-Resistant Safety Gloves -->
+            <div class="reltex-app-box-card trigger-enquiry" data-category="industrial">
+              <div class="reltex-app-box-thumb">
+                <img src="https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Installation-and-consultation.jpeg" alt="Cut-Resistant Safety Gloves" onerror="this.src='our-promise.jpg';">
+              </div>
+              <div class="reltex-app-box-info">
+                <h3 class="reltex-app-box-name">Safety Gloves</h3>
+                <div class="reltex-app-box-sub">Kevlar &amp; HPPE Workwear</div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Pagination Bar (Exact Rel-Tex Controls: < 1 2 >) -->
+          <div class="reltex-pagination">
+            <button class="reltex-page-btn" id="prevPage" aria-label="Previous Page">&lt;</button>
+            <button class="reltex-page-btn active" data-page="1">1</button>
+            <button class="reltex-page-btn" data-page="2">2</button>
+            <button class="reltex-page-btn" id="nextPage" aria-label="Next Page">&gt;</button>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Consultation Banner -->
+  <section class="section-padding bg-slate">
+    <div class="container">
+      <div class="cta-banner">
+        <div class="cta-banner-parallax-bg" aria-hidden="true"></div>
+        <div class="cta-banner-overlay" aria-hidden="true"></div>
+        <div class="cta-grid">
+          <div class="cta-content">
+            <div class="sub-title-badge" style="background: rgba(234, 88, 12, 0.2); color: var(--accent-amber);"><i class="ri-customer-service-2-line"></i> Factory Engineers on Call</div>
+            <h2>Unsure Which Machine Fits Your Fabric Specification?</h2>
+            <p>Share your fabric sample or garment design with our technical team in Ludhiana. We will evaluate yarn count, stitch structure, and production targets to recommend the most cost-effective machine configuration.</p>
+            <div style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a href="tel:+918800335090" class="btn btn-orange"><i class="ri-phone-fill"></i> Speak with Machine Expert</a>
+              <a href="https://wa.me/+918800335090" target="_blank" class="btn btn-outline" style="border-color: #fff; color: #fff;"><i class="ri-whatsapp-line"></i> WhatsApp Inquiry</a>
+            </div>
+          </div>
+          
+          <div class="cta-form">
+            <h3 style="margin-bottom: 1.25rem; font-size: 1.4rem; color: var(--primary-navy);">Request Machine Configuration</h3>
+            <form class="ajax-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control" placeholder="Phone Number / WhatsApp" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Fabric / Garment Application" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" placeholder="Specify required machine gauge, production target or factory location..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;"><i class="ri-send-plane-fill"></i> Get Machine Quotation</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="logo-title">MANSHA <span>INTERNATIONAL</span></div>
+          <p>Established in 2018, Mansha International is a trusted supplier of high-quality textile knitting machines, second-hand machinery, needles, and genuine spare parts across India, China, and Korea.</p>
+          <div style="display: flex; gap: 1rem;">
+            <a href="#" style="color: var(--logo-cyan); font-size: 1.3rem;"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="#" style="color: var(--logo-cyan); font-size: 1.3rem;"><i class="ri-twitter-x-fill"></i></a>
+            <a href="#" style="color: var(--logo-cyan); font-size: 1.3rem;"><i class="ri-linkedin-box-fill"></i></a>
+            <a href="#" style="color: var(--logo-cyan); font-size: 1.3rem;"><i class="ri-youtube-fill"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="ri-arrow-right-s-line"></i> Home</a></li>
+            <li><a href="about-us.html"><i class="ri-arrow-right-s-line"></i> About Us</a></li>
+            <li><a href="applications.html"><i class="ri-arrow-right-s-line"></i> Applications</a></li>
+            <li><a href="services.html"><i class="ri-arrow-right-s-line"></i> Services</a></li>
+            <li><a href="products.html"><i class="ri-arrow-right-s-line"></i> Products</a></li>
+            <li><a href="faq.html"><i class="ri-arrow-right-s-line"></i> FAQ</a></li>
+            <li><a href="contact.html"><i class="ri-arrow-right-s-line"></i> Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Product Categories</h4>
+          <ul class="footer-links">
+            <li><a href="category-cap-gloves.html"><i class="ri-arrow-right-s-line"></i> Cap &amp; Gloves Knitting Machines</a></li>
+            <li><a href="category-circular-knitting.html"><i class="ri-arrow-right-s-line"></i> Circular Knitting Machines</a></li>
+            <li><a href="service-needles-spares.html"><i class="ri-arrow-right-s-line"></i> Needles &amp; Spare Parts</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Office Address</h4>
+          <div class="footer-contact-item">
+            <i class="ri-map-pin-2-fill"></i>
+            <div>B 24-2540 Jagdambe Complex Sunder Nagar, Ludhiana. 141007. Punjab. India</div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ri-phone-fill"></i>
+            <div><a href="tel:+918800335090">+91 8800335090</a></div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="ri-mail-fill"></i>
+            <div><a href="mailto:info@manshainternational.in">info@manshainternational.in</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        &copy; 2026 Mansha International. Designed with Precision for Textile Excellence. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Direct Action Buttons -->
+  <div class="floating-actions">
+    <a href="https://wa.me/+918800335090" class="float-btn float-whatsapp" target="_blank" title="Chat on WhatsApp"><i class="ri-whatsapp-line"></i></a>
+    <a href="tel:+918800335090" class="float-btn float-phone" title="Call Now"><i class="ri-phone-fill"></i></a>
+  </div>
+
+  <button class="scroll-top" id="scrollTop" title="Scroll to top"><i class="ri-arrow-up-line"></i></button>
+
+  <!-- Modal Popup Form -->
+  <div class="modal-overlay" id="enquiryModal">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose"><i class="ri-close-line"></i></button>
+      <div class="modal-header">
+        <h3>Request Machinery Quote</h3>
+        <p>Fill out the details below and our Ludhiana team will respond with competitive pricing.</p>
+      </div>
+      <form class="ajax-form">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Your Full Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Email Address" required>
+        </div>
+        <div class="form-group">
+          <input type="tel" class="form-control" placeholder="Phone Number" required>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" placeholder="State your machine requirements or spare parts model..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;"><i class="ri-send-plane-fill"></i> Submit Quote Request</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toastNotification">
+    <i class="ri-checkbox-circle-fill"></i>
+    <span>Thank you! Your enquiry has been received. Our team will contact you shortly.</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+  <script>
+    // Real-time Sidebar Category Filtering and Pagination logic
+    document.addEventListener('DOMContentLoaded', () => {
+      const sidebarItems = document.querySelectorAll('#sidebarAppList .reltex-sidebar-item');
+      const cards = document.querySelectorAll('#reltexCardsContainer .reltex-app-box-card');
+      const pageButtons = document.querySelectorAll('.reltex-page-btn[data-page]');
+      const prevBtn = document.getElementById('prevPage');
+      const nextBtn = document.getElementById('nextPage');
+
+      let currentCategory = 'all';
+      let currentPage = 1;
+      const itemsPerPage = 8;
+
+      function updateDisplay() {
+        // Filter by category
+        let visibleCards = [];
+        cards.forEach(card => {
+          const cardCat = card.getAttribute('data-category');
+          if (currentCategory === 'all' || cardCat === currentCategory) {
+            visibleCards.push(card);
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        // Pagination for the filtered cards
+        const totalPages = Math.ceil(visibleCards.length / itemsPerPage) || 1;
+        if (currentPage > totalPages) currentPage = 1;
+
+        visibleCards.forEach((card, index) => {
+          const startIndex = (currentPage - 1) * itemsPerPage;
+          const endIndex = startIndex + itemsPerPage;
+          if (index >= startIndex && index < endIndex) {
+            card.style.display = 'flex';
+            card.style.opacity = '1';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        // Update pagination buttons active state
+        pageButtons.forEach(btn => {
+          const pageNum = parseInt(btn.getAttribute('data-page'));
+          if (pageNum === currentPage) {
+            btn.classList.add('active');
+          } else {
+            btn.classList.remove('active');
+          }
+          btn.style.display = pageNum <= totalPages ? 'inline-flex' : 'none';
+        });
+
+        if (prevBtn) prevBtn.disabled = currentPage === 1;
+        if (nextBtn) nextBtn.disabled = currentPage === totalPages;
+      }
+
+      // Sidebar Click Listeners
+      sidebarItems.forEach(item => {
+        item.addEventListener('click', (e) => {
+          e.preventDefault();
+          sidebarItems.forEach(i => i.classList.remove('active'));
+          item.classList.add('active');
+          currentCategory = item.getAttribute('data-filter');
+          currentPage = 1;
+          updateDisplay();
+        });
+      });
+
+      // Pagination Listeners
+      pageButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          currentPage = parseInt(btn.getAttribute('data-page'));
+          updateDisplay();
+          window.scrollTo({ top: 320, behavior: 'smooth' });
+        });
+      });
+
+      if (prevBtn) {
+        prevBtn.addEventListener('click', () => {
+          if (currentPage > 1) {
+            currentPage--;
+            updateDisplay();
+            window.scrollTo({ top: 320, behavior: 'smooth' });
+          }
+        });
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener('click', () => {
+          const filteredCount = Array.from(cards).filter(c => currentCategory === 'all' || c.getAttribute('data-category') === currentCategory).length;
+          const totalPages = Math.ceil(filteredCount / itemsPerPage) || 1;
+          if (currentPage < totalPages) {
+            currentPage++;
+            updateDisplay();
+            window.scrollTo({ top: 320, behavior: 'smooth' });
+          }
+        });
+      }
+
+      // Check URL parameters (e.g. ?cat=sport)
+      const urlParams = new URLSearchParams(window.location.search);
+      const initialCat = urlParams.get('cat');
+      if (initialCat) {
+        const targetSidebarItem = document.querySelector(`#sidebarAppList [data-filter="${initialCat}"]`);
+        if (targetSidebarItem) {
+          sidebarItems.forEach(i => i.classList.remove('active'));
+          targetSidebarItem.classList.add('active');
+          currentCategory = initialCat;
+        }
+      }
+
+      updateDisplay();
+    });
+  </script>
+</body>
+</html>
