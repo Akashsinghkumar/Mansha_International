@@ -16,6 +16,7 @@ node_modules/
 .agent/
 .antigravity/
 .trae/
+memory.md
 
 # Operating System Files
 Thumbs.db
