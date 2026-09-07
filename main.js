@@ -731,30 +731,37 @@ function initMansha() {
     },
     "cap-machine": {
       title: "Automatic Beanie & Cap Knitting Machine",
-      model: "MCAP-35 Jacquard",
-      keyword: "Automatic Cap Knitting Machine",
-      classification: "Winter Headwear & Beanie Series",
-      video: "https://www.youtube.com/watch?v=GKJG2PKn-EM",
+      model: "MCAP-35 High-Speed Computerized Circular Series",
+      keyword: "Automatic Beanie Knitting Machine, Circular Cap Knitting Machine, Winter Hat Knitting Machine",
+      classification: "Winter Headwear & Beanie Circular Series",
+      video: "",
       section: "Cap & Gloves Machinery",
-      machineType: "High-Speed Circular Cap & Scarf Knitting Machine",
-      gauge: "6G - 14G Circular Cylinder",
-      diameter: '7" - 9" Cylinder Diameter',
-      productionCapacity: "30 - 45 Caps / Hour (Depending on Pattern & Rib Structure)",
-      application: "Winter Beanies, Jacquard Logo Caps, Cuffed Rib Caps, Pom-Pom Hats, Knitted Neck Warmers",
-      automationLevel: "Fully Computerized with 2 to 6 Color Auto-Striper & Digital Jacquard Needle Selection",
-      image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Cap-and-gloves-knitting-machines.jpeg",
+      machineType: "High-Speed Computerized Circular Cap & Beanie Knitting Machine",
+      gauge: "6G - 14G Circular Cylinder (Customizable for Fine & Chunky Knits)",
+      diameter: '7" - 9" / 10" Precision Circular Cylinder Bed',
+      productionCapacity: "30 - 45 Finished Caps / Hour (Continuous High-Yield Operation)",
+      application: "Winter Beanies, Jacquard Logo Caps, Turn-Up Cuffed Rib Hats, Pom-Pom Caps, Seamless Neck Warmers & Scarves",
+      automationLevel: "100% Fully Computerized with 2 to 6 Color Auto-Striper, Digital Touchscreen & Electronic Needle Selection",
+      image: "images/cap-machine-main.jpg",
       gallery: [
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Cap-and-gloves-knitting-machines.jpeg",
-        "images/glove-machine-main.jpg",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg"
+        "images/cap-machine-main.jpg",
+        "images/cap-machine-front.jpg",
+        "images/cap-machine-top.jpg",
+        "images/cap-machine-cylinder.jpg",
+        "images/cap-machine-creel.jpg"
       ],
-      description: "Specialized circular knitting technology for stylish, warm winter beanies, ski caps, and scarves. Features electronic needle selection for intricate jacquard logos, multicolor stripes, and auto-turned rib cuffs.",
+      description: "Mansha International's Automatic Beanie & Cap Knitting Machine is a state-of-the-art high-speed circular knitting system designed for industrial manufacturing of fashion beanies, winter ski hats, and seamless headwear. Featuring a high-precision multi-feeder circular cylinder, positive yarn creel, and fully enclosed safety structure, this machine produces perfectly shaped, high-elasticity beanies with consistent loop density and minimal yarn wastage.\n\nEquipped with a computerized color touchscreen controller, independent motor drives, and electronic needle actuators, operators can rapidly switch between custom jacquard logos, multicolor horizontal stripes, English rib, and double-layer folded cuffs without mechanical reconfiguration. Its robust industrial build ensures low vibration at high RPMs, delivering flawless surface aesthetics across acrylic, wool, cotton, cashmere blends, and elastic Lycra threads.",
       functions: [
-        "Electronic Jacquard System: Unlimited multicolor pattern memory via USB input.",
-        "Auto Cuffed Hem: Knits double-layer turn-up hems with internal elastic reinforcement.",
-        "Multi-Color Striper: Up to 6 color yarn fingers for bold graphic stripes and patterns.",
-        "Fast Cylinder Interchange: Allows quick changeover between standard adult and children sizes."
-      ]
+        "Multi-Feeder High-Output Circular Cylinder: Precision-machined circular cylinder bed allows high-speed circular knitting, yielding up to 30–45 completed beanies per hour.",
+        "Electronic Jacquard & Needle Selection: Microprocessor-controlled electronic actuators enable unlimited jacquard graphic patterns, brand logos, and geometric designs via simple USB file transfer.",
+        "Automatic Multi-Color Yarn Striper: Features 2 to 6 color yarn fingers with automatic pneumatic cutters to knit crisp, colorful stripes and complex multi-tone patterns seamlessly.",
+        "Integrated Automatic Turn-Up Cuffed Hem: Automatically knits double-layered folded cuffs with internal elastic inlay, guaranteeing superior stretch recovery and long-lasting shape retention.",
+        "Circular Overhead Yarn Package Creel: High-capacity multi-cone overhead creel ring with individual tension discs and ceramic eyelets delivers continuous, knot-free yarn feed to all feeds.",
+        "Intelligent Multi-Sensor Optical Stop-Motion: Millisecond-response sensors immediately detect yarn breakages, tension variations, needle latch errors, or roll blockage, stopping the machine automatically to protect tooling.",
+        "Digital Touchscreen Controller & Production Monitor: Intuitive color touchscreen displays operating RPM, program stitch preview, daily output counter, and error diagnostics in real time."
+      ],
+      fabricsApplicationTitle: "Fabrics & Products Application:",
+      fabricsApplication: "The MCAP-35 circular cylinder and electronic cam system can be configured to produce a diverse range of knitted headwear and fashion accessories:\n■ Winter Headwear & Beanies: Single-layer and double-layer cuffed winter beanies, slouchy knit caps, pom-pom ski hats, and balaclavas in acrylic, wool, and blended yarns.\n■ Brand & Jacquard Custom Knits: Promotional branded caps with knitted corporate logos, collegiate sports beanies with multi-color graphic striping, and fine-gauge thermal helmet liners.\n■ Tubular Fashion Accessories: Knitted neck warmers, seamless circular scarves, headband ear-warmers, and ribbed tubular trims."
     },
     "safety-glove": {
       title: "Industrial Safety Glove Knitting Machine",
