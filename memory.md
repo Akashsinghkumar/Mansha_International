@@ -18,7 +18,7 @@ After every task, add/update the relevant section in this file. No exceptions.
 | Founded | 2018 |
 | Founders | Mr. Manish Singh and Mr. Deepak Kumar |
 | Background | Mayer and Cie / Batliboi India — 20+ years German technical expertise |
-| Products | Circular Knitting, Flat Knitting, Cap and Gloves Knitting Machines, Second-Hand Machines, Needles, Sinkers, Spare Parts |
+| Products | Circular Knitting, Cap and Gloves Knitting Machines, Second-Hand Machines, Needles, Sinkers, Spare Parts |
 | Phone | +91 8800335090 |
 | Email | info@manshainternational.in |
 | Repository | https://github.com/Akashsinghkumar/Mansha_International |
@@ -39,7 +39,6 @@ After every task, add/update the relevant section in this file. No exceptions.
 | faq.html | HTML | FAQ page |
 | blog.html | HTML | Blog listing |
 | category-circular-knitting.html | HTML | Category page |
-| category-flat-knitting.html | HTML | Category page |
 | category-cap-gloves.html | HTML | Category page |
 | category-needles.html | HTML | Category page |
 | category-spare-parts.html | HTML | Category page |
@@ -374,11 +373,9 @@ Changes:
    - Post 1 (Maintenance): `Circular-Knitting-machine.jpeg` + `Machine Maintenance` badge (was duplicate cap & gloves image)
    - Post 2 (Cap & Gloves): `Cap-and-gloves-knitting-machines.jpeg` + `Cap & Gloves` badge
    - Post 3 (Installation): `Installation-and-consultation.jpeg` + `Technical Consultation` badge
-   - Post 4 (Needles & Spares): `Needles-and-spare-parts.jpeg` + `Needles & Spares` badge
-   - Post 5 (Flat Knitting): `Flat-Knitting-machine-1.jpeg` + `Flat Knitting` badge
-   - Post 6 (Circular Factory Tech): `circular_knitting_machine_factory.webp` + `Circular Knitting` badge
+   - Post 5 (Circular Factory Tech): `circular_knitting_machine_factory.webp` + `Circular Knitting` badge
 2. Added interactive Category Filter Pills above the blog grid:
-   - Filter buttons: `[All Topics] [Circular Knitting] [Cap & Gloves] [Flat Knitting] [Needles & Spare Parts] [Installation & Maintenance]`
+   - Filter buttons: `[All Topics] [Circular Knitting] [Cap & Gloves] [Needles & Spare Parts] [Installation & Maintenance]`
    - Filter pills dynamically filter `.blog-card` using `data-category` attributes with smooth opacity/translate transitions.
 3. Added Category Badges (`.blog-category-badge`) over images using glassmorphism dark pill aesthetic with cyan icons.
 
@@ -398,7 +395,7 @@ Changes:
 Issue: Inner page header banners (`.page-banner`) had an overly dark overlay (`~0.82-0.89` dark navy opacity), making the underlying machinery photos appear almost completely black/muddy.
 Fix:
 - Lightened overlay opacity across all `.page-banner` classes in `styles.css` from `rgba(16, 13, 36, 0.82) ... rgba(16, 13, 36, 0.88)` down to `rgba(10, 16, 38, 0.38) ... rgba(10, 16, 38, 0.48)`.
-- Applied across all 16 inner pages:
+- Applied across all inner pages:
   * `about-us.html` (`.banner-about`)
   * `services.html` (`.banner-services`)
   * `products.html` (`.banner-products`)
@@ -406,7 +403,7 @@ Fix:
   * `faq.html` (`.banner-faq`)
   * `blog.html` (`.banner-blog`)
   * `contact.html` (`.banner-contact`)
-  * All product/service category pages (`.banner-cap-gloves`, `.banner-circular`, `.banner-needles`, `.banner-flat`, `.banner-second-hand`)
+  * All product/service category pages (`.banner-cap-gloves`, `.banner-circular`, `.banner-needles`, `.banner-second-hand`)
 - Enhanced text shadow on `.page-banner h1` and `.breadcrumb` to maintain crisp readability over the now bright and visible machinery backgrounds.
 
 ## 20. Git Repository Setup, Cleanup & GitHub Push (2026-09-07)
@@ -417,3 +414,26 @@ Fix:
 - Initialized local git repository in `c:\Users\akash\Desktop\mansha`.
 - Linked remote `origin` to `https://github.com/Akashsinghkumar/Mansha_International.git`.
 - Committed clean codebase and pushed to `main` branch.
+
+## 21. Complete Removal of Flat Knitting from Code & UI (2026-09-07)
+
+User request: "jaha v flat knitting k bare m diya hua h kuch v usko hata do code s or ui s v"
+- **Deleted Page**: `category-flat-knitting.html` permanently removed from project and git.
+- **Removed CSS Rule**: Deleted `.page-banner.banner-flat` in `styles.css`.
+- **Card Replacements**:
+  * `category-second-hand.html`: Replaced flat machine card with "Second-Hand Rib & Interlock Circular Machine" to preserve 3-card balance.
+  * `category-needles.html`: Replaced flat needles card with "Rib & Interlock Dial Needles" to preserve 3-card balance.
+- **Blog Cleaned**:
+  * Removed "Flat Knitting" filter button from `.blog-filters` in `blog.html`.
+  * Removed Post 5 "Advantages of Flat Knitting Machines" blog card from `blog.html`.
+  * Cleaned meta description.
+- **Copy & Metadata Cleaned Across All Pages**:
+  * `about-us.html`: Cleaned lines 650 & 968.
+  * `index.html`: Cleaned Footwear app machine badge ("Technical 3D Knits") & FAQ answer.
+  * `services.html`: Cleaned machine refurbishment description.
+  * `service-needles-spares.html`: Cleaned needles inventory description.
+  * `products.html`: Cleaned meta description.
+  * `faq.html`: Cleaned product catalog & machine gauge FAQs.
+  * `category-spare-parts.html`: Cleaned meta description.
+  * `README.md`: Cleaned categories list.
+

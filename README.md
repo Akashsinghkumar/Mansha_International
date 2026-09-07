@@ -31,7 +31,6 @@ Official website repository for **Mansha International** (formerly Mansha Knit),
 
 ### Machinery Categories
 - `category-circular-knitting.html` — Single Jersey, Double Jersey, Rib, and Fleece Circular Knitting Machines.
-- `category-flat-knitting.html` — Computerized Collar, Sweater, and Shoe Upper Flat Knitting Machines.
 - `category-cap-gloves.html` — Fully Automated Computerized Beanie Cap & Industrial Glove Knitting Machines.
 - `category-needles.html` — Precision Latch Needles, Transfer Needles, and Sinker Needles.
 - `category-spare-parts.html` — Cams, Feeders, Cylinders, Inverters, and Mechanical Spares.
