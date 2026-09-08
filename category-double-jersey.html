@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -273,7 +273,7 @@
           <!-- 1. Sames SD-R2 &amp; SD-I4 Interlock &amp; Rib -->
           <article class="series-item-row" id="double-jersey-sames-interlock">
             <!-- Left Column: Rich Visuals, Component Showcase, Specs Summary &amp; CTA -->
-            <div class="series-item-left-col" style="display: flex; flex-direction: column; gap: 1rem; position: sticky; top: 90px; align-self: start;">
+            <div class="series-item-left-col">
               <!-- Main Machine Image with HD Zoom Badge -->
               <div class="series-item-visual btn-view-more" data-product-id="double-jersey-sames-interlock" style="cursor: pointer; height: 235px; position: relative;" title="Click to view machine details &amp; full 3x zoom">
                 <span style="position: absolute; top: 10px; left: 10px; background: rgba(15, 23, 42, 0.85); color: #fff; font-size: 0.72rem; font-weight: 700; padding: 4px 10px; border-radius: 999px; -webkit-backdrop-filter: blur(4px);
@@ -284,12 +284,12 @@
               </div>
 
               <!-- Machine Parts Gallery Grid (Click to view in modal) -->
-              <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-sm); padding: 0.85rem;">
-                <div style="font-size: 0.76rem; font-weight: 800; color: var(--logo-violet); text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 0.5rem; display: flex; align-items: center; justify-content: space-between;">
+              <div class="series-parts-card">
+                <div class="series-parts-header">
                   <span><i class="ri-image-2-line"></i> Machine Components</span>
-                  <span style="font-size: 0.7rem; color: var(--logo-cyan); font-weight: 700;">8 HD Photos</span>
+                  <span class="series-parts-badge">8 HD Photos</span>
                 </div>
-                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px;">
+                <div class="series-parts-grid">
                   <div class="btn-view-more" data-product-id="double-jersey-sames-interlock" style="cursor: pointer; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden; background: #fff; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center;" title="Cam Box Assembly">
                     <img src="images/sd-r2-04.jpg" alt="Cam Box Assembly" style="width: 100%; height: 100%; object-fit: cover;">
                   </div>
@@ -347,19 +347,19 @@
                   <strong>Product Overview:</strong> Engineered in technical partnership with South Korean machinery standards (Sames Machinery). A structural design with two cam rings allows height adjustment of the cylinder cam box for knitting diverse fabric materials. Dual upper and lower ball race bearings eliminate cylinder clearance, and three counter gears in the transmission prevent clearance between cylinder and dial.
                 </div>
 
-                <div style="display: flex; gap: 1.25rem; align-items: flex-start; margin-bottom: 1.2rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-sm); padding: 1rem;">
-                  <div style="display: flex; flex-direction: column; align-items: center; gap: 6px; flex-shrink: 0;">
-                    <img src="images/sames-touch-monitor.png" alt="10-inch Touch Panel Monitor" style="width: 120px; height: 90px; object-fit: contain; border: 1px solid #cbd5e1; border-radius: 6px; padding: 2px; background: #000; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);">
-                    <span style="font-size: 0.72rem; font-weight: 700; color: var(--logo-violet); letter-spacing: 0.3px;">10" Touch Panel</span>
+                <div class="series-touch-box">
+                  <div class="touch-monitor-col">
+                    <img src="images/sames-touch-monitor.png" alt="10-inch Touch Panel Monitor">
+                    <span class="touch-monitor-label">10" Touch Panel</span>
                   </div>
                   <ul class="series-item-features" style="margin-bottom: 0;">
-                    <li><i class="ri-checkbox-circle-fill"></i> Two cam rings can adjust the height of the cylinder cam box (verified and favorably received by customers).</li>
-                    <li><i class="ri-checkbox-circle-fill"></i> Dual arrangement (upper, lower) of ball race bearings completely blocks cylinder clearance.</li>
-                    <li><i class="ri-checkbox-circle-fill"></i> Three counter gears transmitted to the dial prevent clearance between cylinder and dial.</li>
-                    <li><i class="ri-checkbox-circle-fill"></i> Top gear and main shaft do not use a key; separate alignment maintains concentricity and planarity accurately.</li>
-                    <li><i class="ri-checkbox-circle-fill"></i> Convenient for knitting diverse fabrics using dial 2-track and cylinder 4-track needles.</li>
-                    <li><i class="ri-checkbox-circle-fill"></i> Yarn guides made of high-durability Zirconia ceramic.</li>
-                    <li><i class="ri-checkbox-circle-fill"></i> 10-Inch industrial digital touchscreen control monitor.</li>
+                    <li><i class="ri-checkbox-circle-fill"></i> <span>Two cam rings can adjust the height of the cylinder cam box (verified and favorably received by customers).</span></li>
+                    <li><i class="ri-checkbox-circle-fill"></i> <span>Dual arrangement (upper, lower) of ball race bearings completely blocks cylinder clearance.</span></li>
+                    <li><i class="ri-checkbox-circle-fill"></i> <span>Three counter gears transmitted to the dial prevent clearance between cylinder and dial.</span></li>
+                    <li><i class="ri-checkbox-circle-fill"></i> <span>Top gear and main shaft do not use a key; separate alignment maintains concentricity and planarity accurately.</span></li>
+                    <li><i class="ri-checkbox-circle-fill"></i> <span>Convenient for knitting diverse fabrics using dial 2-track and cylinder 4-track needles.</span></li>
+                    <li><i class="ri-checkbox-circle-fill"></i> <span>Yarn guides made of high-durability Zirconia ceramic.</span></li>
+                    <li><i class="ri-checkbox-circle-fill"></i> <span>10-Inch industrial digital touchscreen control monitor.</span></li>
                   </ul>
                 </div>
 
@@ -477,10 +477,10 @@
                   <strong>Crease-Free Technical Knits:</strong> Built with an advanced motor-driven fabric cutting system and open-width take-up frame. Specialized for high-elasticity double jersey, neoprene, air cushion spacer fabrics, and swimwear where central folding creases must be completely eliminated.
                 </div>
                 <ul class="series-item-features">
-                  <li><i class="ri-checkbox-circle-fill"></i> Motor-driven fabric slitter rolls fabric completely flat without side marks or center creases.</li>
-                  <li><i class="ri-checkbox-circle-fill"></i> 2 Cam rings cylinder height adjustment and dual upper/lower ball race bearings.</li>
-                  <li><i class="ri-checkbox-circle-fill"></i> Feeder configuration from 72 to 126 feeds on 30" to 36" diameters.</li>
-                  <li><i class="ri-checkbox-circle-fill"></i> 10-Inch touch panel console and Zirconia ceramic yarn guides.</li>
+                  <li><i class="ri-checkbox-circle-fill"></i> <span>Motor-driven fabric slitter rolls fabric completely flat without side marks or center creases.</span></li>
+                  <li><i class="ri-checkbox-circle-fill"></i> <span>2 Cam rings cylinder height adjustment and dual upper/lower ball race bearings.</span></li>
+                  <li><i class="ri-checkbox-circle-fill"></i> <span>Feeder configuration from 72 to 126 feeds on 30" to 36" diameters.</span></li>
+                  <li><i class="ri-checkbox-circle-fill"></i> <span>10-Inch touch panel console and Zirconia ceramic yarn guides.</span></li>
                 </ul>
               </div>
               <div class="series-item-action">
@@ -504,10 +504,10 @@
                   <strong>Fleece &amp; Bonding Fabric Alternative:</strong> Utilizes dial 3-track and cylinder 7-track needles to create heavy double-faced composite knits. Effectively replaces traditional bonding fabric and fleece production, eliminating chemical glues and dramatically improving workplace environmental quality.
                 </div>
                 <ul class="series-item-features">
-                  <li><i class="ri-checkbox-circle-fill"></i> Dial 3-track and cylinder 7-track needles for heavy double-faced composite knits.</li>
-                  <li><i class="ri-checkbox-circle-fill"></i> Eliminates post-knitting fabric bonding and fleece brushing processes.</li>
-                  <li><i class="ri-checkbox-circle-fill"></i> Two cam rings structural adjustment for smooth processing of composite yarns.</li>
-                  <li><i class="ri-checkbox-circle-fill"></i> 10-Inch touch panel monitor and ultra-low friction Zirconia yarn guides.</li>
+                  <li><i class="ri-checkbox-circle-fill"></i> <span>Dial 3-track and cylinder 7-track needles for heavy double-faced composite knits.</span></li>
+                  <li><i class="ri-checkbox-circle-fill"></i> <span>Eliminates post-knitting fabric bonding and fleece brushing processes.</span></li>
+                  <li><i class="ri-checkbox-circle-fill"></i> <span>Two cam rings structural adjustment for smooth processing of composite yarns.</span></li>
+                  <li><i class="ri-checkbox-circle-fill"></i> <span>10-Inch touch panel monitor and ultra-low friction Zirconia yarn guides.</span></li>
                 </ul>
               </div>
               <div class="series-item-action">
