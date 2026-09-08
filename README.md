@@ -30,16 +30,26 @@ Official website repository for **Mansha International** (formerly Mansha Knit),
 - `faq.html` — Frequently asked questions regarding orders, installation, warranty, and logistics.
 
 ### Machinery Categories
-- `category-circular-knitting.html` — Single Jersey, Double Jersey, Rib, and Fleece Circular Knitting Machines.
-- `category-cap-gloves.html` — Fully Automated Computerized Beanie Cap & Industrial Glove Knitting Machines.
+- `category-circular-knitting.html` — Overview of Circular Knitting Machinery range.
+- `category-single-jersey.html` — High-Speed Single Jersey, 3-Thread Fleece & Terry Circular Knitting Machines.
+- `category-double-jersey.html` — SAMES SD-R2 & SD-I4 Interlock & Rib Double Jersey Circular Machinery.
+- `category-jacquard.html` — Computerized Electronic Jacquard Circular Knitting Machines (Link, Single, Double & Rib Transfer).
+- `category-flat-knitting.html` — Automated Computerized Flat Knitting Machines for Sweaters, Collars, Cuffs & Shaped Panels.
 - `category-needles.html` — Precision Latch Needles, Transfer Needles, and Sinker Needles.
 - `category-spare-parts.html` — Cams, Feeders, Cylinders, Inverters, and Mechanical Spares.
 - `category-second-hand.html` — Certified Refurbished Pre-Owned European & Asian Knitting Machinery.
 
+### Strategic Global Alliances
+- **SAMES Machinery Co., Ltd. (South Korea)** — Technical alliance for high-precision Double Jersey machinery ([sames.kr](http://www.sames.kr/)).
+- **Fujian Hongjun Precision Machinery Co., Ltd. (China)** — Manufacturing partner for circular, flat & jacquard machinery ([hongjunmachine.com](http://hongjunmachine.com/)).
+
+### Search Engine Optimization (SEO)
+- `sitemap.xml` — XML sitemap indexed with priority and change frequencies for all 18 primary pages.
+- `robots.txt` — Search engine crawler directives and sitemap reference.
+
 ### Service Detail Pages
-- `service-circular-knitting.html`
-- `service-cap-gloves.html`
-- `service-needles-spares.html`
+- `service-circular-knitting.html` — Circular knitting installation, commissioning & gauge conversion service.
+- `service-needles-spares.html` — Needles and spare parts fulfillment service across India.
 
 ---
 

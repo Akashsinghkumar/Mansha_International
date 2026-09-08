@@ -623,8 +623,8 @@ function initMansha() {
       image: "images/single-jersey-main.jpg",
       gallery: [
         "images/single-jersey-main.jpg",
+        "images/single-jersey-standard.png",
         "IMG_4771.JPG",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Circular-Knitting-machine.jpeg",
         "our-promise.jpg"
       ],
       description: "Single Jersey textiles always dominate the major trend in knitting industry. In order to meet these tremendous needs, the YFSG High Speed 4 Track Single Jersey Circular Knitting Machine is engineered to knit plain and pique design fabrics easily by arranging the 4-track cylinder cams—knit, tuck, and miss—for many different kinds of patterns with exceptional fabric tension control and high productivity.",
@@ -639,33 +639,513 @@ function initMansha() {
       fabricsApplicationTitle: "Fabrics Application:",
       fabricsApplication: "The needles and cams can be arranged to produce a variety of patterns and thickness of fabrics. The knitted fabrics include single jersey plain fabrics, single jersey with Lycra, pique fabrics, two-thread and three-thread fleece, terry fabrics, mesh eyelet cloth, and striped fashion fabrics for sportswear and casual apparel."
     },
-    "double-jersey": {
-      title: "Double Jersey Interlock & Rib Machine",
-      model: "YFDG-2T Interlock",
-      keyword: "Double Jersey Circular Knitting Machine",
-      classification: "Double Jersey / Rib Series",
-      video: "https://www.youtube.com/watch?v=GKJG2PKn-EM",
+    "single-jersey-bodysize": {
+      title: "Mansha Bodysize Single Jersey Circular Knitting Machine",
+      model: "YFSG-BS Seamless Series",
+      keyword: "Bodysize Single Jersey Machine, Seamless Tubular Circular Machine",
+      classification: "Single Jersey Bodysize Series",
+      video: "",
       section: "Circular Knitting Machinery",
-      machineType: "Dual Track Cylinder & Dial Double Jersey Circular Knitting Machine",
-      gauge: "12G - 36G (Dual Bed Interlock & Rib)",
-      diameter: '14" - 44" Cylinder Diameter',
-      productionCapacity: "2F - 4F / Inch (Up to 240 - 380 kg / 24 Hours)",
-      application: "Ribbing Collars, Interlock Underwear, Thermal Wear, Roman Cloth, Mattress Ticking & Sportswear",
-      automationLevel: "Fully Automatic with Synchronized Dial-Cylinder Inverter & Digital Stitch Tuning",
-      image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Circular-Knitting-machine.jpeg",
+      machineType: "High-Precision Bodysize Single Jersey Circular Knitting Machine",
+      gauge: "16G - 32G (Seamless Fine & Coarse Knits)",
+      diameter: '14" - 22" Small-Diameter Cylinder',
+      productionCapacity: "2.4F - 3.2F / Inch (Up to 150 - 260 kg / 24 Hours)",
+      application: "Seamless T-shirts, Underwear, Tank Tops, Sportswear, Shapewear & Medical Body Bandages",
+      automationLevel: "Fully Computerized Inverter Drive with Central Stitch Adjustment & Automatic Take-Down",
+      image: "images/single-jersey-bodysize.png",
       gallery: [
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Circular-Knitting-machine.jpeg",
+        "images/single-jersey-bodysize.png",
+        "images/single-jersey-main.jpg",
+        "IMG_4771.JPG"
+      ],
+      description: "This series of small-diameter, high-precision circular knitting machines is specially designed for the efficient production of seamless tubular fabrics for underwear, bodysuits, tank tops, and athletic wear without side seams. Eliminates side-seam stitching, minimizes material waste, and enhances wearer comfort.",
+      functions: [
+        "Compact Small Diameter: Precision cylinder options from 14 to 22 inches for seamless bodywear without cut waste.",
+        "Central Stitch Adjustment: Precise digital calibrated adjustment for quick fabric weight and density setting.",
+        "Spraying Oiler & Lint Blower: Keeps needles and cams dust-free and lubricated for continuous high-speed running.",
+        "Multi-Feeder High Output: Maximizes feed count per inch for elevated production yield in 24-hour continuous operation."
+      ],
+      fabricsApplicationTitle: "Seamless Garments Application:",
+      fabricsApplication: "■ Seamless Bodywear: Men's and women's seamless undershirts, vests, camisoles, and boxer briefs.\n■ Activewear & Shapewear: Compression tank tops, yoga tops, seamless thermal base layers, and tubular shapewear.\n■ Medical & Technical: Tubular orthopedic bandages, elastic sleeves, and seamless compression support tubes."
+    },
+    "single-jersey-open-width": {
+      title: "Mansha Open Width Single Jersey Circular Knitting Machine",
+      model: "YFSG-OW Crease-Free Series",
+      keyword: "Open Width Single Jersey Machine, Lycra Crease-Free Circular Machine",
+      classification: "Single Jersey Open Width Series",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "Open Width Single Jersey Circular Knitting Machine with Rotary Fabric Slitter",
+      gauge: "18G - 40G High-Precision Gauge",
+      diameter: '30" - 38" Cylinder Diameter',
+      productionCapacity: "3F - 4F / Inch (Up to 280 - 450 kg / 24 Hours)",
+      application: "Lycra Jersey, Spandex Single Knit, High-Elastic Swimwear, Activewear & Pique",
+      automationLevel: "Fully Automatic Fabric Slitter & Crease-Free Take-Up Roller with Electronic Synchronization",
+      image: "images/single-jersey-open-width.png",
+      gallery: [
+        "images/single-jersey-open-width.png",
+        "images/single-jersey-open-width-speed.png",
+        "images/single-jersey-main.jpg"
+      ],
+      description: "Engineered specifically to eliminate central creasing lines on Lycra, Spandex, and synthetic elastane fabrics. Features an oil-bathed gear structure, double-push sinker cam track, and automatic rotary slitter to unroll smooth, flat fabric ready for direct stenter finishing.",
+      functions: [
+        "Oil-Bathed Structure: The oil-bathed frame structure prevents Gear Ring from rusting and further smoothes rotational performance.",
+        "Double Push Sinker Cam: New design of doubled sinker-track guidance prolongs sinker service life and eliminates fabric line defects.",
+        "Zero Center Crease: Continuous rotary cutter slits tubular fabric on the fly and winds it into flat, crease-free open rolls.",
+        "Advanced Computer Control: Digital touchscreen interface with intelligent stop-motion yarn detectors and inverter speed control."
+      ],
+      fabricsApplicationTitle: "High-Elasticity Knits Application:",
+      fabricsApplication: "■ Stretch Knits: High-percentage Lycra single jersey, 4-way stretch cycling wear, and compressive activewear leggings.\n■ Fashion & Casual: Pique polo shirts, lightweight modal knits, viscose jersey, and drape-sensitive casualwear.\n■ Swimwear & Intimates: High-density polyamide/elastane fabrics with zero streak defects and flawless finish."
+    },
+    "single-jersey-fleece": {
+      title: "High Speed Three Thread Fleece Circular Knitting Machine",
+      model: "YFSG-3TF Fleece Master Series",
+      keyword: "Three Thread Fleece Knitting Machine, Sweatshirt Fabric Circular Machine",
+      classification: "Single Jersey Fleece Series",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "High-Speed 4-Track Three-Thread Fleece Circular Knitting Machine",
+      gauge: "14G - 24G Fleece Gauges",
+      diameter: '30" - 36" Cylinder Diameter',
+      productionCapacity: "3F / Inch Heavy-Duty High-Output (Up to 320 - 480 kg / 24 Hours)",
+      application: "Hoodies, Sweatshirts, Winter Fleece, Heavy Joggers, Brushed Polar Fabric & French Terry",
+      automationLevel: "Precision 4-Track Cam System with Central Stitch Control & Heavy Fabric Take-Up",
+      image: "images/single-jersey-fleece.png",
+      gallery: [
+        "images/single-jersey-fleece.png",
+        "images/single-jersey-main.jpg",
+        "IMG_4771.JPG"
+      ],
+      description: "Single Jersey Three Thread Fleece Circular Knitting Machine. Engineered with 4-track cams, Groz-Beckert needles, central stitch adjustment, and a precision ball-bearing system for easy operation. Knits face yarn, ground yarn, and backing inlay yarn simultaneously with zero missing loops, producing heavy, uniform fleece ideal for brushing, raising, and sheared hoodies.",
+      functions: [
+        "Four Track Cams System: Dedicated camming tracks for face, tie-in, and heavy inlay fleece yarns guarantee high loop density.",
+        "Groz-Beckert Needles: Premium German needles and sinkers ensure longevity and zero latch bounce at high speeds.",
+        "Central Stitch Adjustment: Simple and fast weight control across all knitting feeds for consistent fabric GSM.",
+        "Ball Bearing Drive: Heavy vibration-dampened frame with low-friction ball bearing system ensures light, smooth driving and saves energy."
+      ],
+      fabricsApplicationTitle: "Winter & Fleece Wear Application:",
+      fabricsApplication: "■ Winter Streetwear: Heavyweight hoodies, zip-up jackets, warm sweatpants, and ribbed joggers.\n■ Brushed Knits: Single-side and double-side brushed fleece, polar fleece blankets, and thermal inner-fleece layers.\n■ French Terry: Unbrushed loop-back French terry for casual loungewear and premium tracksuits."
+    },
+    "single-jersey-terry": {
+      title: "Terry Circular Knitting Machine (Face & Reverse Terry)",
+      model: "YFSG-TR Plush & Towel Series",
+      keyword: "Terry Circular Knitting Machine, Towel Circular Machine, Velvet Knitting Machine",
+      classification: "Single Jersey Terry Series",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "High-Speed Single Jersey Terry & Plush Circular Knitting Machine",
+      gauge: "16G - 28G Loop Gauges",
+      diameter: '26" - 38" Cylinder Diameter',
+      productionCapacity: "2.4F - 3.2F / Inch (Up to 240 - 380 kg / 24 Hours)",
+      application: "Bath Towels, Polar Fleece, Velvet, Bathrobes, Babywear & Sports Wristbands",
+      automationLevel: "Dual Interchangeable Cam Tracks with Micrometer Central Stitch Tuning",
+      image: "images/single-jersey-terry.png",
+      gallery: [
+        "images/single-jersey-terry.png",
+        "images/single-jersey-main.jpg",
+        "IMG_4771.JPG"
+      ],
+      description: "Face Terry Circular Knitting Machine for Polar Fleece and Reverse Terry Circular Knitting Machine for Velvet. Terry machines are equipped with Central Stitch adjustment, dynamic sinker control, and a precision Ball Bearing system. Delivers upright, plush, uniform loop heights without loop pull-out.",
+      functions: [
+        "Dual Terry Modality: Convertible between Face Terry (for polar fleece) and Reverse Terry (for plush velvet).",
+        "Central Stitch Adjustment: Dial calibrations allow instant loop height adjustments without stopping line production.",
+        "Ball Bearing System: Reduces mechanical friction, ensures light and smooth running, and saves factory energy expense.",
+        "High-Wear Sinker Cams: Smooth knocking-over action protects delicate cotton and microfiber yarns from shearing."
+      ],
+      fabricsApplicationTitle: "Plush & Terry Knits Application:",
+      fabricsApplication: "■ Velvet & Velour: High-density reverse-terry velvet for eveningwear, upholstery, tracksuits, and baby clothing.\n■ Polar Fleece: Fluffy face-terry fabrics engineered for thermal outdoor jackets, pullovers, and blankets.\n■ Toweling Products: Highly absorbent bath towels, bathrobes, spa wraps, and sports sweatbands."
+    },
+    "single-jersey-open-width-speed": {
+      title: "Mansha High Speed Open Width Single Jersey Circular Knitting Machine",
+      model: "YFSG-OW High Speed Pro",
+      keyword: "High Speed Open Width Machine, Industrial Single Jersey Slitting Machine",
+      classification: "Single Jersey Open Width High-Speed Series",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "Industrial Heavy-Duty Open-Width Single Jersey Circular Machine",
+      gauge: "18G - 36G High-Precision",
+      diameter: '30" - 38" Cylinder Diameter',
+      productionCapacity: "3F - 4F / Inch (Up to 300 - 500 kg / 24 Hours)",
+      application: "Continuous Open-Width Lycra Knits, Pique Polo Fabrics, Interlock-Look Jersey & High-Resilience Sportswear",
+      automationLevel: "Heavy-Duty Ergonomic 2-Step Base Platform, Top/Cylinder Lint Blowers & Spraying Oiler",
+      image: "images/single-jersey-open-width-speed.png",
+      gallery: [
+        "images/single-jersey-open-width-speed.png",
+        "images/single-jersey-open-width.png",
+        "images/single-jersey-main.jpg"
+      ],
+      description: "Built for industrial high-yield output in modern continuous textile mills. Equipped with 2-step heavy pedals (each bearing 300 KG) on the base for safe operator access, top and cylinder lint blowers for clean fabric production, and a high-efficiency spraying-type oiler to ensure high-speed operation even in warm tropical climates.",
+      functions: [
+        "2 Step Pedals: Equipped on the base of the machine, each pedal bearing weight 300 KG for easy operator surveillance.",
+        "Dual Lint Blower Fans: High-flow blowers on top creel and on cylinder eliminate lint accumulation and fabric holes.",
+        "Spraying Type Oiler: Micro-mist electronic lubrication ensures needles and cams run smoothly at high RPMs in all climates.",
+        "Crease-Free Slitting Roller: Electronically synchronized blade slits the tubular cloth into open-width rolls without tension marks."
+      ],
+      fabricsApplicationTitle: "Continuous Fabric Mill Application:",
+      fabricsApplication: "■ Mass Apparel: Round-the-clock mass production of T-shirt jersey, modal knits, and blended elastane fabrics.\n■ Pique Polo Goods: Single and double pique knits with crisp honeycomb textures for brand sportswear.\n■ Technical Stretch Fabrics: Crease-free elastane knits ready for automated stenter drying and digital sublimation printing."
+    },
+    "single-jersey-standard": {
+      title: "Mansha High-Speed Single Jersey Circular Knitting Machine",
+      model: "YFSG-4T Expert Series",
+      keyword: "Single Jersey Circular Knitting Machine, 4 Track Single Jersey",
+      classification: "Single Jersey Standard Series",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "High-Speed 4-Track Single Jersey Circular Knitting Machine",
+      gauge: "12G - 40G Versatile Gauge",
+      diameter: '12" - 44" Cylinder Diameter',
+      productionCapacity: "3F - 6F / Inch (Up to 300 - 520 kg / 24 Hours)",
+      application: "T-Shirt Jersey, Lycra Jersey, Pique, 2-Thread Fleece, Terry & Mesh Fabrics",
+      automationLevel: "Fully Computerized Inverter Drive, Ball Bearing System & Central Stitch Adjustment",
+      image: "images/single-jersey-standard.png",
+      gallery: [
+        "images/single-jersey-standard.png",
+        "images/single-jersey-main.jpg",
         "IMG_4771.JPG",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp",
         "our-promise.jpg"
       ],
-      description: "Built for heavy-duty two-face knit structures, the YFDG Double Jersey series offers superior dimensional stability and high stitch density for thermal apparel, rib collars, cuffs, and technical textiles.",
+      description: "Our expert Single Jersey Circular Knitting Machine features Central stitch adjustment, easy to operate and fast setting of the machine. The machine is engineered with precision ball bearings, so the machine is light and ensures smooth driving. Less noise and saves your energy expense.",
       functions: [
-        "Synchronized Dial & Cylinder Drives: Rigid heavy casting guarantees perfect synchronization between upper dial and lower cylinder.",
-        "Double Track Cam Box: Allows independent needle trajectory for knit, tuck, and welt on both dial and cylinder.",
-        "Positive Feeding System: Memminger-type storage feeders eliminate yarn tension fluctuations.",
-        "Automatic Oiler System: Micro-mist electronic lubrication ensures low friction at high RPMs."
-      ]
+        "Central Stitch Adjustment: Centralized calibrated dials allow effortless GSM tuning and loop density setting in seconds.",
+        "Ball Bearing System: The machine is light and ensures smooth driving, minimal friction, less noise, and saves energy expense.",
+        "4-Track Cylinder Camming: Easily arrange knit, tuck, and miss cams for plain jersey, pique, twill, and mesh patterns.",
+        "Positive Feeder Network: Uniform yarn delivery eliminates horizontal striping and fabric barre defects."
+      ],
+      fabricsApplicationTitle: "Versatile Single Jersey Application:",
+      fabricsApplication: "■ Everyday Knitted Apparel: Cotton single jersey T-shirts, underwear, nightwear, and casual leisurewear.\n■ Textured & Pique Knits: Golf shirts, pique collared shirts, honeycomb knit polo shirts, and honeycomb mesh.\n■ Blended & Elastic Knits: Cotton-poly blends, viscose rayon, Lycra stretch knits, and 2-thread lightweight fleece."
+    },
+    "double-jersey": {
+      title: "Mansha Sames SD-R2 & SD-I4 Interlock & Rib Circular Knitting Machine",
+      model: "SD-R2 / SD-I4 Korean Technology Series",
+      keyword: "Interlock & Rib Circular Machine, Double Jersey Knitting Machine, Sames Circular Machine",
+      classification: "Double Jersey Interlock & Rib Series",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "Dual-Track Dial & 4-Track Cylinder Double Jersey Circular Knitting Machine",
+      gauge: "14G - 40G (Fine & Heavy Interlock/Rib Gauges)",
+      diameter: '30" - 36" (Customizable 14" to 44")',
+      productionCapacity: "2F - 4F / Inch (Up to 260 - 420 kg / 24 Hours)",
+      application: "Thermal Wear, Heavy Interlock, 1x1 & 2x2 Rib Fabric, Roman Cloth, Sports Apparel, Mattress Ticking",
+      automationLevel: "Korean Precision 2-Cam Ring Height Adjustment, Upper/Lower Dual Ball Race, Zirconia Guides & 10\" Touch Panel",
+      image: "images/double-jersey-interlock.png",
+      gallery: [
+        "images/double-jersey-interlock.png",
+        "images/double-jersey-wp.jpg",
+        "IMG_4771.JPG",
+        "our-promise.jpg"
+      ],
+      description: "Engineered in technical partnership with South Korean machinery standards, the Mansha Sames SD-R2 & SD-I4 series provides exceptional concentricity and stitch precision. Features a structural design with two cam rings that allow height adjustment of the cylinder cam box, upper and lower dual ball race bearings to eliminate cylinder clearance, and three counter gears in the transmission to eliminate backlash clearance between cylinder and dial.",
+      functions: [
+        "Dual Cam Rings Height Adjustment: Structural design with two cam rings allows height adjustment of the cylinder cam box for knitting diverse fabric materials.",
+        "Dual Ball Race Bearings: Upper and lower ball race bearings eliminate cylinder clearance for flawless concentricity and longevity.",
+        "Keyless Top Gear & Main Shaft: Keyless structural integration preserves concentricity and planarity under heavy production loads.",
+        "Three Counter Gears Transmission: Eliminates clearance between cylinder and dial, ensuring perfect timing without needle collisions.",
+        "Zirconia Ceramic Yarn Guides: Ultra-low friction guides prevent filament snagging even with fine micro-denier yarns.",
+        "10-Inch Touch Panel Monitor: Industrial digital touchscreen console with real-time output monitoring and diagnostic telemetry."
+      ],
+      fabricsApplicationTitle: "Double-Knit & Interlock Application:",
+      fabricsApplication: "■ Heavy Interlock Knits: Thermal base layers, underwear, Roman cloth, double-face cotton jersey, and tracksuit fabrics.\n■ Ribbed Goods: 1x1, 2x2 rib collars, jacket cuffs, elastic waistbands, and drop-stitch rib outerwear.\n■ Technical & Home Textiles: Anti-pilling mattress ticking, compression sportswear, and double-knit fleece."
+    },
+    "double-jersey-sames-interlock": {
+      title: "Mansha Sames SD-R2 & SD-I4 Interlock & Rib Circular Knitting Machine",
+      model: "SD-R2 / SD-I4 Korean Technology Series",
+      keyword: "Interlock & Rib Circular Machine, Double Jersey Knitting Machine, Sames Circular Machine",
+      classification: "Double Jersey Interlock & Rib Series",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "Dual-Track Dial & 4-Track Cylinder Double Jersey Circular Knitting Machine",
+      gauge: "14G - 40G (Fine & Heavy Interlock/Rib Gauges)",
+      diameter: '30" - 36" (Customizable 14" to 44")',
+      productionCapacity: "2F - 4F / Inch (Up to 260 - 420 kg / 24 Hours)",
+      application: "Thermal Wear, Heavy Interlock, 1x1 & 2x2 Rib Fabric, Roman Cloth, Sports Apparel, Mattress Ticking",
+      automationLevel: "Korean Precision 2-Cam Ring Height Adjustment, Upper/Lower Dual Ball Race, Zirconia Guides & 10\" Touch Panel",
+      image: "images/sd-r2-01.jpg",
+      gallery: [
+        "images/sd-r2-01.jpg",
+        "images/sd-r2-04.jpg",
+        "images/sd-r2-03.jpg",
+        "images/sd-r2-08.jpg",
+        "images/sd-r2-07.jpg",
+        "images/sd-r2-06.jpg",
+        "images/sd-r2-05.jpg",
+        "images/sd-r2-02.jpg"
+      ],
+      description: "Engineered in technical partnership with South Korean machinery standards, the Mansha Sames SD-R2 & SD-I4 series provides exceptional concentricity and stitch precision. Features a structural design with two cam rings that allow height adjustment of the cylinder cam box, upper and lower dual ball race bearings to eliminate cylinder clearance, and three counter gears in the transmission to eliminate backlash clearance between cylinder and dial.",
+      functions: [
+        "Dual Cam Rings Height Adjustment: Structural design with two cam rings allows height adjustment of the cylinder cam box for knitting diverse fabric materials.",
+        "Dual Ball Race Bearings: Upper and lower ball race bearings eliminate cylinder clearance for flawless concentricity and longevity.",
+        "Keyless Top Gear & Main Shaft: Keyless structural integration preserves concentricity and planarity under heavy production loads.",
+        "Three Counter Gears Transmission: Eliminates clearance between cylinder and dial, ensuring perfect timing without needle collisions.",
+        "Zirconia Ceramic Yarn Guides: Ultra-low friction guides prevent filament snagging even with fine micro-denier yarns.",
+        "10-Inch Touch Panel Monitor: Industrial digital touchscreen console with real-time output monitoring and diagnostic telemetry."
+      ],
+      fabricsApplicationTitle: "Double-Knit & Interlock Application:",
+      fabricsApplication: "■ Heavy Interlock Knits: Thermal base layers, underwear, Roman cloth, double-face cotton jersey, and tracksuit fabrics.\n■ Ribbed Goods: 1x1, 2x2 rib collars, jacket cuffs, elastic waistbands, and drop-stitch rib outerwear.\n■ Technical & Home Textiles: Anti-pilling mattress ticking, compression sportswear, and double-knit fleece."
+    },
+    "double-jersey-open-width": {
+      title: "Mansha Sames SD-I4 OT Open-Width Double Jersey Machine",
+      model: "SD-I4 OT Open Width Series",
+      keyword: "SD-I4 OT Open Width Machine, Double Jersey Crease-Free Circular Machine",
+      classification: "Double Jersey Open Width Series",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "Open-Width Take-Up Double Jersey Circular Knitting Machine with Motorized Slitter",
+      gauge: "18G - 42G High-Precision Gauge",
+      diameter: '30" - 36" Cylinder Diameter',
+      productionCapacity: "72F - 126F Multi-Feeder (Up to 320 - 520 kg / 24 Hours)",
+      application: "Neoprene Knits, Air Cushion Spacer, Crease-Free Lycra Double Jersey, Scuba Fabric & Sportswear",
+      automationLevel: "Motor-Driven Fabric Cutting System, 2 Cam Rings Height Adjustment & 10-Inch Touch Panel",
+      image: "images/double-jersey-open-width.png",
+      gallery: [
+        "images/double-jersey-open-width.png",
+        "images/sames-cambox-hd.png",
+        "IMG_4771.JPG"
+      ],
+      description: "Equipped with an advanced motor-driven fabric slitter and open-width take-up frame, the SD-I4 OT completely eliminates center creases. Designed specifically for technical textiles, neoprene, air cushion spacer knits, and high-elasticity Spandex double-jersey fabrics.",
+      functions: [
+        "Motor-Driven Slitter: Cuts tubular knit continuously and rolls it completely flat without center creasing lines.",
+        "Two Cam Rings Height Adjustment: Allows precise height adjustment of the cylinder cam box for knitting versatile fabric materials.",
+        "Dual Ball Race Bearings: Upper and lower ball race arrangement blocks cylinder clearance for maximum concentricity.",
+        "Three Counter Gears Transmission: Prevents transmission clearance between cylinder and dial.",
+        "10-Inch Touch Panel Console: High-resolution digital touchscreen with computerized speed and lubrication telemetry."
+      ],
+      fabricsApplicationTitle: "Crease-Free Technical Knits Application:",
+      fabricsApplication: "■ Technical & Neoprene Fabrics: Air cushion spacer fabrics, scuba sportswear, and diving suit liners.\n■ Stretch Double Knits: Crease-free Spandex/Lycra leggings, compression garments, and yoga activewear.\n■ Automotive & Upholstery: Anti-crease double jersey for car seat covers and acoustic panelling."
+    },
+    "double-jersey-sames-open-width-ot": {
+      title: "Mansha Sames SD-I4 OT Open-Width Double Jersey Machine",
+      model: "SD-I4 OT Open Width Series",
+      keyword: "SD-I4 OT Open Width Machine, Double Jersey Crease-Free Circular Machine",
+      classification: "Double Jersey Open Width Series",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "Open-Width Take-Up Double Jersey Circular Knitting Machine with Motorized Slitter",
+      gauge: "18G - 42G High-Precision Gauge",
+      diameter: '30" - 36" Cylinder Diameter',
+      productionCapacity: "72F - 126F Multi-Feeder (Up to 320 - 520 kg / 24 Hours)",
+      application: "Neoprene Knits, Air Cushion Spacer, Crease-Free Lycra Double Jersey, Scuba Fabric & Sportswear",
+      automationLevel: "Motor-Driven Fabric Cutting System, 2 Cam Rings Height Adjustment & 10-Inch Touch Panel",
+      image: "images/double-jersey-open-width.png",
+      gallery: [
+        "images/double-jersey-open-width.png",
+        "images/sames-cambox-hd.png",
+        "IMG_4771.JPG"
+      ],
+      description: "Equipped with an advanced motor-driven fabric slitter and open-width take-up frame, the SD-I4 OT completely eliminates center creases. Designed specifically for technical textiles, neoprene, air cushion spacer knits, and high-elasticity Spandex double-jersey fabrics.",
+      functions: [
+        "Motor-Driven Slitter: Cuts tubular knit continuously and rolls it completely flat without center creasing lines.",
+        "Two Cam Rings Height Adjustment: Allows precise height adjustment of the cylinder cam box for knitting versatile fabric materials.",
+        "Dual Ball Race Bearings: Upper and lower ball race arrangement blocks cylinder clearance for maximum concentricity.",
+        "Three Counter Gears Transmission: Prevents transmission clearance between cylinder and dial.",
+        "10-Inch Touch Panel Console: High-resolution digital touchscreen with computerized speed and lubrication telemetry."
+      ],
+      fabricsApplicationTitle: "Crease-Free Technical Knits Application:",
+      fabricsApplication: "■ Technical & Neoprene Fabrics: Air cushion spacer fabrics, scuba sportswear, and diving suit liners.\n■ Stretch Double Knits: Crease-free Spandex/Lycra leggings, compression garments, and yoga activewear.\n■ Automotive & Upholstery: Anti-crease double jersey for car seat covers and acoustic panelling."
+    },
+    "double-jersey-sames-double-faced-df": {
+      title: "Mansha Sames SD-DF Double Faced Interlock Machine",
+      model: "SD-DF Double Faced Series",
+      keyword: "SD-DF Double Faced Machine, Double Faced Interlock Circular Machine",
+      classification: "Double Faced Interlock Series",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "High-Speed Double-Faced Interlock Circular Knitting Machine",
+      gauge: "14G - 32G Dual Bed Gauges",
+      diameter: '30" - 36" Cylinder Diameter',
+      productionCapacity: "Dial 3-Track & Cylinder 7-Track High-Yield Architecture",
+      application: "Double Faced Outerwear, Heavy Interlock, Fleece Replacement & Bonding Fabric Alternative",
+      automationLevel: "Dial 3-Track / Cylinder 7-Track Needles, 2 Cam Rings System & Zirconia Yarn Guides",
+      image: "images/double-jersey-reversible.png",
+      gallery: [
+        "images/double-jersey-reversible.png",
+        "images/sames-cambox-hd.png",
+        "IMG_4771.JPG"
+      ],
+      description: "The SD-DF Double Faced Interlock Machine utilizes dial 3-track and cylinder 7-track needles to knit heavy double-faced fabrics. It is widely recognized for improving the factory working environment and operational efficiency by directly replacing traditional fleece or bonding fabric production with a single seamless knitting process.",
+      functions: [
+        "Fleece & Bonding Replacement: Knits double-faced composite fabric directly, eliminating environmental bonding and brushing steps.",
+        "Dial 3-Track & Cylinder 7-Track: High-density multi-track needle distribution creates rich structural dimension and weight.",
+        "Two Cam Rings Adjustment: Unique patented height adjustment of cylinder cam box for diverse yarn blends.",
+        "Zirconia Ceramic Yarn Guides: Eliminates static friction and protects expensive dyed and synthetic yarn filament.",
+        "Dual Ball Race Bearings: Blocks cylinder clearance and guarantees smooth rotational torque."
+      ],
+      fabricsApplicationTitle: "Double-Faced & Heavy Composite Knits Application:",
+      fabricsApplication: "■ Heavyweight Winter Knits: Dual-face thermal jackets, composite casual coats, and double-knit outerwear.\n■ Bonding Fabric Replacement: Seamless laminated-feel apparel with zero chemical glue bonding required.\n■ Reversible Outerwear: Dual-color reversible sports hoodies, luxury blankets, and high-insulation activewear."
+    },
+    "double-jersey-reversible": {
+      title: "Mansha Reversible & 8-Lock Double Jersey Circular Machine",
+      model: "YFDG-8L Reversible Series",
+      keyword: "8 Lock Circular Knitting Machine, Reversible Double Jersey Machine",
+      classification: "Reversible & 8-Lock Series",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "Multi-Track Reversible 8-Lock Double Jersey Circular Knitting Machine",
+      gauge: "16G - 32G Dual Bed Gauges",
+      diameter: '30" - 36" Cylinder Diameter',
+      productionCapacity: "2.8F - 3.6F / Inch (Up to 280 - 450 kg / 24 Hours)",
+      application: "Reversible Double-Face Fabric, Punto-di-Roma, Milan Rib, Interlock Pique, Waffle Knits",
+      automationLevel: "Multi-Track Dial & Cylinder Cam Arrangement with Central Stitch Synchronizer",
+      image: "images/double-jersey-reversible.png",
+      gallery: [
+        "images/double-jersey-reversible.png",
+        "images/double-jersey-wp.jpg",
+        "IMG_4771.JPG"
+      ],
+      description: "Designed for premium structured fabrics including Punto Roma, Milano ribs, waffle knits, and reversible double-face textiles. Interchangeable cam blocks provide flexible conversion between interlock and rib structures.",
+      functions: [
+        "8-Lock Versatility: High-flexibility cam architecture knits wide arrays of structured double knits.",
+        "Double-Faced Surface: Flawless finish on both face and reverse fabric sides without flaws.",
+        "Central Calibrated Stitch Dials: Quick adjustment of loop tension for fast lot turnaround.",
+        "Advanced Yarn Feeding: Even yarn release across all cone packages."
+      ],
+      fabricsApplicationTitle: "Structured Fashion Knits Application:",
+      fabricsApplication: "■ Punto di Roma & Milano: Heavy structured blazer fabrics, tailored knit pants, and shift dresses.\n■ Reversible Two-Color Fabrics: Dual-color jackets, scarves, and contrast-face garments.\n■ Textured Waffle & Pique: Thermal waffle knits, pique polo double knits, and ottoman textures."
+    },
+    "jacquard-link": {
+      title: "Link Jacquard Computer Electronic Jacquard Circular Knitting Machine",
+      model: "YF-LJ Chuangda Series",
+      keyword: "Link Jacquard Circular Machine, Electronic Jacquard Circular Machine, Chuangda Jacquard System",
+      classification: "Jacquard Circular Machinery",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "Computer Electronic Jacquard Circular Knitting Machine (3-Way Selection)",
+      gauge: "14G - 32G Jacquard Gauges",
+      diameter: '30" - 38" Cylinder Diameter',
+      productionCapacity: "1.8F - 2.8F / Inch (Up to 220 - 360 kg / 24 Hours)",
+      application: "Relief Jacquard Fabrics, Fashion Knitwear, Mattress Ticking & Engineered Shoe Uppers",
+      automationLevel: "3-Way Chuangda Electronic Jacquard Computer System with 3-Yarn Synchronized Feeders",
+      image: "images/jacquard-link.png",
+      gallery: [
+        "images/jacquard-link.png",
+        "images/jacquard-main.jpg",
+        "images/jacquard-single.png",
+        "images/jacquard-double.png"
+      ],
+      description: "LINK JACQUARD Computer Electronic Jacquard Circular knitting machines equipped with 3-way Chuangda Electronic jacquard computer system and special yarn guide supporting 3 yarn feeding at the same time.",
+      functions: [
+        "Machine 3-Way Chuangda Electronic Jacquard Computer System: Microsecond actuator response for high-definition pattern fidelity.",
+        "Special Yarn Guide: Possible for 3 yarn feeding at the same time, enabling rich multi-color jacquards.",
+        "Piezoelectric Ceramic Actuators: 3-way needle selection (knit, tuck, miss) with exceptional reliability and low power draw.",
+        "Intuitive Touchscreen Controller: Real-time graphical diagnostic display with USB pattern input and auto-stop sensors."
+      ],
+      fabricsApplicationTitle: "Jacquard Knits Application:",
+      fabricsApplication: "■ Fashion Knitwear: Relief jacquard garments, luxury textured apparel, and geometric patterned sportswear.\n■ Home Textiles: Decorative mattress ticking, upholstery, jacquard drapery, and cushion fabrics.\n■ Technical Knits: Breathable shoe-upper jacquards and athletic compression wear."
+    },
+    "jacquard-single": {
+      title: "Single Jersey Computer Electronic Jacquard Knitting Machine",
+      model: "YF-SJ Single Jacquard Series",
+      keyword: "Single Jacquard Circular Knitting Machine, Electronic Jacquard Machine",
+      classification: "Jacquard Circular Machinery",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "High-Speed Single Jersey Electronic Jacquard Machine",
+      gauge: "16G - 36G High-Resolution Gauges",
+      diameter: '30" - 38" Cylinder Diameter',
+      productionCapacity: "2.0F - 3.0F / Inch (Up to 240 - 380 kg / 24 Hours)",
+      application: "Patterned T-Shirt Jersey, Lycra Fashion Jacquard, Sports Mesh & Mattress Fabrics",
+      automationLevel: "Piezoelectric Ceramic 3-Way Cylinder Actuators with Color Touch Control",
+      image: "images/jacquard-single.png",
+      gallery: [
+        "images/jacquard-single.png",
+        "images/jacquard-link.png",
+        "images/jacquard-double.png"
+      ],
+      description: "Full computerized Single Jersey Electronic Jacquard circular machine with 3-way cylinder needle selection for intricate jacquard t-shirt fabrics, athletic wear, and mattress ticking.",
+      functions: [
+        "3-Way Needle Selection: Knit, tuck, and miss needle control on cylinder for boundless pattern combinations.",
+        "High-Speed Precision Actuators: Ultra-fast response ceramic selection units ensure clean stitch definition.",
+        "Central Stitch Adjustment: Calibrated micro-meter stitch tuning for rapid GSM optimization.",
+        "Dual Lint Blower: Integrated fans prevent fluff build-up around electronic selector boxes."
+      ],
+      fabricsApplicationTitle: "Single Jacquard Knits Application:",
+      fabricsApplication: "■ Fashion Tops: Engineered jacquard t-shirts, polo shirts, and seamless pattern garments.\n■ Activewear: Zoned breathable mesh jacquards, running shirts, and cycling jerseys.\n■ Bedding: High-thread-count jacquard mattress fabrics and pillow covers."
+    },
+    "jacquard-double": {
+      title: "Double Jersey Computer Electronic Jacquard Knitting Machine",
+      model: "YF-DJ Double Jacquard Series",
+      keyword: "Double Jacquard Circular Knitting Machine, Electronic Double Jersey Jacquard",
+      classification: "Jacquard Circular Machinery",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "Dial & Cylinder Computerized Double Jersey Jacquard Machine",
+      gauge: "14G - 32G Double Bed Gauges",
+      diameter: '30" - 38" Cylinder Diameter',
+      productionCapacity: "1.6F - 2.4F / Inch (Up to 200 - 320 kg / 24 Hours)",
+      application: "Double Face Jacquard, Heavy Winter Jacquard Knits, Quilted Fabrics & Luxury Upholstery",
+      automationLevel: "Dual-Bed Electronic Jacquard Needle Selection with Network Telemetry",
+      image: "images/jacquard-double.png",
+      gallery: [
+        "images/jacquard-double.png",
+        "images/jacquard-link.png",
+        "images/jacquard-rib-transfer.png"
+      ],
+      description: "Advanced Double Jersey Computer Electronic Jacquard Circular Knitting Machine with dial and cylinder pattern selection for high-end double face jacquards, multi-color relief patterns, and jacquard quilts.",
+      functions: [
+        "Dual-Bed Computerized Selection: Independent pattern actuators on both cylinder and dial for heavy structured jacquards.",
+        "Reversible Double Face Capability: Creates multi-color reversible designs with perfect stitch clarity on both sides.",
+        "Heavy Frame Vibration Dampening: Rigid industrial cast base absorbs torsional stress during high RPM jacquard production.",
+        "Digital Yarn Feeding Synchronizer: Uniform tension delivery avoids pattern distortion and horizontal bar marks."
+      ],
+      fabricsApplicationTitle: "Double Jacquard Knits Application:",
+      fabricsApplication: "■ Outerwear Knits: Heavy jacquard sweaters, blazers, winter coats, and reversible cardigans.\n■ Home Textiles: Premium upholstery, jacquard mattress covers, and decorative throws.\n■ Automotive Fabrics: High-durability vehicle seat covers and interior panel trim."
+    },
+    "jacquard-terry": {
+      title: "Single Terry Computer Electronic Jacquard Knitting Machine",
+      model: "YF-TJ Terry Jacquard Series",
+      keyword: "Terry Jacquard Circular Machine, Velvet Jacquard Machine, Towel Jacquard Machine",
+      classification: "Jacquard Circular Machinery",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "Plush, Towel & Velvet Electronic Jacquard Circular Knitting Machine",
+      gauge: "16G - 28G Plush Gauges",
+      diameter: '26" - 38" Cylinder Diameter',
+      productionCapacity: "1.8F - 2.6F / Inch (Up to 200 - 340 kg / 24 Hours)",
+      application: "Sculpted Velvet, Jacquard Bath Towels, Patterned Polar Fleece, Baby Blankets & Bathrobes",
+      automationLevel: "Electronic Jacquard Sinker & Needle Control with Dynamic Loop Calibrator",
+      image: "images/jacquard-terry.png",
+      gallery: [
+        "images/jacquard-terry.png",
+        "images/single-jersey-terry.png",
+        "images/jacquard-link.png"
+      ],
+      description: "Plush, Towel & Velvet Electronic Jacquard Circular Knitting Machine engineered for sculpted velvet, jacquard bath towels, and patterned polar fleece with loop-height control.",
+      functions: [
+        "Sculpted Plush Jacquards: Knits multi-height relief terry loops and flat jacquard zones in the same fabric piece.",
+        "Zero Yarn Shear: Hardened high-wear sinker cams protect delicate cotton, bamboo, and micro-denier yarns.",
+        "Quick Terry Conversion: Rapid switch between face-terry fleece and reverse-terry plush velvet settings.",
+        "Ball Bearing Drive: Ensures light, smooth rotation and reduced electric power expenditure."
+      ],
+      fabricsApplicationTitle: "Plush & Terry Jacquard Knits Application:",
+      fabricsApplication: "■ Sculpted Towels: Luxury hotel bath towels with raised geometric logos, borders, and reliefs.\n■ Fashion Velour: Embossed velvet jackets, leisure tracksuits, and baby clothing.\n■ Outdoor Knits: Patterned polar fleece pullovers, blankets, and thermal winter vests."
+    },
+    "jacquard-rib-transfer": {
+      title: "Double Jacquard Rib Transfer Circular Knitting Machine",
+      model: "YF-RT Rib Transfer Series",
+      keyword: "Rib Transfer Circular Machine, Eyelet Jacquard Machine, Transfer Jacquard Machine",
+      classification: "Jacquard Circular Machinery",
+      video: "",
+      section: "Circular Knitting Machinery",
+      machineType: "Advanced Rib & Interlock Stitch Transfer Jacquard Machine",
+      gauge: "12G - 20G Transfer Gauges",
+      diameter: '30" - 36" Cylinder Diameter',
+      productionCapacity: "1.4F - 2.0F / Inch (Up to 160 - 260 kg / 24 Hours)",
+      application: "Open-Work Eyelet Knits, Pointelle Apparel, Drop-Stitch Fashion Ribs & Women's Knitwear",
+      automationLevel: "Computerized Cylinder-to-Dial Stitch Transfer Cams with Micro-Positioning",
+      image: "images/jacquard-rib-transfer.png",
+      gallery: [
+        "images/jacquard-rib-transfer.png",
+        "images/jacquard-double.png",
+        "images/jacquard-link.png"
+      ],
+      description: "High-precision circular knitting machine with needle transfer capabilities between cylinder and dial for eyelet jacquard, drop-stitch patterns, and open-work knitwear.",
+      functions: [
+        "Stitch Transfer Mechanics: High-precision transfer cams shift loops between cylinder and dial needles without dropped stitches.",
+        "Pointelle & Open-Mesh: Produces delicate lace-look eyelets and open-work breathable knit designs.",
+        "Oil-Bathed Structure: Submerged gears minimize friction, noise, and mechanical backlash for decade-long precision.",
+        "Full Electronic Diagnostics: Touchscreen system displays transfer timing, sensor status, and production yields."
+      ],
+      fabricsApplicationTitle: "Rib Transfer Jacquard Knits Application:",
+      fabricsApplication: "■ Pointelle Knitwear: Delicate lace-effect summer tops, cardigans, and women's fashion sweaters.\n■ Eyelet Underwear: Thermal base layers and breathable underwear with decorative eyelet mesh.\n■ Technical Open-Work: Ventilation-mapped athletic wear and breathable compression garments."
     },
     "open-width": {
       title: "Open-Width Circular Knitting Machine",
@@ -695,101 +1175,202 @@ function initMansha() {
         "Safety Interlock Guard: Automatic power cut-off if safety door or slitter shield is opened."
       ]
     },
-    "glove-machine": {
-      title: "Computerized Glove Knitting Machine",
-      model: "MSG-7G / 10G / 13G / 15G Fully Computerized Series",
-      keyword: "Computerized Glove Knitting Machine, Seamless 5-Finger Glove Machine, Industrial Safety Glove Knitting Machine",
-      classification: "Computerized Seamless Glove Machinery Series",
+    "flat-sweater-machine": {
+      title: "Computerized Sweater & Cardigan Flat Knitting Machine",
+      model: "MF-52C / MF-72C Dual System High-Speed Series",
+      keyword: "Computerized Flat Knitting Machine, Sweater Knitting Machine, Jacquard Flat Knitting Machine",
+      classification: "Computerized Flat Knitting Machinery Series",
       video: "",
-      section: "Cap & Gloves Machinery",
-      machineType: "Fully Computerized Seamless 5-Finger Glove Knitting Machine (Precision Sinker System)",
-      gauge: "7G (Heavy Work Gloves), 10G (Standard Industrial Gloves), 13G (Precision Touch Gloves), 15G (Ultra-Fine Dexterity Gloves)",
-      diameter: "Seamless Tubular 5-Finger Ergonomic Knitting Bed",
-      productionCapacity: "180 - 240 Pairs / 24 Hours (Continuous 24/7 Automated Unattended Production)",
-      application: "Industrial Safety Work Gloves, PU / Nitrile / Latex Dipping Base Liners, Cut-Resistant Kevlar & HPPE Gloves, Cotton Grip Gloves, Thermal Winter Gloves, Touchscreen Conductive Smart Gloves",
-      automationLevel: "100% Fully Automatic Microprocessor Control with Electronic Stepper Density, Auto-Crotch Stitching & Automatic Drop Mechanism",
-      image: "images/glove-machine-main.jpg",
+      section: "Flat Knitting Machinery",
+      machineType: "Fully Computerized Dual System Flat Knitting Machine with Dynamic Stitch & Motorized Racking",
+      gauge: "3G, 5G, 7G, 12G, 14G, 16G & Multi-Gauge Options (Customizable for Fine & Chunky Knits)",
+      diameter: '52" (132 cm) / 72" (183 cm) Precision Hardened Needle Bed',
+      productionCapacity: "Continuous High-Yield Operation (Max Speed 1.6 m/sec with Rapid Carriage Return)",
+      application: "Sweaters, Pullovers, Cardigans, Fully Fashioned Garments, Intarsia Knits, Cable Patterns, Shaped Panels",
+      automationLevel: "100% Fully Computerized CNC Control with Electronic Needle Selection, USB CAD Pattern Input & Digital Stitch Stepper",
+      image: "images/flat-knitting-main.jpg",
       gallery: [
-        "images/glove-machine-main.jpg",
-        "images/glove-machine-needles.jpg",
-        "images/glove-machine-carriage.jpg",
-        "images/glove-machine-control.jpg",
-        "images/glove-machine-sample.jpg"
+        "images/flat-knitting-main.jpg",
+        "images/flat-knitting-carriage.jpg",
+        "images/flat-knitting-collar.jpg",
+        "images/flat-knitting-control.jpg",
+        "images/flat-knitting-samples.jpg"
       ],
-      description: "Mansha International's Fully Computerized Glove Knitting Machine is an advanced, high-efficiency textile manufacturing solution engineered for continuous 24-hour seamless five-finger glove production. Built on proven industrial sinker knitting technology, this machine completely eliminates manual post-stitching by knitting entire seamless gloves—from fingertips and crotches to palm and elasticized wrist cuff—in one fully automated sequence.\n\nEquipped with precision stepper motors, digital LCD interface, and multi-yarn feeder attachments, the machine accommodates high-strength synthetic yarns (HPPE, Kevlar, glass fiber), conductive touchscreen threads, cotton-polyester blends, and elastic spandex. Whether producing heavy-duty cut-resistant work gloves for metal stamping, oil and gas, and construction, or lightweight breathable liners for polyurethane (PU), nitrile, and latex dipping lines, the MSG series ensures optimal loop density, consistent glove dimensions, and minimal fabric defect rates.",
+      description: "Mansha International's Fully Computerized Sweater & Cardigan Flat Knitting Machine is an industrial-grade, high-productivity solution engineered for the manufacturing of premium sweaters, pullovers, cardigans, and fully fashioned knit garments. Built with precision dual-carriage systems, hardened alloy needle beds, and high-response electronic needle actuators, the MF-52C / MF-72C series delivers flawless stitch quality across intricate cable designs, pointelle, tuck loops, transfer stitches, and multi-color Jacquard graphics.\n\nEquipped with a computerized color touchscreen CNC interface, programmable stitch stepping motors, dynamic electronic sinker control, and 16-color motorized yarn carrier bars, operators can rapidly switch pattern programs via standard USB CAD files. Its heavy vibration-dampened frame ensures quiet high-speed traversing up to 1.6 m/s, offering exceptional dimensional consistency across wool, cashmere, cotton, acrylic, viscose, and blended yarns.",
       functions: [
-        "Precision Sinker Knitting System: Advanced sinker mechanism controls loop formation independently at each needle stroke, guaranteeing elastic, comfortable finger crotches without yarn pilling, hole formation, or loose stitches.",
-        "Independent Stepper Motor Stitch Adjustment: High-precision stepper motor accurately varies stitch length and density across different sections of the glove (fingers, thumb crotch, palm, and cuff) for an anatomical, ergonomic hand fit.",
-        "Automatic Elastic Infeed & Self-Locking Cuff: Precision rubber and Lycra elastic yarn feed device knits reinforced rib wrists with automatic lock-stitch hemming that prevents unraveling during heavy industrial usage.",
-        "Precision Sinker Carriage & Cam Box: CNC-milled hardened alloy cam tracks ensure smooth carriage reciprocation, low operating vibration, and minimal wear under high-speed continuous production.",
-        "Comprehensive Auto-Stop Safety Motion: High-sensitivity electronic sensors immediately halt machine operation within milliseconds upon detecting yarn breakage, yarn runout, needle breakage, latch malfunction, or drop obstruction, protecting needle beds from damage.",
-        "Centralized Micro-Dose Lubrication: Automatic programmable oil pump delivers continuous, regulated oil lubrication to needle tricks and sinker tracks, dramatically reducing mechanical friction and heat buildup.",
-        "Digital Intelligent LCD Control System: User-friendly digital console stores customizable size programs (S, M, L, XL, XXL), displays real-time RPM speed and production count, and allows instant on-screen parameter adjustments."
+        "Dual System High-Speed Carriage: Precision dual cam carriage allows simultaneous knitting, transferring, tucking, and missing in a single traversing pass, boosting output by up to 35%.",
+        "Precision Electronic Needle Selection: High-speed ceramic piezo actuators select every individual latch needle with zero missed stitches, supporting complex multi-gauge Jacquard patterns.",
+        "Dynamic Stitch Motor Control: High-torque digital stepper motors adjust loop length on each needle line independently for anatomical 3D shaping and refined knit structure.",
+        "Electronic Sinker & Take-Down Roller: Programmable torque-regulated roller and dynamic movable sinkers guarantee clean stitch release and uniform tension without drop stitches.",
+        "16-Color Motorized Yarn Carrier System: 4 double-sided guide rails support 16 yarn feeders for intricate multicolor Intarsia, plating, and striping with automatic electronic tension compensators.",
+        "Intelligent Multi-Sensor Safety Motion: Millisecond-response sensors immediately detect yarn breakages, yarn runout, needle damage, fabric winding, and carriage overload.",
+        "Industrial CNC Touchscreen Console: High-resolution graphical touchscreen displays real-time carriage RPM, active stitch diagram, piece output counter, and diagnostic telemetry."
       ],
-      fabricsApplicationTitle: "Fabrics & Products Application:",
-      fabricsApplication: "The needles and sinker mechanisms can be programmed to produce a wide spectrum of safety, industrial, and consumer knitwear products:\n■ Industrial Protective Handwear: Cut-resistant Kevlar and HPPE safety gloves, heat-resistant aramid gloves, heavy-duty cotton canvas work gloves, glass-handling gloves, and oil-resistant grip gloves.\n■ Dipping & Coating Liners: High-gauge seamless nylon and polyester liners engineered specifically for automated Nitrile, Polyurethane (PU), PVC dotting, and Latex dipping production lines.\n■ Consumer & Thermal Knitwear: High-elasticity magic stretch gloves, winter wool warm mittens, sports outdoor cycling gloves, and capacitive touchscreen-compatible gloves for smartphones and industrial tablets."
+      fabricsApplicationTitle: "Knitwear & Fashion Applications:",
+      fabricsApplication: "The computerized needle beds and programmable cam systems are engineered to produce a vast range of high-end fashion and technical knitwear:\n■ Winter Knitwear & Sweaters: Full-fashion crewneck sweaters, V-neck pullovers, buttoned cardigans, turtleneck knitwear, cable-knit outerwear, and chunky knit winter wear.\n■ Structural & Shaped Components: Shaped garment panels, front plackets, seamless armholes, raglan sleeves, pockets, and ribbed hem trims with zero cutting waste.\n■ Fine & Complex Patterns: Intarsia blocks, multi-color Jacquard graphics, Pointelle openwork lace, Aran cables, Milano ribs, half-cardigan ribs, and 3D textured knitwear."
+    },
+    "flat-collar-machine": {
+      title: "Automatic Collar & Cuff Flat Knitting Machine",
+      model: "MFC-40 Single System High-Speed Collar Series",
+      keyword: "Collar Knitting Machine, Cuff Flat Knitting Machine, Polo Rib Flat Machine",
+      classification: "Rib & Trim Flat Knitting Series",
+      video: "",
+      section: "Flat Knitting Machinery",
+      machineType: "High-Speed Computerized Single System Flat Knitting Machine for Polo Collars & Rib Trims",
+      gauge: "12G, 14G, 16G, 18G Fine Gauge",
+      diameter: '36" / 40" / 52" Compact Needle Bed',
+      productionCapacity: "80 - 120 Finished Collars / Hour (High-Speed Continuous Production)",
+      application: "T-Shirt Polo Collars, Sleeve Cuffs, Waistbands, Jacket Trims, V-Neck Rib Bands, Striped Edgings",
+      automationLevel: "Fully Automatic Electronic Color Change, Auto-Striper, Digital Tension & Self-Locking Hemming",
+      image: "images/flat-knitting-collar.jpg",
+      gallery: [
+        "images/flat-knitting-collar.jpg",
+        "images/flat-knitting-main.jpg",
+        "images/flat-knitting-carriage.jpg",
+        "images/flat-knitting-control.jpg",
+        "images/flat-knitting-samples.jpg"
+      ],
+      description: "Engineered specifically for high-efficiency mass production of polo collars, sleeve cuffs, pocket edges, and ribbed waistbands. The MFC-40 combines compact dimensions with high carriage traverse speeds, electronic color striping, and automatic turn-up lock-stitch hemming. Its rapid pattern turnover and intuitive operator interface maximize daily throughput for commercial garment factories.",
+      functions: [
+        "Ultra-Fast Compact Carriage: Lightweight carriage frame achieves rapid acceleration and turning with speeds up to 1.4 m/s.",
+        "Multi-Color Striping Feeders: 6 to 8 color automated yarn carriers deliver crisp collar tipping stripes and contrast edge borders.",
+        "Integrated Anti-Roll Elastic Inlay: Specialized yarn feeder feeds Lycra/Spandex elastic yarn into collar edges to prevent curling and maintain crisp shape.",
+        "Precision Cam Stitch Density: Digital stepping motor controls collar edge sharpness and elasticity with micrometer accuracy.",
+        "Automatic Thread Trimmer & Clamping: Clean pneumatic yarn cutters eliminate post-production manual trimming."
+      ],
+      fabricsApplicationTitle: "Garment Trims Application:",
+      fabricsApplication: "■ Polo Shirt Collars: Solid-color ribbed collars, contrast tipping stripe collars, Jacquard knitted brand logos on collar wings, and textured herringbone collar structures.\n■ Sleeve Cuffs & Waistband Ribs: High-elasticity 1x1 and 2x2 ribbed cuffs for bomber jackets, hoodies, tracksuits, polo shirts, and winter jackets.\n■ Fashion Knit Accessories: Ribbed scarves, headband ear-warmers, knitted pocket welts, and placket strips."
+    },
+    "flat-intarsia-machine": {
+      title: "3D Shaping & Intarsia Flat Knitting Machine",
+      model: "MF-PRO 3D Shaping & Multi-Gauge Series",
+      keyword: "3D Shaping Flat Knitting Machine, Intarsia Knitting Machine, Flyknit Shoe Upper Machine",
+      classification: "Advanced 3D & Intarsia Series",
+      video: "",
+      section: "Flat Knitting Machinery",
+      machineType: "Fully Computerized Multi-Gauge 3D Shaping & Intarsia Flat Knitting Machine",
+      gauge: "5.2G, 7.2G, 12G & Multi-Gauge Conversion (Knits multiple gauges on single bed)",
+      diameter: '52" (132 cm) Precision Hardened Needle Bed with Motorized Feeder Bars',
+      productionCapacity: "Continuous Precision Complex Patterning with Independent Servo Feeder Traversing",
+      application: "Intarsia Sweaters, 3D Flyknit Shoe Uppers, Seamless Knitwear, Shaped Technical Textiles, Gradient Knits",
+      automationLevel: "100% Fully Computerized with 16 Independent Motorized Autonomously Driven Yarn Feeders & 3D Stitch Camming",
+      image: "images/flat-knitting-carriage.jpg",
+      gallery: [
+        "images/flat-knitting-carriage.jpg",
+        "images/flat-knitting-main.jpg",
+        "images/flat-knitting-collar.jpg",
+        "images/flat-knitting-control.jpg",
+        "images/flat-knitting-samples.jpg"
+      ],
+      description: "The MF-PRO Series represents the state-of-the-art in flat knitting technology, featuring motorized yarn carriers that move independently of the carriage for true high-definition Intarsia blocks without reverse-side floating threads. Designed for avant-garde fashion knitwear, 3D seamless garment engineering, and engineered sports footwear uppers, this machine allows freeform needle transfer, inverse plating, and multi-gauge stitch blending on a single garment piece.",
+      functions: [
+        "Independent Motorized Yarn Feeders: 16 motorized autotracking yarn carriers traverse precisely to yarn color boundaries without carriage drag.",
+        "True Multi-Gauge Stitch Capability: Specially profiled latch needles and sinkers allow fine and coarse gauges to be knitted seamlessly in the same garment.",
+        "Dynamic 3D Stitch Camming: Enables complex 3D spherical shaping, contoured cups, elbows, and ergonomic shoe upper contours directly off the needle bed.",
+        "Inverse Plating Device: Instantly reverses face and back yarn positions for dramatic color-shifting optical surface textures.",
+        "High-Definition CAD Compatibility: Seamless integration with leading knit CAD systems (Stoll, Shima Seiki, Raynen) for rapid prototype sampling."
+      ],
+      fabricsApplicationTitle: "3D Shaping & Advanced Knitwear Application:",
+      fabricsApplication: "■ High-Definition Intarsia Fashion: Luxury geometric Intarsia sweaters, pictorial artwork knits, color-block cardigans, and zero-float graphic knitwear.\n■ 3D Engineered Footwear Uppers: Seamless, breathable 3D Flyknit athletic shoe uppers with zoned breathability, integrated lace eyelets, and reinforced heel cups.\n■ Technical & Shaped Textiles: Orthopedic compression braces, automotive seat covers, architectural acoustic panels, and contoured ergonomic knit components."
+    },
+    // Compatibility aliases
+    "glove-machine": {
+      title: "Computerized Sweater & Cardigan Flat Knitting Machine",
+      model: "MF-52C / MF-72C Dual System High-Speed Series",
+      keyword: "Computerized Flat Knitting Machine, Sweater Knitting Machine, Jacquard Flat Knitting Machine",
+      classification: "Computerized Flat Knitting Machinery Series",
+      video: "",
+      section: "Flat Knitting Machinery",
+      machineType: "Fully Computerized Dual System Flat Knitting Machine with Dynamic Stitch & Motorized Racking",
+      gauge: "3G, 5G, 7G, 12G, 14G, 16G & Multi-Gauge Options (Customizable for Fine & Chunky Knits)",
+      diameter: '52" (132 cm) / 72" (183 cm) Precision Hardened Needle Bed',
+      productionCapacity: "Continuous High-Yield Operation (Max Speed 1.6 m/sec with Rapid Carriage Return)",
+      application: "Sweaters, Pullovers, Cardigans, Fully Fashioned Garments, Intarsia Knits, Cable Patterns, Shaped Panels",
+      automationLevel: "100% Fully Computerized CNC Control with Electronic Needle Selection, USB CAD Pattern Input & Digital Stitch Stepper",
+      image: "images/flat-knitting-main.jpg",
+      gallery: [
+        "images/flat-knitting-main.jpg",
+        "images/flat-knitting-carriage.jpg",
+        "images/flat-knitting-collar.jpg",
+        "images/flat-knitting-control.jpg",
+        "images/flat-knitting-samples.jpg"
+      ],
+      description: "Mansha International's Fully Computerized Sweater & Cardigan Flat Knitting Machine is an industrial-grade, high-productivity solution engineered for the manufacturing of premium sweaters, pullovers, cardigans, and fully fashioned knit garments. Built with precision dual-carriage systems, hardened alloy needle beds, and high-response electronic needle actuators, the MF-52C / MF-72C series delivers flawless stitch quality across intricate cable designs, pointelle, tuck loops, transfer stitches, and multi-color Jacquard graphics.\n\nEquipped with a computerized color touchscreen CNC interface, programmable stitch stepping motors, dynamic electronic sinker control, and 16-color motorized yarn carrier bars, operators can rapidly switch pattern programs via standard USB CAD files. Its heavy vibration-dampened frame ensures quiet high-speed traversing up to 1.6 m/s, offering exceptional dimensional consistency across wool, cashmere, cotton, acrylic, viscose, and blended yarns.",
+      functions: [
+        "Dual System High-Speed Carriage: Precision dual cam carriage allows simultaneous knitting, transferring, tucking, and missing in a single traversing pass, boosting output by up to 35%.",
+        "Precision Electronic Needle Selection: High-speed ceramic piezo actuators select every individual latch needle with zero missed stitches, supporting complex multi-gauge Jacquard patterns.",
+        "Dynamic Stitch Motor Control: High-torque digital stepper motors adjust loop length on each needle line independently for anatomical 3D shaping and refined knit structure.",
+        "Electronic Sinker & Take-Down Roller: Programmable torque-regulated roller and dynamic movable sinkers guarantee clean stitch release and uniform tension without drop stitches.",
+        "16-Color Motorized Yarn Carrier System: 4 double-sided guide rails support 16 yarn feeders for intricate multicolor Intarsia, plating, and striping with automatic electronic tension compensators.",
+        "Intelligent Multi-Sensor Safety Motion: Millisecond-response sensors immediately detect yarn breakages, yarn runout, needle damage, fabric winding, and carriage overload.",
+        "Industrial CNC Touchscreen Console: High-resolution graphical touchscreen displays real-time carriage RPM, active stitch diagram, piece output counter, and diagnostic telemetry."
+      ],
+      fabricsApplicationTitle: "Knitwear & Fashion Applications:",
+      fabricsApplication: "The computerized needle beds and programmable cam systems are engineered to produce a vast range of high-end fashion and technical knitwear:\n■ Winter Knitwear & Sweaters: Full-fashion crewneck sweaters, V-neck pullovers, buttoned cardigans, turtleneck knitwear, cable-knit outerwear, and chunky knit winter wear.\n■ Structural & Shaped Components: Shaped garment panels, front plackets, seamless armholes, raglan sleeves, pockets, and ribbed hem trims with zero cutting waste.\n■ Fine & Complex Patterns: Intarsia blocks, multi-color Jacquard graphics, Pointelle openwork lace, Aran cables, Milano ribs, half-cardigan ribs, and 3D textured knitwear."
     },
     "cap-machine": {
-      title: "Automatic Beanie & Cap Knitting Machine",
-      model: "MCAP-35 High-Speed Computerized Circular Series",
-      keyword: "Automatic Beanie Knitting Machine, Circular Cap Knitting Machine, Winter Hat Knitting Machine",
-      classification: "Winter Headwear & Beanie Circular Series",
+      title: "Automatic Collar & Cuff Flat Knitting Machine",
+      model: "MFC-40 Single System High-Speed Collar Series",
+      keyword: "Collar Knitting Machine, Cuff Flat Knitting Machine, Polo Rib Flat Machine",
+      classification: "Rib & Trim Flat Knitting Series",
       video: "",
-      section: "Cap & Gloves Machinery",
-      machineType: "High-Speed Computerized Circular Cap & Beanie Knitting Machine",
-      gauge: "6G - 14G Circular Cylinder (Customizable for Fine & Chunky Knits)",
-      diameter: '7" - 9" / 10" Precision Circular Cylinder Bed',
-      productionCapacity: "30 - 45 Finished Caps / Hour (Continuous High-Yield Operation)",
-      application: "Winter Beanies, Jacquard Logo Caps, Turn-Up Cuffed Rib Hats, Pom-Pom Caps, Seamless Neck Warmers & Scarves",
-      automationLevel: "100% Fully Computerized with 2 to 6 Color Auto-Striper, Digital Touchscreen & Electronic Needle Selection",
-      image: "images/cap-machine-main.jpg",
+      section: "Flat Knitting Machinery",
+      machineType: "High-Speed Computerized Single System Flat Knitting Machine for Polo Collars & Rib Trims",
+      gauge: "12G, 14G, 16G, 18G Fine Gauge",
+      diameter: '36" / 40" / 52" Compact Needle Bed',
+      productionCapacity: "80 - 120 Finished Collars / Hour (High-Speed Continuous Production)",
+      application: "T-Shirt Polo Collars, Sleeve Cuffs, Waistbands, Jacket Trims, V-Neck Rib Bands, Striped Edgings",
+      automationLevel: "Fully Automatic Electronic Color Change, Auto-Striper, Digital Tension & Self-Locking Hemming",
+      image: "images/flat-knitting-collar.jpg",
       gallery: [
-        "images/cap-machine-main.jpg",
-        "images/cap-machine-front.jpg",
-        "images/cap-machine-top.jpg",
-        "images/cap-machine-cylinder.jpg",
-        "images/cap-machine-creel.jpg"
+        "images/flat-knitting-collar.jpg",
+        "images/flat-knitting-main.jpg",
+        "images/flat-knitting-carriage.jpg",
+        "images/flat-knitting-control.jpg",
+        "images/flat-knitting-samples.jpg"
       ],
-      description: "Mansha International's Automatic Beanie & Cap Knitting Machine is a state-of-the-art high-speed circular knitting system designed for industrial manufacturing of fashion beanies, winter ski hats, and seamless headwear. Featuring a high-precision multi-feeder circular cylinder, positive yarn creel, and fully enclosed safety structure, this machine produces perfectly shaped, high-elasticity beanies with consistent loop density and minimal yarn wastage.\n\nEquipped with a computerized color touchscreen controller, independent motor drives, and electronic needle actuators, operators can rapidly switch between custom jacquard logos, multicolor horizontal stripes, English rib, and double-layer folded cuffs without mechanical reconfiguration. Its robust industrial build ensures low vibration at high RPMs, delivering flawless surface aesthetics across acrylic, wool, cotton, cashmere blends, and elastic Lycra threads.",
+      description: "Engineered specifically for high-efficiency mass production of polo collars, sleeve cuffs, pocket edges, and ribbed waistbands. The MFC-40 combines compact dimensions with high carriage traverse speeds, electronic color striping, and automatic turn-up lock-stitch hemming. Its rapid pattern turnover and intuitive operator interface maximize daily throughput for commercial garment factories.",
       functions: [
-        "Multi-Feeder High-Output Circular Cylinder: Precision-machined circular cylinder bed allows high-speed circular knitting, yielding up to 30–45 completed beanies per hour.",
-        "Electronic Jacquard & Needle Selection: Microprocessor-controlled electronic actuators enable unlimited jacquard graphic patterns, brand logos, and geometric designs via simple USB file transfer.",
-        "Automatic Multi-Color Yarn Striper: Features 2 to 6 color yarn fingers with automatic pneumatic cutters to knit crisp, colorful stripes and complex multi-tone patterns seamlessly.",
-        "Integrated Automatic Turn-Up Cuffed Hem: Automatically knits double-layered folded cuffs with internal elastic inlay, guaranteeing superior stretch recovery and long-lasting shape retention.",
-        "Circular Overhead Yarn Package Creel: High-capacity multi-cone overhead creel ring with individual tension discs and ceramic eyelets delivers continuous, knot-free yarn feed to all feeds.",
-        "Intelligent Multi-Sensor Optical Stop-Motion: Millisecond-response sensors immediately detect yarn breakages, tension variations, needle latch errors, or roll blockage, stopping the machine automatically to protect tooling.",
-        "Digital Touchscreen Controller & Production Monitor: Intuitive color touchscreen displays operating RPM, program stitch preview, daily output counter, and error diagnostics in real time."
+        "Ultra-Fast Compact Carriage: Lightweight carriage frame achieves rapid acceleration and turning with speeds up to 1.4 m/s.",
+        "Multi-Color Striping Feeders: 6 to 8 color automated yarn carriers deliver crisp collar tipping stripes and contrast edge borders.",
+        "Integrated Anti-Roll Elastic Inlay: Specialized yarn feeder feeds Lycra/Spandex elastic yarn into collar edges to prevent curling and maintain crisp shape.",
+        "Precision Cam Stitch Density: Digital stepping motor controls collar edge sharpness and elasticity with micrometer accuracy.",
+        "Automatic Thread Trimmer & Clamping: Clean pneumatic yarn cutters eliminate post-production manual trimming."
       ],
-      fabricsApplicationTitle: "Fabrics & Products Application:",
-      fabricsApplication: "The MCAP-35 circular cylinder and electronic cam system can be configured to produce a diverse range of knitted headwear and fashion accessories:\n■ Winter Headwear & Beanies: Single-layer and double-layer cuffed winter beanies, slouchy knit caps, pom-pom ski hats, and balaclavas in acrylic, wool, and blended yarns.\n■ Brand & Jacquard Custom Knits: Promotional branded caps with knitted corporate logos, collegiate sports beanies with multi-color graphic striping, and fine-gauge thermal helmet liners.\n■ Tubular Fashion Accessories: Knitted neck warmers, seamless circular scarves, headband ear-warmers, and ribbed tubular trims."
+      fabricsApplicationTitle: "Garment Trims Application:",
+      fabricsApplication: "■ Polo Shirt Collars: Solid-color ribbed collars, contrast tipping stripe collars, Jacquard knitted brand logos on collar wings, and textured herringbone collar structures.\n■ Sleeve Cuffs & Waistband Ribs: High-elasticity 1x1 and 2x2 ribbed cuffs for bomber jackets, hoodies, tracksuits, polo shirts, and winter jackets.\n■ Fashion Knit Accessories: Ribbed scarves, headband ear-warmers, knitted pocket welts, and placket strips."
     },
     "safety-glove": {
-      title: "Industrial Safety Glove Knitting Machine",
-      model: "MS-PRO 10 Heavy Duty",
-      keyword: "Safety Glove Knitting Machine",
-      classification: "Heavy-Duty Protective Equipment",
-      video: "https://www.youtube.com/watch?v=GKJG2PKn-EM",
-      section: "Cap & Gloves Machinery",
-      machineType: "Heavy-Duty Kevlar & Cut-Resistant Glove Knitting Machine",
-      gauge: "7G & 10G Heavy Gauge",
-      diameter: "Reinforced Tubular Glove Bed",
-      productionCapacity: "160 - 200 Pairs / 24 Hours",
-      application: "Cut-Resistant Kevlar Gloves, High-Grip Dotting Gloves, Chemical-Resistant Base Liners",
-      automationLevel: "Fully Automatic Heavy-Yarn Infeed with Steel-Wire & HPPE Compatibility",
-      image: "images/glove-machine-main.jpg",
+      title: "3D Shaping & Intarsia Flat Knitting Machine",
+      model: "MF-PRO 3D Shaping & Multi-Gauge Series",
+      keyword: "3D Shaping Flat Knitting Machine, Intarsia Knitting Machine, Flyknit Shoe Upper Machine",
+      classification: "Advanced 3D & Intarsia Series",
+      video: "",
+      section: "Flat Knitting Machinery",
+      machineType: "Fully Computerized Multi-Gauge 3D Shaping & Intarsia Flat Knitting Machine",
+      gauge: "5.2G, 7.2G, 12G & Multi-Gauge Conversion (Knits multiple gauges on single bed)",
+      diameter: '52" (132 cm) Precision Hardened Needle Bed with Motorized Feeder Bars',
+      productionCapacity: "Continuous Precision Complex Patterning with Independent Servo Feeder Traversing",
+      application: "Intarsia Sweaters, 3D Flyknit Shoe Uppers, Seamless Knitwear, Shaped Technical Textiles, Gradient Knits",
+      automationLevel: "100% Fully Computerized with 16 Independent Motorized Autonomously Driven Yarn Feeders & 3D Stitch Camming",
+      image: "images/flat-knitting-carriage.jpg",
       gallery: [
-        "images/glove-machine-main.jpg",
-        "images/glove-machine-carriage.jpg",
-        "images/glove-machine-needles.jpg",
-        "images/glove-machine-control.jpg",
-        "images/glove-machine-sample.jpg"
+        "images/flat-knitting-carriage.jpg",
+        "images/flat-knitting-main.jpg",
+        "images/flat-knitting-collar.jpg",
+        "images/flat-knitting-control.jpg",
+        "images/flat-knitting-samples.jpg"
       ],
-      description: "Engineered specifically for processing abrasive, high-strength industrial yarns such as HPPE, glass fiber, Kevlar, and steel-composite thread. Equipped with reinforced cam alloys and heavy-duty sinkers.",
+      description: "The MF-PRO Series represents the state-of-the-art in flat knitting technology, featuring motorized yarn carriers that move independently of the carriage for true high-definition Intarsia blocks without reverse-side floating threads. Designed for avant-garde fashion knitwear, 3D seamless garment engineering, and engineered sports footwear uppers, this machine allows freeform needle transfer, inverse plating, and multi-gauge stitch blending on a single garment piece.",
       functions: [
-        "Hardened Alloy Cam Tracks: Resistant to extreme friction from synthetic composite fibers.",
-        "High-Tension Yarn Feeders: Delivers smooth feed for high-denier coated safety threads.",
-        "Automatic Elastic Lock Stitch: Secures wrists against unraveling during heavy industrial use."
-      ]
+        "Independent Motorized Yarn Feeders: 16 motorized autotracking yarn carriers traverse precisely to yarn color boundaries without carriage drag.",
+        "True Multi-Gauge Stitch Capability: Specially profiled latch needles and sinkers allow fine and coarse gauges to be knitted seamlessly in the same garment.",
+        "Dynamic 3D Stitch Camming: Enables complex 3D spherical shaping, contoured cups, elbows, and ergonomic shoe upper contours directly off the needle bed.",
+        "Inverse Plating Device: Instantly reverses face and back yarn positions for dramatic color-shifting optical surface textures.",
+        "High-Definition CAD Compatibility: Seamless integration with leading knit CAD systems (Stoll, Shima Seiki, Raynen) for rapid prototype sampling."
+      ],
+      fabricsApplicationTitle: "3D Shaping & Advanced Knitwear Application:",
+      fabricsApplication: "■ High-Definition Intarsia Fashion: Luxury geometric Intarsia sweaters, pictorial artwork knits, color-block cardigans, and zero-float graphic knitwear.\n■ 3D Engineered Footwear Uppers: Seamless, breathable 3D Flyknit athletic shoe uppers with zoned breathability, integrated lace eyelets, and reinforced heel cups.\n■ Technical & Shaped Textiles: Orthopedic compression braces, automotive seat covers, architectural acoustic panels, and contoured ergonomic knit components."
     },
     "circular-needles": {
       title: "Circular Knitting Machine Needles",
@@ -843,30 +1424,60 @@ function initMansha() {
         "Accurate Length Tolerances: Ensures uniform loop height across all knitting feeds."
       ]
     },
-    "glove-needles": {
-      title: "Cap & Glove Machine Needles",
-      model: "GNV-7G / 10G / 13G",
-      keyword: "Glove Knitting Machine Needles",
-      classification: "Glove & Headwear Needle Series",
-      video: "https://www.youtube.com/watch?v=GKJG2PKn-EM",
+    "flat-needles": {
+      title: "Flat Knitting Machine Needles & Jacks",
+      model: "FNV-3G to 18G High Speed Series",
+      keyword: "Flat Knitting Machine Needles, Latch Needles, Transfer Needles",
+      classification: "Flat Knitting Needle & Jack Series",
+      video: "",
       section: "Needles & Spare Parts",
-      machineType: "Flat-Bed & Circular Glove Machine Needles",
-      gauge: "7 Gauge to 15 Gauge",
-      diameter: "7G, 10G, 13G Standard Shanks",
-      productionCapacity: "Continuous 24-Hour Automated Glove Run",
-      application: "Seamless 5-Finger Work Gloves, Winter Mittens, Beanie Caps & Jacquard Hats",
-      automationLevel: "Precision Spring Latch with Anti-Friction Coating",
-      image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg",
+      machineType: "Computerized Flat-Bed Precision Latch & Transfer Needles",
+      gauge: "3G, 5G, 7G, 12G, 14G, 16G, 18G Standard & Multi-Gauge Shanks",
+      diameter: "Precision CNC Hardened German & Asian Standards",
+      productionCapacity: "Continuous 24-Hour Automated Full-Fashion Knitwear Production",
+      application: "Sweaters, Cardigans, Pullovers, Polo Collars, Cuffs, and Shaped Fashion Knitwear",
+      automationLevel: "Precision Flexible Latch with Anti-Friction Ceramic Coating & High Wear Resistance",
+      image: "images/flat-knitting-carriage.jpg",
       gallery: [
+        "images/flat-knitting-carriage.jpg",
+        "images/flat-knitting-main.jpg",
         "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/2nd-352x199.webp",
         "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/niddle-352x199.webp"
       ],
-      description: "Compatible with Shima Seiki, Matsuya, and all Asian automatic computerized glove and cap machines. Engineered to withstand heavy elastic yarn tension and Kevlar industrial thread without latch jamming.",
+      description: "Precision engineered latch needles, transfer needles, selector jacks, and sinkers compatible with Stoll, Shima Seiki, and modern computerized flat knitting machines. Manufactured from ultra-pure alloy tool steel with mirror-polished needle cheeks to prevent yarn snagging and latch fatigue under high carriage traverse speeds up to 1.6 m/s.",
       functions: [
-        "Heavy-Gauge Shank: Prevents needle flex during tight finger crotch knitting.",
-        "Anti-Static Coating: Reduces lint accumulation in machine needle slots.",
-        "Extended Service Life: Reduces needle replacement downtime by up to 35%."
+        "Hardened Needle Hook & Butt: Resists repetitive cam impact during high-speed multi-system knitting.",
+        "Mirror-Finished Needle Cheek: Ensures smooth loop movement and clean stitch release without yarn friction.",
+        "Precision Spring Latch: Guaranteed smooth latch flip action without bounce, preventing dropped stitches.",
+        "Extended Fatigue Life: Reduces needle replacement downtime by up to 40% under continuous operation."
+      ]
+    },
+    "glove-needles": {
+      title: "Flat Knitting Machine Needles & Jacks",
+      model: "FNV-3G to 18G High Speed Series",
+      keyword: "Flat Knitting Machine Needles, Latch Needles, Transfer Needles",
+      classification: "Flat Knitting Needle & Jack Series",
+      video: "",
+      section: "Needles & Spare Parts",
+      machineType: "Computerized Flat-Bed Precision Latch & Transfer Needles",
+      gauge: "3G, 5G, 7G, 12G, 14G, 16G, 18G Standard & Multi-Gauge Shanks",
+      diameter: "Precision CNC Hardened German & Asian Standards",
+      productionCapacity: "Continuous 24-Hour Automated Full-Fashion Knitwear Production",
+      application: "Sweaters, Cardigans, Pullovers, Polo Collars, Cuffs, and Shaped Fashion Knitwear",
+      automationLevel: "Precision Flexible Latch with Anti-Friction Ceramic Coating & High Wear Resistance",
+      image: "images/flat-knitting-carriage.jpg",
+      gallery: [
+        "images/flat-knitting-carriage.jpg",
+        "images/flat-knitting-main.jpg",
+        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg",
+        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/niddle-352x199.webp"
+      ],
+      description: "Precision engineered latch needles, transfer needles, selector jacks, and sinkers compatible with Stoll, Shima Seiki, and modern computerized flat knitting machines. Manufactured from ultra-pure alloy tool steel with mirror-polished needle cheeks to prevent yarn snagging and latch fatigue under high carriage traverse speeds up to 1.6 m/s.",
+      functions: [
+        "Hardened Needle Hook & Butt: Resists repetitive cam impact during high-speed multi-system knitting.",
+        "Mirror-Finished Needle Cheek: Ensures smooth loop movement and clean stitch release without yarn friction.",
+        "Precision Spring Latch: Guaranteed smooth latch flip action without bounce, preventing dropped stitches.",
+        "Extended Fatigue Life: Reduces needle replacement downtime by up to 40% under continuous operation."
       ]
     },
     "sinkers-spares": {
@@ -1000,31 +1611,57 @@ function initMansha() {
         "Installation & Technical Support: Supported by experienced Mansha engineers."
       ]
     },
-    "refurbished-glove": {
-      title: "Reconditioned Cap & Glove Knitting Machines",
-      model: "Overhauled Shima Seiki / Matsuya Style",
-      keyword: "Second Hand Glove Knitting Machine",
+    "refurbished-flat": {
+      title: "Reconditioned Computerized Flat Knitting Machines",
+      model: "Factory-Overhauled Shima Seiki / Stoll & Premium Series",
+      keyword: "Second Hand Flat Knitting Machine, Refurbished Sweater Machine",
       classification: "Certified Pre-Owned Machinery",
-      video: "https://www.youtube.com/watch?v=GKJG2PKn-EM",
+      video: "",
       section: "Second-Hand Machinery",
-      machineType: "Factory-Overhauled Computerized Seamless Glove Machine",
-      gauge: "7G & 10G",
-      diameter: "Seamless 5-Finger Glove Bed",
-      productionCapacity: "180 - 220 Pairs / 24 Hours",
-      application: "Industrial Safety Work Gloves, Winter Mittens & Touchscreen Knitted Gloves",
-      automationLevel: "Fully Tested Computerized Microcontroller & Serviced Needle Beds",
-      image: "images/glove-machine-main.jpg",
+      machineType: "Factory-Overhauled Computerized Flat Knitting Machine",
+      gauge: "7G, 12G, 14G Multi-Gauge",
+      diameter: '52" (132 cm) Serviced Precision Needle Bed',
+      productionCapacity: "Tested for 24/7 Continuous Production (Max Speed 1.4 m/s)",
+      application: "Sweaters, Pullovers, Cardigans, Polo Collars, Cuffs, and Fashion Knitwear",
+      automationLevel: "Fully Tested Computerized CNC Controller, Recalibrated Cam Tracks & New Needles",
+      image: "images/flat-knitting-main.jpg",
       gallery: [
-        "images/glove-machine-main.jpg",
-        "images/glove-machine-control.jpg",
-        "images/glove-machine-needles.jpg",
-        "images/glove-machine-carriage.jpg",
-        "images/glove-machine-sample.jpg"
+        "images/flat-knitting-main.jpg",
+        "images/flat-knitting-carriage.jpg",
+        "images/flat-knitting-control.jpg",
+        "images/flat-knitting-samples.jpg"
       ],
-      description: "Proven glove knitting workhorses tested for 24-hour continuous automated production. Includes full service of yarn fingers, cutter blades, and needle cams.",
+      description: "High-precision certified pre-owned computerized flat knitting machines thoroughly inspected, serviced, and recalibrated by Mansha International's technical team in Ludhiana. Includes renewed needle beds, serviced carriage cam boxes, fresh latch needles, and upgraded CNC control memory.",
       functions: [
-        "Serviced Computer Box: Reliable size memory and stitch pitch control.",
-        "Fresh Sinker Bed: Clean drop-stitch formation with no yarn piling.",
+        "Serviced Computer Console: Reliable pattern memory and stepper stitch pitch control.",
+        "Fresh Needle Bed: Clean drop-stitch formation and uniform stitch tension.",
+        "Complete Tool Kit: Includes essential replacement needles and yarn tension springs."
+      ]
+    },
+    "refurbished-glove": {
+      title: "Reconditioned Computerized Flat Knitting Machines",
+      model: "Factory-Overhauled Shima Seiki / Stoll & Premium Series",
+      keyword: "Second Hand Flat Knitting Machine, Refurbished Sweater Machine",
+      classification: "Certified Pre-Owned Machinery",
+      video: "",
+      section: "Second-Hand Machinery",
+      machineType: "Factory-Overhauled Computerized Flat Knitting Machine",
+      gauge: "7G, 12G, 14G Multi-Gauge",
+      diameter: '52" (132 cm) Serviced Precision Needle Bed',
+      productionCapacity: "Tested for 24/7 Continuous Production (Max Speed 1.4 m/s)",
+      application: "Sweaters, Pullovers, Cardigans, Polo Collars, Cuffs, and Fashion Knitwear",
+      automationLevel: "Fully Tested Computerized CNC Controller, Recalibrated Cam Tracks & New Needles",
+      image: "images/flat-knitting-main.jpg",
+      gallery: [
+        "images/flat-knitting-main.jpg",
+        "images/flat-knitting-carriage.jpg",
+        "images/flat-knitting-control.jpg",
+        "images/flat-knitting-samples.jpg"
+      ],
+      description: "High-precision certified pre-owned computerized flat knitting machines thoroughly inspected, serviced, and recalibrated by Mansha International's technical team in Ludhiana. Includes renewed needle beds, serviced carriage cam boxes, fresh latch needles, and upgraded CNC control memory.",
+      functions: [
+        "Serviced Computer Console: Reliable pattern memory and stepper stitch pitch control.",
+        "Fresh Needle Bed: Clean drop-stitch formation and uniform stitch tension.",
         "Complete Tool Kit: Includes essential replacement needles and yarn tension springs."
       ]
     }
@@ -1049,6 +1686,9 @@ function initMansha() {
                 <img id="pdmMainImg" src="" alt="Machine Preview">
                 <div class="product-magnifier-lens" id="pdmMagnifierLens"></div>
                 <div class="product-gallery-zoom-badge" title="Hover over machine parts to magnify (3x)"><i class="ri-zoom-in-line"></i></div>
+                <!-- Circular Navigation Buttons matching reference screenshot -->
+                <button type="button" class="gallery-circular-arrow circular-arrow-prev" id="pdmPrevBtn" aria-label="Previous photo"><i class="ri-arrow-left-s-line"></i></button>
+                <button type="button" class="gallery-circular-arrow circular-arrow-next" id="pdmNextBtn" aria-label="Next photo"><i class="ri-arrow-right-s-line"></i></button>
               </div>
               <div class="product-gallery-thumbs" id="pdmThumbsWrap"></div>
             </div>
@@ -1343,25 +1983,51 @@ function initMansha() {
     if (thumbsWrap) {
       thumbsWrap.innerHTML = '';
       const gallery = product.gallery && product.gallery.length > 0 ? product.gallery : [product.image];
+      let currentIdx = 0;
+
+      const setModalImage = (newIdx) => {
+        currentIdx = (newIdx + gallery.length) % gallery.length;
+        const imgUrl = gallery[currentIdx];
+        thumbsWrap.querySelectorAll('.product-thumb-btn').forEach((b, i) => {
+          b.classList.toggle('active', i === currentIdx);
+        });
+        if (mainImg) {
+          mainImg.style.opacity = '0.35';
+          setTimeout(() => {
+            mainImg.src = imgUrl;
+            updateZoomSource(imgUrl);
+            mainImg.style.opacity = '1';
+          }, 100);
+        }
+      };
+
       gallery.forEach((imgUrl, idx) => {
         const thumbBtn = document.createElement('button');
         thumbBtn.className = `product-thumb-btn ${idx === 0 ? 'active' : ''}`;
         thumbBtn.setAttribute('aria-label', `View image ${idx + 1}`);
         thumbBtn.innerHTML = `<img src="${imgUrl}" alt="${product.title} view ${idx + 1}">`;
         thumbBtn.addEventListener('click', () => {
-          thumbsWrap.querySelectorAll('.product-thumb-btn').forEach(b => b.classList.remove('active'));
-          thumbBtn.classList.add('active');
-          if (mainImg) {
-            mainImg.style.opacity = '0.35';
-            setTimeout(() => {
-              mainImg.src = imgUrl;
-              updateZoomSource(imgUrl);
-              mainImg.style.opacity = '1';
-            }, 120);
-          }
+          setModalImage(idx);
         });
         thumbsWrap.appendChild(thumbBtn);
       });
+
+      const pdmPrevBtn = modal.querySelector('#pdmPrevBtn');
+      const pdmNextBtn = modal.querySelector('#pdmNextBtn');
+      if (pdmPrevBtn) {
+        pdmPrevBtn.style.display = gallery.length > 1 ? 'flex' : 'none';
+        pdmPrevBtn.onclick = (e) => {
+          e.stopPropagation();
+          setModalImage(currentIdx - 1);
+        };
+      }
+      if (pdmNextBtn) {
+        pdmNextBtn.style.display = gallery.length > 1 ? 'flex' : 'none';
+        pdmNextBtn.onclick = (e) => {
+          e.stopPropagation();
+          setModalImage(currentIdx + 1);
+        };
+      }
     }
 
     // Description & Functions
@@ -1430,6 +2096,7 @@ function initMansha() {
       }
     }
   });
+
 }
 
 // Guarantee execution whether DOM is loading or already ready
@@ -1438,4 +2105,5 @@ if (document.readyState === 'loading') {
 } else {
   initMansha();
 }
+
 

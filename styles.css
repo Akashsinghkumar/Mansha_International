@@ -2292,8 +2292,10 @@ select.form-control option {
 .page-banner.banner-contact {
   background-image: linear-gradient(rgba(10, 16, 38, 0.40), rgba(10, 16, 38, 0.50)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=80');
 }
-.page-banner.banner-cap-gloves {
-  background-image: linear-gradient(rgba(10, 16, 38, 0.38), rgba(10, 16, 38, 0.48)), url('https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Cap-and-gloves-knitting-machines.jpeg');
+.page-banner.banner-cap-gloves,
+.page-banner.banner-flat {
+  background-image: linear-gradient(rgba(10, 16, 38, 0.42), rgba(10, 16, 38, 0.52)), url('images/flat-knitting-main.jpg');
+  background-position: center 40%;
 }
 .page-banner.banner-circular {
   background-image: linear-gradient(rgba(10, 16, 38, 0.38), rgba(10, 16, 38, 0.48)), url('https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp');
@@ -3834,15 +3836,15 @@ select.form-control option {
   position: absolute;
   width: 90px;
   height: 90px;
-  border: 2px solid var(--logo-orange);
-  background: rgba(255, 130, 6, 0.2);
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+  border: 2px solid var(--logo-cyan);
+  background: rgba(34, 176, 254, 0.22);
+  box-shadow: 0 0 14px rgba(34, 176, 254, 0.35);
   border-radius: 6px;
   pointer-events: none;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.15s ease, visibility 0.15s ease;
-  z-index: 6;
+  z-index: 20;
 }
 
 .product-magnifier-lens.active {
@@ -3861,7 +3863,7 @@ select.form-control option {
   max-height: 420px;
   background-color: #ffffff;
   background-repeat: no-repeat;
-  border: 2px solid var(--logo-orange);
+  border: 2px solid var(--logo-violet);
   border-radius: var(--radius-md);
   box-shadow: 0 20px 45px rgba(15, 23, 42, 0.28);
   z-index: 25;
@@ -4204,5 +4206,1037 @@ select.form-control option {
     font-size: 0.88rem;
   }
 }
+
+/* ==========================================================================
+   SERIES CATALOG LAYOUT & SIDEBAR - MANSHA INTERNATIONAL BRAND THEME
+   (Signature Violet #7068b0 + Sky Cyan #22b0fe + Slate Navy #0f172a)
+   ========================================================================== */
+
+.series-container {
+  padding: 3rem 0 5rem;
+}
+
+.series-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+/* Sidebar Styles */
+.series-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.series-sidebar-widget {
+  background: #ffffff;
+  border-radius: var(--radius-md);
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  box-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.05);
+}
+
+.series-widget-header {
+  background: linear-gradient(135deg, var(--logo-violet) 0%, var(--logo-violet-dark) 100%);
+  color: #ffffff;
+  padding: 0.85rem 1.2rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  border-bottom: 2px solid var(--logo-cyan);
+}
+
+.series-widget-header i {
+  color: var(--logo-cyan);
+  font-size: 1.15rem;
+}
+
+.series-categories-body {
+  padding: 1.2rem;
+}
+
+.series-cat-group {
+  margin-bottom: 1.4rem;
+}
+
+.series-cat-group:last-child {
+  margin-bottom: 0;
+}
+
+.series-cat-title {
+  font-size: 0.96rem;
+  font-weight: 700;
+  color: var(--primary-navy);
+  margin-bottom: 0.55rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 0.35rem 0.5rem;
+  border-radius: var(--radius-sm);
+  transition: var(--transition);
+}
+
+.series-cat-title:hover {
+  background: var(--logo-violet-light);
+  color: var(--logo-violet);
+}
+
+.series-cat-title.active {
+  color: var(--logo-violet);
+  background: var(--logo-violet-light);
+  border-left: 3px solid var(--logo-violet);
+}
+
+.series-cat-list {
+  list-style: none;
+  padding-left: 0.75rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.series-cat-link {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.38rem 0.6rem;
+  font-size: 0.86rem;
+  color: var(--text-muted);
+  border-radius: var(--radius-sm);
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.series-cat-link i {
+  font-size: 0.75rem;
+  color: var(--logo-cyan);
+  transition: transform 0.2s ease;
+}
+
+.series-cat-link:hover {
+  color: var(--logo-violet);
+  background: var(--logo-violet-light);
+  padding-left: 0.85rem;
+}
+
+.series-cat-link:hover i {
+  transform: translateX(2px);
+  color: var(--logo-violet);
+}
+
+.series-cat-link.current {
+  color: var(--logo-violet);
+  font-weight: 600;
+  background: rgba(112, 104, 175, 0.1);
+}
+
+/* Featured Products Widget */
+.series-featured-list {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1.25rem;
+}
+
+.series-featured-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.85rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid #f1f5f9;
+  background: #fafbfc;
+  transition: all 0.25s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.series-featured-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--logo-cyan);
+  box-shadow: 0 4px 12px rgba(34, 176, 254, 0.15);
+  background: #ffffff;
+}
+
+.series-featured-thumb {
+  width: 110px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 0.65rem;
+  transition: transform 0.3s ease;
+}
+
+.series-featured-card:hover .series-featured-thumb {
+  transform: scale(1.05);
+}
+
+.series-featured-name {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--primary-navy);
+  line-height: 1.35;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  transition: color 0.2s ease;
+}
+
+.series-featured-card:hover .series-featured-name {
+  color: var(--logo-violet);
+}
+
+/* Products List Main Area */
+.series-products-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+
+.series-item-row {
+  display: grid;
+  grid-template-columns: 295px 1fr;
+  gap: 2.2rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-md);
+  padding: 1.8rem;
+  box-shadow: 0 4px 20px -3px rgba(15, 23, 42, 0.06);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  align-items: start;
+}
+
+.series-item-row:hover {
+  transform: translateY(-3px);
+  border-color: rgba(112, 104, 175, 0.35);
+  box-shadow: 0 12px 30px -4px rgba(112, 104, 175, 0.12);
+}
+
+.series-item-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: var(--radius-sm);
+  border: 1px solid #edf2f7;
+  padding: 0.75rem;
+  position: relative;
+  overflow: hidden;
+  height: 220px;
+  box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.03);
+}
+
+.series-item-visual img {
+  width: 100%;
+  height: 100%;
+  max-height: 205px;
+  object-fit: contain;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  transition: transform 0.4s ease;
+}
+
+.series-item-row:hover .series-item-visual img {
+  transform: scale(1.06);
+}
+
+.series-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.series-item-title {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.28rem;
+  font-weight: 800;
+  color: var(--logo-violet);
+  margin-bottom: 0.65rem;
+  line-height: 1.35;
+  letter-spacing: -0.2px;
+  transition: color 0.2s ease;
+}
+
+.series-item-row:hover .series-item-title {
+  color: var(--logo-violet-dark);
+}
+
+.series-item-subheading {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--primary-navy);
+  margin-bottom: 0.5rem;
+}
+
+.series-item-desc {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin-bottom: 0.9rem;
+}
+
+.series-item-desc strong {
+  color: var(--primary-navy);
+}
+
+.series-item-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.25rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.series-item-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.86rem;
+  color: #334155;
+  line-height: 1.45;
+}
+
+.series-item-features li i {
+  color: var(--logo-cyan);
+  font-size: 0.95rem;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.series-item-action {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+/* Technical Specification Table & Blueprints inside Series Cards */
+.series-specs-box {
+  margin-top: 1.25rem;
+  padding: 1.25rem;
+  background: #f8fafc;
+  border-radius: var(--radius-sm);
+  border: 1px solid #e2e8f0;
+}
+
+.series-specs-title {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--primary-navy);
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.series-specs-title i {
+  color: var(--logo-cyan);
+  font-size: 1rem;
+}
+
+.series-table-scroll {
+  overflow-x: auto;
+  border-radius: var(--radius-sm);
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+}
+
+.series-compact-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.84rem;
+  text-align: center;
+}
+
+.series-compact-table th {
+  background: #f1f5f9;
+  color: var(--primary-navy);
+  font-weight: 700;
+  padding: 8px 12px;
+  border: 1px solid #e2e8f0;
+  border-bottom: 2px solid var(--logo-cyan);
+  white-space: nowrap;
+}
+
+.series-compact-table td {
+  padding: 8px 12px;
+  border: 1px solid #e2e8f0;
+  color: #334155;
+  white-space: nowrap;
+}
+
+.series-compact-table tbody tr:nth-child(even) td {
+  background: #fbfcfd;
+}
+
+.series-compact-table tbody tr:hover td {
+  background: var(--logo-violet-light);
+}
+
+.series-blueprints-preview {
+  margin-top: 1rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-sm);
+  padding: 0.85rem;
+  text-align: center;
+}
+
+.series-blueprints-preview img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* View More Button - Matching Mansha Brand Identity (NO Orange) */
+.series-btn-view {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, var(--logo-violet) 0%, var(--logo-violet-dark) 100%);
+  color: #ffffff !important;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 0.86rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.65rem 1.6rem;
+  border-radius: var(--radius-sm);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(112, 104, 175, 0.35);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.series-btn-view:hover {
+  background: linear-gradient(135deg, var(--logo-cyan) 0%, var(--logo-cyan-dark) 100%);
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(34, 176, 254, 0.4);
+}
+
+.series-btn-view i {
+  font-size: 0.95rem;
+  transition: transform 0.2s ease;
+}
+
+.series-btn-view:hover i {
+  transform: translateX(3px);
+}
+
+/* Responsive Breakpoints for Series Layout */
+@media (max-width: 992px) {
+  .series-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .series-sidebar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .series-item-row {
+    grid-template-columns: 260px 1fr;
+    padding: 1.4rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .series-sidebar {
+    grid-template-columns: 1fr;
+  }
+
+  .series-item-row {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding: 1.2rem;
+  }
+
+  .series-item-visual {
+    padding: 1.2rem;
+  }
+
+  .series-item-visual img {
+    max-height: 180px;
+  }
+
+  .series-item-title {
+    font-size: 1.15rem;
+  }
+
+  .series-btn-view {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Interactive 8-Photo Card Gallery & HD Lightbox Zoom Modal
+   ========================================================================== */
+
+.series-gallery-card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 0.75rem !important;
+  height: 290px !important;
+  position: relative;
+  background: #ffffff;
+  border-radius: var(--radius-sm);
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+}
+
+/* Floating Circular Navigation Arrows for Modal Gallery - Exact Match to Reference */
+.gallery-circular-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(15, 23, 42, 0.4);
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 25;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  outline: none;
+  padding: 0;
+}
+
+.circular-arrow-prev {
+  left: 12px;
+}
+
+.circular-arrow-next {
+  right: 12px;
+}
+
+.gallery-circular-arrow:hover {
+  background: rgba(112, 104, 176, 0.9);
+  border-color: #ffffff;
+  transform: translateY(-50%) scale(1.12);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.55);
+}
+
+.gallery-circular-arrow:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+
+
+/* Dimensions Blueprints Container */
+.series-blueprints-preview {
+  margin-top: 1.25rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-sm);
+  padding: 0.85rem;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.series-blueprints-preview img {
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+  image-rendering: -webkit-optimize-contrast;
+  transition: transform 0.3s ease;
+}
+
+.series-blueprints-preview:hover img {
+  transform: scale(1.02);
+}
+
+/* ==========================================================================
+   OUR END-TO-END SERVICES CARDS GRID & HOVER ANIMATION
+   ========================================================================== */
+.services-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.service-feature-card {
+  background: var(--white);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 22px 24px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.35s cubic-bezier(0.25, 1, 0.5, 1),
+              border-color 0.35s cubic-bezier(0.25, 1, 0.5, 1),
+              transform 0.35s cubic-bezier(0.25, 1, 0.5, 1),
+              box-shadow 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+  overflow: hidden;
+}
+
+.service-feature-card:hover {
+  background: #222731;
+  border-color: #222731;
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.18);
+}
+
+.service-feature-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.service-feature-title {
+  display: block;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  font-weight: 700;
+  color: var(--primary-navy);
+  margin-bottom: 6px;
+  transition: color 0.35s ease;
+}
+
+.service-feature-card:hover .service-feature-title {
+  color: #ffffff !important;
+}
+
+.service-feature-desc {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0;
+  transition: color 0.35s ease;
+}
+
+.service-feature-card:hover .service-feature-desc {
+  color: #cbd5e1 !important;
+}
+
+.service-feature-icon-box,
+.service-feature-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0f172a;
+  flex-shrink: 0;
+  transition: background-color 0.35s ease, border-color 0.35s ease, color 0.35s ease, transform 0.35s ease;
+}
+
+.service-feature-icon-box svg,
+.service-feature-icon svg {
+  width: 26px;
+  height: 26px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: stroke 0.35s ease;
+}
+
+.service-feature-card:hover .service-feature-icon-box,
+.service-feature-card:hover .service-feature-icon {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+  transform: scale(1.08);
+}
+
+.service-feature-card:hover .service-feature-icon-box svg,
+.service-feature-card:hover .service-feature-icon svg {
+  stroke: #ffffff;
+}
+
+@media (max-width: 1100px) {
+  .services-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (max-width: 650px) {
+  .services-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .service-feature-card {
+    padding: 18px 20px;
+  }
+}
+
+/* ==========================================================================
+   PARTNER COMPANIES & GLOBAL ALLIANCES SECTION (SAMES & HONGJUN)
+   ========================================================================== */
+.partner-companies-section {
+  padding: 68px 0 72px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  border-top: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+  position: relative;
+  overflow: hidden;
+}
+
+.partner-companies-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 900px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(34, 176, 254, 0.08) 0%, rgba(112, 104, 175, 0.05) 50%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.partner-section-header {
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.partner-section-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  color: #334155;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 6px 18px;
+  border-radius: 9999px;
+  margin-bottom: 14px;
+}
+
+.partner-section-badge i {
+  color: #ff8206;
+  font-size: 1rem;
+}
+
+.partner-section-title {
+  font-size: 2.15rem;
+  font-weight: 800;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+.partner-section-title span.highlight-partner {
+  background: linear-gradient(135deg, #7068b0 0%, #22b0fe 60%, #ff8206 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.partner-section-desc {
+  font-size: 1rem;
+  color: #64748b;
+  line-height: 1.65;
+}
+
+/* Dual Strategic Partner Grid */
+.partner-dual-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  max-width: 1040px;
+  margin: 0 auto 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.partner-card-featured {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: 32px 30px;
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05), 0 2px 6px -1px rgba(15, 23, 42, 0.03);
+  display: flex;
+  flex-direction: column;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.partner-card-featured::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #7068b0, #22b0fe);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.partner-card-featured.hongjun-card::after {
+  background: linear-gradient(90deg, #ff8206, #f59e0b);
+}
+
+.partner-card-featured:hover {
+  transform: translateY(-6px);
+  border-color: #cbd5e1;
+  box-shadow: 0 16px 36px -4px rgba(15, 23, 42, 0.12), 0 6px 12px -2px rgba(15, 23, 42, 0.04);
+}
+
+.partner-card-featured:hover::after {
+  opacity: 1;
+}
+
+/* Partner Logo Header inside Card */
+.partner-logo-box {
+  background: #ffffff;
+  border: 1px solid #f1f5f9;
+  border-radius: 14px;
+  padding: 22px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+  min-height: 100px;
+  box-shadow: inset 0 0 0 1px rgba(241, 245, 249, 0.8), 0 2px 8px rgba(15, 23, 42, 0.02);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.partner-logo-box:hover,
+.partner-card-featured:hover .partner-logo-box {
+  background: #fafafa;
+  border-color: #cbd5e1;
+}
+
+.partner-logo-img {
+  max-width: 100%;
+  height: auto;
+  max-height: 58px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.04));
+  image-rendering: -webkit-optimize-contrast;
+  transition: transform 0.3s ease;
+}
+
+.partner-card-featured:hover .partner-logo-img {
+  transform: scale(1.04);
+}
+
+/* Card Metadata */
+.partner-country-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  margin-bottom: 12px;
+  width: fit-content;
+}
+
+.badge-sames {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.badge-hongjun {
+  background: #fff7ed;
+  color: #c2410c;
+  border: 1px solid #fed7aa;
+}
+
+.partner-firm-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 8px;
+  letter-spacing: -0.01em;
+}
+
+.partner-firm-desc {
+  font-size: 0.93rem;
+  color: #475569;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+/* Key Features list */
+.partner-features-list {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.partner-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #334155;
+}
+
+.partner-feature-item i {
+  color: #22b0fe;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.hongjun-card .partner-feature-item i {
+  color: #ff8206;
+}
+
+.partner-cta-btn {
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 20px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  background: #f8fafc;
+  color: #0f172a;
+  border: 1px solid #cbd5e1;
+  transition: all 0.25s ease;
+}
+
+.partner-card-featured:hover .partner-cta-btn {
+  background: #0f172a;
+  color: #ffffff;
+  border-color: #0f172a;
+}
+
+/* Marquee Carousel Container for Sames & Hongjun */
+.partner-marquee-wrap {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.partner-marquee-track {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+  animation: partnerMarqueeScroll 26s linear infinite;
+}
+
+.partner-marquee-wrap:hover .partner-marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes partnerMarqueeScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 12px));
+  }
+}
+
+.partner-ticker-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 12px 22px;
+  min-width: 250px;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
+  transition: all 0.25s ease;
+}
+
+.partner-ticker-card:hover {
+  border-color: #22b0fe;
+  transform: translateY(-2px);
+}
+
+.partner-ticker-logo {
+  max-height: 38px;
+  max-width: 120px;
+  object-fit: contain;
+}
+
+.partner-ticker-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.partner-ticker-name {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.partner-ticker-meta {
+  font-size: 0.74rem;
+  color: #64748b;
+}
+
+@media (max-width: 860px) {
+  .partner-dual-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .partner-companies-section {
+    padding: 48px 0 54px;
+  }
+  .partner-section-title {
+    font-size: 1.65rem;
+  }
+  .partner-card-featured {
+    padding: 24px 20px;
+  }
+}
+
+
 
 

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /.agent/
+Disallow: /.git/
+
+# Sitemaps
+Sitemap: https://manshainternational.in/sitemap.xml
