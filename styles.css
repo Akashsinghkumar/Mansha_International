@@ -316,8 +316,8 @@ img {
   top: 0;
   z-index: 1000;
   background: rgba(255, 255, 255, 0.98);
-  backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(112, 104, 175, 0.15);
   box-shadow: 0 4px 16px rgba(25, 21, 53, 0.05);
   transition: background 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
@@ -325,8 +325,8 @@ img {
 
 .header.scrolled {
   background: rgba(255, 255, 255, 0.94);
-  backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
   box-shadow: 0 8px 24px rgba(25, 21, 53, 0.08);
   border-bottom-color: rgba(112, 104, 175, 0.22);
 }
@@ -624,8 +624,8 @@ img {
   width: 100vw;
   height: 100vh;
   background: rgba(15, 23, 42, 0.45);
-  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
   z-index: 1999;
   opacity: 0;
   visibility: hidden;
@@ -1254,6 +1254,7 @@ img {
   font-weight: 700;
   font-size: 1.05rem;
   color: var(--primary-navy);
+  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -1338,8 +1339,8 @@ img {
   position: relative;
   z-index: 2;
   background: rgba(10, 20, 50, 0.85);
-  backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
   border: 1px solid rgba(255,255,255,0.12);
   border-radius: 16px;
   padding: 2.5rem 2rem;
@@ -1866,8 +1867,8 @@ select.form-control option {
   top: 0.85rem;
   left: 0.85rem;
   background: rgba(15, 23, 42, 0.82);
-  backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   color: #fff;
   font-size: 0.74rem;
   font-weight: 600;
@@ -2201,6 +2202,7 @@ select.form-control option {
   width: 100vw;
   height: 100vh;
   background: rgba(15, 23, 42, 0.45);
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   z-index: 3000;
   display: flex;
@@ -3051,8 +3053,8 @@ select.form-control option {
   grid-template-columns: repeat(8, 1fr);
   gap: 0;
   background: rgba(16, 13, 36, 0.76);
-  backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: var(--radius-lg);
   overflow: hidden;
@@ -3281,6 +3283,7 @@ select.form-control option {
   border-radius: var(--radius-full);
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -3730,8 +3733,8 @@ select.form-control option {
   position: fixed;
   inset: 0;
   background: rgba(16, 13, 36, 0.82);
-  backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   z-index: 2500;
   display: flex;
   align-items: center;
@@ -3828,6 +3831,7 @@ select.form-control option {
   object-fit: contain;
   transition: opacity 0.25s ease;
   pointer-events: none;
+  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -3890,6 +3894,7 @@ select.form-control option {
   letter-spacing: 0.5px;
   padding: 5px 12px;
   border-radius: 4px;
+  -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
   pointer-events: none;
   z-index: 2;
@@ -4717,8 +4722,8 @@ select.form-control option {
   line-height: 1;
   cursor: pointer;
   z-index: 25;
-  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
   transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
   outline: none;
