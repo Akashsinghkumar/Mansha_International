@@ -249,7 +249,7 @@ function initMansha() {
   }
 
   // ==========================================================================
-  // Rel-Tex Style Sticky Header Scroll State
+  // Mansha Style Sticky Header Scroll State
   // ==========================================================================
   const header = document.querySelector('.header');
   if (header) {
@@ -265,17 +265,17 @@ function initMansha() {
   }
 
   // ==========================================================================
-  // Rel-Tex Style Scroll-Triggered Reveal Animations
+  // Mansha Style Scroll-Triggered Reveal Animations
   // ==========================================================================
   const revealElements = document.querySelectorAll(
-    '.section-header, .cards-grid .card, .company-pillars-grid .company-pillar-card, .reltex-app-item, .features-grid .feature-card, .app-card, .cta-banner, .testimonials-grid .testimonial-card, .accordion-wrapper .accordion-item, .blog-grid .blog-card'
+    '.section-header, .cards-grid .card, .company-pillars-grid .company-pillar-card, .mansha-app-item, .features-grid .feature-card, .app-card, .cta-banner, .testimonials-grid .testimonial-card, .accordion-wrapper .accordion-item, .blog-grid .blog-card'
   );
 
   if ('IntersectionObserver' in window && revealElements.length > 0) {
     const revealObserver = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('reltex-revealed');
+          entry.target.classList.add('mansha-revealed');
           observer.unobserve(entry.target);
         }
       });
@@ -286,12 +286,12 @@ function initMansha() {
     });
 
     revealElements.forEach(el => {
-      el.classList.add('reltex-reveal');
+      el.classList.add('mansha-reveal');
       revealObserver.observe(el);
     });
   } else {
     // Fallback: make all elements visible if observer is unavailable
-    revealElements.forEach(el => el.classList.add('reltex-revealed'));
+    revealElements.forEach(el => el.classList.add('mansha-revealed'));
   }
 
   // ==========================================================================
@@ -410,9 +410,9 @@ function initMansha() {
   // Parallax Scrolling Animations (Area of Application & CTA Banner)
   // ==========================================================================
   const parallaxBanners = document.querySelectorAll('.cta-banner');
-  const appSection = document.querySelector('.reltex-app-section');
-  const appBg = appSection ? appSection.querySelector('.reltex-app-bg') : null;
-  const appGlow = appSection ? appSection.querySelector('.reltex-app-layer-glow') : null;
+  const appSection = document.querySelector('.mansha-app-section');
+  const appBg = appSection ? appSection.querySelector('.mansha-app-bg') : null;
+  const appGlow = appSection ? appSection.querySelector('.mansha-app-layer-glow') : null;
 
   if (parallaxBanners.length > 0 || appSection) {
     let ticking = false;
@@ -604,7 +604,7 @@ function initMansha() {
     });
   }
   // ==========================================================================
-  // Product Detail Modal & Specifications System (Reference: Rel-Tex Style)
+  // Product Detail Modal & Specifications System (Reference: Mansha Style)
   // ==========================================================================
   const productsDatabase = {
     "single-jersey": {
