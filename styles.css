@@ -536,7 +536,6 @@ img {
   z-index: 2000;
   padding: 2rem 1.5rem;
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
   visibility: hidden;
   pointer-events: none;
   transition: right 0.35s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.35s ease;
@@ -1612,9 +1611,9 @@ textarea.form-control {
 }
 
 select.form-control {
-  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   background-color: #ffffff;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2364748b'%3e%3cpath d='M11.9997 13.1716L16.9495 8.22168L18.3637 9.63589L11.9997 16L5.63574 9.63589L7.04996 8.22168L11.9997 13.1716Z'%3e%3c/path%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -2439,7 +2438,7 @@ select.form-control option {
 
 @media (max-width: 1024px) {
   .hero {
-    min-height: auto;
+    min-height: 0;
     padding: 4.5rem 0 5.5rem;
   }
   .hero-bg-dark {
@@ -2539,7 +2538,7 @@ select.form-control option {
     width: 100%;
   }
   .hero {
-    min-height: auto;
+    min-height: 0;
     padding: 3.5rem 0 4.5rem;
     background: #0a192f;
   }
@@ -4444,8 +4443,8 @@ select.form-control option {
   height: 100%;
   max-height: 205px;
   object-fit: contain;
-  image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
   transition: transform 0.4s ease;
 }
 
@@ -5267,8 +5266,8 @@ select.form-control option {
   width: 100%;
   overflow: hidden;
   padding: 10px 0;
-  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
   -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 
 .partner-marquee-track {
