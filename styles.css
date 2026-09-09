@@ -1317,7 +1317,7 @@ img {
 /* Right Column */
 .faq-split-right {
   position: relative;
-  background-image: url('https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Cap-and-gloves-knitting-machines.jpeg');
+  background-image: url('images/flat-knitting-main.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -2273,16 +2273,16 @@ select.form-control option {
 
 /* Individual Page Banner Background Themes - Lightened Overlays */
 .page-banner.banner-about {
-  background-image: linear-gradient(rgba(10, 16, 38, 0.38), rgba(10, 16, 38, 0.48)), url('https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp');
+  background-image: linear-gradient(rgba(10, 16, 38, 0.38), rgba(10, 16, 38, 0.48)), url('images/circular-knitting-main.jpg');
 }
 .page-banner.banner-services {
-  background-image: linear-gradient(rgba(10, 16, 38, 0.38), rgba(10, 16, 38, 0.48)), url('https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Installation-and-consultation.jpeg');
+  background-image: linear-gradient(rgba(10, 16, 38, 0.38), rgba(10, 16, 38, 0.48)), url('images/installation-consultation.jpg');
 }
 .page-banner.banner-products {
   background-image: linear-gradient(rgba(10, 16, 38, 0.38), rgba(10, 16, 38, 0.48)), url('our-promise.jpg');
 }
 .page-banner.banner-applications {
-  background-image: linear-gradient(rgba(10, 16, 38, 0.38), rgba(10, 16, 38, 0.48)), url('https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Circular-Knitting-machine.jpeg');
+  background-image: linear-gradient(rgba(10, 16, 38, 0.38), rgba(10, 16, 38, 0.48)), url('images/circular-knitting-main.jpg');
 }
 .page-banner.banner-faq {
   background-image: linear-gradient(rgba(10, 16, 38, 0.40), rgba(10, 16, 38, 0.50)), url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1600&q=80');
@@ -2299,13 +2299,13 @@ select.form-control option {
   background-position: center 40%;
 }
 .page-banner.banner-circular {
-  background-image: linear-gradient(rgba(10, 16, 38, 0.38), rgba(10, 16, 38, 0.48)), url('https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp');
+  background-image: linear-gradient(rgba(10, 16, 38, 0.38), rgba(10, 16, 38, 0.48)), url('images/circular-knitting-main.jpg');
 }
 .page-banner.banner-needles {
-  background-image: linear-gradient(rgba(10, 16, 38, 0.38), rgba(10, 16, 38, 0.48)), url('https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg');
+  background-image: linear-gradient(rgba(10, 16, 38, 0.38), rgba(10, 16, 38, 0.48)), url('images/niddle-352x199.webp');
 }
 .page-banner.banner-second-hand {
-  background-image: linear-gradient(rgba(10, 16, 38, 0.38), rgba(10, 16, 38, 0.48)), url('https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Circular-Knitting-machine.jpeg');
+  background-image: linear-gradient(rgba(10, 16, 38, 0.38), rgba(10, 16, 38, 0.48)), url('images/circular-knitting-main.jpg');
 }
 
 .page-banner h1 {
@@ -5274,7 +5274,7 @@ select.form-control option {
   display: flex;
   gap: 24px;
   width: max-content;
-  animation: partnerMarqueeScroll 26s linear infinite;
+  animation: partnerMarqueeScroll 45s linear infinite;
 }
 
 .partner-marquee-wrap:hover .partner-marquee-track {
@@ -5299,8 +5299,10 @@ select.form-control option {
   border-radius: 12px;
   padding: 12px 22px;
   min-width: 250px;
+  flex-shrink: 0;
   box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
   transition: all 0.25s ease;
+  text-decoration: none;
 }
 
 .partner-ticker-card:hover {
@@ -5312,6 +5314,7 @@ select.form-control option {
   max-height: 38px;
   max-width: 120px;
   object-fit: contain;
+  border-radius: 4px;
 }
 
 .partner-ticker-info {

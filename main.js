@@ -797,9 +797,8 @@ function initMansha() {
       productionCapacity: "3F - 6F / Inch (Up to 300 - 520 kg / 24 Hours)",
       application: "T-Shirt Jersey, Lycra Jersey, Pique, 2-Thread Fleece, Terry & Mesh Fabrics",
       automationLevel: "Fully Computerized Inverter Drive, Ball Bearing System & Central Stitch Adjustment",
-      image: "images/single-jersey-standard.png",
+      image: "images/single-jersey-main.jpg",
       gallery: [
-        "images/single-jersey-standard.png",
         "images/single-jersey-main.jpg",
         "IMG_4771.JPG",
         "our-promise.jpg"
@@ -895,9 +894,9 @@ function initMansha() {
       productionCapacity: "72F - 126F Multi-Feeder (Up to 320 - 520 kg / 24 Hours)",
       application: "Neoprene Knits, Air Cushion Spacer, Crease-Free Lycra Double Jersey, Scuba Fabric & Sportswear",
       automationLevel: "Motor-Driven Fabric Cutting System, 2 Cam Rings Height Adjustment & 10-Inch Touch Panel",
-      image: "images/double-jersey-open-width.png",
+      image: "images/single-jersey-open-width.png",
       gallery: [
-        "images/double-jersey-open-width.png",
+        "images/single-jersey-open-width.png",
         "images/sames-cambox-hd.png",
         "IMG_4771.JPG"
       ],
@@ -925,9 +924,9 @@ function initMansha() {
       productionCapacity: "72F - 126F Multi-Feeder (Up to 320 - 520 kg / 24 Hours)",
       application: "Neoprene Knits, Air Cushion Spacer, Crease-Free Lycra Double Jersey, Scuba Fabric & Sportswear",
       automationLevel: "Motor-Driven Fabric Cutting System, 2 Cam Rings Height Adjustment & 10-Inch Touch Panel",
-      image: "images/double-jersey-open-width.png",
+      image: "images/single-jersey-open-width.png",
       gallery: [
-        "images/double-jersey-open-width.png",
+        "images/single-jersey-open-width.png",
         "images/sames-cambox-hd.png",
         "IMG_4771.JPG"
       ],
@@ -955,9 +954,9 @@ function initMansha() {
       productionCapacity: "Dial 3-Track & Cylinder 7-Track High-Yield Architecture",
       application: "Double Faced Outerwear, Heavy Interlock, Fleece Replacement & Bonding Fabric Alternative",
       automationLevel: "Dial 3-Track / Cylinder 7-Track Needles, 2 Cam Rings System & Zirconia Yarn Guides",
-      image: "images/double-jersey-reversible.png",
+      image: "images/double-jersey-main.jpg",
       gallery: [
-        "images/double-jersey-reversible.png",
+        "images/double-jersey-main.jpg",
         "images/sames-cambox-hd.png",
         "IMG_4771.JPG"
       ],
@@ -985,9 +984,9 @@ function initMansha() {
       productionCapacity: "2.8F - 3.6F / Inch (Up to 280 - 450 kg / 24 Hours)",
       application: "Reversible Double-Face Fabric, Punto-di-Roma, Milan Rib, Interlock Pique, Waffle Knits",
       automationLevel: "Multi-Track Dial & Cylinder Cam Arrangement with Central Stitch Synchronizer",
-      image: "images/double-jersey-reversible.png",
+      image: "images/double-jersey-main.jpg",
       gallery: [
-        "images/double-jersey-reversible.png",
+        "images/double-jersey-main.jpg",
         "images/double-jersey-wp.jpg",
         "IMG_4771.JPG"
       ],
@@ -1160,11 +1159,11 @@ function initMansha() {
       productionCapacity: "72F - 108F Multi-Feeder (Up to 300 - 500 kg / 24 Hours)",
       application: "High-Elastic Spandex/Lycra Fabrics, Swimwear, Seamless Activewear, Shapewear & Lingerie",
       automationLevel: "Fully Automatic Rotary Fabric Slitter & Crease-Free Rolling System",
-      image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp",
+      image: "images/circular-knitting-main.jpg",
       gallery: [
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp",
+        "images/circular-knitting-main.jpg",
         "IMG_4771.JPG",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Circular-Knitting-machine.jpeg",
+        "images/single-jersey-main.jpg",
         "knitting-partner.jpg"
       ],
       description: "Eliminate central creasing on Lycra fabrics with the YFOW Open-Width system. An integrated rotary blade slits the tubular cloth into open-width rolls during knitting, preparing flat fabric directly for stenter finishing.",
@@ -1193,7 +1192,6 @@ function initMansha() {
         "images/flat-knitting-main.jpg",
         "images/flat-knitting-carriage.jpg",
         "images/flat-knitting-collar.jpg",
-        "images/flat-knitting-control.jpg",
         "images/flat-knitting-samples.jpg"
       ],
       description: "Mansha International's Fully Computerized Sweater & Cardigan Flat Knitting Machine is an industrial-grade, high-productivity solution engineered for the manufacturing of premium sweaters, pullovers, cardigans, and fully fashioned knit garments. Built with precision dual-carriage systems, hardened alloy needle beds, and high-response electronic needle actuators, the MF-52C / MF-72C series delivers flawless stitch quality across intricate cable designs, pointelle, tuck loops, transfer stitches, and multi-color Jacquard graphics.\n\nEquipped with a computerized color touchscreen CNC interface, programmable stitch stepping motors, dynamic electronic sinker control, and 16-color motorized yarn carrier bars, operators can rapidly switch pattern programs via standard USB CAD files. Its heavy vibration-dampened frame ensures quiet high-speed traversing up to 1.6 m/s, offering exceptional dimensional consistency across wool, cashmere, cotton, acrylic, viscose, and blended yarns.",
@@ -1227,7 +1225,6 @@ function initMansha() {
         "images/flat-knitting-collar.jpg",
         "images/flat-knitting-main.jpg",
         "images/flat-knitting-carriage.jpg",
-        "images/flat-knitting-control.jpg",
         "images/flat-knitting-samples.jpg"
       ],
       description: "Engineered specifically for high-efficiency mass production of polo collars, sleeve cuffs, pocket edges, and ribbed waistbands. The MFC-40 combines compact dimensions with high carriage traverse speeds, electronic color striping, and automatic turn-up lock-stitch hemming. Its rapid pattern turnover and intuitive operator interface maximize daily throughput for commercial garment factories.",
@@ -1259,7 +1256,6 @@ function initMansha() {
         "images/flat-knitting-carriage.jpg",
         "images/flat-knitting-main.jpg",
         "images/flat-knitting-collar.jpg",
-        "images/flat-knitting-control.jpg",
         "images/flat-knitting-samples.jpg"
       ],
       description: "The MF-PRO Series represents the state-of-the-art in flat knitting technology, featuring motorized yarn carriers that move independently of the carriage for true high-definition Intarsia blocks without reverse-side floating threads. Designed for avant-garde fashion knitwear, 3D seamless garment engineering, and engineered sports footwear uppers, this machine allows freeform needle transfer, inverse plating, and multi-gauge stitch blending on a single garment piece.",
@@ -1292,7 +1288,6 @@ function initMansha() {
         "images/flat-knitting-main.jpg",
         "images/flat-knitting-carriage.jpg",
         "images/flat-knitting-collar.jpg",
-        "images/flat-knitting-control.jpg",
         "images/flat-knitting-samples.jpg"
       ],
       description: "Mansha International's Fully Computerized Sweater & Cardigan Flat Knitting Machine is an industrial-grade, high-productivity solution engineered for the manufacturing of premium sweaters, pullovers, cardigans, and fully fashioned knit garments. Built with precision dual-carriage systems, hardened alloy needle beds, and high-response electronic needle actuators, the MF-52C / MF-72C series delivers flawless stitch quality across intricate cable designs, pointelle, tuck loops, transfer stitches, and multi-color Jacquard graphics.\n\nEquipped with a computerized color touchscreen CNC interface, programmable stitch stepping motors, dynamic electronic sinker control, and 16-color motorized yarn carrier bars, operators can rapidly switch pattern programs via standard USB CAD files. Its heavy vibration-dampened frame ensures quiet high-speed traversing up to 1.6 m/s, offering exceptional dimensional consistency across wool, cashmere, cotton, acrylic, viscose, and blended yarns.",
@@ -1326,7 +1321,6 @@ function initMansha() {
         "images/flat-knitting-collar.jpg",
         "images/flat-knitting-main.jpg",
         "images/flat-knitting-carriage.jpg",
-        "images/flat-knitting-control.jpg",
         "images/flat-knitting-samples.jpg"
       ],
       description: "Engineered specifically for high-efficiency mass production of polo collars, sleeve cuffs, pocket edges, and ribbed waistbands. The MFC-40 combines compact dimensions with high carriage traverse speeds, electronic color striping, and automatic turn-up lock-stitch hemming. Its rapid pattern turnover and intuitive operator interface maximize daily throughput for commercial garment factories.",
@@ -1358,7 +1352,6 @@ function initMansha() {
         "images/flat-knitting-carriage.jpg",
         "images/flat-knitting-main.jpg",
         "images/flat-knitting-collar.jpg",
-        "images/flat-knitting-control.jpg",
         "images/flat-knitting-samples.jpg"
       ],
       description: "The MF-PRO Series represents the state-of-the-art in flat knitting technology, featuring motorized yarn carriers that move independently of the carriage for true high-definition Intarsia blocks without reverse-side floating threads. Designed for avant-garde fashion knitwear, 3D seamless garment engineering, and engineered sports footwear uppers, this machine allows freeform needle transfer, inverse plating, and multi-gauge stitch blending on a single garment piece.",
@@ -1385,10 +1378,10 @@ function initMansha() {
       productionCapacity: "High-Speed Continuous Run (Rated up to 45+ RPM)",
       application: "Single Jersey, Lycra Knits, 3-Thread Fleece, Double Jersey & Pique Circular Machines",
       automationLevel: "Precision CNC Cold-Drawn German Tool Steel with Mirror Finish Spoon Latch",
-      image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg",
+      image: "images/niddle-352x199.webp",
       gallery: [
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/niddle-352x199.webp",
+        "images/niddle-352x199.webp",
+        "images/sames-cambox-hd.png",
         "IMG_4771.JPG"
       ],
       description: "Mansha International supplies genuine latch needles designed to minimize latch impact, prevent drop-stitches, and lower yarn friction. Compatible with leading machine brands worldwide.",
@@ -1411,10 +1404,10 @@ function initMansha() {
       productionCapacity: "High-Speed Multi-Track Heavy-Duty Knitting",
       application: "Rib Collars, Cuffs, Interlock Fabrics, Thermal Wear & Mattress Ticking",
       automationLevel: "Hardened Chrome Plating with Wear-Resistant Latch Spring Mechanism",
-      image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/niddle-352x199.webp",
+      image: "images/niddle-352x199.webp",
       gallery: [
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/niddle-352x199.webp",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg",
+        "images/niddle-352x199.webp",
+        "images/sames-cambox-hd.png",
         "IMG_4771.JPG"
       ],
       description: "Designed for dial cam races in double-jersey circular knitting machines. Ensures reliable loop transfer and clean stitch formation even when running coarse cotton and blended thermal yarns.",
@@ -1441,8 +1434,7 @@ function initMansha() {
       gallery: [
         "images/flat-knitting-carriage.jpg",
         "images/flat-knitting-main.jpg",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/niddle-352x199.webp"
+        "images/niddle-352x199.webp"
       ],
       description: "Precision engineered latch needles, transfer needles, selector jacks, and sinkers compatible with Stoll, Shima Seiki, and modern computerized flat knitting machines. Manufactured from ultra-pure alloy tool steel with mirror-polished needle cheeks to prevent yarn snagging and latch fatigue under high carriage traverse speeds up to 1.6 m/s.",
       functions: [
@@ -1469,8 +1461,7 @@ function initMansha() {
       gallery: [
         "images/flat-knitting-carriage.jpg",
         "images/flat-knitting-main.jpg",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/niddle-352x199.webp"
+        "images/niddle-352x199.webp"
       ],
       description: "Precision engineered latch needles, transfer needles, selector jacks, and sinkers compatible with Stoll, Shima Seiki, and modern computerized flat knitting machines. Manufactured from ultra-pure alloy tool steel with mirror-polished needle cheeks to prevent yarn snagging and latch fatigue under high carriage traverse speeds up to 1.6 m/s.",
       functions: [
@@ -1493,10 +1484,10 @@ function initMansha() {
       productionCapacity: "Continuous Run at 40+ RPM",
       application: "Loop Formation, Plush & Fleece Loops, Spandex Inlay on Circular Machines",
       automationLevel: "High-Carbon Tool Steel with Polished Edge to Prevent Yarn Slicing",
-      image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/niddle-352x199.webp",
+      image: "images/niddle-352x199.webp",
       gallery: [
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/niddle-352x199.webp",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg",
+        "images/niddle-352x199.webp",
+        "images/sames-cambox-hd.png",
         "IMG_4771.JPG"
       ],
       description: "Precision-milled sinkers provide accurate loop holding and smooth knocking-over of knitted loops. Treated for maximum abrasion resistance against high-friction dyed and spun yarns.",
@@ -1519,10 +1510,10 @@ function initMansha() {
       productionCapacity: "Constant Yarn Speed up to 1200 m/min",
       application: "Cotton, Polyester, Lycra/Spandex, Nylon & Blended Yarn Feeding",
       automationLevel: "360-Degree Contact-Free Optical Stop-Motion with High-Luminance LED",
-      image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/niddle-352x199.webp",
+      image: "images/niddle-352x199.webp",
       gallery: [
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/niddle-352x199.webp",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp",
+        "images/niddle-352x199.webp",
+        "images/circular-knitting-main.jpg",
         "IMG_4771.JPG"
       ],
       description: "Ensures uniform yarn feeding tension across all machine feeds, eliminating horizontal fabric bars and striping defects in circular knit goods. Features magnetic tension ring and auto-stop sensor.",
@@ -1545,11 +1536,11 @@ function initMansha() {
       productionCapacity: "High-Speed Multi-Track Needle Guidance",
       application: "Pattern Change, 4-Track Single Jersey, 3-Thread Fleece, Interlock & Rib Structures",
       automationLevel: "CNC Milled & Vacuum Heat-Treated to 60-62 HRC Hardness",
-      image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/niddle-352x199.webp",
+      image: "images/sames-cambox-hd.png",
       gallery: [
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/niddle-352x199.webp",
-        "IMG_4771.JPG",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Needles-and-spare-parts.jpeg"
+        "images/sames-cambox-hd.png",
+        "images/niddle-352x199.webp",
+        "IMG_4771.JPG"
       ],
       description: "Engineered cam segments manufactured from premium alloy tool steel. Hardened and precision-ground to guarantee smooth needle butt impact, minimal heat buildup, and zero track deflection.",
       functions: [
@@ -1571,10 +1562,10 @@ function initMansha() {
       productionCapacity: "250 - 400 kg / 24 Hours (Factory-Certified Run)",
       application: "T-Shirt Jersey, Lycra Knits, Pique Polo, Interlock Underwear & Ribbing",
       automationLevel: "Refurbished Inverter Drive, New Positive Feeders, Fresh Oiler & Digital Counter",
-      image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Circular-Knitting-machine.jpeg",
+      image: "images/single-jersey-main.jpg",
       gallery: [
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Circular-Knitting-machine.jpeg",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp",
+        "images/single-jersey-main.jpg",
+        "images/circular-knitting-main.jpg",
         "IMG_4771.JPG"
       ],
       description: "Mansha International sources certified pre-owned circular machines from top European and Asian manufacturers. Every machine is stripped down, ultrasonically cleaned, fitted with new needles and sinkers, and trial-knitted.",
@@ -1598,10 +1589,10 @@ function initMansha() {
       productionCapacity: "220 - 350 kg / 24 Hours",
       application: "Rib Collars, Cuffs, Thermal Wear, Interlock Sports Fabric",
       automationLevel: "Calibrated Central Stitch Adjustment, Rebuilt Take-Up Roll & Serviced Drive",
-      image: "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp",
+      image: "images/circular-knitting-main.jpg",
       gallery: [
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/circular_knitting_machine_factory.webp",
-        "https://vedanturanchi.com/manshainternational/wp-content/uploads/2026/08/Circular-Knitting-machine.jpeg",
+        "images/circular-knitting-main.jpg",
+        "images/single-jersey-main.jpg",
         "IMG_4771.JPG"
       ],
       description: "Inspected double jersey machines delivering high-yield production for knitwear factories looking to expand capacity at an economical capital investment.",
@@ -1628,7 +1619,6 @@ function initMansha() {
       gallery: [
         "images/flat-knitting-main.jpg",
         "images/flat-knitting-carriage.jpg",
-        "images/flat-knitting-control.jpg",
         "images/flat-knitting-samples.jpg"
       ],
       description: "High-precision certified pre-owned computerized flat knitting machines thoroughly inspected, serviced, and recalibrated by Mansha International's technical team in Ludhiana. Includes renewed needle beds, serviced carriage cam boxes, fresh latch needles, and upgraded CNC control memory.",
@@ -1655,7 +1645,6 @@ function initMansha() {
       gallery: [
         "images/flat-knitting-main.jpg",
         "images/flat-knitting-carriage.jpg",
-        "images/flat-knitting-control.jpg",
         "images/flat-knitting-samples.jpg"
       ],
       description: "High-precision certified pre-owned computerized flat knitting machines thoroughly inspected, serviced, and recalibrated by Mansha International's technical team in Ludhiana. Includes renewed needle beds, serviced carriage cam boxes, fresh latch needles, and upgraded CNC control memory.",
