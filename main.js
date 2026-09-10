@@ -624,8 +624,8 @@ function initMansha() {
       gallery: [
         "images/single-jersey-main.jpg",
         "images/single-jersey-standard.png",
-        "IMG_4771.JPG",
-        "our-promise.jpg"
+        "images/single-jersey-open-width.png",
+        "images/single-jersey-fleece.png"
       ],
       description: "Single Jersey textiles always dominate the major trend in knitting industry. In order to meet these tremendous needs, the YFSG High Speed 4 Track Single Jersey Circular Knitting Machine is engineered to knit plain and pique design fabrics easily by arranging the 4-track cylinder cams—knit, tuck, and miss—for many different kinds of patterns with exceptional fabric tension control and high productivity.",
       functions: [
@@ -656,7 +656,7 @@ function initMansha() {
       gallery: [
         "images/single-jersey-bodysize.png",
         "images/single-jersey-main.jpg",
-        "IMG_4771.JPG"
+        "images/single-jersey-terry.png"
       ],
       description: "This series of small-diameter, high-precision circular knitting machines is specially designed for the efficient production of seamless tubular fabrics for underwear, bodysuits, tank tops, and athletic wear without side seams. Eliminates side-seam stitching, minimizes material waste, and enhances wearer comfort.",
       functions: [
@@ -714,7 +714,7 @@ function initMansha() {
       gallery: [
         "images/single-jersey-fleece.png",
         "images/single-jersey-main.jpg",
-        "IMG_4771.JPG"
+        "images/single-jersey-open-width-speed.png"
       ],
       description: "Single Jersey Three Thread Fleece Circular Knitting Machine. Engineered with 4-track cams, Groz-Beckert needles, central stitch adjustment, and a precision ball-bearing system for easy operation. Knits face yarn, ground yarn, and backing inlay yarn simultaneously with zero missing loops, producing heavy, uniform fleece ideal for brushing, raising, and sheared hoodies.",
       functions: [
@@ -743,7 +743,7 @@ function initMansha() {
       gallery: [
         "images/single-jersey-terry.png",
         "images/single-jersey-main.jpg",
-        "IMG_4771.JPG"
+        "images/single-jersey-fleece.png"
       ],
       description: "Face Terry Circular Knitting Machine for Polar Fleece and Reverse Terry Circular Knitting Machine for Velvet. Terry machines are equipped with Central Stitch adjustment, dynamic sinker control, and a precision Ball Bearing system. Delivers upright, plush, uniform loop heights without loop pull-out.",
       functions: [
@@ -800,8 +800,8 @@ function initMansha() {
       image: "images/single-jersey-main.jpg",
       gallery: [
         "images/single-jersey-main.jpg",
-        "IMG_4771.JPG",
-        "our-promise.jpg"
+        "images/single-jersey-open-width.png",
+        "images/single-jersey-bodysize.png"
       ],
       description: "Our expert Single Jersey Circular Knitting Machine features Central stitch adjustment, easy to operate and fast setting of the machine. The machine is engineered with precision ball bearings, so the machine is light and ensures smooth driving. Less noise and saves your energy expense.",
       functions: [

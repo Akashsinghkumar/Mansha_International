@@ -185,10 +185,7 @@
               <i class="ri-apps-2-line"></i>
             </div>
             <ul class="mansha-sidebar-menu" id="sidebarAppList">
-              <li class="mansha-sidebar-item active" data-filter="all">
-                <a href="#all">All Applications <i class="ri-arrow-right-s-line"></i></a>
-              </li>
-              <li class="mansha-sidebar-item" data-filter="sport">
+              <li class="mansha-sidebar-item active" data-filter="sport">
                 <a href="#sport">Sport &amp; leisurewear <i class="ri-arrow-right-s-line"></i></a>
               </li>
               <li class="mansha-sidebar-item" data-filter="furnishings">
@@ -215,10 +212,13 @@
               <li class="mansha-sidebar-item" data-filter="caps-gloves">
                 <a href="#caps-gloves">Winter Caps &amp; Gloves <i class="ri-arrow-right-s-line"></i></a>
               </li>
+              <li class="mansha-sidebar-item" data-filter="all">
+                <a href="#all">All Applications <i class="ri-arrow-right-s-line"></i></a>
+              </li>
             </ul>
           </div>
 
-          <!-- Products Series Box  -->
+          <!-- Products Series Box (Matching REL-TEX) -->
           <div class="mansha-sidebar-box">
             <div class="mansha-sidebar-header accent-navy">
               <span>Products</span>
@@ -226,10 +226,19 @@
             </div>
             <ul class="mansha-sidebar-menu">
               <li class="mansha-sidebar-item">
-                <a href="category-flat-knitting.html">Flat Knitting Machines <i class="ri-arrow-right-s-line"></i></a>
+                <a href="category-single-jersey.html">Single Jersey Series <i class="ri-arrow-right-s-line"></i></a>
               </li>
               <li class="mansha-sidebar-item">
-                <a href="category-circular-knitting.html">Circular Knitting Machines <i class="ri-arrow-right-s-line"></i></a>
+                <a href="category-double-jersey.html">Double Jersey Series <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+              <li class="mansha-sidebar-item">
+                <a href="category-jacquard.html">Electronic Knitting Series <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+              <li class="mansha-sidebar-item">
+                <a href="category-circular-knitting.html">Tights/Pantyhose/Leggings Series <i class="ri-arrow-right-s-line"></i></a>
+              </li>
+              <li class="mansha-sidebar-item">
+                <a href="category-flat-knitting.html">Flat Knitting Series <i class="ri-arrow-right-s-line"></i></a>
               </li>
               <li class="mansha-sidebar-item">
                 <a href="service-needles-spares.html">Needles &amp; Spare Parts <i class="ri-arrow-right-s-line"></i></a>
@@ -251,192 +260,445 @@
 
         <!-- ================= RIGHT 4-COLUMN CARDS GRID ================= -->
         <section class="mansha-app-main-content">
-          <div class="mansha-app-cards-grid-4" id="manshaCardsContainer">
 
-            <!-- Card 1: Food packaging -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="industrial">
+          <!-- Dynamic Category Header Strip -->
+          <div class="mansha-app-content-header">
+            <div class="mansha-app-content-title-wrap">
+              <h2 class="mansha-app-content-title" id="currentCategoryTitle">All Applications</h2>
+              <span class="mansha-app-badge" id="currentCategoryCount"><i class="ri-check-double-line"></i> 40 Products</span>
+            </div>
+            <p class="mansha-app-content-desc" id="currentCategoryDesc">Explore precision-engineered fabric applications produced with Mansha International's circular and flat knitting machines.</p>
+          </div>
+
+          <div class="mansha-app-cards-grid-4" id="manshaCardsContainer">            <!-- ================= SPORT & LEISUREWEAR COLLECTION ================= -->
+            <!-- Card S1: T shirst -->
+            <div class="mansha-app-box-card" data-category="sport" data-name="T shirst" data-sub="Single Jersey Series" data-machine="Mansha High-Speed Single Jersey Circular Knitting Machine" data-gauge="24G - 32G" data-diameter="30&quot; - 34&quot;" data-feeders="96F - 108F" data-yarn="100% Cotton, Poly-Cotton, Spandex" data-desc="High-speed circular knitted single jersey fabric with smooth surface ideal for activewear, t-shirts, and casual leisurewear printing." data-img="images/applications/sport-tshirt.jpg">
               <div class="mansha-app-box-thumb">
-                <img src="images/circular-knitting-main.jpg" alt="Food packaging mesh" onerror="this.src='knitting-partner.jpg';">
+                <img src="images/applications/sport-tshirt.jpg" alt="T shirst" loading="lazy">
               </div>
               <div class="mansha-app-box-info">
-                <h3 class="mansha-app-box-name">Food packaging</h3>
-                <div class="mansha-app-box-sub">Circular Mesh Knits</div>
+                <h3 class="mansha-app-box-name">T shirst</h3>
               </div>
             </div>
 
-            <!-- Card 2: Steering wheel cover -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="automotive">
+            <!-- Card S2: Shorts -->
+            <div class="mansha-app-box-card" data-category="sport" data-name="Shorts" data-sub="Sport &amp; Leisurewear" data-machine="Mansha Single Jersey Mesh / Pique Circular Machine" data-gauge="20G - 28G" data-diameter="30&quot; - 34&quot;" data-feeders="72F - 90F" data-yarn="Polyester Dry-Fit, Spandex" data-desc="Lightweight, breathable sports mesh knit engineered for athletic running and soccer shorts with fast sweat dispersion." data-img="images/applications/sport-shorts.jpg">
               <div class="mansha-app-box-thumb">
-                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Steering wheel cover" onerror="this.src='our-promise.jpg';">
+                <img src="images/applications/sport-shorts.jpg" alt="Shorts" loading="lazy">
               </div>
               <div class="mansha-app-box-info">
-                <h3 class="mansha-app-box-name">Steering wheel cover</h3>
-                <div class="mansha-app-box-sub">Automotive Fabrics</div>
+                <h3 class="mansha-app-box-name">Shorts</h3>
               </div>
             </div>
 
-            <!-- Card 3: Towels -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="furnishings">
+            <!-- Card S3: Polo shirt -->
+            <div class="mansha-app-box-card" data-category="sport" data-name="Polo shirt" data-sub="Pique Series" data-machine="Mansha Single Jersey 4-Track Pique Circular Machine" data-gauge="20G - 24G" data-diameter="30&quot; - 34&quot;" data-feeders="90F - 102F" data-yarn="100% Combed Cotton, CVC, TC" data-desc="Classic honeycomb textured pique circular knit for premium polo t-shirts with exceptional shape retention and collar matching." data-img="images/applications/sport-polo.jpg">
               <div class="mansha-app-box-thumb">
-                <img src="https://images.unsplash.com/photo-1616627547584-bf28cee262db?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Towels" onerror="this.src='knitting-partner.jpg';">
+                <img src="images/applications/sport-polo.jpg" alt="Polo shirt" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Polo shirt</h3>
+              </div>
+            </div>
+
+            <!-- Card S4: Yoga clothes -->
+            <div class="mansha-app-box-card" data-category="sport" data-name="Yoga clothes" data-sub="Double Jersey Stretch" data-machine="Mansha Double Jersey High-Gauge Interlock Machine" data-gauge="28G - 36G" data-diameter="30&quot; - 34&quot;" data-feeders="72F - 84F" data-yarn="Polyester/Nylon + High-Stretch Spandex" data-desc="Super-soft, non-sheer 4-way elastic double jersey fabric tailored for yoga activewear, sports crop tops, and fitness bras." data-img="images/applications/sport-yoga.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/sport-yoga.jpg" alt="Yoga clothes" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Yoga clothes</h3>
+              </div>
+            </div>
+
+            <!-- Card S5: Tracksuits & Hoodies -->
+            <div class="mansha-app-box-card" data-category="sport" data-name="Tracksuits &amp; Hoodies" data-sub="3-Thread Fleece" data-machine="Mansha 3-Thread Fleece Circular Knitting Machine" data-gauge="16G - 20G" data-diameter="30&quot; - 34&quot;" data-feeders="90F - 102F" data-yarn="Cotton Face + Poly Tie + Cotton Loop" data-desc="Heavy-weight 3-end fleece with diagonal loop backing, engineered for brushed winter hoodies, joggers, and sport tracksuits." data-img="images/applications/sport-hoodie.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/sport-hoodie.jpg" alt="Tracksuits &amp; Hoodies" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Tracksuits &amp; Hoodies</h3>
+              </div>
+            </div>
+
+            <!-- ================= HOME FURNISHINGS COLLECTION ================= -->
+            <!-- Card H1: Towels -->
+            <div class="mansha-app-box-card" data-category="furnishings" data-name="Towels" data-sub="Terry Loop Circular" data-machine="Mansha High-Speed Terry Circular Knitting Machine" data-gauge="16G - 20G" data-diameter="30&quot; - 34&quot;" data-feeders="38F - 44F" data-yarn="100% Cotton Carded / Combed" data-desc="High-loop pile circular knitted terry fabric providing maximum absorbency, plush thickness, and anti-snag loop structure for luxury towels." data-img="images/applications/furnishing-towels.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/furnishing-towels.jpg" alt="Towels" loading="lazy">
               </div>
               <div class="mansha-app-box-info">
                 <h3 class="mansha-app-box-name">Towels</h3>
-                <div class="mansha-app-box-sub">Terry Loop Circular</div>
               </div>
             </div>
 
-            <!-- Card 4: Mattresses -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="furnishings">
+            <!-- Card H2: Mattresses -->
+            <div class="mansha-app-box-card" data-category="furnishings" data-name="Mattresses" data-sub="Quilted Jacquard Knits" data-machine="Mansha Electronic Double Jersey Jacquard Mattress Machine" data-gauge="18G - 24G" data-diameter="38&quot; - 42&quot; Large Size" data-feeders="72F - 84F" data-yarn="Polyester, Viscose, Anti-Dust Yarn" data-desc="Heavy-weight multi-color jacquard knitted mattress ticking with high relief 3D cushioning, flame-resistant properties, and anti-pilling wear." data-img="images/applications/furnishing-mattresses.jpg">
               <div class="mansha-app-box-thumb">
-                <img src="https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Mattresses" onerror="this.src='our-promise.jpg';">
+                <img src="images/applications/furnishing-mattresses.jpg" alt="Mattresses" loading="lazy">
               </div>
               <div class="mansha-app-box-info">
                 <h3 class="mansha-app-box-name">Mattresses</h3>
-                <div class="mansha-app-box-sub">Quilted Jacquard Knits</div>
               </div>
             </div>
 
-            <!-- Card 5: Curtains -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="furnishings">
+            <!-- Card H3: Curtains -->
+            <div class="mansha-app-box-card" data-category="furnishings" data-name="Curtains" data-sub="Home Furnishings" data-machine="Mansha Electronic Jacquard Circular Knitting Machine" data-gauge="24G - 28G" data-diameter="30&quot; - 34&quot;" data-feeders="60F - 72F" data-yarn="Polyester Filament, Lustrous Chenille" data-desc="Light-filtering sheer and blackout jacquard circular knitted curtains with flowing drape, fade-resistant dyes, and dimensional stability." data-img="images/applications/furnishing-curtains.jpg">
               <div class="mansha-app-box-thumb">
-                <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Curtains" onerror="this.src='our-promise.jpg';">
+                <img src="images/applications/furnishing-curtains.jpg" alt="Curtains" loading="lazy">
               </div>
               <div class="mansha-app-box-info">
                 <h3 class="mansha-app-box-name">Curtains</h3>
-                <div class="mansha-app-box-sub">Home Furnishings</div>
               </div>
             </div>
 
-            <!-- Card 6: Blankets -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="furnishings">
+            <!-- Card H4: Blankets -->
+            <div class="mansha-app-box-card" data-category="furnishings" data-name="Blankets" data-sub="Plush Fleece Knits" data-machine="Mansha Double-Sided Polar Fleece Circular Machine" data-gauge="16G - 22G" data-diameter="30&quot; - 34&quot;" data-feeders="72F - 84F" data-yarn="100% Micro-Polyester DTY" data-desc="Ultra-soft double-faced polar fleece blanket fabric providing thermal insulation, non-shedding pile, and lightweight winter warmth." data-img="images/applications/furnishing-blankets.jpg">
               <div class="mansha-app-box-thumb">
-                <img src="https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Blankets" onerror="this.src='knitting-partner.jpg';">
+                <img src="images/applications/furnishing-blankets.jpg" alt="Blankets" loading="lazy">
               </div>
               <div class="mansha-app-box-info">
                 <h3 class="mansha-app-box-name">Blankets</h3>
-                <div class="mansha-app-box-sub">Plush Fleece Knits</div>
               </div>
             </div>
 
-            <!-- Card 7: Footwear -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="footwear">
+            <!-- Card H5: Bed Sheets -->
+            <div class="mansha-app-box-card" data-category="furnishings" data-name="Bed Sheets" data-sub="Jersey Bedding Series" data-machine="Mansha Open-Width Single Jersey Large Diameter Machine" data-gauge="28G - 32G" data-diameter="34&quot; - 38&quot;" data-feeders="108F - 120F" data-yarn="100% Long-Staple Combed Cotton" data-desc="Wide-width seamless knitted cotton bed sheets offering crease-free elasticity, breathable temperature regulation, and fitted corner snugness." data-img="images/applications/furnishing-bedsheets.jpg">
               <div class="mansha-app-box-thumb">
-                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Footwear" onerror="this.src='knitting-partner.jpg';">
+                <img src="images/applications/furnishing-bedsheets.jpg" alt="Bed Sheets" loading="lazy">
               </div>
               <div class="mansha-app-box-info">
-                <h3 class="mansha-app-box-name">Footwear</h3>
-                <div class="mansha-app-box-sub">3D Knitted Shoe Uppers</div>
+                <h3 class="mansha-app-box-name">Bed Sheets</h3>
               </div>
             </div>
 
-            <!-- Card 8: Fire-retardant fabrics -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="industrial">
+            <!-- Card H6: Sofa Cushion Covers -->
+            <div class="mansha-app-box-card" data-category="furnishings" data-name="Cushion Covers" data-sub="Upholstery Knits" data-machine="Mansha Double Jersey Rib / Jacquard Machine" data-gauge="18G - 24G" data-diameter="30&quot; - 34&quot;" data-feeders="60F - 72F" data-yarn="Polyester/Spandex Chenille" data-desc="High-stretch elastic furniture slipcover and cushion fabric with abrasion resistance, dirt-repellent treatment, and washing durability." data-img="images/applications/furnishing-sofa.jpg">
               <div class="mansha-app-box-thumb">
-                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Fire-retardant fabrics" onerror="this.src='our-promise.jpg';">
+                <img src="images/applications/furnishing-sofa.jpg" alt="Cushion Covers" loading="lazy">
               </div>
               <div class="mansha-app-box-info">
-                <h3 class="mansha-app-box-name">Fire-retardant...</h3>
-                <div class="mansha-app-box-sub">Industrial Protective</div>
+                <h3 class="mansha-app-box-name">Cushion Covers</h3>
               </div>
             </div>
 
-            <!-- Card 9: Surgical Gowns -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="medical">
+            <!-- ================= UNDERWEAR COLLECTION ================= -->
+            <!-- Card U1: Underwear -->
+            <div class="mansha-app-box-card" data-category="underwear" data-name="Underwear" data-sub="Seamless Fine Jersey" data-machine="Mansha High-Speed Single Jersey Circular Knitting Machine" data-gauge="24G - 36G" data-diameter="30&quot; - 34&quot;" data-feeders="96F - 108F" data-yarn="Combed Cotton, Modal, Polyamide, Spandex" data-desc="Seamless tubular fine-gauge circular knitted underwear fabric offering exceptional soft-touch comfort, skin-friendly softness, and stretch recovery." data-img="images/applications/underwear-main.jpg">
               <div class="mansha-app-box-thumb">
-                <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Surgical Gowns" onerror="this.src='our-promise.jpg';">
-              </div>
-              <div class="mansha-app-box-info">
-                <h3 class="mansha-app-box-name">Surgical Gowns</h3>
-                <div class="mansha-app-box-sub">Medical Healthcare</div>
-              </div>
-            </div>
-
-            <!-- Card 10: Seat Cushion -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="automotive">
-              <div class="mansha-app-box-thumb">
-                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Seat Cushion" onerror="this.src='knitting-partner.jpg';">
-              </div>
-              <div class="mansha-app-box-info">
-                <h3 class="mansha-app-box-name">Seat Cushion</h3>
-                <div class="mansha-app-box-sub">3D Spacer Mesh</div>
-              </div>
-            </div>
-
-            <!-- Card 11: Leggings -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="leggings">
-              <div class="mansha-app-box-thumb">
-                <img src="https://images.unsplash.com/photo-1506152983158-b4a74a01c721?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Leggings" onerror="this.src='our-promise.jpg';">
-              </div>
-              <div class="mansha-app-box-info">
-                <h3 class="mansha-app-box-name">Leggings</h3>
-                <div class="mansha-app-box-sub">Interlock &amp; Rib</div>
-              </div>
-            </div>
-
-            <!-- Card 12: Underwear -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="underwear">
-              <div class="mansha-app-box-thumb">
-                <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Underwear" onerror="this.src='knitting-partner.jpg';">
+                <img src="images/applications/underwear-main.jpg" alt="Underwear" loading="lazy">
               </div>
               <div class="mansha-app-box-info">
                 <h3 class="mansha-app-box-name">Underwear</h3>
-                <div class="mansha-app-box-sub">Seamless Fine Jersey</div>
               </div>
             </div>
 
-            <!-- Card 13: Sport T-Shirts -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="sport">
+            <!-- Card U2: Men's Seamless Boxer Briefs -->
+            <div class="mansha-app-box-card" data-category="underwear" data-name="Seamless Boxers" data-sub="Men's Innerwear" data-machine="Mansha Single Jersey Open-Width / Tubular Machine" data-gauge="28G - 32G" data-diameter="14&quot; - 20&quot; Body Size" data-feeders="42F - 60F" data-yarn="Cotton Spandex, MicroModal" data-desc="Body-size circular knitted seamless underwear providing anti-chafing ergonomic fit, high moisture wicking and ultra-durable elastic recovery." data-img="images/applications/underwear-boxer.jpg">
               <div class="mansha-app-box-thumb">
-                <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Sport T-Shirts" onerror="this.src='our-promise.jpg';">
+                <img src="images/applications/underwear-boxer.jpg" alt="Seamless Boxers" loading="lazy">
               </div>
               <div class="mansha-app-box-info">
-                <h3 class="mansha-app-box-name">T-shirts &amp; Polos</h3>
-                <div class="mansha-app-box-sub">Sport &amp; Leisurewear</div>
+                <h3 class="mansha-app-box-name">Seamless Boxers</h3>
               </div>
             </div>
 
-            <!-- Card 14: Winter Caps &amp; Beanies -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="caps-gloves">
+            <!-- Card U3: Women's Seamless Knitted Panties -->
+            <div class="mansha-app-box-card" data-category="underwear" data-name="Seamless Panties" data-sub="Women's Innerwear" data-machine="Mansha High-Speed Interlock &amp; Plain Circular Machine" data-gauge="32G - 36G Ultra-Fine" data-diameter="12&quot; - 18&quot;" data-feeders="36F - 54F" data-yarn="Nylon 66, Microfiber, Lycra" data-desc="Delicate featherweight circular knitted seamless panties featuring laser-smooth edges, zero show-through seams, and breathable cotton gusset lining." data-img="images/applications/underwear-panties.jpg">
               <div class="mansha-app-box-thumb">
-                <img src="images/flat-knitting-samples.jpg" alt="Winter Caps &amp; Beanies" onerror="this.src='images/flat-knitting-collar.jpg';">
+                <img src="images/applications/underwear-panties.jpg" alt="Seamless Panties" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Seamless Panties</h3>
+              </div>
+            </div>
+
+            <!-- Card U4: Thermal Base Layer / Long Johns -->
+            <div class="mansha-app-box-card" data-category="underwear" data-name="Thermal Long Johns" data-sub="Thermal Base Layer" data-machine="Mansha Double Jersey Interlock Circular Machine" data-gauge="18G - 24G" data-diameter="30&quot; - 34&quot;" data-feeders="72F - 84F" data-yarn="Cotton, Poly-Viscose, Polypropylene" data-desc="Thermal base layer innerwear with inside brushed fleece insulation, engineered for sub-zero climate protection with breathable moisture transfer." data-img="images/applications/underwear-thermal.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/underwear-thermal.jpg" alt="Thermal Long Johns" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Thermal Long Johns</h3>
+              </div>
+            </div>
+
+            <!-- Card U5: Fine Rib Undershirt & Vests -->
+            <div class="mansha-app-box-card" data-category="underwear" data-name="Ribbed Undershirts" data-sub="Cotton Rib Vests" data-machine="Mansha High-Speed Rib Circular Knitting Machine" data-gauge="14G - 18G" data-diameter="30&quot; - 36&quot;" data-feeders="60F - 72F" data-yarn="100% Combed Cotton, Bamboo Blend" data-desc="Traditional ribbed innerwear vests and sleeveless undershirts with natural horizontal elasticity and high absorbency." data-img="images/applications/underwear-vest.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/underwear-vest.jpg" alt="Ribbed Undershirts" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Ribbed Undershirts</h3>
+              </div>
+            </div>
+
+            <!-- Card U6: Seamless Sports Bra -->
+            <div class="mansha-app-box-card" data-category="underwear" data-name="Sports Bra" data-sub="Athletic Underwear" data-machine="Mansha Electronic Jacquard Seamless Body-Knit Machine" data-gauge="28G - 32G" data-diameter="13&quot; - 17&quot;" data-feeders="8F - 12F Seamless" data-yarn="Polyamide, Elastane, Cooling Yarn" data-desc="Anatomically zoned circular knitted sports bra with integrated rib support bands, racerback ventilation, and bounce-control tensioning." data-img="images/applications/underwear-bra.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/underwear-bra.jpg" alt="Sports Bra" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Sports Bra</h3>
+              </div>
+            </div>
+
+            <!-- ================= LEGGINGS COLLECTION ================= -->
+            <!-- Card L1: Leggings -->
+            <div class="mansha-app-box-card" data-category="leggings" data-name="Leggings" data-sub="Interlock &amp; Rib" data-machine="Mansha High-Speed Interlock Circular Knitting Machine" data-gauge="28G - 36G" data-diameter="30&quot; - 34&quot;" data-feeders="84F - 96F" data-yarn="Nylon/Polyester + Spandex (High Lycra)" data-desc="Seamless compression knitted leggings fabric providing 360-degree stretch retention, zero transparency squat-proof density, and shape sculpting." data-img="images/applications/leggings-main.webp">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/leggings-main.webp" alt="Leggings" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Leggings</h3>
+              </div>
+            </div>
+
+            <!-- Card L2: High-Waist Yoga Leggings -->
+            <div class="mansha-app-box-card" data-category="leggings" data-name="Yoga Leggings" data-sub="Seamless Waistband" data-machine="Mansha Double Jersey 8-Lock / Interlock Machine" data-gauge="32G - 36G Fine Gauge" data-diameter="30&quot; - 34&quot;" data-feeders="84F - 108F" data-yarn="Micro-Polyamide, Elastane" data-desc="Butter-soft peached circular knit leggings with ultra-wide waistband support, targeted tummy control, and moisture-wicking technology." data-img="images/applications/leggings-yoga.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/leggings-yoga.jpg" alt="Yoga Leggings" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Yoga Leggings</h3>
+              </div>
+            </div>
+
+            <!-- Card L3: Compression Sport Tights -->
+            <div class="mansha-app-box-card" data-category="leggings" data-name="Compression Tights" data-sub="Sports Performance" data-machine="Mansha Electronic Jacquard Seamless Leggings Machine" data-gauge="28G - 32G" data-diameter="14&quot; - 18&quot;" data-feeders="8F - 12F Seamless" data-yarn="High-Tenacity Nylon, Spandex" data-desc="Graduated athletic compression tights engineered to boost blood flow, prevent muscle fatigue, and endure outdoor running abrasion." data-img="images/applications/leggings-compression.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/leggings-compression.jpg" alt="Compression Tights" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Compression Tights</h3>
+              </div>
+            </div>
+
+            <!-- Card L4: Fleece-Lined Winter Leggings -->
+            <div class="mansha-app-box-card" data-category="leggings" data-name="Fleece Leggings" data-sub="Winter Thermal" data-machine="Mansha Double Jersey Circular Brushed Interlock Machine" data-gauge="20G - 24G" data-diameter="30&quot; - 34&quot;" data-feeders="72F - 84F" data-yarn="Polyester, Spandex, Brushed Cotton" data-desc="Winter cold-weather leggings with velvety brushed micro-fleece interior and sleek wind-resistant outer surface for thermal elegance." data-img="images/applications/leggings-fleece.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/leggings-fleece.jpg" alt="Fleece Leggings" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Fleece Leggings</h3>
+              </div>
+            </div>
+
+            <!-- ================= AUTOMOTIVE FABRICS COLLECTION ================= -->
+            <!-- Card A1: Steering wheel cover -->
+            <div class="mansha-app-box-card" data-category="automotive" data-name="Steering wheel cover" data-sub="Automotive Fabrics" data-machine="Mansha High-Speed Circular Knitting Machine" data-gauge="18G - 24G" data-diameter="30&quot; - 32&quot;" data-feeders="60F - 72F" data-yarn="Polyester Textured Yarn, Elastomeric Core" data-desc="Anti-slip textured circular knit engineered to withstand UV radiation, steering sweat degradation, and high friction abrasion." data-img="images/applications/auto-steering.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/auto-steering.jpg" alt="Steering wheel cover" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Steering wheel cover</h3>
+              </div>
+            </div>
+
+            <!-- Card A2: Seat Cushion -->
+            <div class="mansha-app-box-card" data-category="automotive" data-name="Seat Cushion" data-sub="3D Spacer Mesh" data-machine="Mansha Double Needle Bar / Spacer Circular Knitting Machine" data-gauge="18G - 22G" data-diameter="30&quot; - 34&quot;" data-feeders="60F - 72F" data-yarn="Polyester Monofilament + Multifilament" data-desc="Breathable 3D spacer sandwich circular knit offering high compression resistance, air-flow cooling, and shock absorption for car seating." data-img="images/applications/auto-seat.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/auto-seat.jpg" alt="Seat Cushion" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Seat Cushion</h3>
+              </div>
+            </div>
+
+            <!-- Card A3: Headliner Fabric -->
+            <div class="mansha-app-box-card" data-category="automotive" data-name="Headliner Fabric" data-sub="Vehicle Roof Knits" data-machine="Mansha Open-Width Single Jersey Large Diameter Machine" data-gauge="24G - 28G" data-diameter="34&quot; - 38&quot;" data-feeders="102F - 120F" data-yarn="Dope-Dyed Polyester Filament" data-desc="Lightweight warp-knit look circular knit designed for car ceiling headliner lamination with high sound absorption and sag prevention." data-img="images/applications/auto-headliner.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/auto-headliner.jpg" alt="Headliner Fabric" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Headliner Fabric</h3>
+              </div>
+            </div>
+
+            <!-- Card A4: Door Panel Trims -->
+            <div class="mansha-app-box-card" data-category="automotive" data-name="Door Panel Trims" data-sub="Interior Jacquard" data-machine="Mansha Electronic Jacquard Circular Knitting Machine" data-gauge="20G - 24G" data-diameter="30&quot; - 34&quot;" data-feeders="60F - 72F" data-yarn="Flame-Retardant Poly Filament" data-desc="Heavy-duty textured door trim fabric compliant with automotive flammability standards FMVSS 302 and extreme temperature stability." data-img="images/applications/auto-door.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/auto-door.jpg" alt="Door Panel Trims" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Door Panel Trims</h3>
+              </div>
+            </div>
+
+            <!-- ================= MEDICAL & HEALTHCARE COLLECTION ================= -->
+            <!-- Card M1: Surgical Gowns -->
+            <div class="mansha-app-box-card" data-category="medical" data-name="Surgical Gowns" data-sub="Medical Healthcare" data-machine="Mansha High-Speed Single Jersey Circular Knitting Machine" data-gauge="28G - 32G" data-diameter="30&quot; - 34&quot;" data-feeders="96F - 108F" data-yarn="Polyester/Cotton, Antibacterial Treated" data-desc="Breathable hospital-grade surgical fabric featuring fluid-repellent coating, anti-static yarn incorporation, and autoclave wash resilience." data-img="images/applications/medical-gown.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/medical-gown.jpg" alt="Surgical Gowns" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Surgical Gowns</h3>
+              </div>
+            </div>
+
+            <!-- Card M2: Compression Bandages -->
+            <div class="mansha-app-box-card" data-category="medical" data-name="Compression Bandages" data-sub="Orthopedic Therapy" data-machine="Mansha Rib &amp; Interlock Small Diameter Circular Machine" data-gauge="14G - 18G" data-diameter="4&quot; - 10&quot; Medical Size" data-feeders="12F - 24F" data-yarn="Cotton / Rubber Thread / Spandex" data-desc="Controlled pressure therapeutic bandages designed for venous disorder treatment, sprain rehabilitation, and continuous medical support." data-img="images/applications/medical-bandage.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/medical-bandage.jpg" alt="Compression Bandages" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Compression Bandages</h3>
+              </div>
+            </div>
+
+            <!-- Card M3: Tubular Support Bandages -->
+            <div class="mansha-app-box-card" data-category="medical" data-name="Tubular Bandages" data-sub="Seamless Cylinder" data-machine="Mansha Small Diameter Rib Circular Machine" data-gauge="12G - 16G" data-diameter="3&quot; - 8&quot;" data-feeders="8F - 16F" data-yarn="Pure Cotton + Inlaid Elastodiene" data-desc="Continuous tubular support stocking used to hold dressings securely without pins or tape, providing gentle even circumferential compression." data-img="images/applications/medical-tubular.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/medical-tubular.jpg" alt="Tubular Bandages" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Tubular Bandages</h3>
+              </div>
+            </div>
+
+            <!-- Card M4: Antibacterial Hospital Knits -->
+            <div class="mansha-app-box-card" data-category="medical" data-name="Hospital Knits" data-sub="Sterile Medical Linen" data-machine="Mansha Double Jersey Circular Knitting Machine" data-gauge="24G - 28G" data-diameter="30&quot; - 34&quot;" data-feeders="72F - 84F" data-yarn="Silver-Infused Bio-Polyester, Cotton" data-desc="Permanent antibacterial hospital sheets and patient apparel knits inhibiting 99.9% of bacterial growth and cross-contamination." data-img="images/applications/medical-linen.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/medical-linen.jpg" alt="Hospital Knits" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Hospital Knits</h3>
+              </div>
+            </div>
+
+            <!-- ================= INDUSTRIAL COLLECTION ================= -->
+            <!-- Card I1: Food packaging -->
+            <div class="mansha-app-box-card" data-category="industrial" data-name="Food packaging" data-sub="Circular Mesh Knits" data-machine="Mansha Open-Mesh Single Jersey Circular Machine" data-gauge="12G - 18G" data-diameter="26&quot; - 30&quot;" data-feeders="48F - 60F" data-yarn="Food-Grade Polyethylene / Polypropylene" data-desc="Tear-resistant tubular netting designed for produce, fruit packing, garlic nets, and meat carcass smoking with air ventilation." data-img="images/applications/industrial-packaging.png">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/industrial-packaging.png" alt="Food packaging" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Food packaging</h3>
+              </div>
+            </div>
+
+            <!-- Card I2: Fire-retardant fabrics -->
+            <div class="mansha-app-box-card" data-category="industrial" data-name="Fire-retardant fabrics" data-sub="Industrial Protective" data-machine="Mansha Heavy-Duty Double Jersey Interlock Machine" data-gauge="20G - 24G" data-diameter="30&quot; - 34&quot;" data-feeders="60F - 72F" data-yarn="Nomex, Kevlar, Modacrylic, FR Viscose" data-desc="Flame-resistant industrial protective knits complying with NFPA 2112 and EN ISO 11612 for petrochemical and molten metal foundry workwear." data-img="images/applications/industrial-fire.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/industrial-fire.jpg" alt="Fire-retardant fabrics" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Fire-retardant fabrics</h3>
+              </div>
+            </div>
+
+            <!-- Card I3: Industrial Filter Mesh -->
+            <div class="mansha-app-box-card" data-category="industrial" data-name="Industrial Filter Mesh" data-sub="Filtration Technology" data-machine="Mansha High-Precision Single Jersey Mesh Circular Machine" data-gauge="24G - 28G" data-diameter="30&quot; - 34&quot;" data-feeders="72F - 84F" data-yarn="Polyester/Nylon Monofilament" data-desc="Calibrated micron mesh for industrial water treatment, dust extraction filter bags, and pharmaceutical chemical filtration." data-img="images/applications/industrial-filter.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/industrial-filter.jpg" alt="Industrial Filter Mesh" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Industrial Filter Mesh</h3>
+              </div>
+            </div>
+
+            <!-- Card I4: Cut-Resistant Safety Sleeves -->
+            <div class="mansha-app-box-card" data-category="industrial" data-name="Cut-Resistant Sleeves" data-sub="Protective Workwear" data-machine="Mansha Automated Seamless Cylinder Machine" data-gauge="13G - 18G" data-diameter="4&quot; - 6&quot; Tubular" data-feeders="4F - 8F" data-yarn="HPPE Fiber, Stainless Steel Wire Core" data-desc="ANSI Level 5 cut-resistant protective arm sleeves designed for automotive assembly lines, sheet metal fabrication, and glass handling." data-img="images/applications/industrial-sleeves.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/industrial-sleeves.jpg" alt="Cut-Resistant Sleeves" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Cut-Resistant Sleeves</h3>
+              </div>
+            </div>
+
+            <!-- ================= FOOTWEAR COLLECTION ================= -->
+            <!-- Card F1: Footwear -->
+            <div class="mansha-app-box-card" data-category="footwear" data-name="Footwear" data-sub="3D Knitted Shoe Uppers" data-machine="Mansha Computerized Shoe Upper Flat Knitting Machine" data-gauge="14G - 16G Multi-Gauge" data-diameter="52&quot; Flat Bed" data-feeders="16 Intarsia Yarn Carriers" data-yarn="High-Tenacity Polyester, Hot-Melt Yarn" data-desc="Engineered 3D flyknit shoe uppers knitted in one single piece with zoned flexibility, breathability, and integrated eyelet lace reinforcements." data-img="images/applications/footwear-main.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/footwear-main.jpg" alt="Footwear" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Footwear</h3>
+              </div>
+            </div>
+
+            <!-- Card F2: 3D Flyknit Running Shoes -->
+            <div class="mansha-app-box-card" data-category="footwear" data-name="Running Shoe Uppers" data-sub="Athletic Footwear" data-machine="Mansha Computerized 3D Flat Knitting Machine" data-gauge="14G - 18G" data-diameter="52&quot; Knitting Width" data-feeders="16 Carriers" data-yarn="Polyester TPU, Monofilament" data-desc="Ultra-lightweight marathon running shoe upper with structural tension ribs on lateral quarters and open mesh on forefoot for cooling." data-img="images/applications/footwear-running.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/footwear-running.jpg" alt="Running Shoe Uppers" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Running Shoe Uppers</h3>
+              </div>
+            </div>
+
+            <!-- Card F3: Seamless Sock Sneakers -->
+            <div class="mansha-app-box-card" data-category="footwear" data-name="Sock Sneakers" data-sub="Modern Footwear" data-machine="Mansha Specialized Circular / Flat Sock Machine" data-gauge="14G - 18G" data-diameter="Custom Form" data-feeders="Intarsia Control" data-yarn="Nylon, Spandex, Metallic Yarn" data-desc="Contemporary slip-on sock sneaker knit providing ankle-hugging elasticity, seamless heel cup construction, and moisture-wicking comfort." data-img="images/applications/footwear-sock.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/footwear-sock.jpg" alt="Sock Sneakers" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Sock Sneakers</h3>
+              </div>
+            </div>
+
+            <!-- Card F4: Knitted Insole Liners -->
+            <div class="mansha-app-box-card" data-category="footwear" data-name="Insole Liners" data-sub="Shoe Cushioning" data-machine="Mansha Double Jersey Spacer Mesh Machine" data-gauge="20G - 24G" data-diameter="30&quot; - 34&quot;" data-feeders="60F - 72F" data-yarn="Anti-Bacterial Bamboo, Poly Spacer" data-desc="Resilient 3D cushioned insole topper knit treated with active carbon to absorb shoe odors, regulate foot humidity, and reduce stride shock." data-img="images/applications/footwear-insole.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/footwear-insole.jpg" alt="Insole Liners" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Insole Liners</h3>
+              </div>
+            </div>
+
+            <!-- ================= WINTER CAPS & GLOVES COLLECTION ================= -->
+            <!-- Card C1: Winter Caps & Beanies -->
+            <div class="mansha-app-box-card" data-category="caps-gloves" data-name="Winter Caps" data-sub="Flat Knitting Machines" data-machine="Mansha Computerized Automatic Flat Knitting Machine" data-gauge="7G - 14G Multi-Gauge" data-diameter="52&quot; Flat Bed" data-feeders="6 System High Speed" data-yarn="100% Wool, Acrylic, Cashmere Blends" data-desc="Fully automated computerized flat knitting machine production of turn-up cuff beanies, cable knit hats, and winter fashion headwear." data-img="images/applications/caps-beanie.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/caps-beanie.jpg" alt="Winter Caps" loading="lazy">
               </div>
               <div class="mansha-app-box-info">
                 <h3 class="mansha-app-box-name">Winter Caps</h3>
-                <div class="mansha-app-box-sub">Flat Knitting Machines</div>
               </div>
             </div>
 
-            <!-- Card 15: Seamless Thermal Gloves -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="caps-gloves">
+            <!-- Card C2: Seamless Thermal Gloves -->
+            <div class="mansha-app-box-card" data-category="caps-gloves" data-name="Seamless Gloves" data-sub="5-Finger Automated Knits" data-machine="Mansha Computerized 5-Finger Glove Knitting Machine" data-gauge="10G - 15G" data-diameter="Automated Glove Form" data-feeders="Multi-Finger Cam System" data-yarn="Acrylic, Conductive Touchscreen Thread" data-desc="Seamless 5-finger knitted gloves produced in a single continuous automated cycle with smartphone touchscreen conductive fingertips." data-img="images/applications/gloves-seamless.jpg">
               <div class="mansha-app-box-thumb">
-                <img src="images/flat-knitting-samples.jpg" alt="Seamless Thermal Gloves" onerror="this.src='images/flat-knitting-collar.jpg';">
+                <img src="images/applications/gloves-seamless.jpg" alt="Seamless Gloves" loading="lazy">
               </div>
               <div class="mansha-app-box-info">
                 <h3 class="mansha-app-box-name">Seamless Gloves</h3>
-                <div class="mansha-app-box-sub">5-Finger Automated Knits</div>
               </div>
             </div>
 
-            <!-- Card 16: Cut-Resistant Safety Gloves -->
-            <div class="mansha-app-box-card trigger-enquiry" data-category="industrial">
+            <!-- Card C3: Cut-Resistant Safety Gloves -->
+            <div class="mansha-app-box-card" data-category="caps-gloves" data-name="Safety Gloves" data-sub="Kevlar &amp; HPPE Workwear" data-machine="Mansha Heavy-Duty Workwear Glove Knitting Machine" data-gauge="13G - 15G" data-diameter="Safety Standard Form" data-feeders="Reinforced High-Torque System" data-yarn="Kevlar, HPPE, Glass Fiber, Nitrile Dip Ready" data-desc="Industrial cut-proof protective gloves engineered for precision handling in automotive sheet stamping and sharp metal manufacturing." data-img="images/applications/gloves-safety.jpg">
               <div class="mansha-app-box-thumb">
-                <img src="images/flat-knitting-samples.jpg" alt="Cut-Resistant Safety Gloves" onerror="this.src='images/flat-knitting-main.jpg';">
+                <img src="images/applications/gloves-safety.jpg" alt="Safety Gloves" loading="lazy">
               </div>
               <div class="mansha-app-box-info">
                 <h3 class="mansha-app-box-name">Safety Gloves</h3>
-                <div class="mansha-app-box-sub">Kevlar &amp; HPPE Workwear</div>
+              </div>
+            </div>
+
+            <!-- Card C4: Jacquard Patterned Beanies -->
+            <div class="mansha-app-box-card" data-category="caps-gloves" data-name="Patterned Beanies" data-sub="Jacquard Winter Knits" data-machine="Mansha Multi-Color Computerized Flat Knitting Machine" data-gauge="7G - 12G" data-diameter="52&quot; Flat Bed" data-feeders="16 Intarsia Carriers" data-yarn="Merino Wool, Anti-Pilling Acrylic" data-desc="Intricate multi-color geometric and custom logo winter beanies produced with zero backside yarn float snags." data-img="images/applications/caps-patterned.jpg">
+              <div class="mansha-app-box-thumb">
+                <img src="images/applications/caps-patterned.jpg" alt="Patterned Beanies" loading="lazy">
+              </div>
+              <div class="mansha-app-box-info">
+                <h3 class="mansha-app-box-name">Patterned Beanies</h3>
               </div>
             </div>
 
           </div>
 
-          <!-- Pagination Bar (Exact Mansha Controls: < 1 2 >) -->
-          <div class="mansha-pagination">
-            <button title="Click button" type="button" class="mansha-page-btn" id="prevPage" aria-label="Previous Page">&lt;</button>
-            <button title="Click button" type="button" class="mansha-page-btn active" data-page="1">1</button>
-            <button title="Click button" type="button" class="mansha-page-btn" data-page="2">2</button>
-            <button title="Click button" type="button" class="mansha-page-btn" id="nextPage" aria-label="Next Page">&gt;</button>
+          <!-- Pagination Bar (Exact Mansha / REL-TEX Controls: < 1 2 >) -->
+          <div class="mansha-pagination" id="manshaPaginationWrap">
+            <button title="Previous Page" type="button" class="mansha-page-btn" id="prevPage" aria-label="Previous Page">&lt;</button>
+            <div id="pageNumbersWrap" style="display: inline-flex; gap: 0.45rem;">
+              <button title="Page 1" type="button" class="mansha-page-btn active" data-page="1">1</button>
+              <button title="Page 2" type="button" class="mansha-page-btn" data-page="2">2</button>
+            </div>
+            <button title="Next Page" type="button" class="mansha-page-btn" id="nextPage" aria-label="Next Page">&gt;</button>
           </div>
         </section>
 
@@ -583,6 +845,60 @@
       </form>
     </div>
   </div>
+  
+  <!-- Product Machinery Detail Modal (Matching REL-TEX / Mansha) -->
+  <div class="product-modal-overlay" id="productDetailModal">
+    <div class="product-modal-card">
+      <button class="product-modal-close" type="button" id="productModalClose" aria-label="Close product modal" title="Close"><i class="ri-close-line"></i></button>
+
+      <div class="product-modal-top">
+        <!-- Image & Zoom -->
+        <div class="product-gallery-wrap">
+          <div class="product-gallery-main">
+            <img id="modalProductImg" src="images/single-jersey-main.jpg" alt="Product Application">
+          </div>
+        </div>
+
+        <!-- Technical Specification Meta -->
+        <div class="product-meta-wrap">
+          <span class="product-meta-section-tag" id="modalProductCategory"><i class="ri-apps-2-line"></i> Category</span>
+          <h2 class="product-meta-title" id="modalProductName">Product Name</h2>
+          
+          <div class="product-meta-list">
+            <div class="product-meta-item">
+              <span class="meta-label">Recommended Machine:</span>
+              <span class="meta-value" id="modalProductMachine" style="color: var(--logo-violet); font-weight: 700;">Mansha High-Speed Circular Machine</span>
+            </div>
+            <div class="product-meta-item">
+              <span class="meta-label">Machine Gauge:</span>
+              <span class="meta-value" id="modalProductGauge">24G - 36G</span>
+            </div>
+            <div class="product-meta-item">
+              <span class="meta-label">Cylinder Diameter:</span>
+              <span class="meta-value" id="modalProductDiameter">30" - 34"</span>
+            </div>
+            <div class="product-meta-item">
+              <span class="meta-label">Feeders / System:</span>
+              <span class="meta-value" id="modalProductFeeders">96F - 108F</span>
+            </div>
+            <div class="product-meta-item">
+              <span class="meta-label">Yarn Compatibility:</span>
+              <span class="meta-value" id="modalProductYarn">Combed Cotton, Polyester, Spandex</span>
+            </div>
+            <div class="product-meta-item" style="grid-template-columns: 1fr; margin-top: 0.4rem;">
+              <span class="meta-label" style="margin-bottom: 0.25rem;">Fabric Characteristics:</span>
+              <span class="meta-value" id="modalProductDesc" style="font-weight: 400; color: #475569; font-size: 0.88rem; line-height: 1.5;">High elasticity and breathability.</span>
+            </div>
+          </div>
+
+          <div class="product-modal-actions">
+            <button type="button" class="product-btn-quote" id="modalQuoteBtn"><i class="ri-calculator-line"></i> Request Machinery Quote</button>
+            <a href="https://wa.me/+918800335090" target="_blank" rel="noopener noreferrer" class="product-btn-wa" id="modalWaBtn"><i class="ri-whatsapp-line"></i> WhatsApp Inquiry</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Toast Notification -->
   <div class="toast-notification" id="toastNotification">
@@ -593,19 +909,94 @@
   <!-- JavaScript -->
   <script src="main.js"></script>
   <script>
-    // Real-time Sidebar Category Filtering and Pagination logic
+    // Real-time Sidebar Category Filtering, Hash Routing, Modal and Dynamic Pagination
     document.addEventListener('DOMContentLoaded', () => {
       const sidebarItems = document.querySelectorAll('#sidebarAppList .mansha-sidebar-item');
       const cards = document.querySelectorAll('#manshaCardsContainer .mansha-app-box-card');
-      const pageButtons = document.querySelectorAll('.mansha-page-btn[data-page]');
       const prevBtn = document.getElementById('prevPage');
       const nextBtn = document.getElementById('nextPage');
+      const pageNumbersWrap = document.getElementById('pageNumbersWrap');
+      const paginationWrap = document.getElementById('manshaPaginationWrap');
+      const currentTitleEl = document.getElementById('currentCategoryTitle');
+      const currentDescEl = document.getElementById('currentCategoryDesc');
+      const currentCountEl = document.getElementById('currentCategoryCount');
+      const breadcrumbSpan = document.querySelector('.mansha-breadcrumb-inner .active');
 
-      let currentCategory = 'all';
+      // Modal elements
+      const productModal = document.getElementById('productDetailModal');
+      const productModalClose = document.getElementById('productModalClose');
+      const modalProductImg = document.getElementById('modalProductImg');
+      const modalProductCategory = document.getElementById('modalProductCategory');
+      const modalProductName = document.getElementById('modalProductName');
+      const modalProductMachine = document.getElementById('modalProductMachine');
+      const modalProductGauge = document.getElementById('modalProductGauge');
+      const modalProductDiameter = document.getElementById('modalProductDiameter');
+      const modalProductFeeders = document.getElementById('modalProductFeeders');
+      const modalProductYarn = document.getElementById('modalProductYarn');
+      const modalProductDesc = document.getElementById('modalProductDesc');
+      const modalQuoteBtn = document.getElementById('modalQuoteBtn');
+      const modalWaBtn = document.getElementById('modalWaBtn');
+      const enquiryModal = document.getElementById('enquiryModal');
+      const enquiryTextarea = enquiryModal ? enquiryModal.querySelector('textarea') : null;
+
+      let currentCategory = 'sport';
       let currentPage = 1;
-      const itemsPerPage = 8;
+      const itemsPerPage = 12;
 
-      function updateDisplay() {
+      const categoryData = {
+        'all': {
+          title: 'All Applications',
+          desc: 'Explore precision-engineered fabric applications produced with Mansha International circular & flat knitting machines.',
+          breadcrumb: 'Applications'
+        },
+        'sport': {
+          title: 'Sport & Leisurewear Collection',
+          desc: 'High-speed circular knitted single jersey, athletic mesh, 3-thread fleece, and 4-way stretch fabrics for high-performance activewear.',
+          breadcrumb: 'Sport & leisurewear'
+        },
+        'furnishings': {
+          title: 'Home Furnishings Collection',
+          desc: 'Plush terry loop towels, electronic jacquard mattress ticking, blackout curtains, bed sheets, and polar fleece blankets.',
+          breadcrumb: 'Home furnishings'
+        },
+        'underwear': {
+          title: 'Underwear Collection',
+          desc: 'Seamless fine jersey, body-size tubular innerwear, and high-elasticity rib fabrics engineered for everyday softness, elasticity, and shape recovery.',
+          breadcrumb: 'Underwear'
+        },
+        'leggings': {
+          title: 'Leggings & Tights Collection',
+          desc: 'Seamless 4-way stretch interlock, compression yoga tights, and winter fleece-lined thermal fabrics.',
+          breadcrumb: 'Leggings'
+        },
+        'automotive': {
+          title: 'Automotive Fabrics Collection',
+          desc: 'High-durability 3D spacer mesh seat cushions, steering wheel covers, and flame-retardant headliner fabrics.',
+          breadcrumb: 'Automotive Fabrics'
+        },
+        'medical': {
+          title: 'Medical & Healthcare Collection',
+          desc: 'Hospital-grade surgical gowns, orthopedic compression bandages, tubular dressings, and antimicrobial sterile medical linens.',
+          breadcrumb: 'Medical & healthcare'
+        },
+        'industrial': {
+          title: 'Industrial & Technical Knits',
+          desc: 'Produce packaging netting, flame-retardant aramid workwear, micron filter meshes, and cut-resistant safety knits.',
+          breadcrumb: 'Industrial'
+        },
+        'footwear': {
+          title: 'Footwear & 3D Shoe Uppers',
+          desc: 'Computerized 3D flyknit running shoe uppers, seamless sock sneakers, and cushioned insole fabrics.',
+          breadcrumb: 'Footwear'
+        },
+        'caps-gloves': {
+          title: 'Winter Caps & Gloves Collection',
+          desc: 'Automated 5-finger seamless gloves, computerized jacquard beanies, and industrial Kevlar workwear.',
+          breadcrumb: 'Winter Caps & Gloves'
+        }
+      };
+
+      function updateDisplay(shouldScroll = false) {
         // Filter by category
         let visibleCards = [];
         cards.forEach(card => {
@@ -617,14 +1008,23 @@
           }
         });
 
-        // Pagination for the filtered cards
+        // Update category header info
+        const info = categoryData[currentCategory] || categoryData['all'];
+        if (currentTitleEl) currentTitleEl.textContent = info.title;
+        if (currentDescEl) currentDescEl.textContent = info.desc;
+        if (breadcrumbSpan) breadcrumbSpan.textContent = info.breadcrumb;
+        if (currentCountEl) {
+          currentCountEl.innerHTML = '<i class="ri-check-double-line"></i> ' + visibleCards.length + ' Products';
+        }
+
+        // Pagination for filtered cards
         const totalPages = Math.ceil(visibleCards.length / itemsPerPage) || 1;
         if (currentPage > totalPages) currentPage = 1;
 
         visibleCards.forEach((card, index) => {
           const startIndex = (currentPage - 1) * itemsPerPage;
           const endIndex = startIndex + itemsPerPage;
-          if (index >= startIndex &amp;&amp; index < endIndex) {
+          if (index >= startIndex && index < endIndex) {
             card.style.display = 'flex';
             card.style.opacity = '1';
           } else {
@@ -632,77 +1032,182 @@
           }
         });
 
-        // Update pagination buttons active state
-        pageButtons.forEach(btn => {
-          const pageNum = parseInt(btn.getAttribute('data-page'));
-          if (pageNum === currentPage) {
-            btn.classList.add('active');
+        // Render Page Number Buttons dynamically
+        if (pageNumbersWrap) {
+          pageNumbersWrap.innerHTML = '';
+          if (totalPages > 1) {
+            paginationWrap.style.display = 'flex';
+            for (let i = 1; i <= totalPages; i++) {
+              const btn = document.createElement('button');
+              btn.type = 'button';
+              btn.className = 'mansha-page-btn ' + (i === currentPage ? 'active' : '');
+              btn.setAttribute('data-page', i);
+              btn.textContent = i;
+              btn.addEventListener('click', () => {
+                currentPage = i;
+                updateDisplay(true);
+              });
+              pageNumbersWrap.appendChild(btn);
+            }
           } else {
-            btn.classList.remove('active');
+            // Only 1 page: show button 1
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'mansha-page-btn active';
+            btn.setAttribute('data-page', 1);
+            btn.textContent = '1';
+            pageNumbersWrap.appendChild(btn);
           }
-          btn.style.display = pageNum <= totalPages ? 'inline-flex' : 'none';
-        });
+        }
 
         if (prevBtn) prevBtn.disabled = currentPage === 1;
         if (nextBtn) nextBtn.disabled = currentPage === totalPages;
+
+        if (shouldScroll) {
+          const contentTop = document.querySelector('.mansha-app-content-header');
+          if (contentTop) {
+            contentTop.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      }
+
+      function setCategory(categoryKey, pushHash = true) {
+        if (!categoryData[categoryKey]) categoryKey = 'sport';
+        currentCategory = categoryKey;
+        currentPage = 1;
+
+        sidebarItems.forEach(item => {
+          if (item.getAttribute('data-filter') === categoryKey) {
+            item.classList.add('active');
+          } else {
+            item.classList.remove('active');
+          }
+        });
+
+        if (pushHash) {
+          history.replaceState(null, null, '#' + categoryKey);
+        }
+
+        updateDisplay(false);
       }
 
       // Sidebar Click Listeners
       sidebarItems.forEach(item => {
         item.addEventListener('click', (e) => {
           e.preventDefault();
-          sidebarItems.forEach(i => i.classList.remove('active'));
-          item.classList.add('active');
-          currentCategory = item.getAttribute('data-filter');
-          currentPage = 1;
-          updateDisplay();
+          const filter = item.getAttribute('data-filter') || 'sport';
+          setCategory(filter, true);
         });
       });
 
-      // Pagination Listeners
-      pageButtons.forEach(btn => {
-        btn.addEventListener('click', () => {
-          currentPage = parseInt(btn.getAttribute('data-page'));
-          updateDisplay();
-          window.scrollTo({ top: 320, behavior: 'smooth' });
-        });
-      });
-
+      // Pagination Controls (Previous & Next)
       if (prevBtn) {
         prevBtn.addEventListener('click', () => {
           if (currentPage > 1) {
             currentPage--;
-            updateDisplay();
-            window.scrollTo({ top: 320, behavior: 'smooth' });
+            updateDisplay(true);
           }
         });
       }
 
       if (nextBtn) {
         nextBtn.addEventListener('click', () => {
-          const filteredCount = Array.from(cards).filter(c => currentCategory === 'all' || c.getAttribute('data-category') === currentCategory).length;
-          const totalPages = Math.ceil(filteredCount / itemsPerPage) || 1;
+          const visibleCardsCount = Array.from(cards).filter(c => currentCategory === 'all' || c.getAttribute('data-category') === currentCategory).length;
+          const totalPages = Math.ceil(visibleCardsCount / itemsPerPage) || 1;
           if (currentPage < totalPages) {
             currentPage++;
-            updateDisplay();
-            window.scrollTo({ top: 320, behavior: 'smooth' });
+            updateDisplay(true);
           }
         });
       }
 
-      // Check URL parameters (e.g. ?cat=sport)
-      const urlParams = new URLSearchParams(window.location.search);
-      const initialCat = urlParams.get('cat');
-      if (initialCat) {
-        const targetSidebarItem = document.querySelector(`#sidebarAppList [data-filter="${initialCat}"]`);
-        if (targetSidebarItem) {
-          sidebarItems.forEach(i => i.classList.remove('active'));
-          targetSidebarItem.classList.add('active');
-          currentCategory = initialCat;
+      // Product Card Click -> Opens Machinery Detail Modal
+      cards.forEach(card => {
+        card.addEventListener('click', () => {
+          const name = card.getAttribute('data-name') || card.querySelector('.mansha-app-box-name')?.textContent || 'Product';
+          const sub = card.getAttribute('data-sub') || 'Knitted Fabric';
+          const img = card.getAttribute('data-img') || card.querySelector('img')?.src || '';
+          const machine = card.getAttribute('data-machine') || 'Mansha Precision Knitting Machine';
+          const gauge = card.getAttribute('data-gauge') || '18G - 32G';
+          const diameter = card.getAttribute('data-diameter') || '30" - 34"';
+          const feeders = card.getAttribute('data-feeders') || '72F - 108F';
+          const yarn = card.getAttribute('data-yarn') || 'Combed Cotton, Polyester, Spandex';
+          const desc = card.getAttribute('data-desc') || 'High efficiency fabric production with Mansha International textile machinery.';
+
+          if (modalProductName) modalProductName.textContent = name;
+          if (modalProductCategory) modalProductCategory.innerHTML = '<i class="ri-apps-2-line"></i> ' + sub;
+          if (modalProductImg) modalProductImg.src = img;
+          if (modalProductMachine) modalProductMachine.textContent = machine;
+          if (modalProductGauge) modalProductGauge.textContent = gauge;
+          if (modalProductDiameter) modalProductDiameter.textContent = diameter;
+          if (modalProductFeeders) modalProductFeeders.textContent = feeders;
+          if (modalProductYarn) modalProductYarn.textContent = yarn;
+          if (modalProductDesc) modalProductDesc.textContent = desc;
+
+          // Update WhatsApp message
+          if (modalWaBtn) {
+            const waText = encodeURIComponent('Hello Mansha International, I would like to inquire about the machine for producing: ' + name + ' (' + sub + ').');
+            modalWaBtn.href = 'https://wa.me/+918800335090?text=' + waText;
+          }
+
+          // Open Product Detail Modal
+          if (productModal) {
+            productModal.classList.add('open');
+            document.body.style.overflow = 'hidden';
+          }
+        });
+      });
+
+      // Close Product Detail Modal
+      if (productModalClose) {
+        productModalClose.addEventListener('click', () => {
+          if (productModal) {
+            productModal.classList.remove('open');
+            document.body.style.overflow = '';
+          }
+        });
+      }
+
+      if (productModal) {
+        productModal.addEventListener('click', (e) => {
+          if (e.target === productModal) {
+            productModal.classList.remove('open');
+            document.body.style.overflow = '';
+          }
+        });
+      }
+
+      // "Request Machinery Quote" from within Product Detail Modal -> opens Enquiry Modal
+      if (modalQuoteBtn) {
+        modalQuoteBtn.addEventListener('click', () => {
+          if (productModal) {
+            productModal.classList.remove('open');
+          }
+          if (enquiryModal) {
+            enquiryModal.classList.add('open');
+            if (enquiryTextarea && modalProductName) {
+              enquiryTextarea.value = 'Inquiring about machine setup and quote for producing: ' + modalProductName.textContent + ' (' + (modalProductMachine?.textContent || '') + ').';
+            }
+          }
+        });
+      }
+
+      // Check URL Hash or Query Parameter on Page Load and Hash Change
+      function checkRouting() {
+        const hash = window.location.hash ? window.location.hash.replace('#', '') : '';
+        const urlParams = new URLSearchParams(window.location.search);
+        const catParam = urlParams.get('cat');
+        const target = hash || catParam;
+
+        if (target && categoryData[target]) {
+          setCategory(target, false);
+        } else {
+          setCategory('sport', false);
         }
       }
 
-      updateDisplay();
+      window.addEventListener('hashchange', checkRouting);
+      checkRouting();
     });
   </script>
 </body>

@@ -3518,7 +3518,7 @@ select.form-control option {
 }
 
 .mansha-sidebar-header {
-  background: var(--logo-cyan);
+  background: var(--logo-violet);
   color: #ffffff;
   padding: 1.1rem 1.4rem;
   font-size: 1.15rem;
@@ -3565,20 +3565,71 @@ select.form-control option {
 
 .mansha-sidebar-item a:hover {
   background: #ffffff;
-  color: var(--logo-cyan);
-  padding-left: 1.65rem;
-  border-left: 4px solid var(--logo-cyan);
+  color: var(--logo-violet);
+  padding-left: 1.55rem;
 }
 
 .mansha-sidebar-item.active a {
-  background: #ffffff;
-  color: var(--logo-violet);
+  background: var(--logo-violet);
+  color: #ffffff;
   font-weight: 700;
-  border-left: 4px solid var(--logo-violet);
-  padding-left: 1.65rem;
+  border-left: none;
+  padding-left: 1.35rem;
 }
 
-/* Right 4-Column Application Cards Grid (Exact Mansha Design) */
+.mansha-sidebar-item.active a i {
+  color: #ffffff;
+}
+
+/* Applications Content Header */
+.mansha-app-content-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  padding-bottom: 1.15rem;
+  margin-bottom: 1.6rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.mansha-app-content-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mansha-app-content-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--primary-navy);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.mansha-app-badge {
+  background: var(--logo-cyan-light);
+  color: var(--logo-cyan-dark);
+  border: 1px solid rgba(34, 176, 254, 0.35);
+  padding: 4px 13px;
+  border-radius: 9999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.mansha-app-content-desc {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  width: 100%;
+  margin: 0;
+  line-height: 1.45;
+}
+
+/* Right 4-Column Application Cards Grid (Exact Reference Matching) */
 .mansha-app-cards-grid-4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -3586,10 +3637,12 @@ select.form-control option {
 }
 
 .mansha-app-box-card {
-  background: #eef0f2;
-  border: 1px solid #e2e8f0;
+  background: #ececec;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
   overflow: hidden;
-  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  padding: 10px 10px 14px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -3597,46 +3650,48 @@ select.form-control option {
 }
 
 .mansha-app-box-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 16px 32px -6px rgba(25, 21, 53, 0.14);
-  border-color: var(--logo-cyan);
+  transform: translateY(-5px);
+  box-shadow: 0 14px 28px -6px rgba(25, 21, 53, 0.12);
+  border-color: var(--logo-violet);
 }
 
 .mansha-app-box-thumb {
   background: #ffffff;
-  height: 190px;
-  margin: 10px 10px 0;
+  height: 210px;
+  margin: 0;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  border-radius: 2px;
 }
 
 .mansha-app-box-thumb img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  transition: transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+  object-fit: contain;
+  padding: 6px;
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .mansha-app-box-card:hover .mansha-app-box-thumb img {
-  transform: scale(1.08);
+  transform: scale(1.05);
 }
 
 .mansha-app-box-info {
-  padding: 1.05rem 0.8rem;
+  padding: 12px 6px 0;
   text-align: center;
-  background: #eef0f2;
+  background: transparent;
 }
 
 .mansha-app-box-name {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: #111111;
   line-height: 1.35;
   margin: 0;
-  transition: color 0.3s ease;
+  transition: color 0.25s ease;
 }
 
 .mansha-app-box-card:hover .mansha-app-box-name {
@@ -3652,42 +3707,43 @@ select.form-control option {
   font-weight: 600;
 }
 
-/* Pagination Controls (Exact Mansha 1 2 > Style) */
+/* Pagination Controls (Exact Reference Style: <  1  >) */
 .mansha-pagination {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.45rem;
-  margin-top: 3.5rem;
+  margin-top: 3rem;
 }
 
 .mansha-page-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 38px;
-  height: 38px;
-  padding: 0 12px;
-  background: #eef0f2;
+  min-width: 36px;
+  height: 36px;
+  padding: 0 10px;
+  background: #ececec;
   color: #475569;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #dcdcdc;
   font-size: 0.92rem;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
-  transition: all 0.25s ease;
+  transition: all 0.2s ease;
   text-decoration: none;
+  border-radius: 3px;
 }
 
 .mansha-page-btn:hover {
-  background: var(--logo-cyan);
-  color: #ffffff;
-  border-color: var(--logo-cyan);
+  background: #ffffff;
+  color: var(--logo-violet);
+  border-color: var(--logo-violet);
 }
 
 .mansha-page-btn.active {
-  background: #191535;
+  background: #7068b0;
   color: #ffffff;
-  border-color: #191535;
+  border-color: #7068b0;
 }
 
 @media (max-width: 1200px) {
