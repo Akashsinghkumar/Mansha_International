@@ -29,3 +29,9 @@ ehthumbs_vista.db
 .DS_Store
 .Spotlight-V100
 .Trashes
+
+node_modules/
+compress-images.js
+compress-locked.js
+package.json
+package-lock.json
