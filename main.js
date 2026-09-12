@@ -686,6 +686,11 @@ function initMansha() {
       image: "images/hongjun-single-jersey-main.jpg",
       gallery: [
         "images/hongjun-single-jersey-main.jpg",
+        "images/single-jersey-6track-green.jpg",
+        "images/hongjun-single-jersey-detail-1.jpg",
+        "images/hongjun-single-jersey-detail-2.jpg",
+        "images/hongjun-single-jersey-detail-3.jpg",
+        "images/hongjun-single-jersey-detail-4.jpg",
         "images/single-jersey-open-width.jpg",
         "images/open-width-yarn-carriers.jpg",
         "images/open-width-cambox-dials.jpg",
@@ -807,13 +812,7 @@ function initMansha() {
       image: "images/single-jersey-6track-cambox.png",
       gallery: [
         "images/single-jersey-6track-cambox.png",
-        "images/single-jersey-6track-cylinder.png",
-        "images/hongjun-single-jersey-main.jpg",
-        "images/single-jersey-6track-green.jpg",
-        "images/hongjun-single-jersey-detail-1.jpg",
-        "images/hongjun-single-jersey-detail-2.jpg",
-        "images/hongjun-single-jersey-detail-3.jpg",
-        "images/hongjun-single-jersey-detail-4.jpg"
+        "images/single-jersey-6track-cylinder.png"
       ],
       description: "Our expert Single Jersey Circular Knitting Machine features Central stitch adjustment, easy to operate and fast setting of the machine. The machine is engineered with precision ball bearings, so the machine is light and ensures smooth driving. Less noise and saves your energy expense.",
       functions: [
