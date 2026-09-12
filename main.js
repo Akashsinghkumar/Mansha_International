@@ -1086,6 +1086,9 @@ function initMansha() {
       image: "images/jacquard-double.png",
       gallery: [
         "images/jacquard-double.png",
+        "images/ss-sj-06.webp",
+        "images/ss-sj-05.webp",
+        "images/ss-sj-04.webp",
         "images/jacquard-link.png",
         "images/jacquard-rib-transfer.png"
       ],
@@ -1115,6 +1118,9 @@ function initMansha() {
       image: "images/jacquard-terry.png",
       gallery: [
         "images/jacquard-terry.png",
+        "images/ss-sj-01.jpg",
+        "images/ss-sj-02.webp",
+        "images/ss-sj-03.webp",
         "images/single-jersey-terry.png",
         "images/jacquard-link.png"
       ],
