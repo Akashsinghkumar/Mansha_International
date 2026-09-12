@@ -776,11 +776,15 @@ function initMansha() {
       productionCapacity: "3F - 4F / Inch (Up to 300 - 500 kg / 24 Hours)",
       application: "Continuous Open-Width Lycra Knits, Pique Polo Fabrics, Interlock-Look Jersey & High-Resilience Sportswear",
       automationLevel: "Heavy-Duty Ergonomic 2-Step Base Platform, Top/Cylinder Lint Blowers & Spraying Oiler",
-      image: "images/single-jersey-open-width-speed.png",
+      image: "images/SS-3-4_01.jpg",
       gallery: [
-        "images/single-jersey-open-width-speed.png",
-        "images/single-jersey-open-width.png",
-        "images/hongjun-single-jersey-main.jpg"
+        "images/SS-3-4_01.jpg",
+        "images/SS-3-4_03.jpg",
+        "images/SS-3-4_04.jpg",
+        "images/SS-3-4_05.jpg",
+        "images/SS-3-4_06.jpg",
+        "images/SS-3-4_07.jpg",
+        "images/SS-3-4_02.jpg"
       ],
       description: "Built for industrial high-yield output in modern continuous textile mills. Equipped with 2-step heavy pedals (each bearing 300 KG) on the base for safe operator access, top and cylinder lint blowers for clean fabric production, and a high-efficiency spraying-type oiler to ensure high-speed operation even in warm tropical climates.",
       functions: [
@@ -805,10 +809,10 @@ function initMansha() {
       productionCapacity: "3F - 6F / Inch (Up to 300 - 520 kg / 24 Hours)",
       application: "T-Shirt Jersey, Lycra Jersey, Pique, 2-Thread Fleece, Terry & Mesh Fabrics",
       automationLevel: "Fully Computerized Inverter Drive, Ball Bearing System & Central Stitch Adjustment",
-      image: "images/single-jersey-6track-cambox.png",
+      image: "images/single-jersey-6track-cylinder.png",
       gallery: [
-        "images/single-jersey-6track-cambox.png",
         "images/single-jersey-6track-cylinder.png",
+        "images/single-jersey-6track-cambox.png",
         "images/open-width-yarn-carriers.jpg",
         "images/open-width-cambox-dials.jpg",
         "images/open-width-factory-assembly.jpg"
@@ -1071,36 +1075,34 @@ function initMansha() {
       fabricsApplication: "■ Fashion Tops: Engineered jacquard t-shirts, polo shirts, and seamless pattern garments.\n■ Activewear: Zoned breathable mesh jacquards, running shirts, and cycling jerseys.\n■ Bedding: High-thread-count jacquard mattress fabrics and pillow covers."
     },
     "jacquard-double": {
-      title: "Double Jersey Computer Electronic Jacquard Knitting Machine",
+      title: "Double Jacquard (Mattress Ticking) Circular Knitting Machine",
       model: "YF-DJ Double Jacquard Series",
-      keyword: "Double Jacquard Circular Knitting Machine, Electronic Double Jersey Jacquard",
+      keyword: "Double Jacquard Circular Knitting Machine, Electronic Double Jersey Jacquard, Mattress Ticking Machine",
       classification: "Jacquard Circular Machinery",
       video: "",
       section: "Circular Knitting Machinery",
-      machineType: "Dial & Cylinder Computerized Double Jersey Jacquard Machine",
+      machineType: "Dial & Cylinder Computerized Double Jersey Jacquard Machine for Mattress Ticking",
       gauge: "14G - 32G Double Bed Gauges",
       diameter: '30" - 38" Cylinder Diameter',
       productionCapacity: "1.6F - 2.4F / Inch (Up to 200 - 320 kg / 24 Hours)",
-      application: "Double Face Jacquard, Heavy Winter Jacquard Knits, Quilted Fabrics & Luxury Upholstery",
-      automationLevel: "Dual-Bed Electronic Jacquard Needle Selection with Network Telemetry",
-      image: "images/jacquard-double.png",
+      application: "Mattress Ticking, Double Face Jacquard, Heavy Winter Jacquard Knits, Quilted Fabrics & Luxury Upholstery",
+      automationLevel: "Dual-Bed Electronic Jacquard Needle Selection with LGL Electronic Storage Feeders",
+      image: "images/jacquard-double-mattress-main.jpg",
       gallery: [
-        "images/jacquard-double.png",
-        "images/ss-sj-06.webp",
-        "images/ss-sj-05.webp",
-        "images/ss-sj-04.webp",
-        "images/jacquard-link.png",
-        "images/jacquard-rib-transfer.png"
+        "images/jacquard-double-mattress-main.jpg",
+        "images/jacquard-double-mattress-cylinder.jpg",
+        "images/jacquard-double-mattress-needles.jpg",
+        "images/jacquard-double-mattress-feeders.jpg"
       ],
-      description: "Advanced Double Jersey Computer Electronic Jacquard Circular Knitting Machine with dial and cylinder pattern selection for high-end double face jacquards, multi-color relief patterns, and jacquard quilts.",
+      description: "Advanced Double Jersey Computer Electronic Jacquard Circular Knitting Machine with dial and cylinder pattern selection, engineered specifically for high-end mattress ticking, luxury quilted upholstery, multi-color relief patterns, and structured double-face jacquards.",
       functions: [
-        "Dual-Bed Computerized Selection: Independent pattern actuators on both cylinder and dial for heavy structured jacquards.",
-        "Reversible Double Face Capability: Creates multi-color reversible designs with perfect stitch clarity on both sides.",
-        "Heavy Frame Vibration Dampening: Rigid industrial cast base absorbs torsional stress during high RPM jacquard production.",
-        "Digital Yarn Feeding Synchronizer: Uniform tension delivery avoids pattern distortion and horizontal bar marks."
+        "Dual-Bed Computerized Selection: Independent pattern actuators on both cylinder and dial for heavy structured jacquards and mattress ticking.",
+        "LGL Electronic Storage Feeders: Positive uniform yarn delivery prevents fabric bars, barre defects, and loop distortion on heavy yarns.",
+        "Precision Dial & Cylinder Camming: Micro-calibrated adjustment for heavy multi-layer relief designs and high-GSM quilting textiles.",
+        "Rigid Cast Frame Vibration Dampening: Absorbs high-speed torsional vibration for whisper-quiet continuous 24/7 factory performance."
       ],
-      fabricsApplicationTitle: "Double Jacquard Knits Application:",
-      fabricsApplication: "■ Outerwear Knits: Heavy jacquard sweaters, blazers, winter coats, and reversible cardigans.\n■ Home Textiles: Premium upholstery, jacquard mattress covers, and decorative throws.\n■ Automotive Fabrics: High-durability vehicle seat covers and interior panel trim."
+      fabricsApplicationTitle: "Double Jacquard & Mattress Ticking Application:",
+      fabricsApplication: "■ Mattress Ticking Fabrics: High-GSM luxury quilted mattress covers, border fabrics, and antibacterial bedding textiles.\n■ Premium Home Textiles: Heavy jacquard upholstery, decorative furniture throws, and cushion covers.\n■ Structured Outerwear: Reversible double-face blazers, heavy jacquard cardigans, and automotive interior panels."
     },
     "jacquard-terry": {
       title: "Single Terry Computer Electronic Jacquard Knitting Machine",
@@ -1141,24 +1143,27 @@ function initMansha() {
       classification: "Jacquard Circular Machinery",
       video: "",
       section: "Circular Knitting Machinery",
-      machineType: "Advanced Rib & Interlock Stitch Transfer Jacquard Machine",
+      machineType: "Double Jacquard Rib Transfer Circular Knitting Machine",
       gauge: "12G - 20G Transfer Gauges",
       diameter: '30" - 36" Cylinder Diameter',
       productionCapacity: "1.4F - 2.0F / Inch (Up to 160 - 260 kg / 24 Hours)",
       application: "Open-Work Eyelet Knits, Pointelle Apparel, Drop-Stitch Fashion Ribs & Women's Knitwear",
-      automationLevel: "Computerized Cylinder-to-Dial Stitch Transfer Cams with Micro-Positioning",
-      image: "images/jacquard-rib-transfer-head.png",
+      automationLevel: "Chuangda 2 & 3 Way Jacquard, Groz-Beckert Tooling, YONGTAI Take-Down & Pulsonic 6 Oiler",
+      image: "images/jacquard-rib-transfer-main.jpg",
       gallery: [
-        "images/jacquard-rib-transfer-head.png",
-        "images/hongjun-rib-transfer-main.jpg",
-        "images/hongjun-rib-transfer-gallery-1.jpg"
+        "images/jacquard-rib-transfer-main.jpg",
+        "images/jacquard-rib-transfer-angle.jpg",
+        "images/jacquard-rib-transfer-cambox.jpg",
+        "images/jacquard-rib-transfer-specs.png",
+        "images/jacquard-rib-transfer-head.png"
       ],
-      description: "High-precision circular knitting machine with needle transfer capabilities between cylinder and dial for eyelet jacquard, drop-stitch patterns, and open-work knitwear.",
+      description: "High-precision Double Jacquard Rib Transfer Circular Knitting Machine engineered with advanced cylinder-to-dial stitch transfer capabilities. Equipped with Chuangda 2 & 3-way computerized needle selection, Japanese S45CL alloy steel frame, Groz-Beckert needles/sinkers, Delta inverter drive, and Pulsonic 6 electronic lubrication for flawless production of eyelet jacquards, pointelle knitwear, and intricate fashion open-work fabrics.",
       functions: [
-        "Stitch Transfer Mechanics: High-precision transfer cams shift loops between cylinder and dial needles without dropped stitches.",
-        "Pointelle & Open-Mesh: Produces delicate lace-look eyelets and open-work breathable knit designs.",
-        "Oil-Bathed Structure: Submerged gears minimize friction, noise, and mechanical backlash for decade-long precision.",
-        "Full Electronic Diagnostics: Touchscreen system displays transfer timing, sensor status, and production yields."
+        "Automated Cylinder-to-Dial Transfer: Precision transfer cams seamlessly shift loops between cylinder and dial needles with zero dropped stitches.",
+        "Chuangda 2 & 3-Way Jacquard System: High-speed computerized selection for unlimited pattern possibilities, relief textures, and multi-color designs.",
+        "Groz-Beckert Needles & Sinkers: Premium German tooling ensures exceptional loop consistency, zero yarn shear, and long component life.",
+        "Japanese S45CL Alloy Steel & Heavy Frame: High-tensile steel track and rigid cast structure absorb vibration at elevated RPMs.",
+        "YONGTAI Take-Down & Delta Inverter: Uniform electronic cloth roll take-up synchronized with smooth, energy-efficient inverter drive."
       ],
       fabricsApplicationTitle: "Rib Transfer Jacquard Knits Application:",
       fabricsApplication: "■ Pointelle Knitwear: Delicate lace-effect summer tops, cardigans, and women's fashion sweaters.\n■ Eyelet Underwear: Thermal base layers and breathable underwear with decorative eyelet mesh.\n■ Technical Open-Work: Ventilation-mapped athletic wear and breathable compression garments."

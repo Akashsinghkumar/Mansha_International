@@ -31,6 +31,7 @@ ehthumbs_vista.db
 .Trashes
 
 node_modules/
+public/
 compress-images.js
 compress-locked.js
 package.json
