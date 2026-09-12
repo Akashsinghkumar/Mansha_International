@@ -690,11 +690,7 @@ function initMansha() {
         "images/hongjun-single-jersey-detail-1.jpg",
         "images/hongjun-single-jersey-detail-2.jpg",
         "images/hongjun-single-jersey-detail-3.jpg",
-        "images/hongjun-single-jersey-detail-4.jpg",
-        "images/single-jersey-open-width.jpg",
-        "images/open-width-yarn-carriers.jpg",
-        "images/open-width-cambox-dials.jpg",
-        "images/open-width-factory-assembly.jpg"
+        "images/hongjun-single-jersey-detail-4.jpg"
       ],
       description: "Engineered specifically to eliminate central creasing lines on Lycra, Spandex, and synthetic elastane fabrics. Features an oil-bathed gear structure, double-push sinker cam track, and automatic rotary slitter to unroll smooth, flat fabric ready for direct stenter finishing.",
       functions: [
@@ -812,7 +808,10 @@ function initMansha() {
       image: "images/single-jersey-6track-cambox.png",
       gallery: [
         "images/single-jersey-6track-cambox.png",
-        "images/single-jersey-6track-cylinder.png"
+        "images/single-jersey-6track-cylinder.png",
+        "images/open-width-yarn-carriers.jpg",
+        "images/open-width-cambox-dials.jpg",
+        "images/open-width-factory-assembly.jpg"
       ],
       description: "Our expert Single Jersey Circular Knitting Machine features Central stitch adjustment, easy to operate and fast setting of the machine. The machine is engineered with precision ball bearings, so the machine is light and ensures smooth driving. Less noise and saves your energy expense.",
       functions: [
