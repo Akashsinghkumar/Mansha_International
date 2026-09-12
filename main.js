@@ -683,13 +683,13 @@ function initMansha() {
       productionCapacity: "3F - 4F / Inch (Up to 280 - 450 kg / 24 Hours)",
       application: "Lycra Jersey, Spandex Single Knit, High-Elastic Swimwear, Activewear & Pique",
       automationLevel: "Fully Automatic Fabric Slitter & Crease-Free Take-Up Roller with Electronic Synchronization",
-      image: "images/single-jersey-open-width.jpg",
+      image: "images/hongjun-single-jersey-main.jpg",
       gallery: [
+        "images/hongjun-single-jersey-main.jpg",
         "images/single-jersey-open-width.jpg",
         "images/open-width-yarn-carriers.jpg",
         "images/open-width-cambox-dials.jpg",
-        "images/open-width-factory-assembly.jpg",
-        "images/hongjun-single-jersey-main.jpg"
+        "images/open-width-factory-assembly.jpg"
       ],
       description: "Engineered specifically to eliminate central creasing lines on Lycra, Spandex, and synthetic elastane fabrics. Features an oil-bathed gear structure, double-push sinker cam track, and automatic rotary slitter to unroll smooth, flat fabric ready for direct stenter finishing.",
       functions: [
@@ -804,8 +804,10 @@ function initMansha() {
       productionCapacity: "3F - 6F / Inch (Up to 300 - 520 kg / 24 Hours)",
       application: "T-Shirt Jersey, Lycra Jersey, Pique, 2-Thread Fleece, Terry & Mesh Fabrics",
       automationLevel: "Fully Computerized Inverter Drive, Ball Bearing System & Central Stitch Adjustment",
-      image: "images/hongjun-single-jersey-main.jpg",
+      image: "images/single-jersey-6track-cambox.png",
       gallery: [
+        "images/single-jersey-6track-cambox.png",
+        "images/single-jersey-6track-cylinder.png",
         "images/hongjun-single-jersey-main.jpg",
         "images/single-jersey-6track-green.jpg",
         "images/hongjun-single-jersey-detail-1.jpg",
