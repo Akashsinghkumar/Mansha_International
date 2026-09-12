@@ -620,12 +620,14 @@ function initMansha() {
       productionCapacity: "3F - 6F / Inch (Up to 280 - 450 kg / 24 Hours)",
       application: "T-Shirt Jersey, Lycra Jersey, 3-Thread Fleece, Pique, Terry & Mesh Fabrics",
       automationLevel: "Fully Computerized with Inverter Drive, Auto-Stop Detectors & Central Stitch Control",
-      image: "images/single-jersey-main.jpg",
+      image: "images/hongjun-single-jersey-main.jpg",
       gallery: [
-        "images/single-jersey-main.jpg",
-        "images/single-jersey-standard.png",
-        "images/single-jersey-open-width.png",
-        "images/single-jersey-fleece.png"
+        "images/hongjun-single-jersey-main.jpg",
+        "images/single-jersey-6track-green.jpg",
+        "images/hongjun-single-jersey-detail-1.jpg",
+        "images/hongjun-single-jersey-detail-2.jpg",
+        "images/hongjun-single-jersey-detail-3.jpg",
+        "images/hongjun-single-jersey-detail-4.jpg"
       ],
       description: "Single Jersey textiles always dominate the major trend in knitting industry. In order to meet these tremendous needs, the YFSG High Speed 4 Track Single Jersey Circular Knitting Machine is engineered to knit plain and pique design fabrics easily by arranging the 4-track cylinder cams—knit, tuck, and miss—for many different kinds of patterns with exceptional fabric tension control and high productivity.",
       functions: [
@@ -652,11 +654,11 @@ function initMansha() {
       productionCapacity: "2.4F - 3.2F / Inch (Up to 150 - 260 kg / 24 Hours)",
       application: "Seamless T-shirts, Underwear, Tank Tops, Sportswear, Shapewear & Medical Body Bandages",
       automationLevel: "Fully Computerized Inverter Drive with Central Stitch Adjustment & Automatic Take-Down",
-      image: "images/single-jersey-bodysize.png",
+      image: "images/hongjun-bodysize-main.jpg",
       gallery: [
-        "images/single-jersey-bodysize.png",
-        "images/single-jersey-main.jpg",
-        "images/single-jersey-terry.png"
+        "images/hongjun-bodysize-main.jpg",
+        "images/hongjun-bodysize-gallery-1.jpg",
+        "images/hongjun-bodysize-gallery-2.jpg"
       ],
       description: "This series of small-diameter, high-precision circular knitting machines is specially designed for the efficient production of seamless tubular fabrics for underwear, bodysuits, tank tops, and athletic wear without side seams. Eliminates side-seam stitching, minimizes material waste, and enhances wearer comfort.",
       functions: [
@@ -669,7 +671,7 @@ function initMansha() {
       fabricsApplication: "■ Seamless Bodywear: Men's and women's seamless undershirts, vests, camisoles, and boxer briefs.\n■ Activewear & Shapewear: Compression tank tops, yoga tops, seamless thermal base layers, and tubular shapewear.\n■ Medical & Technical: Tubular orthopedic bandages, elastic sleeves, and seamless compression support tubes."
     },
     "single-jersey-open-width": {
-      title: "Mansha Open Width Single Jersey Circular Knitting Machine",
+      title: "Mansha Single Jersey Circular Knitting Machine",
       model: "YFSG-OW Crease-Free Series",
       keyword: "Open Width Single Jersey Machine, Lycra Crease-Free Circular Machine",
       classification: "Single Jersey Open Width Series",
@@ -681,11 +683,13 @@ function initMansha() {
       productionCapacity: "3F - 4F / Inch (Up to 280 - 450 kg / 24 Hours)",
       application: "Lycra Jersey, Spandex Single Knit, High-Elastic Swimwear, Activewear & Pique",
       automationLevel: "Fully Automatic Fabric Slitter & Crease-Free Take-Up Roller with Electronic Synchronization",
-      image: "images/single-jersey-open-width.png",
+      image: "images/single-jersey-open-width.jpg",
       gallery: [
-        "images/single-jersey-open-width.png",
-        "images/single-jersey-open-width-speed.png",
-        "images/single-jersey-main.jpg"
+        "images/single-jersey-open-width.jpg",
+        "images/open-width-yarn-carriers.jpg",
+        "images/open-width-cambox-dials.jpg",
+        "images/open-width-factory-assembly.jpg",
+        "images/hongjun-single-jersey-main.jpg"
       ],
       description: "Engineered specifically to eliminate central creasing lines on Lycra, Spandex, and synthetic elastane fabrics. Features an oil-bathed gear structure, double-push sinker cam track, and automatic rotary slitter to unroll smooth, flat fabric ready for direct stenter finishing.",
       functions: [
@@ -710,11 +714,14 @@ function initMansha() {
       productionCapacity: "3F / Inch Heavy-Duty High-Output (Up to 320 - 480 kg / 24 Hours)",
       application: "Hoodies, Sweatshirts, Winter Fleece, Heavy Joggers, Brushed Polar Fabric & French Terry",
       automationLevel: "Precision 4-Track Cam System with Central Stitch Control & Heavy Fabric Take-Up",
-      image: "images/single-jersey-fleece.png",
+      image: "images/fleece-machine-touchscreen.png",
       gallery: [
-        "images/single-jersey-fleece.png",
-        "images/single-jersey-main.jpg",
-        "images/single-jersey-open-width-speed.png"
+        "images/fleece-machine-touchscreen.png",
+        "images/fleece-machine-exhibition.jpg",
+        "images/fleece-cambox-detail.jpg",
+        "images/fleece-machine-factory.jpg",
+        "images/hongjun-single-jersey-main.jpg",
+        "images/single-jersey-open-width.jpg"
       ],
       description: "Single Jersey Three Thread Fleece Circular Knitting Machine. Engineered with 4-track cams, Groz-Beckert needles, central stitch adjustment, and a precision ball-bearing system for easy operation. Knits face yarn, ground yarn, and backing inlay yarn simultaneously with zero missing loops, producing heavy, uniform fleece ideal for brushing, raising, and sheared hoodies.",
       functions: [
@@ -742,7 +749,7 @@ function initMansha() {
       image: "images/single-jersey-terry.png",
       gallery: [
         "images/single-jersey-terry.png",
-        "images/single-jersey-main.jpg",
+        "images/hongjun-single-jersey-main.jpg",
         "images/single-jersey-fleece.png"
       ],
       description: "Face Terry Circular Knitting Machine for Polar Fleece and Reverse Terry Circular Knitting Machine for Velvet. Terry machines are equipped with Central Stitch adjustment, dynamic sinker control, and a precision Ball Bearing system. Delivers upright, plush, uniform loop heights without loop pull-out.",
@@ -772,7 +779,7 @@ function initMansha() {
       gallery: [
         "images/single-jersey-open-width-speed.png",
         "images/single-jersey-open-width.png",
-        "images/single-jersey-main.jpg"
+        "images/hongjun-single-jersey-main.jpg"
       ],
       description: "Built for industrial high-yield output in modern continuous textile mills. Equipped with 2-step heavy pedals (each bearing 300 KG) on the base for safe operator access, top and cylinder lint blowers for clean fabric production, and a high-efficiency spraying-type oiler to ensure high-speed operation even in warm tropical climates.",
       functions: [
@@ -785,29 +792,32 @@ function initMansha() {
       fabricsApplication: "■ Mass Apparel: Round-the-clock mass production of T-shirt jersey, modal knits, and blended elastane fabrics.\n■ Pique Polo Goods: Single and double pique knits with crisp honeycomb textures for brand sportswear.\n■ Technical Stretch Fabrics: Crease-free elastane knits ready for automated stenter drying and digital sublimation printing."
     },
     "single-jersey-standard": {
-      title: "Mansha High-Speed Single Jersey Circular Knitting Machine",
-      model: "YFSG-4T Expert Series",
-      keyword: "Single Jersey Circular Knitting Machine, 4 Track Single Jersey",
+      title: "Mansha High-Speed Single Jersey Circular Knitting Machine (6-Track Expert Series)",
+      model: "YFSG-6T Expert Series",
+      keyword: "Single Jersey Circular Knitting Machine, 6 Track Single Jersey",
       classification: "Single Jersey Standard Series",
       video: "",
       section: "Circular Knitting Machinery",
-      machineType: "High-Speed 4-Track Single Jersey Circular Knitting Machine",
+      machineType: "High-Speed 6-Track Single Jersey Circular Knitting Machine",
       gauge: "12G - 40G Versatile Gauge",
       diameter: '12" - 44" Cylinder Diameter',
       productionCapacity: "3F - 6F / Inch (Up to 300 - 520 kg / 24 Hours)",
       application: "T-Shirt Jersey, Lycra Jersey, Pique, 2-Thread Fleece, Terry & Mesh Fabrics",
       automationLevel: "Fully Computerized Inverter Drive, Ball Bearing System & Central Stitch Adjustment",
-      image: "images/single-jersey-main.jpg",
+      image: "images/hongjun-single-jersey-main.jpg",
       gallery: [
-        "images/single-jersey-main.jpg",
-        "images/single-jersey-open-width.png",
-        "images/single-jersey-bodysize.png"
+        "images/hongjun-single-jersey-main.jpg",
+        "images/single-jersey-6track-green.jpg",
+        "images/hongjun-single-jersey-detail-1.jpg",
+        "images/hongjun-single-jersey-detail-2.jpg",
+        "images/hongjun-single-jersey-detail-3.jpg",
+        "images/hongjun-single-jersey-detail-4.jpg"
       ],
       description: "Our expert Single Jersey Circular Knitting Machine features Central stitch adjustment, easy to operate and fast setting of the machine. The machine is engineered with precision ball bearings, so the machine is light and ensures smooth driving. Less noise and saves your energy expense.",
       functions: [
         "Central Stitch Adjustment: Centralized calibrated dials allow effortless GSM tuning and loop density setting in seconds.",
         "Ball Bearing System: The machine is light and ensures smooth driving, minimal friction, less noise, and saves energy expense.",
-        "4-Track Cylinder Camming: Easily arrange knit, tuck, and miss cams for plain jersey, pique, twill, and mesh patterns.",
+        "6-Track Cylinder Camming: Easily arrange knit, tuck, and miss cams with expanded pattern range for plain jersey, pique, twill, and mesh patterns.",
         "Positive Feeder Network: Uniform yarn delivery eliminates horizontal striping and fabric barre defects."
       ],
       fabricsApplicationTitle: "Versatile Single Jersey Application:",
@@ -1013,12 +1023,13 @@ function initMansha() {
       productionCapacity: "1.8F - 2.8F / Inch (Up to 220 - 360 kg / 24 Hours)",
       application: "Relief Jacquard Fabrics, Fashion Knitwear, Mattress Ticking & Engineered Shoe Uppers",
       automationLevel: "3-Way Chuangda Electronic Jacquard Computer System with 3-Yarn Synchronized Feeders",
-      image: "images/jacquard-link.png",
+      image: "images/hongjun-link-jacquard-main.jpg",
       gallery: [
-        "images/jacquard-link.png",
-        "images/jacquard-main.jpg",
-        "images/jacquard-single.png",
-        "images/jacquard-double.png"
+        "images/hongjun-link-jacquard-main.jpg",
+        "images/link-jacquard-actuators.jpg",
+        "images/link-jacquard-fabric-1.jpg",
+        "images/link-jacquard-fabric-2.jpg",
+        "images/hongjun-link-jacquard-gallery-1.jpg"
       ],
       description: "LINK JACQUARD Computer Electronic Jacquard Circular knitting machines equipped with 3-way Chuangda Electronic jacquard computer system and special yarn guide supporting 3 yarn feeding at the same time.",
       functions: [
@@ -1130,11 +1141,11 @@ function initMansha() {
       productionCapacity: "1.4F - 2.0F / Inch (Up to 160 - 260 kg / 24 Hours)",
       application: "Open-Work Eyelet Knits, Pointelle Apparel, Drop-Stitch Fashion Ribs & Women's Knitwear",
       automationLevel: "Computerized Cylinder-to-Dial Stitch Transfer Cams with Micro-Positioning",
-      image: "images/jacquard-rib-transfer.png",
+      image: "images/jacquard-rib-transfer-head.png",
       gallery: [
-        "images/jacquard-rib-transfer.png",
-        "images/jacquard-double.png",
-        "images/jacquard-link.png"
+        "images/jacquard-rib-transfer-head.png",
+        "images/hongjun-rib-transfer-main.jpg",
+        "images/hongjun-rib-transfer-gallery-1.jpg"
       ],
       description: "High-precision circular knitting machine with needle transfer capabilities between cylinder and dial for eyelet jacquard, drop-stitch patterns, and open-work knitwear.",
       functions: [
@@ -1163,7 +1174,7 @@ function initMansha() {
       gallery: [
         "images/circular-knitting-main.jpg",
         "IMG_4771.JPG",
-        "images/single-jersey-main.jpg",
+        "images/hongjun-single-jersey-main.jpg",
         "knitting-partner.jpg"
       ],
       description: "Eliminate central creasing on Lycra fabrics with the YFOW Open-Width system. An integrated rotary blade slits the tubular cloth into open-width rolls during knitting, preparing flat fabric directly for stenter finishing.",
@@ -1562,9 +1573,9 @@ function initMansha() {
       productionCapacity: "250 - 400 kg / 24 Hours (Factory-Certified Run)",
       application: "T-Shirt Jersey, Lycra Knits, Pique Polo, Interlock Underwear & Ribbing",
       automationLevel: "Refurbished Inverter Drive, New Positive Feeders, Fresh Oiler & Digital Counter",
-      image: "images/single-jersey-main.jpg",
+      image: "images/hongjun-single-jersey-main.jpg",
       gallery: [
-        "images/single-jersey-main.jpg",
+        "images/hongjun-single-jersey-main.jpg",
         "images/circular-knitting-main.jpg",
         "IMG_4771.JPG"
       ],
@@ -1592,7 +1603,7 @@ function initMansha() {
       image: "images/circular-knitting-main.jpg",
       gallery: [
         "images/circular-knitting-main.jpg",
-        "images/single-jersey-main.jpg",
+        "images/hongjun-single-jersey-main.jpg",
         "IMG_4771.JPG"
       ],
       description: "Inspected double jersey machines delivering high-yield production for knitwear factories looking to expand capacity at an economical capital investment.",
@@ -2085,6 +2096,95 @@ function initMansha() {
       }
     }
   });
+
+  // Precise Category Sidebar Navigation & Focused Scroll with Header Offset
+  const setupCategoryLinks = () => {
+    const catLinks = document.querySelectorAll('.series-cat-link');
+    if (!catLinks.length) return;
+
+    const scrollToTarget = (targetEl, smooth = true) => {
+      const header = document.querySelector('.header');
+      const headerOffset = (header ? header.offsetHeight : 80) + 20;
+      const targetRect = targetEl.getBoundingClientRect();
+      const targetTop = window.pageYOffset + targetRect.top - headerOffset;
+
+      window.scrollTo({
+        top: Math.max(0, targetTop),
+        behavior: smooth ? 'smooth' : 'auto'
+      });
+
+      // Trigger animated focus highlight
+      targetEl.classList.remove('series-card-focused');
+      void targetEl.offsetWidth; // force DOM reflow
+      targetEl.classList.add('series-card-focused');
+      setTimeout(() => {
+        targetEl.classList.remove('series-card-focused');
+      }, 2400);
+    };
+
+    catLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (!href) return;
+
+        const hashIdx = href.indexOf('#');
+        if (hashIdx === -1) return;
+
+        const targetHash = href.substring(hashIdx);
+        const targetPath = href.substring(0, hashIdx);
+        const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+
+        // Same page link
+        if (!targetPath || targetPath === currentPath) {
+          const targetEl = document.querySelector(targetHash);
+          if (targetEl) {
+            e.preventDefault();
+
+            if (history.pushState) {
+              history.pushState(null, null, targetHash);
+            } else {
+              window.location.hash = targetHash;
+            }
+
+            // Sync active sidebar state
+            catLinks.forEach(l => l.classList.remove('current'));
+            this.classList.add('current');
+
+            scrollToTarget(targetEl, true);
+          }
+        }
+      });
+    });
+
+    const handleHashNavigation = () => {
+      if (window.location.hash) {
+        try {
+          const targetEl = document.querySelector(window.location.hash);
+          if (targetEl && targetEl.classList.contains('series-item-row')) {
+            catLinks.forEach(l => {
+              const href = l.getAttribute('href') || '';
+              if (href.endsWith(window.location.hash)) {
+                l.classList.add('current');
+              } else {
+                l.classList.remove('current');
+              }
+            });
+
+            setTimeout(() => {
+              scrollToTarget(targetEl, true);
+            }, 180);
+          }
+        } catch (err) {
+          // ignore invalid selector syntax
+        }
+      }
+    };
+
+    handleHashNavigation();
+    window.addEventListener('hashchange', handleHashNavigation);
+  };
+
+  setupCategoryLinks();
 
 }
 

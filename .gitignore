@@ -35,3 +35,4 @@ compress-images.js
 compress-locked.js
 package.json
 package-lock.json
+public/
