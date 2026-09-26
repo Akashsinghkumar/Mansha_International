@@ -1787,6 +1787,7 @@ select.form-control option {
   height: 48px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: top center;
   border: 2px solid var(--logo-cyan);
 }
 
